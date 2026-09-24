@@ -39,3 +39,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# Retired development assets (recoverable local archive, never deployed).
+.local-backup/
