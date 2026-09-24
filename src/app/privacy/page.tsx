@@ -5,9 +5,9 @@ import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { AlertCircle } from "lucide-react";
 
 export const metadata = buildMetadata({
-  title: "Privacy Policy | Great Falls Heating and Air",
+  title: "Privacy Policy | Great Falls Heating and Air LLC",
   description:
-    "Privacy policy and data practices disclosure for Great Falls Heating and Air. Information collection, form submissions, and customer communication policies.",
+    "Privacy policy and data practices disclosure for Great Falls Heating and Air LLC. Information collection, form submissions, and customer communication policies.",
   canonicalPath: "/privacy",
 });
 
@@ -47,7 +47,7 @@ export default function PrivacyPage() {
               1. Information We Collect
             </h2>
             <p>
-              Great Falls Heating and Air (&ldquo;we&rdquo;, &ldquo;our&rdquo;,
+              Great Falls Heating and Air LLC (&ldquo;we&rdquo;, &ldquo;our&rdquo;,
               or &ldquo;us&rdquo;) collects personal information that you
               voluntarily provide to us when requesting an HVAC service
               estimate, scheduling emergency heating diagnostics, or submitting

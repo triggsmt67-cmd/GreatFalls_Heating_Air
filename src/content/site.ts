@@ -7,7 +7,7 @@ export interface LaunchReadinessItem {
 }
 
 export const siteConfig = {
-  businessName: "Great Falls Heating and Air",
+  businessName: "Great Falls Heating and Air LLC",
   tagline: "Technical confidence with Montana grit.",
   shortDescription:
     "Local residential heating, emergency furnace repair, air conditioning, and cold-climate heat pump solutions built for Great Falls weather.",
@@ -23,7 +23,7 @@ export const siteConfig = {
   hours: "[CLIENT HOURS]",
   emergencyAvailability: "Call to discuss service availability",
   emergencyAvailabilityBadge: "Heating & cooling inquiries",
-  montanaRegistration: "[MONTANA CR/ICEC NUMBER]",
+  montanaRegistration: "C1680325",
   epaCertification: "[CONFIRM EPA 608 CREDENTIALS]",
   ownerName: "[OWNER NAME]",
   companyHistory: "[CLIENT-APPROVED COMPANY HISTORY]",
@@ -40,7 +40,7 @@ export const siteConfig = {
 
 // Enable only after the corresponding client evidence has been reviewed.
 export const verification = {
-  businessIdentity: false,
+  businessIdentity: true,
   contactDetails: false,
   address: false,
   hours: false,
@@ -155,8 +155,8 @@ export const launchReadinessChecklist: LaunchReadinessItem[] = [
     key: "businessName",
     label: "Legal Business Name",
     currentValue: siteConfig.businessName,
-    status: "pending_client_confirmation",
-    notes: "Confirm exact registered LLC or DBA entity name in Montana.",
+    status: "ready",
+    notes: "Legal business name confirmed by the client.",
   },
   {
     key: "phone",
@@ -200,9 +200,8 @@ export const launchReadinessChecklist: LaunchReadinessItem[] = [
     key: "montanaRegistration",
     label: "Montana Contractor Registration (CR/ICEC)",
     currentValue: siteConfig.montanaRegistration,
-    status: "pending_client_confirmation",
-    notes:
-      "Supply Montana Department of Labor & Industry construction contractor registration number.",
+    status: "ready",
+    notes: "License number confirmed by the client.",
   },
   {
     key: "epaCertification",

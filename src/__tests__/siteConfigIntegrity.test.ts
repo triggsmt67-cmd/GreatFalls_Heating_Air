@@ -8,6 +8,11 @@ import { rebatePrograms } from "@/content/rebates";
 import { navigationServices } from "@/content/services";
 
 describe("Site Configuration & Content Integrity", () => {
+  it("should use the confirmed legal business identity", () => {
+    expect(siteConfig.businessName).toBe("Great Falls Heating and Air LLC");
+    expect(siteConfig.montanaRegistration).toBe("C1680325");
+  });
+
   it("should have valid centralized telephone numbers", () => {
     expect(siteConfig.phoneDisplay).toMatch(/^\d{3}-\d{3}-\d{4}$/);
     expect(siteConfig.phoneE164).toMatch(/^\+\d{11}$/);

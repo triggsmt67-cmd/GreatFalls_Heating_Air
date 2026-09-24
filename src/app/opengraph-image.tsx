@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 export const alt =
-  "Great Falls Heating and Air — Residential heating and cooling";
+  "Great Falls Heating and Air LLC — Residential heating and cooling";
 export default function Image() {
   return new ImageResponse(
     <div
@@ -40,7 +40,7 @@ export default function Image() {
           fontSize: 22,
         }}
       >
-        <span>GREAT FALLS HEATING & AIR</span>
+        <span>GREAT FALLS HEATING & AIR LLC</span>
         <span style={{ color: "#69c1e8" }}>Residential HVAC</span>
       </div>
     </div>,

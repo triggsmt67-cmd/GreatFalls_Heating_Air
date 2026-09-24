@@ -249,7 +249,7 @@ export default function HomePage() {
             needs—not a one-size-fits-all equipment recommendation.
           </p>
           <Link href="/about" className="text-link">
-            About Great Falls Heating & Air <ArrowUpRight size={18} />
+            About Great Falls Heating & Air LLC <ArrowUpRight size={18} />
           </Link>
         </div>
       </section>

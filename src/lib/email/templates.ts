@@ -9,7 +9,7 @@ export function formatPlainTextEmail({
   data,
   timestamp,
 }: FormEmailPayload): string {
-  return `GREAT FALLS HEATING AND AIR - NEW WEB INQUIRY
+  return `GREAT FALLS HEATING AND AIR LLC - NEW WEB INQUIRY
 ===================================================
 Received: ${timestamp}
 Source Page: ${data.sourceRoute || "/"}
@@ -68,12 +68,12 @@ export function formatHtmlEmail(payload: FormEmailPayload): string {
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>New Lead - Great Falls Heating and Air</title>
+  <title>New Lead - Great Falls Heating and Air LLC</title>
 </head>
 <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #F5F7F8; margin: 0; padding: 24px; color: #071827;">
   <div style="max-width: 600px; margin: 0 auto; background-color: #FFFFFF; border-radius: 8px; border: 1px solid #E2E8F0; overflow: hidden;">
     <div style="background-color: #071827; padding: 20px 24px; border-bottom: 3px solid ${intentColor};">
-      <h1 style="color: #FFFFFF; margin: 0; font-size: 20px; font-weight: 700; letter-spacing: -0.5px;">Great Falls Heating and Air</h1>
+      <h1 style="color: #FFFFFF; margin: 0; font-size: 20px; font-weight: 700; letter-spacing: -0.5px;">Great Falls Heating and Air LLC</h1>
       <p style="color: #28B9F2; margin: 4px 0 0; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px;">Web Lead Notification</p>
     </div>
 
@@ -121,7 +121,7 @@ export function formatHtmlEmail(payload: FormEmailPayload): string {
       </div>
 
       <p style="font-size: 12px; color: #94A3B8; margin: 0;">
-        This email was securely delivered from the Great Falls Heating and Air website lead capture form.
+        This email was securely delivered from the Great Falls Heating and Air LLC website lead capture form.
       </p>
     </div>
   </div>

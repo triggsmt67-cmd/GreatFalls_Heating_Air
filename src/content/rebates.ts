@@ -30,7 +30,7 @@ export const rebateGuideMetadata = {
   heroSubtitle:
     "Cut the upfront investment of upgrading to high-efficiency heating and cooling with current 2026 utility incentives. Here is the verified breakdown for Great Falls and Cascade County homeowners.",
   disclaimer:
-    "Important Disclaimer: Great Falls Heating and Air is an independent HVAC installation and service contractor. We do not administer utility programs, determine individual rebate eligibility, or guarantee incentive payouts, program funding, or tax outcomes. Utility incentive rules, efficiency tier minimums, and funding caps are set solely by program administrators and are subject to change without notice. Homeowners must verify current program rules directly with the sponsoring utility or tax advisor prior to equipment purchase.",
+    "Important Disclaimer: Great Falls Heating and Air LLC is an independent HVAC installation and service contractor. We do not administer utility programs, determine individual rebate eligibility, or guarantee incentive payouts, program funding, or tax outcomes. Utility incentive rules, efficiency tier minimums, and funding caps are set solely by program administrators and are subject to change without notice. Homeowners must verify current program rules directly with the sponsoring utility or tax advisor prior to equipment purchase.",
 };
 
 export const rebatePrograms: RebateProgram[] = [

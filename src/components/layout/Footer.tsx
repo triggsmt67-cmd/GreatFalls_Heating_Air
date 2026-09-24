@@ -17,6 +17,7 @@ export function Footer() {
             {siteConfig.phoneDisplay}
           </a>
           <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
+          <span>License #{siteConfig.montanaRegistration}</span>
         </div>
         <div>
           <h2>Services</h2>
@@ -31,7 +32,7 @@ export function Footer() {
           <Link href="/rebates/2026-montana-hvac-rebates">
             2026 Montana rebates
           </Link>
-          <Link href="/about">About Great Falls Heating & Air</Link>
+          <Link href="/about">About Great Falls Heating & Air LLC</Link>
           <Link href="/contact">Contact & estimates</Link>
           <Link href="/privacy">Privacy policy</Link>
         </div>

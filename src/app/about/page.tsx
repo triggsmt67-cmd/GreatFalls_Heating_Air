@@ -4,7 +4,7 @@ import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { FinalDarkCTA } from "@/components/sections/FinalDarkCTA";
 import { verification, siteConfig } from "@/content/site";
 export const metadata = buildMetadata({
-  title: "About Great Falls Heating and Air",
+  title: "About Great Falls Heating and Air LLC",
   description:
     "Company information and questions to ask about contractor credentials, estimates, and service in Great Falls, Montana.",
   canonicalPath: "/about",
@@ -15,7 +15,7 @@ export default function Page() {
       <div className="wrap interior">
         <Breadcrumbs items={[{ name: "About", url: "/about" }]} />
         <div className="page-heading">
-          <p className="eyebrow">Great Falls Heating & Air</p>
+          <p className="eyebrow">Great Falls Heating & Air LLC</p>
           <h1>
             A practical conversation
             <br />

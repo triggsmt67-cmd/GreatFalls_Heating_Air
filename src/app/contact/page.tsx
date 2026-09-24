@@ -6,7 +6,7 @@ import { FormIntent } from "@/lib/validation/leadFormSchema";
 export const metadata = buildMetadata({
   title: "Contact & Request Service",
   description:
-    "Contact Great Falls Heating and Air about heating, cooling, maintenance, or an equipment estimate.",
+    "Contact Great Falls Heating and Air LLC about heating, cooling, maintenance, or an equipment estimate.",
   canonicalPath: "/contact",
 });
 export default async function Page({

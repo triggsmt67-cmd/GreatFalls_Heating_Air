@@ -4,7 +4,7 @@ export function Brand() {
     <Link
       href="/"
       className="brand"
-      aria-label="Great Falls Heating and Air — home"
+      aria-label="Great Falls Heating and Air LLC — home"
     >
       <svg
         viewBox="0 0 48 48"
@@ -20,7 +20,7 @@ export function Brand() {
       </svg>
       <span>
         <strong>GREAT FALLS</strong>
-        <small>HEATING & AIR</small>
+        <small>HEATING & AIR LLC</small>
       </span>
     </Link>
   );

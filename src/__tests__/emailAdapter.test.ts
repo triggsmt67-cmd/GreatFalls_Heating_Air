@@ -34,7 +34,7 @@ describe("Email Adapter and Templates", () => {
       timestamp: "Sep 24, 2026, 11:30 AM",
     });
     expect(html).toContain("<!DOCTYPE html>");
-    expect(html).toContain("Great Falls Heating and Air");
+    expect(html).toContain("Great Falls Heating and Air LLC");
     expect(html).toContain("John Smith");
     expect(html).toContain("john@example.com");
   });
