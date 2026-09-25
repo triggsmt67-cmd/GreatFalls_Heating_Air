@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { ServiceIcon } from "@/components/ui/ServiceIcon";
-import { TrustMarks } from "@/components/ui/TrustMarks";
+import { LicenseMark } from "@/components/ui/TrustMarks";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { siteConfig } from "@/content/site";
 import { PhotoPlaceholder } from "@/components/ui/PhotoPlaceholder";
@@ -65,12 +65,35 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      <section className="intent-section wrap" id="estimate">
-        <LeadForm progressive headline="What can we help you with?" />
+      <section
+        className="service-concierge"
+        id="estimate"
+        aria-labelledby="service-concierge-title"
+      >
+        <div className="wrap concierge-grid">
+          <div className="concierge-intro">
+            <p className="eyebrow">Let’s start here</p>
+            <h2 id="service-concierge-title">
+              What does your
+              <br />
+              home need?
+            </h2>
+            <p>
+              Repair, routine care, or a fresh start. Choose a service and tell
+              us a little about your home.
+            </p>
+            <div className="concierge-credentials">
+              <LicenseMark />
+              <span>Great Falls, Montana & surrounding communities</span>
+            </div>
+          </div>
+          <LeadForm
+            progressive
+            headline="How can we help?"
+            className="concierge-form"
+          />
+        </div>
       </section>
-      <div className="wrap">
-        <TrustMarks />
-      </div>
       <section className="section wrap">
         <div className="section-intro">
           <p className="eyebrow">01 / Heating & cooling</p>

@@ -17,6 +17,12 @@ const intents = [
   { value: "maintenance", label: "Maintenance", icon: "maintenance" },
   { value: "general", label: "General Question", icon: "general" },
 ] as const;
+const intentDescriptions = {
+  emergency: "A problem that needs attention",
+  estimate: "Explore a repair or replacement",
+  maintenance: "Care for your existing system",
+  general: "Talk through your options",
+};
 export function LeadForm({
   initialIntent = "estimate",
   sourceRoute = "/",
@@ -138,7 +144,14 @@ export function LeadForm({
             }}
           >
             <ServiceIcon name={icon} size={28} />
-            <span>{label}</span>
+            <span>
+              {label}
+              {progressive && (
+                <small className="intent-description">
+                  {intentDescriptions[value]}
+                </small>
+              )}
+            </span>
             <ArrowRight size={14} aria-hidden="true" />
           </button>
         ))}

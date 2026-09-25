@@ -8,6 +8,8 @@ Technical confidence with quiet luxury: Manrope headings, Inter body text, cool-
 
 ### Premium design system
 
+The homepage service selector is an integrated white section beneath the hero: introduction and compact credentials beside a two-by-two service grid. Each choice explains its purpose and expands the existing accessible form. Mobile stacks the introduction above the grid. The About page retains the wider business-information marks.
+
 - `src/components/ui/ServiceIcon.tsx`: eleven original inline SVG equipment and service drawings on a consistent 32-unit grid. Decorative icons are hidden from assistive technology; adjacent text carries meaning.
 - `src/components/ui/TrustMarks.tsx`: linked license, location, and residential-service marks; compact license treatment for contact, calls to action, and footer. Uses the owner-confirmed C1680325 value centrally; no additional certifications or claims.
 - `src/app/premium.css`: shared finish layered after the existing layout rules. Motifs are airflow contours, technical registration corners, and thin section markers. Motion uses shared timing tokens, with pointer effects restricted to hover-capable devices.
