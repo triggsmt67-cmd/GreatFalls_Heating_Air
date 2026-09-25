@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ServiceIcon } from "@/components/ui/ServiceIcon";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { PhotoPlaceholder } from "@/components/ui/PhotoPlaceholder";
@@ -24,6 +25,7 @@ export default function Page() {
         />
         <div className="service-page-hero">
           <div className="page-heading">
+            <ServiceIcon name="ac-repair" size={48} />
             <p className="eyebrow">Air conditioning / Repair & replacement</p>
             <h1>
               Repair it. Replace it.

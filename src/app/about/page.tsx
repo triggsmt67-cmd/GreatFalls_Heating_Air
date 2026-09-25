@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { TrustMarks } from "@/components/ui/TrustMarks";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { FinalDarkCTA } from "@/components/sections/FinalDarkCTA";
@@ -26,6 +27,7 @@ export default function Page() {
             about the equipment, the work, and the people you hire.
           </p>
         </div>
+        <TrustMarks />
         <div className="interior-grid">
           <div className="article-copy">
             <h2>Rooted in the needs of a home.</h2>
@@ -64,7 +66,7 @@ export default function Page() {
               <div className="resource-notice">
                 <strong>Internal verification pending</strong>
                 <p>
-                  Company history, Montana registration, EPA credentials,
+                  Company history, EPA credentials,
                   insurance, hours, and warranty details require client
                   confirmation.
                 </p>

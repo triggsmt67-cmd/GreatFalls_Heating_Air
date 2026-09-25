@@ -2,14 +2,8 @@
 import { useId, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import {
-  Flame,
-  Calculator,
-  Wrench,
-  MessageCircle,
-  ArrowRight,
-  Loader2,
-} from "lucide-react";
+import { ArrowRight, Loader2 } from "lucide-react";
+import { ServiceIcon } from "@/components/ui/ServiceIcon";
 import { siteConfig } from "@/content/site";
 import {
   FormIntent,
@@ -18,10 +12,10 @@ import {
 } from "@/lib/validation/leadFormSchema";
 import { trackEvent } from "@/lib/analytics/events";
 const intents = [
-  { value: "emergency", label: "Emergency Repair", icon: Flame },
-  { value: "estimate", label: "New Estimate", icon: Calculator },
-  { value: "maintenance", label: "Maintenance", icon: Wrench },
-  { value: "general", label: "General Question", icon: MessageCircle },
+  { value: "emergency", label: "Emergency Repair", icon: "emergency" },
+  { value: "estimate", label: "New Estimate", icon: "estimate" },
+  { value: "maintenance", label: "Maintenance", icon: "maintenance" },
+  { value: "general", label: "General Question", icon: "general" },
 ] as const;
 export function LeadForm({
   initialIntent = "estimate",
@@ -130,7 +124,7 @@ export function LeadForm({
           : "Tell us a little about your home and how to reach you."}
       </p>
       <div className="intent-options" role="group" aria-label="Service need">
-        {intents.map(({ value, label, icon: Icon }) => (
+        {intents.map(({ value, label, icon }) => (
           <button
             key={value}
             type="button"
@@ -143,7 +137,7 @@ export function LeadForm({
               setExpanded(true);
             }}
           >
-            <Icon aria-hidden="true" />
+            <ServiceIcon name={icon} size={28} />
             <span>{label}</span>
             <ArrowRight size={14} aria-hidden="true" />
           </button>
@@ -316,14 +310,16 @@ export function LeadForm({
               type="submit"
               disabled={busy}
             >
-              {busy ? (
-                <>
-                  <Loader2 size={16} className="animate-spin" />
-                  Sending…
-                </>
-              ) : (
-                "Send request →"
-              )}
+              <span aria-live="polite">
+                {busy ? (
+                  <>
+                    <Loader2 size={16} className="animate-spin" />
+                    Sending…
+                  </>
+                ) : (
+                  "Send request →"
+                )}
+              </span>
             </button>
             <small>* Required fields</small>
           </div>

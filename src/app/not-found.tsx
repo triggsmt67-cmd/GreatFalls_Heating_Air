@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ServiceIcon } from "@/components/ui/ServiceIcon";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { siteConfig } from "@/content/site";
 export const metadata = buildMetadata({
@@ -10,6 +11,7 @@ export const metadata = buildMetadata({
 export default function NotFound() {
   return (
     <div className="utility-page">
+      <ServiceIcon name="location" size={48} />
       <p className="eyebrow">404 / Page not found</p>
       <h1>
         Let’s get you

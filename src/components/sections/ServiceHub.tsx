@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ServiceItem } from "@/content/services";
+import { ServiceIcon } from "@/components/ui/ServiceIcon";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { PhotoPlaceholder } from "@/components/ui/PhotoPlaceholder";
 import { FinalDarkCTA } from "./FinalDarkCTA";
@@ -18,6 +19,7 @@ export function ServiceHub({ service }: { service: ServiceItem }) {
         )}
         <Breadcrumbs items={[{ name: service.title, url: service.route }]} />
         <div className="page-heading">
+          <ServiceIcon name={heating ? "heating" : "cooling"} size={48} />
           <p className="eyebrow">
             {heating ? "Winter heating" : "Summer cooling"} / Great Falls
           </p>

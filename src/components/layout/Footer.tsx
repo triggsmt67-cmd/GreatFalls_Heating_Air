@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Brand } from "@/components/ui/Brand";
+import { LicenseMark } from "@/components/ui/TrustMarks";
 import { siteConfig } from "@/content/site";
 import { navigationServices } from "@/content/services";
 export function Footer() {
@@ -17,7 +18,7 @@ export function Footer() {
             {siteConfig.phoneDisplay}
           </a>
           <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
-          <span>License #{siteConfig.montanaRegistration}</span>
+          <LicenseMark />
         </div>
         <div>
           <h2>Services</h2>

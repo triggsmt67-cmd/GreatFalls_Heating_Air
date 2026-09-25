@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ServiceIcon } from "@/components/ui/ServiceIcon";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { siteConfig } from "@/content/site";
 export const metadata = buildMetadata({
@@ -17,6 +18,7 @@ export default async function Page({
     process.env.NODE_ENV !== "production" && params.preview === "1";
   return (
     <div className="utility-page">
+      <ServiceIcon name="general" size={48} />
       <p className="eyebrow">{preview ? "Development preview" : "Thank you"}</p>
       <h1>
         {preview ? "Test request completed." : "Your next step starts here."}

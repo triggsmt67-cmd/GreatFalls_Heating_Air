@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ServiceIcon } from "@/components/ui/ServiceIcon";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { PhotoPlaceholder } from "@/components/ui/PhotoPlaceholder";
@@ -23,6 +24,7 @@ export default function Page() {
           ]}
         />
         <div className="page-heading">
+          <ServiceIcon name="heat-pump" size={48} />
           <p className="eyebrow">Homeowner guide / Cold-climate heat pumps</p>
           <h1>
             Can a heat pump work

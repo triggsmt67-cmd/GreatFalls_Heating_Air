@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Manrope, Inter } from "next/font/google";
 import "./globals.css";
+import "./premium.css";
 import { siteConfig } from "@/content/site";
 import { DevelopmentBanner } from "@/components/layout/DevelopmentBanner";
 import { UtilityBar } from "@/components/layout/UtilityBar";
@@ -51,6 +52,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      data-scroll-behavior="smooth"
       className={`${manrope.variable} ${inter.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-white text-[#071827]">

@@ -1,5 +1,7 @@
 import Link from "next/link";
-import { ArrowUpRight, Flame, Snowflake, Wind, MapPin } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
+import { ServiceIcon } from "@/components/ui/ServiceIcon";
+import { TrustMarks } from "@/components/ui/TrustMarks";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { siteConfig } from "@/content/site";
 import { PhotoPlaceholder } from "@/components/ui/PhotoPlaceholder";
@@ -42,10 +44,15 @@ export default function HomePage() {
               </Link>
             </div>
             <p className="hero-location">
-              <MapPin size={15} /> Great Falls & surrounding communities
+              <ServiceIcon name="location" size={18} /> Great Falls &
+              surrounding communities
             </p>
           </div>
           <div className="hero-visual">
+            <div className="hero-image-label">
+              <span>Made for life in Montana</span>
+              <span>Heating / Cooling</span>
+            </div>
             <PhotoPlaceholder
               slot="01"
               subject="Home exterior, technician, or installed equipment"
@@ -61,12 +68,8 @@ export default function HomePage() {
       <section className="intent-section wrap" id="estimate">
         <LeadForm progressive headline="What can we help you with?" />
       </section>
-      <div className="trust-row wrap">
-        <span>Information you can check.</span>
-        <Link href="/about">Company & credential information ↗</Link>
-        <Link href="/rebates/2026-montana-hvac-rebates">
-          Rebates with official sources ↗
-        </Link>
+      <div className="wrap">
+        <TrustMarks />
       </div>
       <section className="section wrap">
         <div className="section-intro">
@@ -84,7 +87,7 @@ export default function HomePage() {
         <div className="service-editorial">
           <article className="heating-feature">
             <div className="heating-feature-copy">
-              <Flame size={28} />
+              <ServiceIcon name="heating" size={40} />
               <p className="eyebrow">When the heat goes out</p>
               <h3>
                 A Montana winter
@@ -127,7 +130,7 @@ export default function HomePage() {
                 className="service-photo"
               />
               <div className="support-service-copy">
-                <Snowflake size={26} />
+                <ServiceIcon name="cooling" size={36} />
                 <h3>Keep summer comfortable.</h3>
                 <p>
                   Warm air, uneven cooling, or an aging AC? Understand your
@@ -142,7 +145,7 @@ export default function HomePage() {
               </div>
             </article>
             <article className="heat-pump-feature">
-              <Wind size={30} />
+              <ServiceIcon name="heat-pump" size={40} />
               <div>
                 <h3>One system. Two seasons.</h3>
                 <p>
@@ -189,6 +192,7 @@ export default function HomePage() {
             className="guide-photo"
           />
           <article className="rebate-feature">
+            <ServiceIcon name="efficiency" size={36} />
             <span className="resource-label">Homeowner resource / 2026</span>
             <h3>
               Make sense

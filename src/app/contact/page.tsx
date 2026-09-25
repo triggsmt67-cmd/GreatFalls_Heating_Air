@@ -1,4 +1,6 @@
 import { buildMetadata } from "@/lib/seo/metadata";
+import { LicenseMark } from "@/components/ui/TrustMarks";
+import { ServiceIcon } from "@/components/ui/ServiceIcon";
 import { siteConfig, verification } from "@/content/site";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { LeadForm } from "@/components/forms/LeadForm";
@@ -26,6 +28,7 @@ export default async function Page({
     <div className="wrap interior">
       <Breadcrumbs items={[{ name: "Contact", url: "/contact" }]} />
       <div className="page-heading">
+        <ServiceIcon name="general" size={48} />
         <p className="eyebrow">Contact / Great Falls, Montana</p>
         <h1>Let’s start with your home.</h1>
         <p>
@@ -36,6 +39,7 @@ export default async function Page({
       <div className="contact-grid">
         <aside className="contact-info">
           <div>
+            <LicenseMark />
             <h2>Prefer to talk?</h2>
             <a className="contact-phone" href={`tel:${siteConfig.phoneE164}`}>
               {siteConfig.phoneDisplay}

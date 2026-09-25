@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ServiceIcon } from "@/components/ui/ServiceIcon";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { rebatePrograms, rebateGuideMetadata } from "@/content/rebates";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
@@ -22,6 +23,7 @@ export default function Page() {
           ]}
         />
         <div className="page-heading">
+          <ServiceIcon name="efficiency" size={48} />
           <p className="eyebrow">
             Homeowner resource / Reviewed {rebateGuideMetadata.lastReviewedDate}
           </p>

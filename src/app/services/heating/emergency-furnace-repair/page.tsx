@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ServiceIcon } from "@/components/ui/ServiceIcon";
 import { siteConfig } from "@/content/site";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
@@ -25,6 +26,7 @@ export default function Page() {
         />
         <div className="service-page-hero service-page-hero--emergency">
           <div className="page-heading">
+            <ServiceIcon name="emergency" size={48} />
             <p className="eyebrow">Furnace repair / Great Falls</p>
             <h1>
               No heat?

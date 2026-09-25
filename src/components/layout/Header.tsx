@@ -1,10 +1,20 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { ServiceIcon, type ServiceIconName } from "@/components/ui/ServiceIcon";
 import { ChevronDown, Menu, X } from "lucide-react";
 import { navigationServices } from "@/content/services";
 import { Brand } from "@/components/ui/Brand";
 export function Header() {
+  const pathname = usePathname();
+  const serviceIcons: ServiceIconName[] = [
+    "heating",
+    "emergency",
+    "cooling",
+    "ac-repair",
+    "heat-pump",
+  ];
   const [open, setOpen] = useState(false),
     [mobile, setMobile] = useState(false);
   const root = useRef<HTMLElement>(null),
@@ -53,17 +63,38 @@ export function Header() {
             </button>
             {open && (
               <div id="desktop-services" className="nav-dropdown">
-                {navigationServices.map((s) => (
-                  <Link key={s.route} href={s.route} onClick={close}>
+                {navigationServices.map((s, i) => (
+                  <Link
+                    key={s.route}
+                    href={s.route}
+                    onClick={close}
+                    aria-current={pathname === s.route ? "page" : undefined}
+                  >
+                    <ServiceIcon name={serviceIcons[i]} size={28} />
                     {s.title}
                   </Link>
                 ))}
               </div>
             )}
           </div>
-          <Link href="/rebates/2026-montana-hvac-rebates">2026 Rebates</Link>
-          <Link href="/about">About</Link>
-          <Link href="/contact">Contact</Link>
+          <Link
+            href="/rebates/2026-montana-hvac-rebates"
+            aria-current={pathname.startsWith("/rebates/") ? "page" : undefined}
+          >
+            2026 Rebates
+          </Link>
+          <Link
+            href="/about"
+            aria-current={pathname === "/about" ? "page" : undefined}
+          >
+            About
+          </Link>
+          <Link
+            href="/contact"
+            aria-current={pathname === "/contact" ? "page" : undefined}
+          >
+            Contact
+          </Link>
         </nav>
         <Link
           href="/contact?intent=estimate"
@@ -89,9 +120,14 @@ export function Header() {
           className="mobile-navigation wrap"
           aria-label="Mobile navigation"
         >
-          {navigationServices.map((s) => (
-            <Link key={s.route} href={s.route} onClick={close}>
-              {s.title} ↗
+          {navigationServices.map((s, i) => (
+            <Link
+              key={s.route}
+              href={s.route}
+              onClick={close}
+              aria-current={pathname === s.route ? "page" : undefined}
+            >
+              <ServiceIcon name={serviceIcons[i]} size={24} /> {s.title} ↗
             </Link>
           ))}
           <Link href="/rebates/2026-montana-hvac-rebates" onClick={close}>

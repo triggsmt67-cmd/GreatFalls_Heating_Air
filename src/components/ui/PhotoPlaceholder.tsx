@@ -39,6 +39,7 @@ export function PhotoPlaceholder({
           <path d="M-40 184c134-55 210 35 328-7s211-25 351 11" />
         </svg>
         <span className="photo-slot-index">Photo {slot}</span>
+        <span className="photo-registration" aria-hidden="true">+</span>
         <div className="photo-slot-copy">
           <strong>Image here</strong>
           <span>{dimensions} minimum</span>
