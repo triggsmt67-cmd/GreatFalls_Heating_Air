@@ -64,7 +64,8 @@
   background: #f7f9fbf5;
   box-shadow: 0 4px 20px #0b223905;
 }
-.brand svg {
+.brand svg,
+.brand-logo {
   transition: transform var(--motion-settle) var(--ease-finish);
 }
 .desktop-nav > a,
@@ -557,6 +558,9 @@
   }
   .brand:hover > svg {
     transform: rotate(-3deg);
+  }
+  .brand:hover .brand-logo {
+    transform: scale(1.04);
   }
   .trust-mark:hover .service-icon,
   .intent-option:hover .service-icon {

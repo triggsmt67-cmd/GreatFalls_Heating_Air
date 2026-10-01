@@ -3,7 +3,6 @@ import { Manrope, Inter } from "next/font/google";
 import "./globals.css";
 import "./premium.css";
 import { siteConfig } from "@/content/site";
-import { DevelopmentBanner } from "@/components/layout/DevelopmentBanner";
 import { UtilityBar } from "@/components/layout/UtilityBar";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
@@ -71,9 +70,6 @@ export default function RootLayout({
             dangerouslySetInnerHTML={{ __html: JSON.stringify(hvacSchema) }}
           />
         )}
-
-        {/* Pre-launch Placeholder Banner (Development Only) */}
-        <DevelopmentBanner />
 
         {/* Global Shell */}
         <UtilityBar />
