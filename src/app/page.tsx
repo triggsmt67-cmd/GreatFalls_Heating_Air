@@ -55,12 +55,15 @@ export default function HomePage() {
             </div>
             <PhotoPlaceholder
               slot="01"
-              subject="Home exterior, technician, or installed equipment"
+              subject="Installed cold-climate heat pump outside residential home"
               dimensions="1800 × 1350"
-              crop="Keep the subject inside the center 60% for the mobile crop."
               ratio="hero"
               tone="blue"
               className="hero-photo"
+              src="/images/home-exterior.webp"
+              alt="Installed cold-climate heat pump system outside a residential home in Great Falls, Montana"
+              priority
+              sizes="(max-width: 900px) 100vw, 50vw"
             />
           </div>
         </div>
@@ -134,23 +137,27 @@ export default function HomePage() {
             </div>
             <PhotoPlaceholder
               slot="02"
-              subject="Technician diagnosing a furnace"
+              subject="Furnace diagnostic and heating system inspection"
               dimensions="1200 × 1500"
-              crop="Portrait crop. Keep hands, tools, and equipment visible."
               ratio="portrait"
               tone="dark"
               className="heating-photo"
+              src="/images/furnace-diagnostic.webp"
+              alt="Residential furnace diagnostic and heating system installation"
             />
           </article>
           <div className="support-services">
             <article className="cooling-feature">
               <PhotoPlaceholder
                 slot="03"
-                subject="Outdoor AC service or mechanical detail"
+                subject="Residential cooling system and mechanical installation detail"
                 dimensions="1400 × 1050"
-                crop="Landscape crop. Leave clean space near the upper left."
+                ratio="landscape"
                 tone="light"
                 className="service-photo"
+                src="/images/ac-service.webp"
+                alt="HVAC cooling system air handler and ductwork mechanical installation with diagnostic tools"
+                sizes="(max-width: 900px) 100vw, 40vw"
               />
               <div className="support-service-copy">
                 <ServiceIcon name="cooling" size={36} />
@@ -208,11 +215,14 @@ export default function HomePage() {
           </div>
           <PhotoPlaceholder
             slot="04"
-            subject="Cold-climate heat pump in winter"
+            subject="Outdoor cold-climate heat pump operating in winter snow"
             dimensions="1600 × 1200"
-            crop="Landscape crop. Keep snow clearance and the full unit visible."
+            ratio="landscape"
             tone="blue"
             className="guide-photo"
+            src="/images/winter-heat-pump.webp"
+            alt="Cold-climate heat pump operating on elevated stand during a snowy Montana winter"
+            sizes="(max-width: 900px) 100vw, 45vw"
           />
           <article className="rebate-feature">
             <ServiceIcon name="efficiency" size={36} />
@@ -240,12 +250,14 @@ export default function HomePage() {
         <div className="local-visual">
           <PhotoPlaceholder
             slot="05"
-            subject="Great Falls home, neighborhood, or high-plains weather"
+            subject="Great Falls home exterior and HVAC installation in high-plains context"
             dimensions="1920 × 1080"
-            crop="Wide establishing image. Avoid dramatic alpine scenery."
             ratio="wide"
             tone="light"
             className="local-photo"
+            src="/images/high-plains-montana.webp"
+            alt="Outdoor central air conditioning condensing unit installed on concrete pad at a Great Falls, Montana residence"
+            sizes="(max-width: 900px) 100vw, 55vw"
           />
           <div className="climate-art" aria-hidden="true">
             <span className="climate-place">GREAT FALLS / MONTANA</span>
@@ -255,7 +267,7 @@ export default function HomePage() {
               <circle cx="414" cy="22" r="16" />
             </svg>
             <span className="climate-caption">
-              High plains. Changing seasons. / Wide establishing image.
+              High plains. Changing seasons.
             </span>
           </div>
         </div>

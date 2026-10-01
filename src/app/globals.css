@@ -410,17 +410,31 @@ a:hover {
   padding: 24px;
   isolation: isolate;
 }
-.photo-slot--hero .photo-slot-frame {
+.photo-slot--hero .photo-slot-frame,
+.photo-slot--hero .photo-real-frame {
   aspect-ratio: 4 / 3;
 }
-.photo-slot--landscape .photo-slot-frame {
+.photo-slot--landscape .photo-slot-frame,
+.photo-slot--landscape .photo-real-frame {
   aspect-ratio: 4 / 3;
 }
-.photo-slot--portrait .photo-slot-frame {
+.photo-slot--portrait .photo-slot-frame,
+.photo-slot--portrait .photo-real-frame {
   aspect-ratio: 4 / 5;
 }
-.photo-slot--wide .photo-slot-frame {
+.photo-slot--wide .photo-slot-frame,
+.photo-slot--wide .photo-real-frame {
   aspect-ratio: 16 / 9;
+}
+.photo-real-frame {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: var(--radius);
+}
+.photo-real-img {
+  object-fit: cover;
+  object-position: center;
 }
 .photo-slot--light {
   color: #496a7d;
@@ -741,7 +755,8 @@ a:hover {
   align-self: stretch;
   min-width: 0;
 }
-.heating-photo .photo-slot-frame {
+.heating-photo .photo-slot-frame,
+.heating-photo .photo-real-frame {
   height: 100%;
   min-height: 520px;
   aspect-ratio: auto;
@@ -815,7 +830,8 @@ a:hover {
   border-radius: var(--radius);
   overflow: hidden;
 }
-.service-photo .photo-slot-frame {
+.service-photo .photo-slot-frame,
+.service-photo .photo-real-frame {
   border: 0;
   border-radius: 0;
   aspect-ratio: 2.1 / 1;
@@ -878,7 +894,8 @@ a:hover {
 .guide-photo {
   transform: rotate(-1.5deg);
 }
-.guide-photo .photo-slot-frame {
+.guide-photo .photo-slot-frame,
+.guide-photo .photo-real-frame {
   border: 0;
   box-shadow: 12px 14px 0 #174d6a;
 }
@@ -931,7 +948,8 @@ a:hover {
   position: relative;
   padding-bottom: 70px;
 }
-.local-photo .photo-slot-frame {
+.local-photo .photo-slot-frame,
+.local-photo .photo-real-frame {
   border-radius: 4px;
 }
 .local-photo figcaption {
@@ -1715,10 +1733,13 @@ a:hover {
   .heating-feature-copy {
     padding: 42px 28px 26px;
   }
-  .heating-photo .photo-slot-frame {
+  .heating-photo .photo-slot-frame,
+  .heating-photo .photo-real-frame {
     min-height: 310px;
     aspect-ratio: 4 / 3;
     border-left: 0;
+  }
+  .heating-photo .photo-slot-frame {
     border-top: 1px dashed currentColor;
   }
   .heating-feature h3 {
@@ -1730,7 +1751,8 @@ a:hover {
   .support-services {
     grid-template-columns: 1fr;
   }
-  .service-photo .photo-slot-frame {
+  .service-photo .photo-slot-frame,
+  .service-photo .photo-real-frame {
     aspect-ratio: 16 / 9;
   }
   .guide-section {
@@ -1749,7 +1771,8 @@ a:hover {
   .guide-photo {
     transform: none;
   }
-  .guide-photo .photo-slot-frame {
+  .guide-photo .photo-slot-frame,
+  .guide-photo .photo-real-frame {
     box-shadow: 8px 9px 0 #174d6a;
   }
   .guide-grid h2 {

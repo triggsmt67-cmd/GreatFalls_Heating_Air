@@ -147,7 +147,8 @@
   text-transform: uppercase;
   letter-spacing: 0.12em;
 }
-.hero-photo .photo-slot-frame {
+.hero-photo .photo-slot-frame,
+.hero-photo .photo-real-frame {
   clip-path: none;
   border-radius: 2px;
   border: 1px solid #c7e6f4;
@@ -316,7 +317,8 @@
 .guide-photo {
   transform: none;
 }
-.guide-photo .photo-slot-frame {
+.guide-photo .photo-slot-frame,
+.guide-photo .photo-real-frame {
   box-shadow: 8px 8px 0 #ffffff0c;
 }
 .rebate-feature {
