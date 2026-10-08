@@ -8,7 +8,7 @@ export function Footer() {
     <footer className="site-footer">
       <div className="wrap footer-grid">
         <div>
-          <Brand />
+          <Brand hideText />
           <p>
             Residential heating & cooling.
             <br />

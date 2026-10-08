@@ -9,11 +9,16 @@ export function Brand({ hideText = false }: { hideText?: boolean }) {
       aria-label="Great Falls Heating and Air LLC — home"
     >
       <Image
-        src="/images/test-logo.webp"
+        src={
+          hideText
+            ? "/images/great-falls-hvac-dimensional.svg"
+            : "/images/test-logo.webp"
+        }
         alt="Great Falls Heating and Air LLC"
-        width={48}
-        height={60}
-        priority
+        width={hideText ? 1905 : 48}
+        height={hideText ? 865 : 60}
+        loading={hideText ? "eager" : "lazy"}
+        unoptimized={hideText}
         className="brand-logo"
       />
       {!hideText && (

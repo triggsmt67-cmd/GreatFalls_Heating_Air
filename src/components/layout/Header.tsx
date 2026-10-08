@@ -50,7 +50,7 @@ export function Header() {
       }}
     >
       <div className="wrap header-inner">
-        <Brand />
+        <Brand hideText />
         <nav className="desktop-nav" aria-label="Main navigation">
           <div className="services-disclosure">
             <button

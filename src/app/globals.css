@@ -265,7 +265,7 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  height: 76px;
+  height: 88px;
 }
 .brand {
   display: inline-flex !important;
@@ -280,6 +280,10 @@ a:hover {
   object-fit: contain;
   flex-shrink: 0;
   display: block;
+}
+.brand--logo-only .brand-logo {
+  height: 72px;
+  width: auto;
 }
 .brand strong {
   font-family: var(--font-manrope), sans-serif;
@@ -1480,7 +1484,10 @@ a:hover {
     font-size: 14px;
   }
   .header-inner {
-    height: 68px;
+    height: 76px;
+  }
+  .brand--logo-only .brand-logo {
+    height: 60px;
   }
 
   .service-editorial {
@@ -1561,7 +1568,7 @@ a:hover {
     grid-template-columns: 1fr;
   }
   .header-inner {
-    height: 66px;
+    height: 70px;
     gap: 10px;
   }
   .header-cta {
@@ -1577,6 +1584,9 @@ a:hover {
   }
   .brand small {
     font-size: 8px;
+  }
+  .brand--logo-only .brand-logo {
+    height: 54px;
   }
 
   .eyebrow {
