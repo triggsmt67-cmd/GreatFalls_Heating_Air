@@ -9,6 +9,7 @@ import { LeadForm } from "@/components/forms/LeadForm";
 import { generalFaqs } from "@/content/faqs";
 import { FaqAccordion } from "@/components/sections/FaqAccordion";
 import { FinalDarkCTA } from "@/components/sections/FinalDarkCTA";
+import styles from "./home.module.css";
 export const metadata = buildMetadata({
   title: "HVAC Services in Great Falls, MT",
   description:
@@ -17,19 +18,25 @@ export const metadata = buildMetadata({
 });
 export default function HomePage() {
   return (
-    <>
-      <section className="home-hero">
-        <div className="wrap hero-grid">
-          <div className="hero-copy">
-            <p className="eyebrow">Residential HVAC · Great Falls, Montana</p>
-            <h1>
-              Heating and cooling built for <em>Great Falls weather.</em>
+    <div className={styles.page}>
+      <section className={styles.hero} aria-labelledby="home-hero-title">
+        <div className={`wrap ${styles.heroInner}`}>
+          <p className={styles.heroEyebrow}>
+            Residential HVAC · Great Falls, Montana
+          </p>
+          <div className={styles.heroIntro}>
+            <h1 id="home-hero-title" className={styles.heroHeading}>
+              <span>Heating and cooling</span>
+              <span>
+                built for{" "}
+                <span className={styles.placeName}>Great Falls weather.</span>
+              </span>
             </h1>
-            <p className="hero-description">
+            <p className={styles.heroDescription}>
               A cold house. A hot afternoon. A system ready for replacement.
               Start here for heating and cooling help close to home.
             </p>
-            <div className="hero-actions">
+            <div className={styles.heroActions}>
               <a
                 className="button button-orange"
                 href={`tel:${siteConfig.phoneE164}`}
@@ -43,29 +50,19 @@ export default function HomePage() {
                 Explore 2026 rebates <ArrowUpRight size={17} />
               </Link>
             </div>
-            <p className="hero-location">
-              <ServiceIcon name="location" size={18} /> Great Falls &
-              surrounding communities
-            </p>
           </div>
-          <div className="hero-visual">
-            <div className="hero-image-label">
-              <span>Made for life in Montana</span>
-              <span>Heating / Cooling</span>
-            </div>
-            <PhotoPlaceholder
-              slot="01"
-              subject="Installed cold-climate heat pump outside residential home"
-              dimensions="1800 × 1350"
-              ratio="hero"
-              tone="blue"
-              className="hero-photo"
-              src="/images/home-exterior.webp"
-              alt="Installed cold-climate heat pump system outside a residential home in Great Falls, Montana"
-              priority
-              sizes="(max-width: 900px) 100vw, 50vw"
-            />
-          </div>
+          <PhotoPlaceholder
+            slot="01"
+            subject="Installed cold-climate heat pump outside residential home"
+            dimensions="1800 × 1350"
+            ratio="wide"
+            tone="blue"
+            className={styles.heroPhoto}
+            src="/images/home-exterior.webp"
+            alt="Installed cold-climate heat pump system outside a residential home in Great Falls, Montana"
+            priority
+            sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 1248px) calc(100vw - 64px), 1184px"
+          />
         </div>
       </section>
       <section
@@ -361,6 +358,6 @@ export default function HomePage() {
         badge="Before you call"
       />
       <FinalDarkCTA />
-    </>
+    </div>
   );
 }

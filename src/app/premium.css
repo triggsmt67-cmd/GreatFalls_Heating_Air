@@ -54,14 +54,10 @@
   gap: 12px;
 }
 .eyebrow::before {
-  content: "";
-  width: 20px;
-  height: 1px;
-  background: currentColor;
-  flex-shrink: 0;
+  display: none;
 }
 .site-header {
-  background: #f7f9fbf5;
+  background: #f7f5f0f5;
   box-shadow: 0 4px 20px #0b223905;
 }
 .brand svg,
@@ -120,57 +116,7 @@
   color: var(--blue);
   font-weight: 700;
 }
-.home-hero {
-  padding: 64px 0 72px;
-}
-.hero-grid {
-  grid-template-columns: 1fr 1.06fr;
-  gap: 64px;
-}
-.hero-copy h1 {
-  font-size: clamp(2.3rem, 3.65vw, 3.35rem);
-  letter-spacing: -0.045em;
-  line-height: 1.12;
-}
-.hero-description {
-  margin-top: 24px;
-}
-.hero-visual {
-  margin-right: 0;
-}
-.hero-image-label {
-  display: flex;
-  justify-content: space-between;
-  gap: 16px;
-  padding-bottom: 13px;
-  color: #b8d0de;
-  font-size: 9px;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-}
-.hero-photo .photo-slot-frame,
-.hero-photo .photo-real-frame {
-  clip-path: none;
-  border-radius: 2px;
-  border: 1px solid #c7e6f4;
-}
-.hero-photo .photo-slot-index {
-  left: 24px;
-}
-.hero-photo figcaption {
-  padding-left: 0;
-}
-.hero-visual::after {
-  content: "";
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  right: -12px;
-  top: 19px;
-  border-top: 1px solid #8ecde5;
-  border-right: 1px solid #8ecde5;
-  pointer-events: none;
-}
+
 .photo-slot-frame {
   border-style: solid;
   border-color: #91a9b64d;
@@ -262,10 +208,10 @@
 .trust-mark small,
 .license-mark small {
   display: block;
-  font-size: 10px;
+  font-size: var(--type-caption);
   color: var(--muted);
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
+  letter-spacing: 0.015em;
+  text-transform: none;
 }
 .trust-mark strong {
   display: block;
@@ -454,7 +400,7 @@
   margin-top: 20px;
 }
 .footer-grid .license-mark small {
-  font-size: 9px;
+  font-size: var(--type-caption);
 }
 .footer-bottom {
   letter-spacing: 0.02em;
@@ -471,7 +417,7 @@
   margin-bottom: 22px;
 }
 .page-heading h1 {
-  letter-spacing: -0.04em;
+  letter-spacing: -0.045em;
 }
 .page-heading > .button {
   margin-top: 24px;
@@ -483,8 +429,9 @@
   list-style: decimal;
 }
 .resource-notice h2 {
-  font-size: 1.4rem;
+  font-size: var(--type-panel);
   margin-bottom: 10px;
+  line-height: 1.25;
 }
 .mobile-navigation > a {
   display: flex;
@@ -583,9 +530,6 @@
   }
 }
 @media (max-width: 1100px) {
-  .hero-grid {
-    gap: 38px;
-  }
   .trust-mark {
     gap: 12px;
     padding-inline: 14px;
@@ -598,19 +542,6 @@
   }
 }
 @media (max-width: 900px) {
-  .home-hero {
-    padding-top: 42px;
-  }
-  .hero-grid {
-    gap: 30px;
-  }
-  .hero-copy h1 {
-    font-size: 2.2rem;
-  }
-  .hero-image-label {
-    flex-direction: column;
-    gap: 4px;
-  }
   .trust-mark {
     padding-inline: 10px;
   }
@@ -618,7 +549,7 @@
     display: none;
   }
   .trust-mark small {
-    font-size: 8px;
+    font-size: var(--type-caption);
   }
   .resource-aside {
     border-left: 0;
@@ -626,30 +557,6 @@
   }
 }
 @media (max-width: 600px) {
-  .home-hero {
-    padding: 36px 0 46px;
-  }
-  .hero-grid {
-    grid-template-columns: 1fr;
-    gap: 30px;
-  }
-  .hero-copy h1 {
-    font-size: clamp(2rem, 8.5vw, 2.7rem);
-    max-width: 430px;
-  }
-  .hero-image-label {
-    flex-direction: row;
-    font-size: 8px;
-  }
-  .hero-photo .photo-slot-index {
-    left: 18px;
-  }
-  .hero-visual::after {
-    right: -7px;
-    top: 14px;
-    width: 24px;
-    height: 24px;
-  }
   .intent-section {
     padding: 22px 14px;
   }
@@ -681,7 +588,7 @@
     border-top: 1px solid var(--line);
   }
   .trust-mark small {
-    font-size: 9px;
+    font-size: var(--type-caption);
   }
   .trust-mark strong {
     font-size: 13px;
@@ -716,7 +623,7 @@
   align-items: start;
 }
 .concierge-intro h2 {
-  font-size: clamp(1.8rem, 2.8vw, 2.6rem);
+  font-size: var(--type-section);
   margin-bottom: 18px;
 }
 .concierge-intro > p:not(.eyebrow) {
@@ -744,12 +651,12 @@
   border-left: 1px solid var(--line);
 }
 .concierge-form h2 {
-  font-size: 16px;
+  font-size: 19px;
   letter-spacing: -0.02em;
   margin-bottom: 6px;
 }
 .concierge-form .form-intro {
-  font-size: 12px;
+  font-size: var(--type-small);
   margin-bottom: 24px;
 }
 .concierge-form .intent-options {
@@ -785,7 +692,7 @@
 }
 .intent-description {
   display: block;
-  font-size: 11px;
+  font-size: var(--type-caption);
   line-height: 1.5;
   color: var(--muted);
   font-weight: 400;

@@ -1,0 +1,430 @@
+/* A wide working photograph bridges a calm navy introduction and warm paper.
+   Homepage rules are scoped so they cannot leak into service or contact layouts. */
+.page {
+  --blue: #345969;
+  --section: 88px;
+  background: var(--paper);
+}
+
+.page h2 {
+  font-size: var(--type-section);
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  line-height: 1.18;
+}
+
+.page h3 {
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+.page :global(.eyebrow) {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.015em;
+  text-transform: none;
+  margin-bottom: 16px;
+}
+
+.page :global(.eyebrow)::before {
+  display: none;
+}
+
+.page :global(.button) {
+  font-weight: 650;
+}
+
+.page :global(.text-link) {
+  font-weight: 600;
+}
+
+.page :global(.button-yellow) {
+  background: #0877b5;
+}
+
+.page :global(.button-yellow:hover) {
+  background: #056292;
+}
+
+.page :global(.rebate-feature .button-yellow) {
+  background: var(--ink);
+}
+
+.page :global(.text-link) {
+  font-size: 14px;
+}
+
+.hero {
+  --photo-overlap: 80px;
+  position: relative;
+  padding-top: 50px;
+  color: #fff;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 var(--photo-overlap);
+  background: var(--ink);
+}
+
+.heroInner {
+  position: relative;
+}
+
+.heroEyebrow {
+  margin: 0 0 19px;
+  color: #c5d1d4;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+}
+
+.heroIntro {
+  display: grid;
+  grid-template-columns: minmax(0, 2.3fr) minmax(0, 1fr);
+  grid-template-areas: "heading description" "actions .";
+  gap: 24px 48px;
+  align-items: end;
+}
+
+.heroHeading {
+  grid-area: heading;
+  margin: 0;
+  font-size: clamp(2.5rem, 4vw, 3.25rem);
+  font-weight: 600;
+  letter-spacing: -0.045em;
+  line-height: 1.12;
+  text-wrap: initial;
+}
+
+.heroHeading > span {
+  display: block;
+}
+
+.placeName {
+  white-space: nowrap;
+}
+
+.heroDescription {
+  grid-area: description;
+  margin: 0 0 2px;
+  color: #d0d9db;
+  font-size: 15px;
+  line-height: 1.75;
+  max-width: 360px;
+}
+
+.heroActions {
+  grid-area: actions;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.heroActions :global(.button) {
+  min-height: 48px;
+  font-size: 12px;
+  padding-inline: 14px;
+}
+
+.heroPhoto {
+  margin-top: 32px;
+}
+
+.heroPhoto :global(.photo-real-frame) {
+  height: clamp(270px, 25vw, 340px);
+  aspect-ratio: auto;
+  border-radius: 6px;
+  background: #dcded9;
+}
+
+.heroPhoto :global(.photo-real-img) {
+  /* Keep the existing equipment visible in the temporary wide crop. */
+  object-position: center 62%;
+}
+
+.page :global(.service-concierge) {
+  padding: 44px 0 52px;
+  background: var(--paper);
+  /* The document already reserves space for the sticky header. */
+  scroll-margin-top: 12px;
+}
+
+.page :global(.concierge-grid) {
+  gap: 64px;
+}
+
+.page :global(.concierge-intro h2) {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.page :global(.concierge-intro > p:not(.eyebrow)) {
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+  max-width: 360px;
+}
+
+.page :global(.concierge-credentials) {
+  margin-top: 22px;
+  padding-top: 18px;
+}
+
+.page :global(.concierge-form h2) {
+  font-size: 19px;
+  letter-spacing: -0.025em;
+}
+
+.page :global(.concierge-form .form-intro) {
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.page :global(.concierge-form .intent-option) {
+  background: #fff;
+  border-color: var(--line);
+  min-height: 120px;
+  gap: 12px 8px;
+}
+
+.page :global(.concierge-form .intent-option > span) {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.page :global(.intent-description) {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.page :global(.concierge-form .intent-option[aria-pressed="true"]) {
+  background: #e9efec;
+  border-color: var(--blue);
+}
+
+.page :global(.section-intro > p:last-child),
+.page :global(.local-grid p:not(.eyebrow)),
+.page :global(.area-grid p:not(.eyebrow)) {
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.page :global(.heating-feature h3) {
+  font-size: var(--type-article);
+  line-height: 1.2;
+}
+
+.page :global(.heating-feature .text-link) {
+  color: #f0d5c7;
+}
+
+.page :global(.support-services h3) {
+  font-size: 1.4rem;
+}
+
+.page :global(.heat-pump-feature) {
+  background: #e9efec;
+}
+
+.page :global(.guide-section) {
+  background: #24434c;
+}
+
+.page :global(.guide-copy .eyebrow),
+.page :global(.area-section .eyebrow),
+.page :global(.final-cta .eyebrow) {
+  color: #c6d2d4;
+}
+
+.page :global(.rebate-feature) {
+  background: var(--paper);
+  border-top-color: #c3cfc9;
+}
+
+.page :global(.rebate-feature h3) {
+  font-size: 1.75rem;
+  line-height: 1.2;
+}
+
+.page :global(.rebate-feature small) {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.page :global(.climate-art) {
+  background: #e9efec;
+  border-color: #c3cfc9;
+}
+
+.page :global(.region-list dt) {
+  color: #d8e0dd;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.page :global(.region-list dd) {
+  color: #c5d1d4;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.page :global(.process-list span) {
+  letter-spacing: 0;
+  font-size: 13px;
+}
+
+.page :global(.process-list h3) {
+  font-size: 20px;
+}
+
+.page :global(.process-list p),
+.page :global(.faq-item p) {
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+.page :global(.faq-item summary) {
+  font-size: 15px;
+}
+
+.page :global(.final-cta)::before {
+  background: var(--orange);
+}
+
+@media (max-width: 1100px) {
+  .heroIntro {
+    grid-template-columns: minmax(0, 1.8fr) minmax(0, 1fr);
+    column-gap: 32px;
+  }
+
+  .heroHeading {
+    font-size: clamp(2.25rem, 4vw, 2.75rem);
+  }
+
+  .page :global(.concierge-grid) {
+    gap: 36px;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero {
+    padding-top: 36px;
+    --photo-overlap: 56px;
+  }
+
+  .heroIntro {
+    grid-template-columns: 1fr;
+    grid-template-areas: "heading" "description" "actions";
+    gap: 16px;
+  }
+
+  .heroHeading {
+    font-size: clamp(2.25rem, 5vw, 2.75rem);
+  }
+
+  .heroDescription {
+    max-width: 580px;
+  }
+
+  .heroPhoto {
+    margin-top: 20px;
+  }
+
+  .heroPhoto :global(.photo-real-frame) {
+    height: 240px;
+  }
+}
+
+@media (max-width: 600px) {
+  .page {
+    --section: 52px;
+  }
+
+  .page h2 {
+    font-size: 1.9rem;
+    line-height: 1.2;
+  }
+
+  .hero {
+    padding-top: 28px;
+    --photo-overlap: 38px;
+  }
+
+  .heroEyebrow {
+    font-size: 11px;
+    margin-bottom: 16px;
+    letter-spacing: 0;
+  }
+
+  .heroHeading {
+    font-size: clamp(1.8rem, 8.5vw, 2.6rem);
+    letter-spacing: -0.04em;
+    line-height: 1.16;
+  }
+
+  .heroDescription {
+    font-size: 14px;
+    line-height: 1.65;
+  }
+
+  .heroIntro {
+    gap: 14px;
+  }
+
+  .heroActions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .heroActions :global(.button) {
+    font-size: 13px;
+    min-height: 46px;
+  }
+
+  .heroPhoto {
+    margin-top: 12px;
+  }
+
+  .heroPhoto :global(.photo-real-frame) {
+    height: auto;
+    aspect-ratio: 1.85;
+    border-radius: 4px;
+  }
+
+  .page :global(.service-concierge) {
+    padding: 30px 0 40px;
+  }
+
+  .page :global(.concierge-grid) {
+    gap: 22px;
+  }
+
+  .page :global(.concierge-form) {
+    padding-top: 22px;
+  }
+
+  .page :global(.concierge-form h2) {
+    font-size: 19px;
+  }
+
+  .page :global(.concierge-form .intent-option) {
+    min-height: 130px;
+    padding: 14px 12px;
+  }
+
+  .page :global(.concierge-form .intent-option > span) {
+    font-size: 13px;
+  }
+
+  .page :global(.section-intro) {
+    padding-top: 0;
+  }
+
+  .page :global(.faq-item summary) {
+    font-size: 14px;
+  }
+}

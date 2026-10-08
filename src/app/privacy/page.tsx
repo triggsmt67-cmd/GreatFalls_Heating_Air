@@ -14,14 +14,14 @@ export const metadata = buildMetadata({
 export default function PrivacyPage() {
   return (
     <div className="wrap interior">
-      <div className="article-copy">
+      <div className="article-copy privacy-copy">
         <Breadcrumbs items={[{ name: "Privacy Policy", url: "/privacy" }]} />
 
         {/* Legal Review Notice */}
-        <div className="my-6 rounded-lg border border-amber-300 bg-amber-50 p-4 text-xs text-amber-950 flex items-start gap-3">
+        <div className="my-6 rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm text-amber-950 flex items-start gap-3">
           <AlertCircle className="w-5 h-5 text-amber-700 shrink-0 mt-0.5" />
           <div>
-            <span className="font-bold block uppercase tracking-wide">
+            <span className="font-semibold block">
               Pre-Launch Notice for Legal Review
             </span>
             <span>
@@ -35,15 +35,15 @@ export default function PrivacyPage() {
 
         <div className="page-heading">
           <h1>Privacy Policy & Data Practices</h1>
-          <p className="mt-2 text-sm text-slate-500">
+          <p className="privacy-meta">
             Last Updated: September 24, 2026 • Effective Date: Pre-Launch First
             Pass
           </p>
         </div>
 
-        <div className="prose prose-slate max-w-none space-y-8 text-sm sm:text-base text-slate-700 leading-relaxed">
+        <div className="privacy-sections">
           <section>
-            <h2 className="font-display text-2xl font-bold text-[#071827]">
+            <h2 className="font-display">
               1. Information We Collect
             </h2>
             <p>
@@ -54,7 +54,7 @@ export default function PrivacyPage() {
               general inquiries through our website.
             </p>
             <p>This information includes:</p>
-            <ul className="list-disc pl-5 space-y-1 text-sm text-slate-700">
+            <ul className="list-disc pl-5 space-y-1">
               <li>Full name</li>
               <li>Telephone contact number</li>
               <li>Email address</li>
@@ -68,14 +68,14 @@ export default function PrivacyPage() {
           </section>
 
           <section>
-            <h2 className="font-display text-2xl font-bold text-[#071827]">
+            <h2 className="font-display">
               2. How We Use Your Information
             </h2>
             <p>
               We use the information collected exclusively for legitimate
               business purposes:
             </p>
-            <ul className="list-disc pl-5 space-y-1 text-sm text-slate-700">
+            <ul className="list-disc pl-5 space-y-1">
               <li>
                 Contacting you to discuss your heating or cooling system
                 symptoms
@@ -104,7 +104,7 @@ export default function PrivacyPage() {
           </section>
 
           <section>
-            <h2 className="font-display text-2xl font-bold text-[#071827]">
+            <h2 className="font-display">
               3. Form Submissions and Email Transmission
             </h2>
             <p>
@@ -118,7 +118,7 @@ export default function PrivacyPage() {
           </section>
 
           <section>
-            <h2 className="font-display text-2xl font-bold text-[#071827]">
+            <h2 className="font-display">
               4. Cookies and Website Analytics
             </h2>
             <p>
@@ -134,7 +134,7 @@ export default function PrivacyPage() {
           </section>
 
           <section>
-            <h2 className="font-display text-2xl font-bold text-[#071827]">
+            <h2 className="font-display">
               5. Data Retention and Security
             </h2>
             <p>
@@ -149,7 +149,7 @@ export default function PrivacyPage() {
           </section>
 
           <section>
-            <h2 className="font-display text-2xl font-bold text-[#071827]">
+            <h2 className="font-display">
               6. Your Privacy Rights & Contacting Us
             </h2>
             <p>
@@ -157,7 +157,7 @@ export default function PrivacyPage() {
               contact records from our direct communication systems at any time
               by contacting us:
             </p>
-            <div className="rounded-lg bg-slate-50 border border-slate-200 p-4 text-xs sm:text-sm text-slate-800 space-y-1">
+            <div className="rounded-lg bg-slate-50 border border-slate-200 p-4 text-sm text-slate-800 space-y-1">
               <div className="font-bold text-[#071827]">
                 {siteConfig.businessName}
               </div>

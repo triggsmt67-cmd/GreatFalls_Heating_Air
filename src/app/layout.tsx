@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Manrope, Inter } from "next/font/google";
+import { Manrope } from "next/font/google";
 import "./globals.css";
 import "./premium.css";
 import { siteConfig } from "@/content/site";
@@ -12,14 +12,6 @@ import { getHVACBusinessSchema } from "@/lib/schema/jsonLd";
 const manrope = Manrope({
   variable: "--font-manrope",
   subsets: ["latin"],
-  weight: ["500", "600", "700", "800"],
-  display: "swap",
-});
-
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
   display: "swap",
 });
 
@@ -52,7 +44,7 @@ export default function RootLayout({
     <html
       lang="en"
       data-scroll-behavior="smooth"
-      className={`${manrope.variable} ${inter.variable} h-full antialiased`}
+      className={`${manrope.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-white text-[#071827]">
         {/* Skip to Content for WCAG 2.2 AA Accessibility */}
