@@ -5,7 +5,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = siteConfig.siteUrl;
   const currentDate = new Date().toISOString();
 
-  // All 11 public indexable routes (excluding /thank-you per Section 12)
+  // Public indexable routes (excluding /thank-you).
   const routes = [
     { url: `${baseUrl}`, priority: 1.0, changeFrequency: "weekly" as const },
     {
@@ -17,6 +17,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/services/heating/emergency-furnace-repair`,
       priority: 0.95,
       changeFrequency: "weekly" as const,
+    },
+    {
+      url: `${baseUrl}/services/heating/furnace-installation`,
+      priority: 0.85,
+      changeFrequency: "monthly" as const,
+    },
+    {
+      url: `${baseUrl}/services/heating/furnace-maintenance`,
+      priority: 0.8,
+      changeFrequency: "monthly" as const,
     },
     {
       url: `${baseUrl}/services/cooling`,

@@ -4,9 +4,13 @@ import { LicenseMark } from "@/components/ui/TrustMarks";
 export function FinalDarkCTA({
   title = "Let’s talk about your home.",
   subtitle = "Heating trouble, cooling questions, or a replacement on your mind?",
+  requestHref = "/contact?intent=estimate",
+  requestLabel = "Request an estimate ↗",
 }: {
   title?: string;
   subtitle?: string;
+  requestHref?: string;
+  requestLabel?: string;
 }) {
   return (
     <section className="final-cta">
@@ -26,9 +30,9 @@ export function FinalDarkCTA({
           </a>
           <Link
             className="button button-yellow"
-            href="/contact?intent=estimate"
+            href={requestHref}
           >
-            Request an estimate ↗
+            {requestLabel}
           </Link>
         </div>
       </div>

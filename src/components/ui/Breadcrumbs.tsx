@@ -11,17 +11,18 @@ export interface BreadcrumbItem {
 interface BreadcrumbsProps {
   items: BreadcrumbItem[];
   className?: string;
+  schemaId?: string;
 }
 
-export function Breadcrumbs({ items, className = "" }: BreadcrumbsProps) {
+export function Breadcrumbs({ items, className = "", schemaId }: BreadcrumbsProps) {
   const allItems = [{ name: "Home", url: "/" }, ...items];
-  const jsonLd = getBreadcrumbSchema(allItems);
+  const jsonLd = { ...getBreadcrumbSchema(allItems), ...(schemaId ? { "@id": schemaId } : {}) };
 
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
       />
       <nav
         aria-label="Breadcrumb"

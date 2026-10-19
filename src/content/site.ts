@@ -11,13 +11,13 @@ export const siteConfig = {
   tagline: "Technical confidence with Montana grit.",
   shortDescription:
     "Local residential heating, emergency furnace repair, air conditioning, and cold-climate heat pump solutions built for Great Falls weather.",
-  phoneDisplay: "406-555-0148", // development-only fictional number
-  phoneE164: "+14065550148",
-  email: "hello@example.com",
-  streetAddress: "[CLIENT ADDRESS OR SERVICE-AREA BUSINESS]",
+  phoneDisplay: "406-781-4027",
+  phoneE164: "+14067814027",
+  email: "GFheatingandair@icloud.com",
+  streetAddress: "108 Riverview B",
   locality: "Great Falls",
   region: "MT",
-  postalCode: "[ZIP]",
+  postalCode: "59404",
   serviceAreaSummary:
     "Great Falls and surrounding north-central Montana communities",
   hours: "[CLIENT HOURS]",
@@ -41,8 +41,8 @@ export const siteConfig = {
 // Enable only after the corresponding client evidence has been reviewed.
 export const verification = {
   businessIdentity: true,
-  contactDetails: false,
-  address: false,
+  contactDetails: true,
+  address: true,
   hours: false,
   emergency24Hours: false,
   credentials: false,
@@ -162,23 +162,22 @@ export const launchReadinessChecklist: LaunchReadinessItem[] = [
     key: "phone",
     label: "Production Phone Line",
     currentValue: siteConfig.phoneDisplay,
-    status: "pending_client_confirmation",
-    notes: "Replace 406-555-0148 with the live telephone routing line.",
+    status: "ready",
+    notes: "Public telephone number supplied by the client.",
   },
   {
     key: "email",
     label: "Contact & Dispatch Email",
     currentValue: siteConfig.email,
     status: "pending_client_confirmation",
-    notes: "Configure production mailbox recipient for web lead notifications.",
+    notes: "Public email supplied by the client. Production web lead delivery still requires mailbox configuration and verification.",
   },
   {
     key: "physicalAddress",
     label: "Business Address & GBP Location",
-    currentValue: siteConfig.streetAddress,
-    status: "pending_client_confirmation",
-    notes:
-      "Verify whether public storefront or Google Service Area Business without public street address.",
+    currentValue: `${siteConfig.streetAddress}, ${siteConfig.locality}, ${siteConfig.region} ${siteConfig.postalCode}`,
+    status: "ready",
+    notes: "Public business address supplied by the client. Walk-in availability and office hours are not implied.",
   },
   {
     key: "hours",

@@ -54,6 +54,11 @@ export default async function Page({
             </p>
           </div>
           <div>
+            <h2>Business address</h2>
+            <address className="not-italic">
+              {siteConfig.streetAddress}<br />
+              {siteConfig.locality}, {siteConfig.region} {siteConfig.postalCode}
+            </address>
             <h2>Great Falls & nearby communities</h2>
             <p>
               Contact us to confirm service at your address. Military families

@@ -18,6 +18,10 @@ export function Footer() {
             {siteConfig.phoneDisplay}
           </a>
           <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
+          <address className="not-italic">
+              {siteConfig.streetAddress}<br />
+              {siteConfig.locality}, {siteConfig.region} {siteConfig.postalCode}
+            </address>
           <LicenseMark />
         </div>
         <div>

@@ -22,6 +22,7 @@ export function getHVACBusinessSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "HVACBusiness",
+    "@id": `${siteConfig.siteUrl.replace(/\/$/, "")}/#business`,
     name: siteConfig.businessName,
     url: siteConfig.siteUrl,
     telephone: siteConfig.phoneE164,

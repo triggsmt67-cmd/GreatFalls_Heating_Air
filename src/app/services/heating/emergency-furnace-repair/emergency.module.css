@@ -1,0 +1,25 @@
+.formNotice { margin-top: 20px; font-size: 14px !important; color: var(--muted); }
+.safety { margin: 0 0 36px; }
+.safety a { text-decoration: underline; text-underline-offset: 3px; font-weight: 700; }
+.safety p + p { margin-top: 14px; }
+.section { margin-top: 56px; }
+.checks { list-style: decimal; padding-left: 26px; margin: 28px 0 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 48px; }
+.checks li { padding: 20px 0 0 6px; border-top: 1px solid var(--line); }
+.checks li::marker { color: var(--blue); font-weight: 700; }
+.checks h3 { font-size: var(--type-subheading); margin-bottom: 12px; }
+.checks p { line-height: var(--leading-body); color: var(--muted); }
+.callPrep { margin-top: 28px; }
+.propane { background: #edf3f6; padding: 28px 32px; border-left: 4px solid var(--blue); }
+.propane > div { max-width: 85ch; }
+.propane h2 { margin-top: 12px; }
+.faqLinks { display: flex; flex-direction: column; gap: 16px; margin-top: 26px; }
+.ctaNotice { font-size: 13px; }
+@media (max-width: 767px) { .checks { grid-template-columns: 1fr; } .propane { padding: 22px; } .section { margin-top: 40px; } }
+
+@media (max-width: 767px) {
+  .hero { padding: 10px 0 18px; }
+  .hero > svg { display: none; }
+  .hero h1 { margin-bottom: 14px; }
+  .hero :global(.hero-actions) { margin-top: 16px; gap: 12px; }
+  .hero .formNotice { margin-top: 14px; line-height: 1.5; }
+}
