@@ -39,9 +39,9 @@ export function PhotoPlaceholder({
             src={src}
             alt={alt || subject}
             fill
-            priority={priority}
+            preload={priority}
             sizes={
-              sizes || "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 700px"
+              sizes || "(max-width: 600px) calc(100vw - 40px), (max-width: 900px) calc(100vw - 64px), (max-width: 1248px) 42vw, 500px"
             }
             className="photo-real-img"
           />

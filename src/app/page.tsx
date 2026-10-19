@@ -55,12 +55,12 @@ export default function HomePage() {
           <PhotoPlaceholder
             slot="01"
             subject="Installed cold-climate heat pump outside residential home"
-            dimensions="1800 × 1350"
+            dimensions="1600 × 1200"
             ratio="wide"
             tone="blue"
             className={styles.heroPhoto}
             src="/images/home-exterior.webp"
-            alt="Installed cold-climate heat pump system outside a residential home in Great Falls, Montana"
+            alt="Mitsubishi Electric outdoor heat pump beside a dark-sided home, with covered refrigerant lines and an exterior disconnect."
             priority
             sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 1248px) calc(100vw - 64px), 1184px"
           />
@@ -136,12 +136,12 @@ export default function HomePage() {
             <PhotoPlaceholder
               slot="02"
               subject="Furnace diagnostic and heating system inspection"
-              dimensions="1200 × 1500"
+              dimensions="960 × 1200"
               ratio="portrait"
               tone="dark"
               className="heating-photo"
               src="/images/furnace-diagnostic.webp"
-              alt="Residential furnace diagnostic and heating system installation"
+              alt="Residential furnace with metal ductwork, exhaust venting, and gas piping in a utility closet."
             />
           </article>
           <div className="support-services">
@@ -149,12 +149,12 @@ export default function HomePage() {
               <PhotoPlaceholder
                 slot="03"
                 subject="Residential cooling system and mechanical installation detail"
-                dimensions="1400 × 1050"
+                dimensions="1200 × 900"
                 ratio="landscape"
                 tone="light"
                 className="service-photo"
                 src="/images/ac-service.webp"
-                alt="HVAC cooling system air handler and ductwork mechanical installation with diagnostic tools"
+                alt="HVAC air handler, insulated ducts, drainage piping, and a work light in a crawl space."
                 sizes="(max-width: 900px) 100vw, 40vw"
               />
               <div className="support-service-copy">
@@ -214,12 +214,12 @@ export default function HomePage() {
           <PhotoPlaceholder
             slot="04"
             subject="Outdoor cold-climate heat pump operating in winter snow"
-            dimensions="1600 × 1200"
+            dimensions="1280 × 960"
             ratio="landscape"
             tone="blue"
             className="guide-photo"
             src="/images/winter-heat-pump.webp"
-            alt="Cold-climate heat pump operating on elevated stand during a snowy Montana winter"
+            alt="Outdoor heat pump on raised supports beside a home, surrounded by snow."
             sizes="(max-width: 900px) 100vw, 45vw"
           />
           <article className="rebate-feature">
@@ -249,12 +249,12 @@ export default function HomePage() {
           <PhotoPlaceholder
             slot="05"
             subject="Great Falls home exterior and HVAC installation in high-plains context"
-            dimensions="1920 × 1080"
+            dimensions="1400 × 788"
             ratio="wide"
             tone="light"
             className="local-photo"
             src="/images/high-plains-montana.webp"
-            alt="Outdoor central air conditioning condensing unit installed on concrete pad at a Great Falls, Montana residence"
+            alt="Outdoor central air conditioner on a concrete pad beside a home, wood fence, and exterior utility piping."
             sizes="(max-width: 900px) 100vw, 55vw"
           />
           <div className="climate-art" aria-hidden="true">

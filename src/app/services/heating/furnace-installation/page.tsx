@@ -14,7 +14,7 @@ const baseUrl = siteConfig.siteUrl.replace(/\/$/, "");
 const url = `${baseUrl}${route}`;
 const title = "Furnace Installation & Replacement in Great Falls, MT";
 const description = "Plan furnace replacement in Great Falls: home-specific sizing, ductwork, shared-chimney checks, gas or propane compatibility, and written installation estimates.";
-export const metadata = buildMetadata({ title, description, canonicalPath: route });
+export const metadata = buildMetadata({ title, description, canonicalPath: route, ogImage: "/images/heating-furnace-installation-social.jpg", ogImageAlt: "Residential furnace with metal ductwork, gas supply piping, and a condensate pump." });
 
 function getInstallationSchema() {
   const businessId = `${baseUrl}/#business`;
@@ -24,7 +24,8 @@ function getInstallationSchema() {
     ...(verification.address ? { address: { "@type": "PostalAddress", streetAddress: siteConfig.streetAddress, addressLocality: siteConfig.locality, addressRegion: siteConfig.region, postalCode: siteConfig.postalCode, addressCountry: "US" } } : {}),
   } : undefined;
   return { "@context": "https://schema.org", "@graph": [
-    { "@type": "WebPage", "@id": `${url}#webpage`, url, name: String(metadata.title), description, inLanguage: "en-US", isPartOf: { "@id": `${baseUrl}/services/heating#webpage` }, mainEntity: { "@id": `${url}#service` }, breadcrumb: { "@id": `${url}#breadcrumb` }, hasPart: { "@id": `${url}#faq` }, citation: Object.values(installationSources) },
+    { "@type": "ImageObject", "@id": `${url}#image`, contentUrl: `${baseUrl}/images/heating-furnace-installation.webp`, url: `${baseUrl}/images/heating-furnace-installation.webp`, name: "Residential furnace and duct connections", description: "Residential furnace with metal ductwork, gas supply piping, and a condensate pump.", width: 1600, height: 1200, encodingFormat: "image/webp" },
+    { "@type": "WebPage", "@id": `${url}#webpage`, url, name: String(metadata.title), description, inLanguage: "en-US", primaryImageOfPage: { "@id": `${url}#image` }, isPartOf: { "@id": `${baseUrl}/services/heating#webpage` }, mainEntity: { "@id": `${url}#service` }, breadcrumb: { "@id": `${url}#breadcrumb` }, hasPart: { "@id": `${url}#faq` }, citation: Object.values(installationSources) },
     { "@type": "Service", "@id": `${url}#service`, url, name: "Residential furnace installation & replacement in Great Falls, Montana", description, serviceType: "Furnace installation and replacement", provider, areaServed: { "@type": "AdministrativeArea", name: "Great Falls and Cascade County, Montana" }, mainEntityOfPage: { "@id": `${url}#webpage` } },
     { ...getFAQSchema(installationFaqs), "@id": `${url}#faq`, isPartOf: { "@id": `${url}#webpage` } },
   ] };

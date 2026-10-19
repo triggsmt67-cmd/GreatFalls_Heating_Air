@@ -38,7 +38,7 @@ function getEmergencySchema() {
       {
         "@type": "ImageObject", "@id": `${pageUrl}#image`,
         contentUrl: imageUrl, url: imageUrl, width: 1600, height: 1200,
-        caption: imageAlt,
+        name: "Residential gas furnace and venting", description: imageAlt, encodingFormat: "image/webp", caption: imageAlt,
       },
       {
         "@type": "WebPage", "@id": `${pageUrl}#webpage`, url: pageUrl,
@@ -79,7 +79,7 @@ export default function Page() {
           <h1>No heat? Let’s get your furnace firing safely.</h1>
           <p>No heat in Great Falls or Cascade County? Call for current repair availability, diagnostic fees, and next steps.</p>
           <div className="hero-actions">
-            <a className="button button-orange" href={`tel:${siteConfig.phoneE164}`}>Call {siteConfig.phoneDisplay} for service</a>
+            <a className="button button-orange" href={`tel:${siteConfig.phoneE164}`}>Call for furnace repair: {siteConfig.phoneDisplay}</a>
             <Link className="text-link" href="/contact?intent=emergency">Send a service request ↗</Link>
           </div>
           <p className={styles.formNotice}>For urgent no-heat problems, call first. Forms are not continuously monitored.</p>

@@ -14,6 +14,8 @@ const baseMetadata = buildMetadata({
   title,
   description: "Honest furnace repair, seasonal maintenance, and heating replacement in Great Falls, MT. Upfront diagnostics, CO safety checks, and built for Cascade County winters.",
   canonicalPath: "/services/heating",
+  ogImage: "/images/heating-furnace-installation-social.jpg",
+  ogImageAlt: "Residential furnace with metal ductwork, gas supply piping, and a condensate pump.",
 });
 export const metadata = {
   ...baseMetadata,

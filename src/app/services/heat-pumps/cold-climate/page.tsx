@@ -13,11 +13,11 @@ const route = "/services/heat-pumps/cold-climate";
 const url = `${siteConfig.siteUrl.replace(/\/$/, "")}${route}`;
 const title = "Cold-Climate Heat Pumps & Dual-Fuel Systems in Great Falls, MT";
 const description = "Compare cold-climate heat pumps, dual-fuel heating, and ductless options for Great Falls homes. Plan for Chinook warm-ups, deep freezes, fuel costs, and utility incentives.";
-const imagePath = "/images/cold-climate-heat-pump-installation.webp";
+const imagePath = "/images/cold-climate-mitsubishi-outdoor-heat-pump.webp";
 const imageUrl = `${siteConfig.siteUrl.replace(/\/$/, "")}${imagePath}`;
-const socialImageUrl = `${siteConfig.siteUrl.replace(/\/$/, "")}/images/cold-climate-heat-pump-social.jpg`;
-const imageAlt = "Mitsubishi Electric outdoor heat pump on raised supports beside a wood-sided home, with covered refrigerant lines running up the wall.";
-const imageCaption = "Outdoor heat pump on raised supports, with covered refrigerant lines routed along the exterior wall.";
+const socialImageUrl = `${siteConfig.siteUrl.replace(/\/$/, "")}/images/cold-climate-mitsubishi-outdoor-heat-pump-social.jpg`;
+const imageAlt = "Mitsubishi Electric outdoor heat pump on an equipment base beside a dark-sided home, with covered refrigerant lines and an exterior electrical disconnect.";
+const imageCaption = "Outdoor heat pump beside a dark-sided home, with covered refrigerant piping and an exterior electrical disconnect.";
 const baseMetadata = buildMetadata({ title, description, canonicalPath: route });
 export const metadata = {
   ...baseMetadata,
@@ -31,7 +31,7 @@ function getHeatPumpSchema() {
     "@type": "Organization", "@id": businessId, name: siteConfig.businessName, url: siteConfig.siteUrl,
   } : undefined;
   return { "@context": "https://schema.org", "@graph": [
-    { "@type": "ImageObject", "@id": `${url}#image`, url: imageUrl, contentUrl: imageUrl, width: 1280, height: 960, name: "Outdoor heat pump installation beside a wood-sided home", description: imageAlt, caption: imageCaption },
+    { "@type": "ImageObject", "@id": `${url}#image`, url: imageUrl, contentUrl: imageUrl, width: 1280, height: 960, name: "Mitsubishi Electric outdoor heat pump beside a dark-sided home", encodingFormat: "image/webp", description: imageAlt, caption: imageCaption },
     { "@type": "WebPage", "@id": `${url}#webpage`, url, name: String(metadata.title), description, inLanguage: "en-US", primaryImageOfPage: { "@id": `${url}#image` }, mainEntity: { "@id": `${url}#service` }, breadcrumb: { "@id": `${url}#breadcrumb` }, hasPart: { "@id": `${url}#faq` }, citation: Object.values(heatPumpSources) },
     { "@type": "Service", "@id": `${url}#service`, url, name: "Cold-climate heat pump & dual-fuel services in Great Falls, Montana", description, serviceType: ["Heat pump installation", "Heat pump repair", "Heat pump maintenance"], provider, mainEntityOfPage: { "@id": `${url}#webpage` }, areaServed: heatPumpCommunities.map((name) => ({ "@type": "Place", name: `${name}, Montana` })), hasOfferCatalog: { "@type": "OfferCatalog", name: "Heat pump system options", itemListElement: configurations.map(({ name, description }) => ({ "@type": "Offer", itemOffered: { "@type": "Service", name, description } })) } },
     { ...getFAQSchema(heatPumpFaqs), "@id": `${url}#faq`, isPartOf: { "@id": `${url}#webpage` } },

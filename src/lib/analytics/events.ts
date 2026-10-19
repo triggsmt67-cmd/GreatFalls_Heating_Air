@@ -15,7 +15,7 @@ export type AnalyticsEvent =
       };
     }
   | {
-      name: "estimate_cta_click";
+      name: "estimate_cta_click" | "service_request_cta_click";
       properties: {
         route: string;
         placement:

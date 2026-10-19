@@ -330,12 +330,16 @@ export function LeadForm({
                     Sending…
                   </>
                 ) : (
-                  "Send request →"
+                  "Send my request →"
                 )}
               </span>
             </button>
             <small>* Required fields</small>
           </div>
+          <p className="form-next-step">
+            We’ll contact you to discuss the next steps. Sending a request does
+            not reserve an appointment. For urgent help, please call.
+          </p>
         </form>
       </div>
     </div>

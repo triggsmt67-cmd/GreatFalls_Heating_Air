@@ -51,7 +51,7 @@ export default function Page() {
         <p className="eyebrow">AC installation / Great Falls &amp; Cascade County</p>
         <h1>AC installation starts with the rooms you need to cool.</h1>
         <p>A useful proposal connects your comfort goal to the equipment, the house, and the work included. Compare central AC replacement, first-time cooling, and room-specific options with the full scope in view.</p>
-        <div className="hero-actions"><a className="button button-orange" href={`tel:${siteConfig.phoneE164}`}>Discuss AC installation: {siteConfig.phoneDisplay}</a><Link className="text-link" href="/contact?intent=estimate">Request an installation estimate ↗</Link></div>
+        <div className="hero-actions"><Link className="button button-orange" href="/contact?intent=estimate">Request an installation estimate ↗</Link><a className="text-link" href={`tel:${siteConfig.phoneE164}`}>Discuss your options: {siteConfig.phoneDisplay}</a></div>
         <p className={styles.notice}>Call to confirm estimate arrangements and current availability. An online inquiry does not reserve an appointment.</p>
       </div>
       <div className="interior-grid">

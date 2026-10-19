@@ -41,7 +41,7 @@ All three service hubs are updated. All three planned heating subpages now exist
 | Furnace installation & replacement | `/services/heating/furnace-installation` | Built; sizing, venting/shared chimney, airflow, fuel compatibility, six cost factors, seven-line estimate comparison, seven FAQs/schema |
 | Furnace maintenance & tune-ups | `/services/heating/furnace-maintenance` | Built; seven-area check/meaning/follow-up table, findings, seasonal planning, owner care, warranty records, six FAQs/schema |
 | Cooling hub | `/services/cooling` | Updated equipment, maintenance, smoke/filtration and incentive guidance, six FAQs/schema, and Photo 8 |
-| Cold-climate heat-pump hub | `/services/heat-pumps/cold-climate` | Updated Great Falls-specific system options, fuel comparison, winter placement, maintenance/incentive guidance, six FAQs/schema, and Photo 10 |
+| Cold-climate heat-pump hub | `/services/heat-pumps/cold-climate` | Updated Great Falls-specific system options, fuel comparison, winter placement, maintenance/incentive guidance, six FAQs/schema, and the supplied dark-sided-home Mitsubishi heat pump photo (1280×960 WebP, social JPEG, embedded XMP, and matching image metadata) |
 | AC repair & diagnostics | `/services/cooling/ac-repair` | Expanded repair page; cause/evidence/operation-check perspective, safe icing guidance, four symptom groups, homeowner observations, decision table, six FAQs/schema, and supplied Photo 9 |
 | AC installation & replacement | `/services/cooling/ac-installation` | Built; room-comfort perspective, sizing/compatibility, scope checklist, cost factors without prices, six FAQs/schema, citations, optimized Photo 9 reused, and hub/repair incoming links |
 | AC maintenance & seasonal tune-ups | `/services/cooling/ac-maintenance` | Built; seasonal condition perspective, seven-area checklist, verified city water context, owner care, six FAQs/schema, citations, and hub/sibling links; optimized Photo 9 reused; dedicated maintenance job photo pending |
@@ -252,3 +252,7 @@ Build/typecheck/lint and all 22 existing tests passed during the content work. R
 - `src/components/ui/Breadcrumbs.tsx`: optional schema ID connects breadcrumbs to page graphs.
 - `src/components/ui/PhotoPlaceholder.tsx`: renders supplied image when `src` is present, numbered placeholder otherwise.
 - `src/components/forms/LeadForm.tsx`, `src/app/api/lead/route.ts`, `src/lib/email/`, `src/lib/validation/`: deferred real-lead delivery work.
+
+### Image audit — October 19
+
+Completed a local audit of images across 17 public pages. Repaired five missing homepage image paths, compressed their files by 37% combined, filled heating-page social/schema gaps, and verified embedded image titles/descriptions, alt text, dimensions, and responsive loading. See [image audit details](docs/image-audit.md). Included in the client-review update with the page-specific mobile CTAs and form follow-up copy. Validate the resulting Vercel deployment after pushing; email delivery setup and the remaining public-launch tasks are still separate.

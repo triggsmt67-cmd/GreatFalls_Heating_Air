@@ -20,8 +20,17 @@ export function getHeatingPageSchema(title: string, description: string) {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "ImageObject", "@id": `${heatingUrl}#image`,
+        url: `${siteConfig.siteUrl.replace(/\/$/, "")}/images/heating-furnace-installation.webp`,
+        contentUrl: `${siteConfig.siteUrl.replace(/\/$/, "")}/images/heating-furnace-installation.webp`,
+        name: "Residential furnace and duct connections",
+        description: "Residential furnace with metal ductwork, gas supply piping, and a condensate pump.",
+        width: 1600, height: 1200, encodingFormat: "image/webp",
+      },
+      {
         "@type": "WebPage", "@id": `${heatingUrl}#webpage`,
         url: heatingUrl, name: title, description, inLanguage: "en-US",
+        primaryImageOfPage: { "@id": `${heatingUrl}#image` },
         mainEntity: { "@id": `${heatingUrl}#service` },
         breadcrumb: { "@id": `${heatingUrl}#breadcrumb` },
         hasPart: { "@id": `${heatingUrl}#faq` },

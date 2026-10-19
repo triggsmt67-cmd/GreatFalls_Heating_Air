@@ -7,6 +7,7 @@ interface MetadataOptions {
   canonicalPath?: string;
   noindex?: boolean;
   ogImage?: string;
+  ogImageAlt?: string;
 }
 
 export function buildMetadata({
@@ -15,6 +16,7 @@ export function buildMetadata({
   canonicalPath = "/",
   noindex = false,
   ogImage = "/opengraph-image",
+  ogImageAlt,
 }: MetadataOptions): Metadata {
   const fullTitle = title.includes(siteConfig.businessName)
     ? title
@@ -58,7 +60,7 @@ export function buildMetadata({
             : `${siteConfig.siteUrl}${ogImage}`,
           width: 1200,
           height: 630,
-          alt: fullTitle,
+          alt: ogImageAlt ?? fullTitle,
         },
       ],
     },
@@ -67,9 +69,12 @@ export function buildMetadata({
       title: fullTitle,
       description,
       images: [
-        ogImage.startsWith("http")
-          ? ogImage
-          : `${siteConfig.siteUrl}${ogImage}`,
+        {
+          url: ogImage.startsWith("http")
+            ? ogImage
+            : `${siteConfig.siteUrl}${ogImage}`,
+          alt: ogImageAlt ?? fullTitle,
+        },
       ],
     },
   };

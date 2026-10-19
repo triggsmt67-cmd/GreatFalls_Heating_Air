@@ -642,6 +642,12 @@ a:hover {
 .form-submit-row small {
   color: var(--muted);
 }
+.form-next-step {
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: var(--type-small);
+  line-height: var(--leading-body);
+}
 .trust-row {
   display: flex;
   gap: 30px;
@@ -1092,6 +1098,12 @@ a:hover {
   flex-direction: column;
   gap: 10px;
   min-width: 240px;
+}
+.cta-next-step {
+  max-width: 34ch;
+  color: #c0d0d9;
+  font-size: var(--type-small);
+  line-height: var(--leading-body);
 }
 .site-footer {
   padding: 50px 0 20px;
