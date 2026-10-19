@@ -47,7 +47,7 @@ export default function Page() {
           <h2>The old BTU sticker is a starting point, not a sizing calculation.</h2>
           <p>A furnace installed decades ago may have served a different house: before new windows, attic insulation, or a finished basement. Replacing it with the same input rating does not prove the new equipment matches today’s heating load.</p>
           <p>A replacement assessment should distinguish fuel input from delivered heating output, use appropriate local design conditions, and account for the manufacturer’s altitude requirements. A furnace should suit both a Great Falls cold spell and the lighter demand during a Chinook warm-up.</p>
-          <p>In a Fox Farm split-level, an upstairs comfort problem may involve return airflow. In an older North Side home, a shared chimney may change the venting scope. On a propane property near Ulm, fuel compatibility and supply are separate checks. Those details belong in the estimate.</p>
+          <p>For a house in Great Falls’ East Side Neighborhood Historic District, ask what renovations have changed since the existing furnace was installed. Added insulation, different windows, or a finished room may change the assessment. The home’s current condition belongs in the estimate.</p>
           <p className={styles.source}>Sizing background: <a href={installationSources.sizing}>ACCA: why bigger HVAC equipment is not always better</a>.</p>
         </div>
         <div className="service-hub-media">
@@ -59,7 +59,9 @@ export default function Page() {
         <p className="eyebrow">Our view / Great Falls Heating and Air</p>
         <h2 id="furnace-perspective-heading">A replacement quote should account for the whole system.</h2>
         <p>A furnace replacement quote should explain what happens to the rest of the system—not just name the new furnace. In a Great Falls basement, that means looking at the return air, the venting, and any water heater sharing the chimney.</p>
+        <p>A useful proposal also explains which existing comfort problems the work is intended to address and which need a separate solution.</p>
       </aside>
+      {/* Add a confirmed installation example here; use actual scope, findings, and homeowner permission, never an invented neighborhood case. */}
       <section className={styles.section} aria-labelledby="furnace-efficiency-heading">
         <div className="article-copy"><h2 id="furnace-efficiency-heading">80% or condensing? Compare the installation around the furnace.</h2><p>AFUE describes annual fuel-use efficiency; it does not describe the whole installation cost or your home’s distribution losses. Compare the equipment and the work needed to install it safely.</p></div>
         <div className={styles.pair}>
@@ -81,9 +83,9 @@ export default function Page() {
           <p>A useful price starts with the installation scope. Great Falls Heating and Air can discuss your existing equipment and the work your home needs; a written estimate should separate required work, optional upgrades, and exclusions.</p>
           <ul>
             <li><strong>Equipment and controls:</strong> The selected capacity, efficiency, burner staging, blower features, and thermostat compatibility affect the equipment and installation scope.</li>
-            <li><strong>Venting and shared chimneys:</strong> A finished basement may make a new vent route more involved. If a gas water heater stays on the old chimney, include assessment and any required changes in the comparison.</li>
+            <li><strong>Venting and drainage:</strong> Compare the approved route, access, drainage, and any changes identified in the venting assessment above.</li>
             <li><strong>Ductwork and filtration:</strong> Cabinet transitions, return-air changes, sealing, and a different filter cabinet may add work when the existing setup does not meet the selected equipment’s requirements.</li>
-            <li><strong>Fuel and electrical work:</strong> Confirm any manufacturer-approved propane conversion, gas piping changes, electrical updates, or work by other trades. A property near Ulm or Vaughn needs its actual fuel supply checked, rather than assumed from its location.</li>
+            <li><strong>Fuel and electrical work:</strong> Include any approved fuel conversion, piping changes, electrical updates, or work by other trades identified for your property.</li>
             <li><strong>Access, removal, and permits:</strong> Tight stairs, crawlspace access, old-equipment disposal, and the applicable permit and inspection process can change the scope.</li>
             <li><strong>Optional additions and warranty terms:</strong> Identify any cooling or heat-pump work separately, along with labor coverage, registration responsibilities, and ongoing service costs.</li>
           </ul>
@@ -105,6 +107,7 @@ export default function Page() {
       <div className="related-links"><Link className="text-link" href="/services/heating/furnace-maintenance">Keeping your furnace? Plan seasonal maintenance →</Link><Link className="text-link" href="/services/heating">Back to heating services →</Link><Link className="text-link" href="/services/heating/emergency-furnace-repair">Repair and no-heat safety guidance →</Link><Link className="text-link" href="/services/heat-pumps/cold-climate">Explore dual-fuel alternatives →</Link></div>
     </div>
     <section className="faq-section section" aria-labelledby="furnace-install-faq-heading"><div className="wrap faq-grid"><div><p className="eyebrow">Before replacing equipment</p><h2 id="furnace-install-faq-heading">Frequently asked questions about furnace installation in Great Falls.</h2></div><div>{installationFaqs.map(({ question, answer }) => <details className="faq-item" key={question}><summary>{question}<span aria-hidden="true">+</span></summary><p>{answer}</p></details>)}</div></div></section>
+    <div className="wrap"><div className="related-links"><Link className="text-link" href="/services/heat-pumps/heat-pump-installation">Combining a furnace with a heat pump? Review the full installation plan →</Link></div></div>
     <FinalDarkCTA title="Get a written estimate you can compare." subtitle="Tell us about your furnace, your home, and what you want to improve. Call to discuss availability or send an estimate inquiry. Online forms are not continuously monitored." />
   </>;
 }

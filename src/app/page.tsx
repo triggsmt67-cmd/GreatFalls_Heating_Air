@@ -33,8 +33,9 @@ export default function HomePage() {
               </span>
             </h1>
             <p className={styles.heroDescription}>
-              A cold house. A hot afternoon. A system ready for replacement.
-              Start here for heating and cooling help close to home.
+              Understand the problem, the proposed work, and the cost before
+              making a decision about your home. Start with repair, maintenance,
+              or replacement planning.
             </p>
             <div className={styles.heroActions}>
               <a
@@ -164,7 +165,7 @@ export default function HomePage() {
                   repair and replacement options.
                 </p>
                 <Link className="text-link" href="/services/cooling/ac-repair">
-                  AC repair & upgrades <ArrowUpRight size={17} />
+                  AC repair & diagnostics <ArrowUpRight size={17} />
                 </Link>
                 <Link className="quiet-link" href="/services/cooling">
                   Cooling services →
@@ -281,8 +282,9 @@ export default function HomePage() {
             the age of the building.
           </p>
           <p>
-            Whether you’re in town or on an acreage, start with your home’s
-            needs—not a one-size-fits-all equipment recommendation.
+            Our approach starts with how your house feels and how the system
+            operates. The recommendation should explain what the work is meant
+            to improve, what it costs, and what decisions remain yours.
           </p>
           <Link href="/about" className="text-link">
             About Great Falls Heating & Air LLC <ArrowUpRight size={18} />

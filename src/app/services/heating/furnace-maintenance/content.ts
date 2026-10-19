@@ -7,11 +7,11 @@ export const maintenanceSources = {
   alarms: "https://www.kidde.com/support/carbon-monoxide-alarms/replacement",
 };
 export const maintenanceChecks = [
-  ["Combustion & heat exchanger assessment", "Evaluate accessible components, combustion conditions, and venting using appropriate equipment-specific procedures. A single CO reading does not prove that an exchanger has no defects.", "Explain abnormal findings and any further inspection or safety action needed. A seasonal visit cannot guarantee fault-free operation for the rest of winter."],
-  ["Ignition & flame sensing", "Inspect the ignition and flame-sensing components fitted to the model. Clean or test them as specified by the manufacturer; not every system uses the same ignitor or signal range.", "Identify the finding and explain any proposed cleaning, testing, or replacement before extra work is approved."],
-  ["Fuel supply & operating setup", "Check relevant gas-supply and operating readings against the selected furnace’s fuel and altitude requirements. An adjustment is not automatically needed at every visit.", "Document readings or observations and explain any work required. Do not substitute a city-wide gas-pressure setting for the model’s instructions."],
+  ["Combustion & heat exchanger assessment", "Assess accessible components, combustion conditions, and venting using the equipment’s procedures. A CO measurement is one part of that assessment.", "Explain abnormal findings, inspection limits, and any further inspection or safety action needed."],
+  ["Ignition & flame sensing", "Inspect the ignition and flame-sensing components. Clean or test them against the model’s service requirements.", "Explain any proposed cleaning, further testing, or replacement before extra work is approved."],
+  ["Fuel supply & operating setup", "Compare relevant gas-supply and operating readings with the furnace’s fuel and altitude requirements.", "Record findings and explain whether an adjustment or further diagnosis is needed."],
   ["Condensate & pressure-sensing paths", "On applicable condensing equipment, inspect accessible drainage, traps, and pressure-sensing components. Use approved procedures for cleaning, reassembly, and priming where needed.", "Explain restrictions, freeze concerns, or leaks and whether further service is required. Safety switches are never bypassed as a maintenance shortcut."],
-  ["Blower & electrical operation", "Assess blower condition, relevant electrical components, and operation. Test a run capacitor only where one is fitted; cleaning or additional disassembly depends on the equipment and agreed scope.", "Separate routine maintenance from repairs and deeper cleaning. Describe the effect of any abnormal readings rather than predicting an exact failure date."],
+  ["Blower & electrical operation", "Assess blower condition, electrical components, and operation; test a run capacitor where fitted.", "Explain abnormal readings and the scope and price of any deeper cleaning or repair."],
   ["Filter, airflow & temperature rise", "Inspect filter fit and condition, accessible airflow paths, and operating temperature rise as applicable. Compare filter resistance and equipment limits rather than choosing by thickness alone.", "Discuss a suitable replacement filter, any airflow concern, and whether ductwork or further measurement needs a separate assessment."],
   ["Vents, controls & service record", "Inspect accessible intake/exhaust routes and thermostat operation. Note shared venting with a water heater and explain any inspection limitations.", "Review completed checks, findings, recommendations, and next steps. Keep the dated invoice and available readings with the equipment records."],
 ];
@@ -26,7 +26,7 @@ export const maintenanceFaqs = [
   },
   {
     question: "When should I request a fall tune-up in Great Falls?",
-    answer: "Request service before sustained winter heating demand when practical. Late summer or early fall can be useful planning windows, but smoke events, early cold fronts, and appointment availability vary. Do not wait for a particular month if the furnace is behaving abnormally. For a rural property near Ulm, Vaughn, or Belt, confirm the service area and access details when calling. A mid-winter problem may need a diagnostic repair visit rather than routine maintenance.",
+    answer: "Request service before sustained winter heating demand when practical. Late summer or early fall can be useful planning windows, but smoke events, early cold fronts, and appointment availability vary. Do not wait for a particular month if the furnace is behaving abnormally. For a rural property near Fort Shaw or Simms, confirm service availability and access details when calling. A mid-winter problem may need a diagnostic repair visit rather than routine maintenance.",
   },
   {
     question: "Can a tune-up lower my winter heating bill?",

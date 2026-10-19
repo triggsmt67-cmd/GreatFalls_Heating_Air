@@ -39,9 +39,34 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly" as const,
     },
     {
+      url: `${baseUrl}/services/cooling/ac-installation`,
+      priority: 0.85,
+      changeFrequency: "monthly" as const,
+    },
+    {
+      url: `${baseUrl}/services/cooling/ac-maintenance`,
+      priority: 0.8,
+      changeFrequency: "monthly" as const,
+    },
+    {
       url: `${baseUrl}/services/heat-pumps/cold-climate`,
       priority: 0.9,
       changeFrequency: "weekly" as const,
+    },
+    {
+      url: `${baseUrl}/services/heat-pumps/heat-pump-installation`,
+      priority: 0.85,
+      changeFrequency: "monthly" as const,
+    },
+    {
+      url: `${baseUrl}/services/heat-pumps/ductless-mini-splits`,
+      priority: 0.85,
+      changeFrequency: "monthly" as const,
+    },
+    {
+      url: `${baseUrl}/services/heat-pumps/repair-maintenance`,
+      priority: 0.85,
+      changeFrequency: "monthly" as const,
     },
     {
       url: `${baseUrl}/rebates/2026-montana-hvac-rebates`,

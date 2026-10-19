@@ -1,0 +1,36 @@
+.section { margin-top: 56px; }
+.section > h2 { max-width: 28ch; margin-bottom: 28px; }
+.figure { margin: 0; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: #fffdf9; }
+.visual { position: relative; padding: 24px 24px 12px; color: var(--ink); background: #edf3f6; }
+.visual svg { display: block; width: 100%; height: auto; }
+.house, .ground { stroke: #a0b3bc; }
+.equipment { fill: #fffdf9; }
+.air { stroke: var(--blue); stroke-dasharray: 6 7; }
+.coolLine { stroke: var(--blue); stroke-width: 5; }
+.warmLine { stroke: var(--orange); stroke-width: 5; }
+.drain { stroke: #70858f; }
+.marker circle { fill: var(--blue); stroke: #fffdf9; stroke-width: 4; }
+.marker text { fill: white; font: 600 26px var(--font-manrope), sans-serif; }
+.layoutNote { display: block; text-align: right; font-size: 12px; color: var(--muted); margin-top: 10px; }
+.labels { margin: 0; padding: 28px; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 24px; list-style: none; }
+.labels li { min-width: 0; }
+.number { display: inline-flex; justify-content: center; align-items: center; width: 30px; height: 30px; border-radius: 50%; background: var(--blue); color: white; font-size: 14px; font-weight: 600; margin-bottom: 12px; flex-shrink: 0; }
+.labels h3 { font-size: 17px; line-height: 1.35; margin: 0 0 8px; }
+.labels p { font-size: 14px; line-height: 1.65; margin: 0; }
+.caption { border-top: 1px solid var(--line); padding: 22px 28px; font-size: 14px; line-height: 1.7; color: var(--muted); }
+.caption strong { color: var(--ink); }
+@media (max-width: 900px) {
+  .labels { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 600px) {
+  .section { margin-top: 40px; }
+  .section > h2 { margin-bottom: 22px; }
+  .visual { display: none; }
+  .labels { display: block; padding: 24px 22px 0; }
+  .labels li { position: relative; display: flex; gap: 16px; padding-bottom: 28px; }
+  .labels li:not(:last-child)::before { content: ''; position: absolute; top: 34px; bottom: 4px; left: 14px; border-left: 2px dotted #b6cbd6; }
+  .number { margin: 0; }
+  .labels h3 { font-size: 18px; }
+  .labels p { font-size: 15px; }
+  .caption { padding: 20px 22px; }
+}

@@ -7,7 +7,7 @@ export function LicenseMark() {
     <div className="license-mark">
       <ServiceIcon name="license" size={36} />
       <span>
-        <small>Licensed contractor</small>
+        <small>Montana registration</small>
         <strong>{siteConfig.montanaRegistration}</strong>
       </span>
     </div>
@@ -20,7 +20,7 @@ export function TrustMarks() {
       <Link href="/about" className="trust-mark">
         <ServiceIcon name="license" size={40} />
         <span>
-          <small>Licensed contractor</small>
+          <small>Montana registration</small>
           <strong>{siteConfig.montanaRegistration}</strong>
         </span>
         <span className="trust-arrow" aria-hidden="true">

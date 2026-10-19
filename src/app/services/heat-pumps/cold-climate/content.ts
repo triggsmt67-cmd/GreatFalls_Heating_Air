@@ -10,12 +10,12 @@ export const configurations = [
   {
     name: "Dual-fuel: heat pump + furnace",
     fit: "A home with forced-air ducts and a gas or propane furnace worth retaining.",
-    description: "For a Fox Farm split-level or a rural home near Ulm, a central heat pump can provide cooling and some of the heating while a compatible furnace supplies backup. The changeover setting should reflect your equipment’s output, heat loss, and actual gas or propane costs—not a preset temperature copied from another house.",
+    description: "A central heat pump can provide cooling and some heating while a compatible furnace supplies backup. Confirm that the indoor equipment and controls work together, then compare the installed scope and expected use of each fuel.",
   },
   {
     name: "Ductless: room-by-room heating & cooling",
     fit: "A home with a boiler, electric baseboards, no ducts, or a difficult addition.",
-    description: "For a North Side home where adding ductwork would be disruptive, single- or multi-zone equipment may be worth comparing. Each indoor unit needs a suitable location and a plan for moving heat into adjoining spaces. A head in the hallway does not automatically cover every closed bedroom.",
+    description: "Where adding ducts would be disruptive, compare single- or multi-zone equipment and the rooms each indoor unit will serve. Placement and a plan for adjoining spaces matter; a hallway unit does not automatically cover closed bedrooms.",
   },
   {
     name: "All-electric: heat pump + a cold-weather plan",

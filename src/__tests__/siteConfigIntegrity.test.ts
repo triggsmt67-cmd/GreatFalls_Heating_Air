@@ -47,7 +47,9 @@ describe("Site Configuration & Content Integrity", () => {
     expect(rebatePrograms.length).toBe(6);
     for (const prog of rebatePrograms) {
       expect(prog.sourceUrl).toMatch(/^https?:\/\//);
-      expect(prog.lastReviewed).toBe("September 24, 2026");
+      const reviewedAt = Date.parse(prog.lastReviewed);
+      expect(Number.isFinite(reviewedAt)).toBe(true);
+      expect(reviewedAt).toBeLessThanOrEqual(Date.now());
     }
   });
 

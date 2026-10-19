@@ -93,9 +93,12 @@ export default function Page() {
         </section>
         <div className="interior-grid">
           <div className="article-copy">
-            <h2>When the heat goes out in a Montana winter, you need a clear next step.</h2>
+            <p className="eyebrow">Our view / Urgent repairs</p>
+            <h2>A cold house still deserves a clear repair decision.</h2>
+            <p>When your house is getting cold, you still deserve to understand the repair. We explain what failed, what the proposed work costs, and what happens next if the needed part is unavailable.</p>
             <p>A furnace breakdown during a -20°F snap can put your household and plumbing at risk. Whether the system locked out overnight during a Chinook windstorm or is blowing cold air, start by describing what happened and asking about current service availability.</p>
-            <p>Have your address, indoor temperature, furnace brand and approximate age, and any visible fault code ready. We discuss the diagnostic visit and explain findings and proposed costs before you approve repair work. Timing and repair options depend on the diagnosis and compatible parts.</p>
+            <p>Have your address, indoor temperature, furnace brand and approximate age, and any visible fault code ready. Confirm the diagnostic fee and availability when calling. Timing and repair options depend on the diagnosis and compatible parts.</p>
+            {/* Add a confirmed no-heat job example here when findings, outcome, and publication permission are available. */}
             <h2>What to do while waiting for service.</h2>
             <ol>
               <li><strong>Keep people warm:</strong> If the home is becoming unsafe, move to a warm location, especially with children, older adults, or anyone with health concerns.</li>

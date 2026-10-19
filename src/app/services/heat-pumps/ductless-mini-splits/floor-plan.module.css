@@ -1,0 +1,30 @@
+.figure { margin: 48px 0 0; padding: clamp(20px, 3vw, 36px); border-top: 4px solid var(--blue); background: #edf3f6; }
+.figure figcaption { max-width: 75ch; }
+.figure h2 { font-size: var(--type-panel); line-height: 1.3; margin-bottom: 14px; }
+.figure p, .takeaways { line-height: var(--leading-body); }
+.desktopPlan, .mobilePlan { width: 100%; height: auto; display: block; margin-top: 26px; }
+.mobilePlan { display: none; }
+.figure svg text { fill: var(--ink); font-family: inherit; font-size: 21px; }
+.figure svg .roomLabel { font-weight: 700; font-size: 23px; }
+.living { fill: #d9eaf4; }
+.hall { fill: var(--paper); }
+.bedroom { fill: #fff; }
+.wall { fill: none; stroke: var(--ink); stroke-width: 4; }
+.door { fill: none; stroke: var(--orange); stroke-width: 6; }
+.unit { fill: #fff; stroke: var(--blue); stroke-width: 3; }
+.air { fill: none; stroke: var(--blue); stroke-width: 3; stroke-linecap: round; }
+.key { display: flex; flex-wrap: wrap; gap: 12px 24px; font-size: 14px; }
+.key span { display: inline-flex; align-items: center; gap: 9px; }
+.key i { display: block; width: 18px; height: 6px; }
+.blueKey { background: var(--blue); }
+.orangeKey { background: var(--orange); }
+.takeaways { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; padding-left: 22px; margin-top: 26px; }
+.takeaways li { padding-left: 4px; }
+.note { font-size: 13px; color: var(--muted); margin-top: 22px; }
+@media (max-width: 767px) {
+  .desktopPlan { display: none; }
+  .mobilePlan { display: block; }
+  .figure svg text { font-size: 15px; }
+  .figure svg .roomLabel { font-size: 17px; }
+  .takeaways { grid-template-columns: 1fr; gap: 16px; }
+}

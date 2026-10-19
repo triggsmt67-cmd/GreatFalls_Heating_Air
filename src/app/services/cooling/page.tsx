@@ -72,16 +72,19 @@ export default function Page() {
       <div className={`page-heading ${styles.hero}`}>
         <ServiceIcon name="cooling" size={48} />
         <p className="eyebrow">Summer cooling / Great Falls &amp; Cascade County</p>
-        <h1>Reliable cooling for Great Falls summers.</h1>
+        <h1>Cooling for Great Falls’ hot rooms and smoky summer days.</h1>
         <p>Central AC repair, seasonal maintenance, ductless cooling, and replacement planning for your home—with airflow and filtration options for smoky summer days.</p>
-        <div className="hero-actions"><Link className="button button-yellow" href="/contact?intent=estimate">Request service or an estimate ↗</Link><Link className="text-link" href="/services/cooling/ac-repair">AC repair &amp; system upgrades →</Link></div>
+        <div className="hero-actions"><Link className="button button-yellow" href="/contact?intent=estimate">Request service or an estimate ↗</Link><Link className="text-link" href="/services/cooling/ac-repair">AC repair &amp; diagnostics →</Link></div>
       </div>
       <div className="interior-grid">
         <div className="article-copy">
-          <h2>Cooling that fits your home—and a Montana summer.</h2>
+          <p className="eyebrow">Our view / Summer comfort</p>
+          <h2>The rooms you use belong in the cooling assessment.</h2>
+          <p>The thermostat reading is only part of summer comfort. If the basement is cold while upstairs bedrooms remain uncomfortable, those rooms belong in the assessment before we recommend equipment.</p>
           <p>Hot afternoons, cottonwood buildup, and smoky days can make summer comfort more complicated than turning down the thermostat. When outdoor air quality is poor, opening the windows may not be the right way to cool down.</p>
-          <p>Whether you’re trying to cool the upstairs of a Fox Farm split-level, adding ductless cooling to a radiator-heated North Side home, or maintaining an outdoor condenser in Riverview, the right approach starts with your equipment, ductwork, and comfort needs.</p>
+          <p>For a home in Skyline, describe which rooms overheat, when it happens, and whether bedroom doors are open or closed. Sun exposure, room use, and airflow help frame the assessment; an address alone cannot establish the cause.</p>
           <ul><li>Central AC and heat pump diagnostics</li><li>Seasonal coil cleaning and cooling maintenance</li><li>Airflow assessment for uneven room temperatures</li><li>Ductless options for homes without ducts and hot additions</li></ul>
+          {/* Add a verified room-comfort job example here when measurements, work performed, outcome, and publication permission are confirmed. */}
           <h2>How a cooling service visit works.</h2>
           <ol>
             <li><strong>Start with the symptoms:</strong> Tell us what changed, which rooms are uncomfortable, and what equipment you have. Confirm the appointment window and diagnostic fee when booking.</li>
@@ -116,12 +119,12 @@ export default function Page() {
       </section>
       <section className={styles.section} aria-labelledby="cooling-upgrade-heading">
         <div className="article-copy"><h2 id="cooling-upgrade-heading">Repair, replace, or consider a heat pump?</h2><p>A worn component in otherwise sound equipment may justify a repair. Recurring failures, a major component fault, persistent comfort problems, or expensive repairs can make replacement worth discussing. We help you compare the work needed with suitable equipment options.</p><p>A qualifying heat pump or other efficiency upgrade may be eligible for utility incentives. Eligibility depends on your utility account, equipment, project, and current program rules—not simply pairing a heat pump with a furnace. Confirm eligibility before buying.</p><p className={styles.source}>Program sources: <a href={coolingSources.northwestern}>NorthWestern Energy E+ incentives</a> and <a href={coolingSources.sunRiver}>Sun River Electric Cooperative heat pump rebates</a>. Reviewed October 19, 2026.</p></div>
-        <div className="related-links"><Link className="text-link" href="/services/cooling/ac-repair">Compare AC repair &amp; replacement →</Link><Link className="text-link" href="/services/heat-pumps/cold-climate">Explore cold-climate heat pumps →</Link><Link className="text-link" href="/rebates/2026-montana-hvac-rebates">Review Montana HVAC rebate guidance →</Link></div>
+        <div className="related-links"><Link className="text-link" href="/services/cooling/ac-maintenance">Plan AC maintenance &amp; coil care →</Link><Link className="text-link" href="/services/cooling/ac-installation">Plan AC installation &amp; replacement →</Link><Link className="text-link" href="/services/cooling/ac-repair">Understand AC diagnosis &amp; repair →</Link><Link className="text-link" href="/services/heat-pumps/cold-climate">Explore cold-climate heat pumps →</Link><Link className="text-link" href="/rebates/2026-montana-hvac-rebates">Review Montana HVAC rebate guidance →</Link></div>
       </section>
     </div>
     <section className="faq-section section" aria-labelledby="cooling-faq-heading">
       <div className="wrap faq-grid">
-        <div><p className="eyebrow">Useful answers</p><h2 id="cooling-faq-heading">Frequently asked questions about air conditioning in Great Falls.</h2><p>Straight answers on Cascade County wildfire smoke filtration, cottonwood coil care, split-level airflow, and 2026 cooling rebates.</p></div>
+        <div><p className="eyebrow">Useful answers</p><h2 id="cooling-faq-heading">Frequently asked questions about air conditioning in Great Falls.</h2><p>Straight answers on Cascade County wildfire smoke filtration, cottonwood coil care, uneven room temperatures, and 2026 cooling rebates.</p></div>
         <div>
           {coolingFaqs.map(({ question, answer, sources }) => <details className="faq-item" key={question}>
             <summary>{question}<span aria-hidden="true">+</span></summary>

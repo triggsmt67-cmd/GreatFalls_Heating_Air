@@ -35,9 +35,9 @@ const symptoms = [
   ["Yellow burner flames or CO alerts", "Persistent yellow flames, soot, or a change in burner appearance need professional inspection; flame color alone cannot diagnose a carbon monoxide leak. If your CO alarm sounds or you suspect a leak, leave immediately and call 911 from outside. Do not stay inside to inspect or shut down the furnace."],
 ];
 const comparisons = [
-  ["Your furnace is under 12–15 years old and the heat exchanger is clean and intact.", "Your furnace is 15–20+ years old and replacement parts are obsolete or on backorder."],
-  ["The fix is a standard wear item like a flame sensor, ignitor, run capacitor, or pressure switch.", "A single repair costs more than 30% of the cost of a brand-new, warrantied system."],
-  ["Your winter utility bills have stayed consistent (aside from utility rate hikes).", "The heat exchanger is cracked or the unit locks out repeatedly every time temps drop below zero."],
+  ["Diagnosis identifies a repair that can restore safe operation, with no other major concerns found.", "A significant safety or major-component concern requires comparing available repair and replacement options."],
+  ["Compatible parts are available, and the repair cost makes sense alongside the equipment’s condition and repair history.", "Repeated failures, unavailable parts, or substantial repair costs make continued service less practical."],
+  ["The existing system meets your comfort needs once the fault is addressed.", "Persistent comfort or operating problems warrant a wider assessment of the furnace, ductwork, and home."],
 ];
 
 export default function Page() {
@@ -58,24 +58,24 @@ export default function Page() {
       <div className="interior-grid">
         <div className="article-copy">
           <h2>Built for Cascade County weather.</h2>
-          <p>Heating a home in Great Falls isn&apos;t like heating a home anywhere else. One week your furnace is running nonstop against -25°F arctic air along the Missouri River corridor. The next, 50 mph Chinook winds are buffeting your roof vents and tripping your furnace’s pressure switch.</p>
-          <p>Whether you’re maintaining an older forced-air system on the Lower North Side, heating a 1970s split-level in Fox Farm, or running propane out in Black Eagle or Ulm, your equipment takes a beating. We diagnose, repair, and set up residential heating systems specifically for Montana elevation and extreme temperature swings.</p>
+          <p>Great Falls heating has to handle long runs during deep freezes and lighter demand during winter warm-ups. Wind exposure, snow around accessible vents, and the equipment’s altitude requirements all belong in the assessment.</p>
+          <p>For a home in Riverview or a property near Belt, start with the furnace’s actual condition, fuel supply, and the rooms that need heat. A mailing address cannot tell us whether a repair, airflow change, or replacement is the right next step.</p>
           <ul>
-            <li>Fast, accurate diagnostics for gas, propane, and electric furnaces</li>
-            <li>High-altitude calibration to keep burners clean and efficient</li>
-            <li>Honest repair-vs-replace math before you spend a dime</li>
+            <li>Diagnostic assessment for gas, propane, and electric furnaces</li>
+            <li>Operating checks against manufacturer altitude requirements</li>
+            <li>Repair and replacement options explained before approval</li>
             <li>Dual-fuel &amp; cold-climate heat pump configurations</li>
           </ul>
           <h2>How a service visit works.</h2>
-          <p>You shouldn&apos;t have to guess what a technician is doing in your basement or what the bill will look like when they finish. Here is our standard rulebook for every heating call:</p>
+          <p>A service visit should leave you understanding the problem and the proposed work. Discuss the scope and charges when arranging the visit.</p>
           <ol>
-            <li><strong>Upfront Diagnostic:</strong> We confirm your appointment window and tell you the exact diagnostic fee before we book the visit.</li>
-            <li><strong>Flat-Rate Findings, Zero Pressure:</strong> We test your system from the thermostat to the heat exchanger. Before we turn a wrench on a repair, we show you what failed, explain why, and give you a flat price. If a $150 ignitor safely fixes a 12-year-old furnace, we fix it.</li>
-            <li><strong>Complimentary Safety &amp; CO Check:</strong> Every heating repair and tune-up includes a draft test and carbon monoxide check around the heat exchanger so you know your family is safe.</li>
+            <li><strong>Arrange the diagnostic:</strong> Confirm the appointment window, diagnostic fee, and what the visit includes.</li>
+            <li><strong>Understand the findings:</strong> We explain what was found, the proposed repair, and its price before you authorize repair work.</li>
+            <li><strong>Discuss safety findings:</strong> Ask which combustion and venting checks apply to your equipment and visit. We explain any concern and the next action; one normal reading cannot establish the condition of the entire system.</li>
           </ol>
         </div>
         <div className="service-hub-media">
-          <PhotoPlaceholder slot="06" subject="Residential furnace and ductwork" dimensions="1600 × 1200" src="/images/heating-furnace-installation.webp" alt="Residential furnace with metal ductwork, gas supply piping, and a condensate pump." caption="Every diagnostic includes a full electrical, airflow, and combustion safety check." />
+          <PhotoPlaceholder slot="06" subject="Residential furnace and ductwork" dimensions="1600 × 1200" src="/images/heating-furnace-installation.webp" alt="Residential furnace with metal ductwork, gas supply piping, and a condensate pump." caption="The furnace, duct connections, fuel supply, and drainage are parts of the heating assessment." />
           <div className="safety-panel">
             <h2>No heat in freezing weather?</h2>
             <p>Call <a href={`tel:${siteConfig.phoneE164}`}>{siteConfig.phoneDisplay}</a> to check today&apos;s dispatch schedule.</p>
@@ -89,7 +89,7 @@ export default function Page() {
         <div className={styles.equipment}>{equipment.map(([heading, body]) => <article key={heading}><h3>{heading}</h3><p>{body}</p></article>)}</div>
       </section>
       <section className={styles.section}>
-        <div className="article-copy"><h2>Common Great Falls heating issues we fix every week.</h2></div>
+        <div className="article-copy"><h2>Heating symptoms worth investigating.</h2><p>Similar symptoms can have different causes. Testing establishes which repair is appropriate.</p></div>
         <div className="service-symptoms">{symptoms.map(([heading, body]) => <article key={heading}><h3>{heading}</h3><p>{body}</p></article>)}</div>
       </section>
       <section className={styles.section} aria-labelledby="tune-up-heading">
@@ -108,7 +108,8 @@ export default function Page() {
       </section>
       <p><Link className="text-link" href="/services/heating/furnace-maintenance">Explore furnace maintenance, seasonal checks &amp; homeowner care →</Link></p>
       <section className={styles.section}>
-        <div className="article-copy"><h2>Should you repair your furnace or plan a replacement?</h2><p>Nobody wants to buy a new furnace in the middle of winter if a simple part will get another five years out of the system. Here is the honest rule of thumb we use in the field:</p></div>
+        <div className="article-copy"><p className="eyebrow">Our view / Heating decisions</p><h2>Give a repair a fair assessment.</h2><p>Our starting point is whether your furnace can be repaired safely and sensibly. We weigh the actual fault, overall condition, repair history, and available parts before recommending replacement. Age belongs in that conversation alongside those findings.</p><h3>What changes the repair-or-replace decision?</h3></div>
+        {/* Add a real repair decision here only after the job findings and permission to publish are confirmed. */}
         <div className={styles.comparison}>{["Stick With a Repair When...", "Start Planning a Replacement When..."].map((heading, index) => <article key={heading}><h3>{heading}</h3><ul>{comparisons.map((row) => <li key={row[index]}>{row[index]}</li>)}</ul></article>)}</div>
         <div className={styles.upgrade}><p><strong>Planning an upgrade?</strong> Upgrading to a high-efficiency furnace or a qualifying cold-climate heat pump can cut your winter gas usage and qualify for local incentives.</p><div className="related-links"><Link className="text-link" href="/services/heating/furnace-installation">Plan furnace installation &amp; replacement →</Link><Link className="text-link" href="/services/heat-pumps/cold-climate">Considering a cold-climate heat pump? →</Link><Link className="text-link" href="/rebates/2026-montana-hvac-rebates">Check 2026 Montana HVAC &amp; utility rebates →</Link></div></div>
       </section>
@@ -117,7 +118,7 @@ export default function Page() {
       <div className="wrap article-copy">
         <p className="eyebrow">Great Falls &amp; surrounding communities</p>
         <h2 id="heating-area-heading">Where our heating techs travel</h2>
-        <p>Based in Great Falls, we run daily service calls across Cascade County. Whether you’re on city natural gas in town or running a propane furnace on acreage, we service <strong>{new Intl.ListFormat("en-US", { style: "long", type: "conjunction" }).format(heatingCommunities)}</strong>—plus neighborhoods near Malmstrom AFB.</p>
+        <p>Based in Great Falls, we discuss heating service in <strong>{new Intl.ListFormat("en-US", { style: "long", type: "conjunction" }).format(heatingCommunities)}</strong>—plus off-base households near Malmstrom AFB. Confirm availability for your address and equipment when calling.</p>
         <p>Not sure if you’re in our dispatch zone? <a className="text-link" href={`tel:${siteConfig.phoneE164}`}>Call {siteConfig.phoneDisplay} and ask.</a></p>
       </div>
     </section>
@@ -126,14 +127,14 @@ export default function Page() {
       <div className="wrap">
         <h2 id="heating-logistics-heading">Straightforward scheduling &amp; payment</h2>
         <div className={styles.logisticsGrid}>
-          <article><h3>Licensed &amp; Insured in Montana</h3><p>Registered Montana Contractor #{siteConfig.montanaRegistration}. Standard weekday service hours plus prioritized cold-weather no-heat dispatch.</p></article>
-          <article><h3>Simple Payment &amp; Rebate Paperwork</h3><p>We accept major credit cards and checks, and we provide itemized invoices and applicable AHRI certificate paperwork for <Link className="text-link" href="/rebates/2026-montana-hvac-rebates">2026 NorthWestern Energy and Sun River Electric Co-op rebates</Link>.</p></article>
+          <article><h3>Registration &amp; scheduling</h3><p>Montana contractor registration #{siteConfig.montanaRegistration}. Call to discuss service availability, diagnostic charges, and the scope of your visit.</p></article>
+          <article><h3>Payment &amp; project records</h3><p>Confirm payment methods and the records needed for your project before approving work. Utility applications can require itemized invoices and equipment documentation; review the current <Link className="text-link" href="/rebates/2026-montana-hvac-rebates">Montana HVAC rebate guidance</Link>.</p></article>
           {/* Restore once verified customer reviews are available.
           <article><h3>Local Homeowner Proof</h3><p className={styles.reviewPlaceholder}>Customer review placeholder</p><p>Add a verified Google Business Profile review here before launch.</p></article>
           */}
         </div>
       </div>
     </section>
-    <FinalDarkCTA title="Let’s get your heat sorted out." subtitle="Need a fast repair today, a pre-winter safety check, or a straight number on a new furnace? Give us a call or send a quick note—it goes straight to our desk." />
+    <FinalDarkCTA title="Let’s get your heat sorted out." subtitle="Call to discuss a repair, seasonal check, or replacement estimate. For urgent no-heat problems, call first. Online forms are not continuously monitored." />
   </>;
 }

@@ -46,6 +46,17 @@ export default function Page() {
             </Link>
           </nav>
           <div className="resource-content">
+            <section aria-labelledby="rebate-perspective-heading" className="article-copy">
+              <p className="eyebrow">Our view / Incentive planning</p>
+              <h2 id="rebate-perspective-heading">Compare the project before subtracting the rebate.</h2>
+              <p>A suitable system should make sense for your home and budget. Keep the full installed price visible, then confirm the incentive for your utility account, exact equipment, and project. A larger advertised rebate does not establish which option is the better fit.</p>
+              <p>Check who supplies your electricity and gas separately. A Great Falls address or a former Energy West gas account does not establish eligibility for a NorthWestern electric program.</p>
+              <ol>
+                <li>Identify the utility account and the applicable application.</li>
+                <li>Confirm equipment, approval timing, and required records before purchasing.</li>
+                <li>Compare the installed cost and operating assumptions with the incentive shown separately.</li>
+              </ol>
+            </section>
             <div className="resource-notice">
               {rebateGuideMetadata.disclaimer}
             </div>
