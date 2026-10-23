@@ -6,46 +6,68 @@ import styles from "./heating.module.css";
 
 const heatingFaqs = [
   {
-    question: "Why does my furnace keep shutting off when the wind blows in Great Falls?",
+    question: "How much does a furnace repair cost?",
     answer: <>
-<p>High-plains Chinook winds and sub-zero gusts can cause high-efficiency furnaces to lock out. Strong gusts blowing across roof or side-wall vent pipes can affect venting and trip a safety sensor called the <strong>pressure switch</strong>. In sub-zero weather, freezing condensation can also build up over the exterior intake or exhaust pipe, restricting airflow.</p>
-            <p>From ground level, check for loose snow blocking accessible outside vents. Do not climb, chip ice from pipes, disconnect venting, or bypass a safety switch. If the furnace still locks out, we can inspect the pressure switch, tubing, and vent termination and check whether a manufacturer-approved wind solution is appropriate.</p>
+      <p>Angi’s 2026 guide reports a national average of <strong>$318</strong>, with most homeowners paying $133–$505. These are general budgeting references, not a quote, advertised rate, or price cap from Great Falls Heating and Air. Your repair may cost less or substantially more depending on the fault, parts, equipment access, labor, warranty coverage, and any emergency or after-hours charges.</p>
+      <p>Call to confirm the diagnostic fee and what it includes. Review the price for your proposed repair before approving the work.</p>
+      <p>Source: <a className="text-link" href="https://www.angi.com/articles/how-much-does-common-furnace-repair-cost.htm">Angi: furnace repair costs, updated September 25, 2026</a>.</p>
     </>,
   },
   {
-    question: "Do heat pumps actually work in -20°F Cascade County winters?",
+    question: "Why is my furnace running but blowing cold air?",
     answer: <>
-<p>Yes, a properly designed system can keep your home warm when paired with a backup heat source in a <strong>dual-fuel setup</strong>. Some cold-climate heat pumps operate down to -5°F, -15°F, or below, but heating capacity and efficiency depend on the model and outdoor temperature.</p>
-            <p>When an arctic front pushes temperatures down to -20°F or -30°F along the Missouri River corridor, a dual-fuel system switches to your natural gas or propane furnace at its configured changeover point. You get efficient electric heat during mild weather and furnace backup during deep freezes. Correct sizing and controls matter as much as the equipment rating.</p>
+      <p>Check whether the thermostat fan is set to ON. That setting can circulate room-temperature air between heating cycles. If the house is losing heat, an airflow restriction, ignition problem, fuel-supply issue, or safety shutdown may need diagnosis. The symptom alone doesn’t tell you which part has failed.</p>
+      <p>Keep panels closed and don’t bypass safety switches or keep resetting the furnace. Call for service if it won’t heat. If you smell gas or a CO alarm sounds, leave immediately and call 911 from a safe location.</p>
+      <p>Background: <a className="text-link" href="https://www.carrier.com/us/en/residential/hvac-resources/furnaces/furnace-blowing-cold-air/">Carrier: reasons a furnace blows cold air</a>.</p>
     </>,
   },
   {
-    question: "Does Great Falls’ elevation affect how a gas furnace runs?",
+    question: "Why does my furnace keep shutting off, especially in windy or freezing weather?",
     answer: <>
-<p>It does. Great Falls sits at roughly <strong>3,330 feet above sea level</strong>, and surrounding foothills climb even higher. Thinner air contains less oxygen per cubic foot, so installation requirements can differ from sea-level settings.</p>
-            <p>Depending on the model, the manufacturer may require altitude-specific adjustments or a conversion kit. Incorrect setup can affect combustion and safety. During installation and tune-ups, we check combustion and gas pressure against the manufacturer’s requirements for the equipment and local elevation.</p>
+      <p>Restricted airflow, an ignition or control fault, or a venting problem can interrupt heating. Wind and snow around outside intake or exhaust openings are useful details to report, but they don’t prove the cause. Tell us when the furnace stops, whether it restarts, and whether the indoor temperature is falling.</p>
+      <p>From ground level, look for loose snow blocking accessible vents. Clear only loose snow you can safely reach. Don’t climb, chip ice, disconnect venting, or bypass a safety switch. If it keeps shutting down, stop troubleshooting and call. For gas odor or a CO alarm, leave immediately and call 911 from outside.</p>
+      <p>Background: <a className="text-link" href="https://www.trane.com/residential/en/resources/troubleshooting/gas-furnaces/furnace-hard-lock-out/">Trane: furnace shutdown and lockout</a>.</p>
     </>,
   },
   {
-    question: "Are there 2026 utility rebates for upgrading my heating system in Great Falls?",
+    question: "Should I repair an older furnace or replace it?",
     answer: <>
-<p>Yes, depending on your utility, equipment, and project. The federal Section 25C tax credit ended for improvements placed in service after December 31, 2025. <strong>NorthWestern Energy</strong>, which took over former Energy West Montana natural gas service on July 1, 2025, offers E+ incentives for qualifying energy-saving measures. Confirm the current program dates, eligible equipment, and account requirements before purchasing; ENERGY STAR® certification alone does not guarantee a rebate.</p>
-            <p>If your home is served by <strong>Sun River Electric Cooperative</strong>, you may qualify for its separate heat pump incentives. Eligibility follows your utility service, rather than simply whether you live outside city limits. Review our <Link className="text-link" href="/rebates/2026-montana-hvac-rebates">2026 Montana HVAC Rebates guide</Link> and confirm current qualification rules with your utility.</p>
+      <p>Start with what’s wrong and whether a repair can restore safe operation. Compare the repair price with the furnace’s condition, repair history, available parts, and any warranty coverage. Repeated failures or a major repair may make replacement worth considering, but age alone doesn’t settle the decision.</p>
+      <p>If some rooms stay cold, the ductwork, insulation, or airflow may also need attention. A new furnace alone may not solve that problem. Compare the full installation work in our <Link className="text-link" href="/services/heating/furnace-installation">furnace replacement guide</Link>.</p>
+      <p>Background: <a className="text-link" href="https://www.energystar.gov/saveathome/heating-cooling/replace">ENERGY STAR: when to consider replacement or system improvements</a>.</p>
     </>,
   },
   {
-    question: "What should I check on my own before calling for an emergency furnace repair?",
+    question: "Does my furnace need an inspection every year if it still works?",
     answer: <>
-<p>If you smell gas, hear a CO alarm, or suspect a gas or carbon monoxide leak, leave immediately and call 911 or your gas utility from outside. Otherwise, check these four basics:</p>
-            <ol className={styles.checklist}>
-              <li><strong>Thermostat settings:</strong> Make sure it is set to <em>Heat</em> and replace batteries if your thermostat uses them and the screen is dim.</li>
-              <li><strong>Air filter:</strong> Check for dust or wildfire-smoke buildup and replace a dirty filter with the correct size and type. Turn the system off before changing it, and do not run the furnace without its filter.</li>
-              <li><strong>Breaker &amp; furnace switch:</strong> Check whether the breaker has tripped or the furnace’s external power switch was accidentally turned off. Do not open electrical compartments or repeatedly reset a tripping breaker; arrange service if it trips again.</li>
-              <li><strong>Exterior PVC vents:</strong> From ground level, look for drifting snow or frost blocking accessible intake and exhaust openings. Do not climb, chip away ice, or alter the vent pipes. Call for service if the blockage cannot be safely cleared.</li>
-            </ol>
+      <p>Yes. CPSC recommends a professional inspection of fuel-burning heating systems each year, including furnaces. Follow your equipment’s maintenance instructions too. A furnace producing heat can still have a problem that needs attention.</p>
+      <p>Ask what the visit includes and whether cleaning, filters, or repairs are priced separately. Maintenance can identify concerns, but it can’t guarantee a winter without breakdowns. See our <Link className="text-link" href="/services/heating/furnace-maintenance">furnace maintenance guide</Link> for the checks to discuss.</p>
+      <p>Source: <a className="text-link" href="https://www.cpsc.gov/Newsroom/News-Releases/2026/Keep-Warm-and-Safe-This-Winter-Tips-for-Using-Generators-Furnaces-and-Space-Heaters">CPSC: annual heating-system inspections</a>.</p>
     </>,
   },
- ];
+  {
+    question: "What can I safely check before calling for furnace repair?",
+    answer: <>
+      <p>If you smell gas, hear a CO alarm, or suspect a gas or carbon monoxide leak, leave immediately and call 911 or your gas utility from outside. Otherwise, keep checks to the homeowner tasks your equipment instructions allow:</p>
+      <ol className={styles.checklist}>
+        <li><strong>Thermostat:</strong> Check that HEAT is selected, the setting is above room temperature, and a schedule isn’t explaining the change.</li>
+        <li><strong>Filter:</strong> Check an accessible filter. Turn the system off as instructed before changing it, use the correct size and type, and don’t run without a filter.</li>
+        <li><strong>Power:</strong> Note whether the external furnace switch is off or a breaker has tripped. Don’t open electrical compartments or repeatedly reset a tripping breaker.</li>
+        <li><strong>Visible code:</strong> Note a fault code only if it is visible without removing panels. Share it when you call; don’t bypass a door switch to read it.</li>
+      </ol>
+      <p>If the furnace still won’t heat, call for <Link className="text-link" href="/services/heating/emergency-furnace-repair">24/7 emergency service and repair</Link>. Don’t wait for a form reply when your home is losing heat.</p>
+      <p>Background: <a className="text-link" href="https://www.carrier.com/us/en/residential/hvac-resources/furnaces/furnace-blowing-cold-air/">Carrier: thermostat, airflow, and professional service checks</a>.</p>
+    </>,
+  },
+  {
+    question: "Can I keep my gas furnace and add a heat pump for Montana winters?",
+    answer: <>
+      <p>Possibly. A dual-fuel system uses a heat pump with a compatible gas or propane furnace. The furnace’s condition, indoor coil, blower, ductwork, electrical supply, and controls all need to work with the proposed equipment.</p>
+      <p>Compare the heat pump’s output in cold weather with your home’s heating needs, then plan how the furnace will take over when needed. The settings depend on the equipment and your fuel costs; there isn’t one changeover temperature for every Great Falls home. Our <Link className="text-link" href="/services/heat-pumps/cold-climate">cold-climate heat pump guide</Link> explains the options.</p>
+      <p>Background: <a className="text-link" href="https://www.carrier.com/us/en/residential/hvac-resources/dual-fuel-heating-system/">Carrier: dual-fuel equipment and controls</a>.</p>
+    </>,
+  },
+];
 
 // Derive schema from the rendered answer content so both stay in sync.
 function answerText(content: ReactNode): string {
@@ -74,7 +96,7 @@ export function HeatingFaq() {
         <div>
           <p className="eyebrow">Useful answers</p>
           <h2 id="heating-faq-heading">Frequently asked questions about heating in Great Falls.</h2>
-          <p>Straight answers on Cascade County weather, high-elevation furnace care, and 2026 utility incentives.</p>
+          <p>Repair costs, cold air, repeated shutdowns, and the decisions homeowners face before approving heating work.</p>
         </div>
         <div>
           {heatingFaqs.map(({ question, answer }) => (

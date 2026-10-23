@@ -1,3 +1,4 @@
+import { RebateNotice } from "@/components/ui/RebateNotice";
 import Link from "next/link";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { getFAQSchema, getHVACBusinessSchema } from "@/lib/schema/jsonLd";
@@ -39,7 +40,7 @@ export default function Page() {
       <div className={`page-heading ${styles.hero}`}>
         <ServiceIcon name="heating" size={48} />
         <p className="eyebrow">Furnace replacement / Great Falls &amp; Cascade County</p>
-        <h1>Furnace replacement in Great Falls starts with your house—not the old nameplate.</h1>
+        <h1>Replacing your furnace? Start with the house you have today.</h1>
         <p>Compare sizing, ductwork, venting, and gas or propane options before choosing a new furnace. Get a written estimate that explains the work as clearly as the equipment.</p>
         <div className="hero-actions"><Link className="button button-yellow" href="/contact?intent=estimate">Request a replacement estimate ↗</Link><Link className="text-link" href="/services/heating/emergency-furnace-repair">Need a furnace repair instead? →</Link></div>
       </div>
@@ -47,7 +48,7 @@ export default function Page() {
         <div className="article-copy">
           <h2>The old BTU sticker is a starting point, not a sizing calculation.</h2>
           <p>A furnace installed decades ago may have served a different house: before new windows, attic insulation, or a finished basement. Replacing it with the same input rating does not prove the new equipment matches today’s heating load.</p>
-          <p>A replacement assessment should distinguish fuel input from delivered heating output, use appropriate local design conditions, and account for the manufacturer’s altitude requirements. A furnace should suit both a Great Falls cold spell and the lighter demand during a Chinook warm-up.</p>
+          <p>The sizing calculation needs to separate fuel input from heating output, use local winter conditions, and follow the manufacturer’s altitude requirements. A furnace should suit both a Great Falls cold spell and the lighter demand during a Chinook warm-up.</p>
           <p>For a house in Great Falls’ East Side Neighborhood Historic District, ask what renovations have changed since the existing furnace was installed. Added insulation, different windows, or a finished room may change the assessment. The home’s current condition belongs in the estimate.</p>
           <p className={styles.source}>Sizing background: <a href={installationSources.sizing}>ACCA: why bigger HVAC equipment is not always better</a>.</p>
         </div>
@@ -57,10 +58,10 @@ export default function Page() {
         </div>
       </div>
       <aside className={styles.callout} aria-labelledby="furnace-perspective-heading">
-        <p className="eyebrow">Our view / Great Falls Heating and Air</p>
+        <p className="eyebrow">Our approach / Great Falls Heating and Air</p>
         <h2 id="furnace-perspective-heading">A replacement quote should account for the whole system.</h2>
         <p>A furnace replacement quote should explain what happens to the rest of the system—not just name the new furnace. In a Great Falls basement, that means looking at the return air, the venting, and any water heater sharing the chimney.</p>
-        <p>A useful proposal also explains which existing comfort problems the work is intended to address and which need a separate solution.</p>
+        <p>The quote should also explain which cold rooms or airflow problems the work should improve, and which need a separate solution.</p>
       </aside>
       {/* Add a confirmed installation example here; use actual scope, findings, and homeowner permission, never an invented neighborhood case. */}
       <section className={styles.section} aria-labelledby="furnace-efficiency-heading">
@@ -76,12 +77,12 @@ export default function Page() {
         <div className={styles.pair}>{airflowChecks.map(([heading, body]) => <article key={heading}><h3>{heading}</h3><p>{body}</p></article>)}</div>
       </section>
       <section className={styles.section} aria-labelledby="furnace-fuel-heading">
-        <div className="article-copy"><h2 id="furnace-fuel-heading">Natural gas in town or propane outside Great Falls: confirm the fuel first.</h2><p>Check the property’s actual supply rather than inferring fuel from its address. A furnace must be approved for the fuel used; any conversion needs the correct manufacturer-approved kit and procedures. Gas supply, equipment capacity at altitude, combustion, and startup checks must follow the selected model’s requirements.</p><p>For a rural home near Vaughn or Belt, compare delivered propane costs with electricity before considering a heat pump alongside the furnace. There is no single outdoor changeover temperature that fits every household.</p><Link className="text-link" href="/services/heat-pumps/cold-climate">Compare cold-climate heat pumps and dual-fuel planning →</Link></div>
+        <div className="article-copy"><h2 id="furnace-fuel-heading">Start with the fuel your home actually uses.</h2><p>Check the property’s actual supply rather than inferring fuel from its address. A furnace must be approved for the fuel used; any conversion needs the correct manufacturer-approved kit and procedures. Gas supply, equipment capacity at altitude, combustion, and startup checks must follow the selected model’s requirements.</p><p>For a rural home near Vaughn or Belt, compare delivered propane costs with electricity before considering a heat pump alongside the furnace. There is no single outdoor changeover temperature that fits every household.</p><Link className="text-link" href="/services/heat-pumps/cold-climate">Compare cold-climate heat pumps and dual-fuel planning →</Link></div>
       </section>
       <section className={styles.section} aria-labelledby="furnace-cost-heading">
         <div className="article-copy">
           <h2 id="furnace-cost-heading">What affects furnace replacement cost in Great Falls?</h2>
-          <p>A useful price starts with the installation scope. Great Falls Heating and Air can discuss your existing equipment and the work your home needs; a written estimate should separate required work, optional upgrades, and exclusions.</p>
+          <p>To compare prices, first check what’s included. Great Falls Heating and Air can discuss your existing equipment and the work your home needs; a written estimate should separate required work, optional upgrades, and exclusions.</p>
           <ul>
             <li><strong>Equipment and controls:</strong> The selected capacity, efficiency, burner staging, blower features, and thermostat compatibility affect the equipment and installation scope.</li>
             <li><strong>Venting and drainage:</strong> Compare the approved route, access, drainage, and any changes identified in the venting assessment above.</li>
@@ -97,18 +98,26 @@ export default function Page() {
       <section className={styles.section} aria-labelledby="furnace-estimate-heading">
         <div className="article-copy"><h2 id="furnace-estimate-heading">Great Falls Heating and Air’s furnace estimate checklist.</h2><p>Use these seven checks to compare our proposal with any others you receive. A lower price may reflect a different model, scope, or warranty; the important thing is understanding the difference before approving work.</p></div>
         <p className={styles.tableHelp} id="furnace-table-help">On smaller screens, scroll the comparison sideways.</p>
-        <div className={`comparison-scroll ${styles.comparison}`} role="region" aria-label="Furnace installation estimate checklist" aria-describedby="furnace-table-help" tabIndex={0}><table><caption>Compare equipment, installation scope, and handoff</caption><thead><tr><th scope="col">Item</th><th scope="col">What the estimate should specify</th><th scope="col">Questions to ask</th></tr></thead><tbody>{estimateRows.map(([item, scope, questions]) => <tr key={item}><th scope="row">{item}</th><td>{scope}</td><td>{questions}</td></tr>)}</tbody></table></div>
+        <div className={`comparison-scroll ${styles.comparison}`} role="region" aria-label="Furnace installation estimate checklist" aria-describedby="furnace-table-help" tabIndex={0}><table><caption>Compare equipment, installation work, and what you receive when it’s done</caption><thead><tr><th scope="col">Item</th><th scope="col">What the estimate should specify</th><th scope="col">Questions to ask</th></tr></thead><tbody>{estimateRows.map(([item, scope, questions]) => <tr key={item}><th scope="row">{item}</th><td>{scope}</td><td>{questions}</td></tr>)}</tbody></table></div>
       </section>
       <section className={styles.section} aria-labelledby="furnace-install-day-heading">
-        <div className="article-copy"><h2 id="furnace-install-day-heading">Plan the work—and the time without heat.</h2><p>For a winter replacement, agree on equipment availability, access, expected downtime, and what happens if the work runs longer. Clear the route to the furnace and secure pets. Do not assume same-day completion or temporary heaters unless those arrangements are confirmed.</p><p>Before work starts, clarify permits, inspection, old-equipment disposal, electrical or venting changes, and any work by other trades. At handoff, ask for the startup results, operating instructions, filter details, warranty terms, and registration responsibilities.</p><p className={styles.source}>Great Falls publishes a <a href={installationSources.city}>mechanical-permit fee schedule covering furnace work (PDF)</a>. Confirm current fees and inspection requirements with the authority for your installation address; city and out-of-city projects can follow different processes.</p></div>
+        <div className="article-copy"><h2 id="furnace-install-day-heading">Plan the work—and the time without heat.</h2><p>For a winter replacement, agree on equipment availability, access, expected downtime, and what happens if the work runs longer. Clear the route to the furnace and secure pets. Do not assume same-day completion or temporary heaters unless those arrangements are confirmed.</p><p>Before work starts, clarify permits, inspection, old-equipment disposal, electrical or venting changes, and any work by other trades. When the work is complete, ask for the startup results, operating instructions, filter details, warranty terms, and registration responsibilities.</p><p className={styles.source}>Great Falls publishes a <a href={installationSources.city}>mechanical-permit fee schedule covering furnace work (PDF)</a>. Confirm current fees and inspection requirements with the authority for your installation address; city and out-of-city projects can follow different processes.</p></div>
       </section>
       <section className={`${styles.section} ${styles.incentives}`} aria-labelledby="furnace-rebate-heading">
-        <div className="article-copy"><h2 id="furnace-rebate-heading">Check incentives against your actual utility account.</h2><p>The Energy West-to-NorthWestern transition makes account eligibility worth checking carefully. Do not assume that being a NorthWestern customer makes every furnace, thermostat, or heat pump project eligible. Gas and electric programs can have different rules.</p><p>Confirm the current application, exact model eligibility, deadlines, and required paperwork before purchasing. Keep the incentive separate from the base installation price until eligibility is established.</p><p className={styles.source}>Official source: <a href={installationSources.northwestern}>NorthWestern Energy rebates and incentives</a>.</p><Link className="text-link" href="/rebates/2026-montana-hvac-rebates">Review Montana HVAC rebate guidance →</Link></div>
+        <div className="article-copy"><h2 id="furnace-rebate-heading">Check which rebates apply to your utility account.</h2><p>The Energy West-to-NorthWestern transition makes account eligibility worth checking carefully. Do not assume that being a NorthWestern customer makes every furnace, thermostat, or heat pump project eligible. Gas and electric programs can have different rules.</p><p>Confirm the current application, exact model eligibility, deadlines, and required paperwork before purchasing. Keep the incentive separate from the base installation price until eligibility is established.</p><RebateNotice /><p className={styles.source}>Official source: <a href={installationSources.northwestern}>NorthWestern Energy rebates and incentives</a>.</p><Link className="text-link" href="/rebates/2026-montana-hvac-rebates">Review Montana HVAC rebate guidance →</Link></div>
       </section>
       <div className="related-links"><Link className="text-link" href="/services/heating/furnace-maintenance">Keeping your furnace? Plan seasonal maintenance →</Link><Link className="text-link" href="/services/heating">Back to heating services →</Link><Link className="text-link" href="/services/heating/emergency-furnace-repair">Repair and no-heat safety guidance →</Link><Link className="text-link" href="/services/heat-pumps/cold-climate">Explore dual-fuel alternatives →</Link></div>
     </div>
-    <section className="faq-section section" aria-labelledby="furnace-install-faq-heading"><div className="wrap faq-grid"><div><p className="eyebrow">Before replacing equipment</p><h2 id="furnace-install-faq-heading">Frequently asked questions about furnace installation in Great Falls.</h2></div><div>{installationFaqs.map(({ question, answer }) => <details className="faq-item" key={question}><summary>{question}<span aria-hidden="true">+</span></summary><p>{answer}</p></details>)}</div></div></section>
+    <section className="faq-section section" aria-labelledby="furnace-install-faq-heading"><div className="wrap faq-grid"><div><p className="eyebrow">Before replacing equipment</p><h2 id="furnace-install-faq-heading">Frequently asked questions about furnace installation in Great Falls.</h2></div><div>{installationFaqs.map(({ question, answer, sources }) => (
+      <details className="faq-item" key={question}>
+        <summary>{question}<span aria-hidden="true">+</span></summary>
+        <p>{answer}</p>
+        {sources && <p className="faq-sources">Sources: {sources.map((source, index) => (
+          <span key={source.url}>{index > 0 && "; "}<a className="text-link" href={source.url}>{source.label}</a></span>
+        ))}</p>}
+      </details>
+    ))}</div></div></section>
     <div className="wrap"><div className="related-links"><Link className="text-link" href="/services/heat-pumps/heat-pump-installation">Combining a furnace with a heat pump? Review the full installation plan →</Link></div></div>
-    <FinalDarkCTA title="Get a written estimate you can compare." subtitle="Tell us about your furnace, your home, and what you want to improve. Call to discuss availability or send an estimate inquiry. Online forms are not continuously monitored." />
+    <FinalDarkCTA title="Get a written estimate you can compare." subtitle="Tell us about your furnace, your home, and what you want to improve. Call to discuss availability or send an estimate request. Online forms are not continuously monitored." />
   </>;
 }

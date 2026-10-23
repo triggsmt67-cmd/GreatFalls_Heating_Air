@@ -23,8 +23,7 @@ export default function Page() {
             Explain the recommendation.
           </h1>
           <p>
-            Our view is simple: a homeowner should understand why work is being
-            recommended and what it is intended to improve.
+            You should know why we recommend the work and what it should improve. That’s where we start.
           </p>
         </div>
         <TrustMarks />
@@ -32,37 +31,30 @@ export default function Page() {
           <div className="article-copy">
             <h2>The house comes first.</h2>
             <p>
-              Great Falls Heating and Air starts the conversation with your
-              equipment, the rooms you use, and what has changed. A cold bedroom,
-              a recurring shutdown, and a planned replacement call for different
-              questions. The recommendation should follow the findings.
+              Tell us about your equipment, the rooms you use, and what’s changed. Is one bedroom always cold? Does the furnace keep shutting off? Are you planning a replacement? Those are different problems. We start by understanding yours.
             </p>
             {/* Add the owner’s name, approved introduction, background, and reasons for this approach only after direct confirmation. */}
             {verification.companyHistory && <p>{siteConfig.companyHistory}</p>}
             <h2>Know what you’re approving.</h2>
             <p>
-              A useful explanation connects the finding to the proposed work.
-              Ask what is needed now, what is optional, and which concern needs
-              further diagnosis. Confirm the scope, price, and applicable warranty
-              before approving work.
+              Ask what we found, what needs attention now, and what can wait. If something needs more testing, you should know that too. Before approving work, make sure you understand what’s included, the price, and the warranty that applies.
             </p>
             <Link className="text-link" href="/contact">
               Start a conversation →
             </Link>
           </div>
           <div className="article-copy">
-            <h2>What that means for each decision.</h2>
+            <h2>What are you deciding?</h2>
             <ul>
               <li>
                 Repair: understand the fault and whether the proposed work can
                 restore safe, practical service.
               </li>
               <li>
-                Replacement: compare the surrounding ductwork, venting, controls,
-                and installation scope alongside the equipment.
+                Replacement: look at the ductwork, venting, controls, and installation work along with the new equipment.
               </li>
               <li>
-                Maintenance: leave with understandable findings and next steps.
+                Maintenance: know what was checked, what needs attention, and what to do next.
               </li>
               <li>Heat pumps: compare the home’s demand, actual fuel costs, and cold-weather plan.</li>
             </ul>
@@ -72,7 +64,7 @@ export default function Page() {
                 <strong>Internal verification pending</strong>
                 <p>
                   Company history, EPA credentials,
-                  insurance, hours, and warranty details require client
+                  insurance and warranty details require client
                   confirmation.
                 </p>
               </div>

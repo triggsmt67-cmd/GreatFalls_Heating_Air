@@ -1,23 +1,58 @@
-export const emergencyFaqs = [
+import type { FAQItem } from "@/content/faqs";
+import { siteConfig } from "@/content/site";
+
+export const emergencyFaqs: FAQItem[] = [
   {
-    question: "What do the flashing red or amber lights on my furnace mean?",
-    answer: "Many furnaces use an LED to report operating status or a fault. The meaning of a color or blink pattern depends on the brand and model; there is no universal three-flash or four-flash diagnosis. If a code is visible through a sight glass without removing a panel, note or photograph it before interrupting power. Share the pattern and model number when you call. Do not remove panels or bypass a door switch to read it.",
+    question: "My furnace stopped in the middle of the night. Can it wait until morning?",
+    answer: `If your home is losing heat in freezing weather, call rather than waiting for morning or a form reply. We offer 24/7 emergency service and repair at ${siteConfig.phoneDisplay}. Tell us the indoor temperature, who is in the home, and what the furnace is doing. Ask about the arrival window and next steps; repair timing depends on the diagnosis and available parts. If the home is becoming unsafe, move to a warm location. For gas odor or a CO alarm, leave immediately and call 911 from outside before contacting us.`,
   },
   {
-    question: "Why is my furnace blowing cold air nonstop and refusing to shut off?",
-    answer: "Continuous airflow can come from the thermostat’s fan setting, an ignition fault, a control problem, or a safety shutdown. Check whether the thermostat fan is set to ON rather than AUTO. A dirty filter can also restrict airflow, but symptoms alone cannot identify the cause. Do not bypass or reset limit or rollout switches. If the furnace repeatedly shuts down, makes unusual noises, or still will not heat after basic checks, stop troubleshooting and call for an inspection. If you smell gas or suspect carbon monoxide, leave immediately and call for emergency help from outside.",
+    question: "Should I call a furnace company or 911 if I smell gas or hear a CO alarm?",
+    answer: "Leave the building immediately with everyone in your household. Don’t use switches, a phone, or anything that could create a spark inside, and don’t stop to troubleshoot the furnace. From a safe location outside, call 911. Report a suspected gas leak to your gas utility or propane supplier as well. Don’t re-enter until responders say it is safe. Call us after the immediate danger has been addressed.",
+    sources: [
+      { label: "NorthWestern Energy: natural gas emergencies", url: "https://www.northwesternenergy.com/safety/natural-gas-propane-safety/natural-gas-emergency" },
+      { label: "CPSC: winter heating and CO safety", url: "https://www.cpsc.gov/Newsroom/News-Releases/2026/Keep-Warm-and-Safe-This-Winter-Tips-for-Using-Generators-Furnaces-and-Space-Heaters" },
+    ],
   },
   {
-    question: "Is it safe to use space heaters while waiting for a furnace repair?",
-    answer: "A portable electric heater can provide temporary warmth if used according to its instructions. Choose a safety-certified model, place it on a stable surface, and keep it at least three feet from bedding, curtains, furniture, children, and pets. Plug it directly into a suitable wall outlet, never an extension cord or power strip. Avoid overloading the circuit; stop using it if the plug or outlet gets hot or the breaker trips. Turn it off before sleeping or leaving the room. Never use a gas oven, outdoor heater, grill, or generator indoors to heat your home.",
+    question: "How much does an emergency furnace repair cost?",
+    answer: "Call to confirm the diagnostic fee, any emergency or after-hours charges, and what the visit includes. Angi’s 2026 guide reports a $318 national average for furnace repair overall; that is not an emergency-specific average. It is a general budgeting reference, not a quote, advertised rate, or price cap from Great Falls Heating and Air. Your repair may cost less or substantially more depending on the fault, parts, access, labor, warranty coverage, and service timing. Review the price for the proposed work before approving the repair.",
+    sources: [
+      { label: "Angi: national furnace repair costs (September 2026)", url: "https://www.angi.com/articles/how-much-does-common-furnace-repair-cost.htm" },
+    ],
   },
   {
-    question: "Can you fix my furnace if you didn’t install it?",
-    answer: "Yes. We service major residential forced-air furnace brands, including Lennox, Trane, Carrier, Goodman, and Rheem, even if we did not install the original unit. Have the brand, model number, and approximate age ready when you call. Repair options depend on the diagnosis, equipment condition, and availability of compatible parts.",
+    question: "My furnace works after a reset, then stops again. Should I keep resetting it?",
+    answer: "No. A reset may restart the furnace without resolving the fault that shut it down. If it locks out again, stop troubleshooting and call. Follow only the homeowner instructions for your exact model; don’t bypass safety switches, reset rollout switches, or remove panels. Note any code visible through a sight glass before interrupting power. If you smell gas, see smoke, or hear a CO alarm, leave immediately and call 911 from a safe location.",
+    sources: [
+      { label: "Trane: furnace lockout causes and service", url: "https://www.trane.com/residential/en/resources/troubleshooting/gas-furnaces/furnace-hard-lock-out/" },
+    ],
   },
   {
-    question: "What if my heat exchanger is cracked and can’t be safely repaired?",
-    answer: "If inspection identifies an unsafe heat exchanger or combustion condition, the furnace should remain out of service until a qualified professional resolves it. We explain the findings and available repair or replacement options before you authorize work. A combustion analyzer measures combustion conditions; visual inspection and other appropriate tests help assess the heat exchanger. If replacement is needed, ask about current utility incentives and eligibility in our 2026 Montana HVAC Rebates guide.",
+    question: "What do the blinking red or amber lights on my furnace mean?",
+    answer: "The meaning depends on the furnace’s brand, model, and blink pattern. There isn’t one universal three-flash or four-flash diagnosis. If the light is visible through a sight glass without opening the cabinet, note or photograph the pattern and share it with the model number when you call. Keep panels in place and don’t hold down a door switch to read a code. A code helps guide testing; it doesn’t prove which part needs replacing.",
+    sources: [
+      { label: "Trane: furnace blinking lights and model-specific codes", url: "https://www.trane.com/residential/en/resources/troubleshooting/gas-furnaces/furnace-light-blinking/" },
+    ],
+  },
+  {
+    question: "Can I use a space heater while waiting for furnace repair?",
+    answer: "A portable electric heater can provide temporary warmth if you follow its instructions. Put it on a stable, level, nonflammable surface and keep it at least three feet from bedding, curtains, furniture, and other things that can burn. Keep children and pets away. Plug it directly into a suitable wall outlet, never an extension cord or power strip. Stop using it if the plug or outlet gets hot or a breaker trips. Turn it off before sleeping or leaving the room. Never use an oven, grill, outdoor heater, or generator indoors for heat.",
+    sources: [
+      { label: "CPSC: portable-heater safety", url: "https://www.cpsc.gov/Newsroom/News-Releases/2026/Keep-Warm-and-Safe-This-Winter-Tips-for-Using-Generators-Furnaces-and-Space-Heaters" },
+      { label: "American Red Cross: heating your home safely", url: "https://www.redcross.org/about-us/news-and-events/news/heat-your-home-safely-during-cold-weather.html" },
+    ],
+  },
+  {
+    question: "How do I keep my pipes from freezing while the furnace is out?",
+    answer: "Open kitchen and bathroom sink-cabinet doors so any remaining warmer room air can reach the plumbing. Move cleaning products out of children’s and pets’ reach, and keep garage doors closed if water lines run through the garage. These steps can reduce exposure but won’t guarantee pipes stay unfrozen as the house cools. Follow your water utility’s guidance and call a plumber for suspected frozen or burst pipes. Never use an open flame to thaw a pipe. If you need to leave the house, ask about protecting the plumbing before you go; don’t leave a portable heater running unattended.",
+    sources: [
+      { label: "American Red Cross: preventing and responding to frozen pipes", url: "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/winter-storm/frozen-pipes.html" },
+    ],
+  },
+  {
+    question: "Can you repair a furnace another company installed?",
+    answer: "Yes. We service major residential forced-air furnace brands, including Lennox, Trane, Carrier, Goodman, and Rheem, even if another company installed the unit. Call with the brand, model number, approximate age, and symptoms so we can discuss service options. The diagnosis, equipment condition, compatible parts, and any warranty terms affect what can be repaired and when. A 24/7 service offer doesn’t guarantee every repair can be completed on the first visit.",
   },
 ];
 

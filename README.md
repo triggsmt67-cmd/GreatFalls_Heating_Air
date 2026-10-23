@@ -1,5 +1,24 @@
 # Great Falls Heating and Air LLC
 
+## Current client-review checkpoint — October 23, 2026
+
+This section supersedes older checkpoint counts and deferred pricing notes below. The current site has 18 page routes and 95 FAQs. National furnace/AC repair budgeting figures are sourced and explicitly not company quotes, advertised rates, or price caps. Installation and maintenance prices remain project-specific. Regular hours are owner-confirmed Monday–Friday, 8 a.m.–5 p.m., with 24/7 emergency service and repair.
+
+- Client-review URL: https://great-falls-heating-air.vercel.app/
+- Release target: existing `origin/main` → Vercel `great-falls-heating-air` client-review deployment. This uses the Production environment but is not a completed public-launch signoff.
+- Updated: plainspoken copy, researched homeowner FAQs with matching schema/source links, officially checked rebate guidance, shared rebate disclaimers, supplied branding, and internal-link verification.
+- Audit records: [FAQ/source/rebate research](docs/faq-research-2026-10-23.md), [internal linking](docs/internal-link-audit-2026-10-23.md), and [Google competitor comparison](docs/competitor-coverage-2026-10-23.md).
+
+### Priority to-do items before public launch and link building
+
+- [ ] **Finish production lead capture.** Implement a shared durable rate limiter and configure email delivery in the authorized environment. The current production rate limiter deliberately returns unavailable. Verify a real authorized submission from browser through delivery and confirmation; a development simulation is not proof. Keep call/email alternatives visible.
+- [ ] **Add verified business proof.** Obtain the actual Google Business Profile URL, approved owner/team introduction, applicable credentials/insurance and warranty terms, genuine customer reviews, and more documented projects/photos. Preserve existing approved job evidence. Do not publish placeholders or invent affiliations, guarantees, or reviews.
+- [ ] **Confirm additional services and customer programs.** Ask the owner which indoor-air/ventilation, thermostat/control, ductwork/airflow, boiler or commercial services are actually offered before creating dedicated pages. Add financing or maintenance-plan information only if an actual program is established; competitor menus do not establish our offerings.
+- [ ] **Complete public launch and search verification.** Confirm the final domain, DNS/HTTPS, canonical URLs and redirects, deployed mobile/accessibility/performance checks, Search Console ownership/indexing, and accurate Google Business Profile details. Establish impressions, qualified calls/leads and conversion tracking before measuring link-building results. Review rebate sources again before launch; published offers are not guaranteed funding or approval.
+
+Client review should focus on content, service scope, contact details, imagery and the homeowner experience. Do not treat the review deployment as confirmation that online requests are delivered.
+
+
 ## Checkpoint — October 19, 2026
 
 This is the current client-review website, not a completed public-launch handoff. The owner requested this checkpoint be committed and pushed to `main` so the existing Vercel Git integration can build a fresh client-review version. That branch is connected to Vercel’s **Production** environment; the environment name does not mean form delivery, all content, or launch checks are complete.
@@ -256,3 +275,9 @@ Build/typecheck/lint and all 22 existing tests passed during the content work. R
 ### Image audit — October 19
 
 Completed a local audit of images across 17 public pages. Repaired five missing homepage image paths, compressed their files by 37% combined, filled heating-page social/schema gaps, and verified embedded image titles/descriptions, alt text, dimensions, and responsive loading. See [image audit details](docs/image-audit.md). Included in the client-review update with the page-specific mobile CTAs and form follow-up copy. Validate the resulting Vercel deployment after pushing; email delivery setup and the remaining public-launch tasks are still separate.
+
+### Brand logo — October 19
+
+Logo files are stored together in `public/images`. The supplied PNG is `great-falls-heating-air-rebuilt-6000.png` (the uploaded file is 2048 × 1331 pixels despite its filename). It is retained for reuse only; the website continues to render the SVG.
+
+The current user-supplied logo is `public/images/great-falls-heating-air-logo.svg`, served at `/images/great-falls-heating-air-logo.svg`. It replaces the earlier dimensional logo in the shared `src/components/ui/Brand.tsx` component, used by the header and footer on every page. The SVG retains its original 1600 × 1040 viewBox, outlined lettering, dark backing, and vector artwork; it needs no external fonts or raster images. Keep this descriptive filename for future reuse. Responsive sizing lives in the `.brand--logo-only .brand-logo` rules in `src/app/globals.css`; width stays automatic to preserve proportions. Earlier logo experiments remain available but are no longer displayed.

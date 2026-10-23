@@ -1,3 +1,5 @@
+import type { FAQItem } from "@/content/faqs";
+
 export const ductlessSources = {
   planning: "https://basc.pnnl.gov/resource-guides/ductless-mini-split-heat-pumps",
   sizing: "https://basc.pnnl.gov/resource-guides/cold-climate-heat-pump-sizing-and-selection",
@@ -25,11 +27,69 @@ export const ductlessScope = [
   ["Outdoor and electrical work", "Support, snow/drainage/clearance and noise considerations, electrical assessment, required circuits, and permit responsibilities."],
   ["Completion and ownership", "Manufacturer-required installation/startup checks, controls demonstration, owner care, actual warranty terms, written price/exclusions, and rebate documentation."],
 ];
-export const ductlessFaqs = [
-  { question: "Will one ductless unit in the living room cool bedrooms with closed doors?", answer: "Do not assume it will. Room loads, layout, airflow paths, and closed doors affect how heat and cooling reach those rooms. An indoor unit is selected to serve a planned zone; its location does not establish comfort in every adjoining room. Great Falls Heating and Air’s ductless perspective starts with the rooms you actually use and their normal door positions. The proposal should identify coverage limits and compare suitable indoor-unit arrangements or another distribution approach where needed." },
-  { question: "Should I choose one multi-zone system or separate single-zone systems?", answer: "Compare the actual loads, room use, equipment combinations, minimum output, shared capacity, routing, electrical work, outdoor space, and installed cost. A larger number of connected heads is not automatically a better fit. Small rooms and periods when only one zone needs conditioning deserve attention. Separate setpoints also do not establish that one zone can heat while another cools; confirm the selected system’s operating-mode restrictions. Ask for the reasoning behind the proposed arrangement rather than choosing by head count alone." },
-  { question: "What piping and drainage will be visible inside and outside my home?", answer: "Ask for the route to be shown before approving the work. Indoor location, wall or ceiling construction, electrical routing, condensate drainage, and service access affect what can be concealed. The scope should identify openings, exterior covers, weather sealing, any visible indoor piping, and responsibility for finish restoration. Gravity drainage may be practical in some locations; others need a suitable pump and maintenance access. There is no universal three-inch opening or promise of zero visible piping for every installation." },
-  { question: "Can a ductless mini-split provide enough heat for a Great Falls winter?", answer: "It depends on the room or home’s heating demand and the selected equipment’s available output at relevant outdoor temperatures. A low advertised operating limit alone does not establish sufficient capacity. Define the intended heating coverage, compare manufacturer performance data, and explain any supplemental heat and its controls. Existing boilers or baseboards do not automatically coordinate with a mini-split, and a wood stove is not an automatic backup system. The proposal should state how the rooms will be heated when conditions exceed the planned heat-pump coverage." },
-  { question: "Do ductless heat pumps qualify for NorthWestern Energy or Sun River rebates?", answer: "They may qualify when the utility account, exact equipment, and project meet the current program conditions. NorthWestern’s 2026–2027 electric existing-home application lists $450 for qualifying ducted or ductless heat pumps, with ENERGY STAR rated equipment or SEER2 of at least 15.2 and HSPF2 of at least 8.5, plus its other requirements. A gas account alone does not establish electric-program eligibility. Sun River Electric has a separate air-source program requiring approval before installation. Confirm timing, paperwork, and funding before relying on an incentive." },
-  { question: "What maintenance access should be included in a ductless installation plan?", answer: "Indoor filters need the access and care specified in the owner instructions, and coils, blowers, drains, and any fitted pump need practical service access. Check whether furniture, ceiling finishes, cabinets, or line covers will obstruct that work. Outdoor equipment also needs its specified clearances and access. At handoff, ask for the permitted homeowner cleaning tasks, recommended service arrangements for the model, and any separately priced deep cleaning. Standard washable screens should not be assumed to provide effective fine-smoke filtration." },
+export const ductlessFaqs: FAQItem[] = [
+  {
+    "question": "Can one mini-split cool several rooms if the bedroom doors are closed?",
+    "answer": "Do not assume a unit in the living room or hallway will keep closed bedrooms comfortable. Room loads, layout, and airflow paths determine how much heating or cooling reaches each space. Ask for a room-by-room plan that reflects how you actually use the house, including closed doors at night. That plan may use separate indoor units or another distribution arrangement; a bigger living-room unit alone does not fix a blocked airflow path.",
+    "sources": [
+      {
+        "label": "ENERGY STAR: mini-split placement and room coverage",
+        "url": "https://www.energystar.gov/products/ductless_heating_cooling"
+      }
+    ]
+  },
+  {
+    "question": "Is one multi-zone mini-split better than separate single-zone systems?",
+    "answer": "Neither arrangement is automatically better. Compare the rooms’ loads and schedules, the approved equipment combination, minimum output when only one room needs conditioning, shared capacity, outdoor space, and installed cost. Small bedrooms deserve particular attention because a system can have more minimum output than those rooms need. Ask about the selected system’s mode restrictions too; separate temperature controls do not necessarily allow heating in one room while another cools.",
+    "sources": [
+      {
+        "label": "PNNL: system configuration and capacity selection",
+        "url": "https://basc.pnnl.gov/resource-guides/cold-climate-heat-pump-sizing-and-selection"
+      },
+      {
+        "label": "PNNL: ductless zone planning",
+        "url": "https://basc.pnnl.gov/resource-guides/ductless-mini-split-heat-pumps"
+      }
+    ]
+  },
+  {
+    "question": "Can a ductless mini-split replace my boiler or baseboards for a Great Falls winter?",
+    "answer": "Possibly, but the decision needs a heating-load calculation and the exact equipment’s available output at local winter design conditions. A low advertised operating temperature does not establish that the system can heat every room. Have the proposal identify the intended heating coverage, any shortfall, and the supplemental heat and controls needed to cover it. Do not remove existing heating until the complete plan is established; a boiler or baseboard system will not automatically coordinate with the mini-split.",
+    "sources": [
+      {
+        "label": "PNNL: cold-climate capacity and supplemental heat",
+        "url": "https://basc.pnnl.gov/resource-guides/cold-climate-heat-pump-sizing-and-selection"
+      }
+    ]
+  },
+  {
+    "question": "How much does a ductless mini-split cost, and what should be included in the quote?",
+    "answer": "The number and style of indoor units, exact equipment combination, electrical work, piping routes, drains or pumps, outdoor support, access, and applicable permits affect the installed price. Compare quotes for the same rooms and heating and cooling coverage, with finish repairs, startup checks, warranty responsibilities, and exclusions spelled out. Online prices are budgeting references, not a quote, advertised rate, or price cap from Great Falls Heating and Air; actual costs may be lower or substantially higher. Confirm any incentive separately with your utility before relying on it, and agree on the price of extra work before approving it.",
+    "sources": [
+      {
+        "label": "PNNL: ductless installation scope",
+        "url": "https://basc.pnnl.gov/resource-guides/ductless-mini-split-heat-pumps"
+      }
+    ]
+  },
+  {
+    "question": "Will installation leave visible pipes or require a drain pump?",
+    "answer": "Ask the installer to show the indoor-unit positions, line routes, wall or ceiling openings, and drain destination before work begins. Some locations allow gravity drainage, while others need a suitable condensate pump with access for maintenance. Confirm which piping and covers will be visible, how penetrations will be sealed, and who handles patching or finish repairs. A clean-looking indoor unit still needs filter and service access; do not assume every route can be hidden inside a wall.",
+    "sources": [
+      {
+        "label": "PNNL: mini-split routing, drainage and installation",
+        "url": "https://basc.pnnl.gov/resource-guides/ductless-mini-split-heat-pumps"
+      }
+    ]
+  },
+  {
+    "question": "Is cleaning the washable filters enough to maintain a mini-split?",
+    "answer": "Filter care is only part of maintenance. Follow the exact model’s owner instructions for permitted cleaning, safe shutdown, filter type, and frequency; keep that access clear of furniture. Coils, blower components, drains, any fitted pump, and outdoor equipment also need appropriate inspection and service. Ask what a maintenance visit includes and whether deeper cleaning costs extra, and leave electrical work, refrigerant handling, and unfamiliar disassembly to a qualified technician.",
+    "sources": [
+      {
+        "label": "Carrier: ductless maintenance and professional service",
+        "url": "https://www.carrier.com/us/en/residential/hvac-resources/ductless-mini-splits/mini-split-maintenance/"
+      }
+    ]
+  }
 ];

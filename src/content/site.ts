@@ -8,9 +8,9 @@ export interface LaunchReadinessItem {
 
 export const siteConfig = {
   businessName: "Great Falls Heating and Air LLC",
-  tagline: "Technical confidence with Montana grit.",
+  tagline: "Heating and cooling that make sense for your home.",
   shortDescription:
-    "Local residential heating, emergency furnace repair, air conditioning, and cold-climate heat pump solutions built for Great Falls weather.",
+    "Home heating, emergency furnace repair, air conditioning, and cold-climate heat pumps for Great Falls weather.",
   phoneDisplay: "406-781-4027",
   phoneE164: "+14067814027",
   email: "GFheatingandair@icloud.com",
@@ -20,9 +20,9 @@ export const siteConfig = {
   postalCode: "59404",
   serviceAreaSummary:
     "Great Falls and surrounding north-central Montana communities",
-  hours: "[CLIENT HOURS]",
-  emergencyAvailability: "Call to discuss service availability",
-  emergencyAvailabilityBadge: "Heating & cooling inquiries",
+  hours: "Monday–Friday, 8 a.m.–5 p.m.",
+  emergencyAvailability: "24/7 emergency service and repair",
+  emergencyAvailabilityBadge: "24/7 emergency service and repair",
   montanaRegistration: "C1680325",
   epaCertification: "[CONFIRM EPA 608 CREDENTIALS]",
   ownerName: "[OWNER NAME]",
@@ -43,8 +43,8 @@ export const verification = {
   businessIdentity: true,
   contactDetails: true,
   address: true,
-  hours: false,
-  emergency24Hours: false,
+  hours: true,
+  emergency24Hours: true,
   credentials: false,
   companyHistory: false,
   freeEstimates: false,
@@ -57,7 +57,7 @@ export const verification = {
   warranties: false,
   reviews: false,
   photography: false,
-  productionLogo: false,
+  productionLogo: true,
 } as const;
 
 export const temporaryAssets = [
@@ -66,11 +66,6 @@ export const temporaryAssets = [
     kind: "Ten labeled photography placeholders",
     status:
       "Replace each numbered slot with approved photography using the displayed source dimensions and crop notes",
-  },
-  {
-    path: "src/components/ui/Brand.tsx",
-    kind: "Original temporary vector mark",
-    status: "Client logo approval required",
   },
 ] as const;
 
@@ -183,17 +178,15 @@ export const launchReadinessChecklist: LaunchReadinessItem[] = [
     key: "hours",
     label: "Regular Operating Hours",
     currentValue: siteConfig.hours,
-    status: "pending_client_confirmation",
-    notes:
-      "Define exact office/diagnostic dispatch operating hours (e.g. Mon–Fri 7:30am–5:00pm).",
+    status: "ready",
+    notes: "Owner confirmed Monday–Friday, 8 a.m.–5 p.m. on October 23, 2026.",
   },
   {
     key: "emergencyAvailability",
     label: "24/7 Emergency Service Claim",
     currentValue: siteConfig.emergencyAvailability,
-    status: "pending_client_confirmation",
-    notes:
-      "Confirm whether on-call after-hours dispatch is active 24/7/365 before public advertising.",
+    status: "ready",
+    notes: "Owner confirmed 24/7 emergency service and repair on October 23, 2026.",
   },
   {
     key: "montanaRegistration",
@@ -244,9 +237,9 @@ export const launchReadinessChecklist: LaunchReadinessItem[] = [
   {
     key: "productionLogo",
     label: "Production Vector SVG Logo",
-    currentValue: "Clean abstract mountain & temperature mark (temporary)",
-    status: "pending_client_confirmation",
-    notes: "Replace temporary brand mark with final client SVG vector asset.",
+    currentValue: "/images/great-falls-heating-air-logo.svg",
+    status: "ready",
+    notes: "User-supplied vector logo installed in the shared header and footer brand component.",
   },
   {
     key: "emailCredentials",

@@ -38,6 +38,16 @@ export function FaqAccordion({
                 <span aria-hidden="true">+</span>
               </summary>
               <p>{f.answer}</p>
+              {f.sources && (
+                <p className="faq-sources">
+                  Sources: {f.sources.map((source, index) => (
+                    <span key={source.url}>
+                      {index > 0 && "; "}
+                      <a className="text-link" href={source.url}>{source.label}</a>
+                    </span>
+                  ))}
+                </p>
+              )}
             </details>
           ))}
         </div>

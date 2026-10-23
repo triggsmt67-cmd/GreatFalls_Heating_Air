@@ -77,7 +77,7 @@ export default function Page() {
           <ServiceIcon name="emergency" size={48} />
           <p className="eyebrow">Cold-weather furnace repair / Great Falls &amp; Cascade County</p>
           <h1>No heat? Let’s get your furnace firing safely.</h1>
-          <p>No heat in Great Falls or Cascade County? Call for current repair availability, diagnostic fees, and next steps.</p>
+          <p>No heat in Great Falls or Cascade County? Call for 24/7 emergency service and repair, diagnostic fees, and next steps.</p>
           <div className="hero-actions">
             <a className="button button-orange" href={`tel:${siteConfig.phoneE164}`}>Call for furnace repair: {siteConfig.phoneDisplay}</a>
             <Link className="text-link" href="/contact?intent=emergency">Send a service request ↗</Link>
@@ -93,11 +93,11 @@ export default function Page() {
         </section>
         <div className="interior-grid">
           <div className="article-copy">
-            <p className="eyebrow">Our view / Urgent repairs</p>
-            <h2>A cold house still deserves a clear repair decision.</h2>
+            <p className="eyebrow">Our approach / Urgent repairs</p>
+            <h2>Even when it’s urgent, you should understand the repair.</h2>
             <p>When your house is getting cold, you still deserve to understand the repair. We explain what failed, what the proposed work costs, and what happens next if the needed part is unavailable.</p>
             <p>A furnace breakdown during a -20°F snap can put your household and plumbing at risk. Whether the system locked out overnight during a Chinook windstorm or is blowing cold air, start by describing what happened and asking about current service availability.</p>
-            <p>Have your address, indoor temperature, furnace brand and approximate age, and any visible fault code ready. Confirm the diagnostic fee and availability when calling. Timing and repair options depend on the diagnosis and compatible parts.</p>
+            <p>Have your address, indoor temperature, furnace brand and approximate age, and any visible fault code ready. Confirm the diagnostic fee and availability when calling. What we can repair, and when, depends on what’s wrong and whether the right parts are available.</p>
             {/* Add a confirmed no-heat job example here when findings, outcome, and publication permission are available. */}
             <h2>What to do while waiting for service.</h2>
             <ol>
@@ -129,7 +129,15 @@ export default function Page() {
       <section className="faq-section section" aria-labelledby="emergency-faq-heading">
         <div className="wrap faq-grid">
           <div><p className="eyebrow">No-heat questions</p><h2 id="emergency-faq-heading">Emergency furnace repair FAQs for Great Falls homeowners.</h2></div>
-          <div>{emergencyFaqs.map(({ question, answer }) => <details className="faq-item" key={question}><summary>{question}<span aria-hidden="true">+</span></summary><p>{answer}</p></details>)}<p className={styles.faqLinks}><Link className="text-link" href="/services/heating/furnace-maintenance">After the repair: furnace maintenance guidance →</Link><Link className="text-link" href="/services/heating/furnace-installation">Considering replacement? Compare furnace installation scope →</Link><Link className="text-link" href="/rebates/2026-montana-hvac-rebates">Review current Montana HVAC rebate guidance →</Link><Link className="text-link" href="/services/heating">Explore heating maintenance &amp; replacement →</Link></p></div>
+          <div>{emergencyFaqs.map(({ question, answer, sources }) => (
+            <details className="faq-item" key={question}>
+              <summary>{question}<span aria-hidden="true">+</span></summary>
+              <p>{answer}</p>
+              {sources && <p className="faq-sources">Sources: {sources.map((source, index) => (
+                <span key={source.url}>{index > 0 && "; "}<a className="text-link" href={source.url}>{source.label}</a></span>
+              ))}</p>}
+            </details>
+          ))}<p className={styles.faqLinks}><Link className="text-link" href="/services/heating/furnace-maintenance">After the repair: furnace maintenance guidance →</Link><Link className="text-link" href="/services/heating/furnace-installation">Considering replacement? Compare furnace installation scope →</Link><Link className="text-link" href="/rebates/2026-montana-hvac-rebates">Review current Montana HVAC rebate guidance →</Link><Link className="text-link" href="/services/heating">Explore heating maintenance &amp; replacement →</Link></p></div>
         </div>
       </section>
       <section className="final-cta">

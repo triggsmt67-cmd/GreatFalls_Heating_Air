@@ -1,3 +1,5 @@
+import type { FAQItem } from "@/content/faqs";
+
 export const installationSources = {
   sizing: "https://hvac-blog.acca.org/hvac-bigger-frequently-not-better/",
   venting: "https://bsesc.energy.gov/energy-basics/hvac-direct-vent-equipment",
@@ -20,33 +22,62 @@ export const airflowChecks = [
   ["Supply transitions & leakage", "Check how the replacement cabinet connects to existing ducts. Specify any transition fabrication, sealing, or vibration treatment in the estimate rather than assuming every installation needs the same parts."],
   ["Room-by-room comfort", "Record which rooms are cold and whether problems change with doors closed. Review supply and return paths, insulation, and balancing before assuming a larger furnace will fix upstairs comfort."],
 ];
-export const installationFaqs = [
+export const installationFaqs: FAQItem[] = [
   {
-    question: "How many BTUs does my Great Falls home need?",
-    answer: "There is no reliable furnace size based only on square footage or the old nameplate. A load calculation considers the home’s envelope, windows, air leakage, and appropriate local design conditions. Equipment selection then uses the manufacturer’s output and altitude guidance. Ask whether the quoted BTU number is fuel input or heating output; the two are different. A smaller input rating can be appropriate after efficiency or building improvements, but it must be supported by the calculation.",
+    question: "How much does it cost to replace a furnace in Great Falls?",
+    answer: "There isn’t one replacement price that fits every home. The furnace model and size, ductwork, venting, drainage, fuel and electrical work, access, permits, and removal all affect the total. Ask for a written estimate that separates required work, optional upgrades, and exclusions. National price guides are general budgeting references, not a quote, advertised rate, or price cap from Great Falls Heating and Air. Your project may cost less or substantially more. Review the price and how any additional work would be approved before committing.",
+    sources: [
+      { label: "Carrier: factors affecting a new gas furnace’s cost", url: "https://www.carrier.com/us/en/residential/hvac-resources/furnaces/new-gas-furnace-cost/" },
+    ],
   },
   {
-    question: "Is a two-stage or variable-speed furnace worth it here?",
-    answer: "It may improve comfort in a suitable system, but compare the features separately. Burner staging changes heating output; a variable-speed blower controls airflow. Low-fire capacity and control behavior vary by model. During Great Falls winter warm-ups, lower output can help match a smaller load, but it will not automatically fix duct leakage or cold rooms. Compare installed cost, thermostat compatibility, noise, maintenance, and warranty terms rather than treating a feature label as a guaranteed saving.",
+    question: "What size furnace do I need? Should I get the same BTUs as the old one?",
+    answer: "The old rating is useful information, but it isn’t a sizing calculation. New windows, added insulation, air leaks, or a finished room can change how much heat your house needs. Ask for a load calculation using the home’s current condition and local winter design conditions. Compare the selected furnace’s heating output, not just its fuel-input rating, and follow its altitude requirements. A bigger furnace won’t automatically fix a cold bedroom; airflow and insulation may need attention too.",
+    sources: [
+      { label: "ACCA: why bigger HVAC equipment isn’t always better", url: installationSources.sizing },
+    ],
   },
   {
-    question: "Should I choose an 80% furnace or a condensing furnace?",
-    answer: "Compare installed scope as well as AFUE. A non-condensing model needs an approved combustion-air and venting arrangement. A condensing model also needs approved venting and condensate drainage, with freeze protection where required. A finished basement, shared water-heater chimney, and the route to an exterior termination can change the work involved. The appropriate choice depends on compatible equipment, applicable requirements, fuel use, and total installed cost.",
+    question: "Is a two-stage furnace worth the extra cost? Is that the same as variable speed?",
+    answer: "They describe different features. A two-stage burner has lower and higher heating outputs; a variable-speed blower adjusts airflow. The right combination may improve comfort in a suitable system, but it won’t automatically fix duct problems or guarantee lower bills. Ask what difference the upgrade should make in your home. Compare the added price, controls, noise, service needs, and warranty terms before paying for features you may not need.",
+    sources: [
+      { label: "Carrier: heating-output controls versus variable-speed airflow", url: "https://www.carrier.com/us/en/residential/hvac-resources/furnaces/modulating-vs-variable-speed/" },
+    ],
   },
   {
-    question: "What happens to my water heater if the furnace leaves a shared chimney?",
-    answer: "The remaining water heater’s venting needs to be assessed. Removing a furnace changes the appliances served by the vent, and an existing chimney or connector may no longer be appropriately sized or configured. That does not mean backdrafting is inevitable, but it does mean the estimate should identify any necessary vent changes and safety checks. Include the water heater in the replacement assessment, even if you are keeping it.",
+    question: "Should I choose an 80% furnace or a high-efficiency condensing furnace?",
+    answer: "Compare the installation work along with the AFUE efficiency rating. A non-condensing furnace needs suitable combustion air and venting. A condensing furnace also needs approved venting and a way to handle condensate, with freeze protection where needed. A finished basement, exterior vent route, or shared water-heater chimney can change the work involved. Compare the full installed price, expected fuel use, and the equipment that fits your home. The efficiency percentage alone won’t tell you what your bills will be.",
+    sources: [
+      { label: "DOE Building Science Education: direct-vent equipment", url: installationSources.venting },
+    ],
   },
   {
-    question: "Who handles furnace permits in Great Falls and outside city limits?",
-    answer: "Confirm the authority for the installation address and put permit and inspection responsibilities in writing. Great Falls publishes a mechanical-permit fee schedule covering furnace work. An address outside city limits may have a different authority and process. Do not assume a homeowner permit is appropriate for a contractor’s furnace installation; ask the relevant building department which applications and inspections apply before work starts.",
+    question: "Can I replace just the furnace and keep my existing air conditioner?",
+    answer: "Possibly. The new furnace’s blower, indoor cooling coil, controls, and duct airflow need to work with your existing AC. Have the equipment checked together before deciding what stays. Ask which parts can be reused, which need changing, and how both heating and cooling will be tested. If you expect to replace the AC later or add a heat pump, mention that now so the furnace proposal accounts for that plan. Replacing one system doesn’t automatically mean replacing both.",
+    sources: [
+      { label: "Carrier: choosing a furnace and assessing existing cooling equipment", url: "https://www.carrier.com/residential/en/ca/products/furnaces/buying-a-furnace/" },
+    ],
   },
   {
-    question: "How long will I be without heat during replacement?",
-    answer: "Ask for a site-specific schedule before the existing furnace is disconnected. Equipment access, sheet-metal changes, venting, electrical work, inspections, and parts can affect the duration. For a winter replacement in Great Falls, discuss safe temporary arrangements and the plan if work extends beyond the expected window. Do not assume same-day completion, loan heaters, or next-morning availability unless those arrangements are explicitly confirmed.",
+    question: "Will my gas water heater need changes if the new furnace stops using the chimney?",
+    answer: "It needs a venting assessment, even if you’re keeping the water heater. Removing the furnace changes the appliances using the chimney. The remaining vent may need changes so the water heater can vent safely; it isn’t automatically safe to leave it as it was. Ask what was checked and have any required venting work and safety tests included in the written proposal. A furnace replacement doesn’t automatically require a new water heater, but it does require looking at how the remaining appliance will vent.",
+    sources: [
+      { label: "PNNL: shared flues and an orphaned water heater after furnace replacement", url: "https://basc.pnnl.gov/resource-guides/gas-fired-tankless-water-heaters" },
+    ],
   },
   {
-    question: "Does a new furnace qualify for a utility rebate?",
-    answer: "Confirm current eligibility for your utility account and the exact equipment before purchasing. The Energy West-to-NorthWestern transition does not by itself establish rebate eligibility; gas and electric programs can have different account and project requirements. A heat pump pairing or qualifying thermostat may have separate rules. Use the current utility application and written program guidance rather than assuming every Great Falls household receives the same incentive.",
+    question: "How long will furnace replacement take, and will I be without heat overnight?",
+    answer: "Ask for the schedule for your actual job before the old furnace is disconnected. Equipment access, duct changes, venting, electrical work, inspections, and parts can affect completion. For a winter replacement, agree on safe temporary arrangements and what happens if the work runs longer. Don’t assume same-day completion, loan heaters, or overnight heat unless those arrangements are confirmed. Before the job is complete, ask for startup results, operating instructions, filter details, and warranty and registration responsibilities.",
+    sources: [
+      { label: "Carrier: furnace installation steps and timing considerations", url: "https://www.carrier.com/us/en/residential/hvac-resources/furnaces/furnace-installation/" },
+    ],
+  },
+  {
+    question: "Do I need a permit for furnace replacement, and who handles it?",
+    answer: "Confirm the requirements for your installation address before work starts. Great Falls publishes mechanical-permit forms, while projects outside a certified local jurisdiction follow the state’s rules, including applicable residential exemptions. Don’t assume the city process applies to every rural home. Ask the relevant building department what is required, and have the proposal state who handles any permits, fees, inspections, and corrections. A homeowner application isn’t automatically the right form for a contractor’s installation.",
+    sources: [
+      { label: "City of Great Falls: building and mechanical-permit forms", url: "https://greatfallsmt.gov/880/Building-Forms" },
+      { label: "Montana DLI: mechanical-permit jurisdiction and exemptions", url: "https://bsd.dli.mt.gov/Building-Codes-Permits/permit-applications/mechanical-permits/" },
+    ],
   },
 ];

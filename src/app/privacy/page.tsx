@@ -25,10 +25,7 @@ export default function PrivacyPage() {
               Pre-Launch Notice for Legal Review
             </span>
             <span>
-              This starter privacy disclosure outlines current technical data
-              practices for lead forms and website hosting. It must be reviewed
-              and formally approved by client legal counsel prior to public
-              commercial launch.
+              This draft explains how the website handles form details and hosting data. The client’s legal counsel must review and approve it before the site launches publicly.
             </span>
           </div>
         </div>
@@ -48,15 +45,12 @@ export default function PrivacyPage() {
             </h2>
             <p>
               Great Falls Heating and Air LLC (&ldquo;we&rdquo;, &ldquo;our&rdquo;,
-              or &ldquo;us&rdquo;) collects personal information that you
-              voluntarily provide to us when requesting an HVAC service
-              estimate, scheduling emergency heating diagnostics, or submitting
-              general inquiries through our website.
+              or &ldquo;us&rdquo;) collects the personal information you choose to share when you request an estimate, ask about a service visit, or send a question through this website.
             </p>
             <p>This information includes:</p>
             <ul className="list-disc pl-5 space-y-1">
               <li>Full name</li>
-              <li>Telephone contact number</li>
+              <li>Phone number</li>
               <li>Email address</li>
               <li>Service address, community, or ZIP code</li>
               <li>Preferred contact method (phone call, email, or SMS text)</li>
@@ -72,27 +66,23 @@ export default function PrivacyPage() {
               2. How We Use Your Information
             </h2>
             <p>
-              We use the information collected exclusively for legitimate
-              business purposes:
+              We use your information only for business purposes:
             </p>
             <ul className="list-disc pl-5 space-y-1">
               <li>
-                Contacting you to discuss your heating or cooling system
-                symptoms
+                Talking with you about your heating or cooling problem
               </li>
               <li>
-                Scheduling on-site diagnostic service or in-home estimate
-                appointments
+                Arranging a diagnostic visit or an in-home estimate
               </li>
               <li>
-                Calculating accurate equipment sizing and providing written
-                estimates
+                Sizing equipment and preparing written estimates
               </li>
               <li>
-                Dispatching service technicians to your residential location
+                Sending a technician to your home
               </li>
               <li>
-                Providing necessary documentation for utility rebate claims
+                Preparing documents needed for utility rebate claims
                 (such as NorthWestern Energy or Sun River Electric Cooperative)
               </li>
             </ul>
@@ -108,9 +98,7 @@ export default function PrivacyPage() {
               3. Form Submissions and Email Transmission
             </h2>
             <p>
-              When production delivery is enabled, form data is sent to the
-              configured mailbox through an authenticated email provider.
-              Development previews may simulate delivery without sending email.
+              When live form delivery is enabled, an authenticated email service sends your form details to the designated mailbox. Development previews may test the form without sending an email.
               If you smell gas or a carbon monoxide alarm sounds, leave the
               building and contact emergency services from a safe location. Do
               not wait for a form response.
@@ -122,14 +110,7 @@ export default function PrivacyPage() {
               4. Cookies and Website Analytics
             </h2>
             <p>
-              Our website may utilize essential cookies to maintain page
-              security and basic operational functionality. We do not currently
-              run invasive cross-site tracking cookies. In the event that
-              aggregated website performance analytics (such as Google Analytics
-              4) are enabled in the future, they will collect only anonymized
-              operational metrics (such as page visit volumes, device screen
-              widths, and button interaction counts) without recording personal
-              customer identities or form field contents.
+              This website may use essential cookies for security and basic operation. We do not currently use invasive cross-site tracking cookies. If we add website analytics, such as Google Analytics 4, they will collect only anonymous usage information, such as page visits, screen widths, and button clicks. They will not record customer identities or form contents.
             </p>
           </section>
 
@@ -138,13 +119,7 @@ export default function PrivacyPage() {
               5. Data Retention and Security
             </h2>
             <p>
-              We implement reasonable administrative and technological
-              safeguards to protect personal information against unauthorized
-              access, loss, or disclosure. However, no internet transmission or
-              electronic storage method can guarantee absolute security. We
-              retain inquiry information only for as long as necessary to
-              complete your requested service or fulfill standard accounting and
-              warranty documentation obligations.
+              We use reasonable administrative and technical safeguards to protect your information from unauthorized access, loss, or disclosure. No internet connection or storage system can guarantee complete security. We keep inquiry information only as long as needed to complete your requested service or meet accounting and warranty record requirements.
             </p>
           </section>
 
@@ -153,9 +128,7 @@ export default function PrivacyPage() {
               6. Your Privacy Rights & Contacting Us
             </h2>
             <p>
-              You may request review, correction, or deletion of your personal
-              contact records from our direct communication systems at any time
-              by contacting us:
+              You can contact us at any time to ask to review, correct, or delete your personal contact records from our communication systems:
             </p>
             <div className="rounded-lg bg-slate-50 border border-slate-200 p-4 text-sm text-slate-800 space-y-1">
               <div className="font-bold text-[#071827]">

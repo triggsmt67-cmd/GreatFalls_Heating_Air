@@ -28,14 +28,14 @@ export function FinalDarkCTA({
           >
             Call {siteConfig.phoneDisplay}
           </a>
-          <small className="cta-next-step">Call to discuss your needs and current availability.</small>
+          <small className="cta-next-step">Tell us what’s happening and ask about availability.</small>
           <Link
             className="button button-yellow"
             href={requestHref}
           >
             {requestLabel}
           </Link>
-          <small className="cta-next-step">Send your request. We’ll contact you to discuss the next steps.</small>
+          <small className="cta-next-step">Tell us what you need. We’ll be in touch to talk it through.</small>
         </div>
       </div>
     </section>

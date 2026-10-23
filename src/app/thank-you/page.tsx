@@ -21,12 +21,12 @@ export default async function Page({
       <ServiceIcon name="general" size={48} />
       <p className="eyebrow">{preview ? "Development preview" : "Thank you"}</p>
       <h1>
-        {preview ? "Test request completed." : "Your next step starts here."}
+        {preview ? "Test request completed." : "Thanks for getting in touch."}
       </h1>
       <p>
         {preview
           ? "This was a simulated submission. No email was sent."
-          : "If you arrived here after a successful submission, your request was accepted by our email provider. Please call if you need to confirm receipt or discuss availability."}
+          : "If you’ve just sent the form successfully, it has been passed to our email service for delivery. To confirm we’ve received it or ask about availability, please call."}
       </p>
       <div className="form-alert">
         <strong>Need urgent heating or cooling help?</strong>

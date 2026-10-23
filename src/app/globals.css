@@ -265,7 +265,7 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  height: 88px;
+  height: 120px;
 }
 .brand {
   display: inline-flex !important;
@@ -282,7 +282,7 @@ a:hover {
   display: block;
 }
 .brand--logo-only .brand-logo {
-  height: 72px;
+  height: 112px;
   width: auto;
 }
 .brand strong {
@@ -1496,10 +1496,10 @@ a:hover {
     font-size: 14px;
   }
   .header-inner {
-    height: 76px;
+    height: 104px;
   }
   .brand--logo-only .brand-logo {
-    height: 60px;
+    height: 96px;
   }
 
   .service-editorial {
@@ -1580,7 +1580,7 @@ a:hover {
     grid-template-columns: 1fr;
   }
   .header-inner {
-    height: 70px;
+    height: 96px;
     gap: 10px;
   }
   .header-cta {
@@ -1598,7 +1598,7 @@ a:hover {
     font-size: 8px;
   }
   .brand--logo-only .brand-logo {
-    height: 54px;
+    height: 88px;
   }
 
   .eyebrow {

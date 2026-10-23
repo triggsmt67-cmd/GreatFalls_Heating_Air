@@ -1,3 +1,4 @@
+import { RebateNotice } from "@/components/ui/RebateNotice";
 import Link from "next/link";
 import { siteConfig, verification } from "@/content/site";
 import { buildMetadata } from "@/lib/seo/metadata";
@@ -72,17 +73,17 @@ export default function Page() {
       <div className={`page-heading ${styles.hero}`}>
         <ServiceIcon name="cooling" size={48} />
         <p className="eyebrow">Summer cooling / Great Falls &amp; Cascade County</p>
-        <h1>Cooling for Great Falls’ hot rooms and smoky summer days.</h1>
+        <h1>Hot upstairs? AC struggling? Start here.</h1>
         <p>Central AC repair, seasonal maintenance, ductless cooling, and replacement planning for your home—with airflow and filtration options for smoky summer days.</p>
         <div className="hero-actions"><Link className="button button-yellow" href="/contact?intent=estimate">Request service or an estimate ↗</Link><Link className="text-link" href="/services/cooling/ac-repair">AC repair &amp; diagnostics →</Link></div>
       </div>
       <div className="interior-grid">
         <div className="article-copy">
-          <p className="eyebrow">Our view / Summer comfort</p>
-          <h2>The rooms you use belong in the cooling assessment.</h2>
+          <p className="eyebrow">Our approach / Summer comfort</p>
+          <h2>Tell us which rooms aren’t comfortable.</h2>
           <p>The thermostat reading is only part of summer comfort. If the basement is cold while upstairs bedrooms remain uncomfortable, those rooms belong in the assessment before we recommend equipment.</p>
           <p>Hot afternoons, cottonwood buildup, and smoky days can make summer comfort more complicated than turning down the thermostat. When outdoor air quality is poor, opening the windows may not be the right way to cool down.</p>
-          <p>For a home in Skyline, describe which rooms overheat, when it happens, and whether bedroom doors are open or closed. Sun exposure, room use, and airflow help frame the assessment; an address alone cannot establish the cause.</p>
+          <p>For a home in Skyline, describe which rooms overheat, when it happens, and whether bedroom doors are open or closed. Tell us about sun exposure, how you use the room, and the airflow you notice. We need those details to help find the cause.</p>
           <ul><li>Central AC and heat pump diagnostics</li><li>Seasonal coil cleaning and cooling maintenance</li><li>Airflow assessment for uneven room temperatures</li><li>Ductless options for homes without ducts and hot additions</li></ul>
           {/* Add a verified room-comfort job example here when measurements, work performed, outcome, and publication permission are confirmed. */}
           <h2>How a cooling service visit works.</h2>
@@ -115,16 +116,16 @@ export default function Page() {
         <ul className={styles.tuneup}>{coolingTuneup.map(([heading, body]) => <li key={heading}><h3>{heading}</h3><p>{body}</p></li>)}</ul>
       </section>
       <section className={`${styles.section} ${styles.guidance}`} aria-labelledby="cooling-smoke-heading">
-        <div className="article-copy"><p className="eyebrow">Cooling &amp; indoor air</p><h2 id="cooling-smoke-heading">Keep cooling and smoke filtration in the same conversation.</h2><p>Air conditioning can help you stay cool with windows closed. Removing fine smoke particles also requires suitable filtration. A ductless system’s standard washable filter should not be treated as a substitute for a dedicated smoke-filtering air cleaner.</p><p>EPA recommends a MERV 13 HVAC filter, or the highest efficiency your system can accommodate, and a properly sized portable air cleaner where needed. We can discuss filter compatibility and airflow so an upgrade does not unnecessarily restrict your system.</p><p>If you cannot keep your home cool during a smoke event, seek a cooler location and follow local safety guidance.</p><p className={styles.source}>Source: <a href={coolingSources.epa}>EPA: Wildfires and Indoor Air Quality</a>. Guidance reviewed October 19, 2026.</p></div>
+        <div className="article-copy"><p className="eyebrow">Cooling &amp; indoor air</p><h2 id="cooling-smoke-heading">Cool air and cleaner air need a plan.</h2><p>Air conditioning can help you stay cool with windows closed. Removing fine smoke particles also requires suitable filtration. A ductless system’s standard washable filter should not be treated as a substitute for a dedicated smoke-filtering air cleaner.</p><p>EPA recommends a MERV 13 HVAC filter, or the highest efficiency your system can accommodate, and a properly sized portable air cleaner where needed. We can discuss filter compatibility and airflow so an upgrade does not unnecessarily restrict your system.</p><p>If you cannot keep your home cool during a smoke event, seek a cooler location and follow local safety guidance.</p><p className={styles.source}>Source: <a href={coolingSources.epa}>EPA: Wildfires and Indoor Air Quality</a>. Guidance reviewed October 19, 2026.</p></div>
       </section>
       <section className={styles.section} aria-labelledby="cooling-upgrade-heading">
-        <div className="article-copy"><h2 id="cooling-upgrade-heading">Repair, replace, or consider a heat pump?</h2><p>A worn component in otherwise sound equipment may justify a repair. Recurring failures, a major component fault, persistent comfort problems, or expensive repairs can make replacement worth discussing. We help you compare the work needed with suitable equipment options.</p><p>A qualifying heat pump or other efficiency upgrade may be eligible for utility incentives. Eligibility depends on your utility account, equipment, project, and current program rules—not simply pairing a heat pump with a furnace. Confirm eligibility before buying.</p><p className={styles.source}>Program sources: <a href={coolingSources.northwestern}>NorthWestern Energy E+ incentives</a> and <a href={coolingSources.sunRiver}>Sun River Electric Cooperative heat pump rebates</a>. Reviewed October 19, 2026.</p></div>
+        <div className="article-copy"><h2 id="cooling-upgrade-heading">Repair, replace, or consider a heat pump?</h2><p>A worn component in otherwise sound equipment may justify a repair. Recurring failures, a major component fault, persistent comfort problems, or expensive repairs can make replacement worth discussing. We help you compare the work needed with suitable equipment options.</p><p>A qualifying heat pump or other efficiency upgrade may be eligible for utility incentives. Eligibility depends on your utility account, equipment, project, and current program rules—not simply pairing a heat pump with a furnace. Confirm eligibility before buying.</p><RebateNotice /><p className={styles.source}>Program sources: <a href={coolingSources.northwestern}>NorthWestern Energy E+ incentives</a> and <a href={coolingSources.sunRiver}>Sun River Electric Cooperative heat pump rebates</a>. Reviewed October 23, 2026.</p></div>
         <div className="related-links"><Link className="text-link" href="/services/cooling/ac-maintenance">Plan AC maintenance &amp; coil care →</Link><Link className="text-link" href="/services/cooling/ac-installation">Plan AC installation &amp; replacement →</Link><Link className="text-link" href="/services/cooling/ac-repair">Understand AC diagnosis &amp; repair →</Link><Link className="text-link" href="/services/heat-pumps/cold-climate">Explore cold-climate heat pumps →</Link><Link className="text-link" href="/rebates/2026-montana-hvac-rebates">Review Montana HVAC rebate guidance →</Link></div>
       </section>
     </div>
     <section className="faq-section section" aria-labelledby="cooling-faq-heading">
       <div className="wrap faq-grid">
-        <div><p className="eyebrow">Useful answers</p><h2 id="cooling-faq-heading">Frequently asked questions about air conditioning in Great Falls.</h2><p>Straight answers on Cascade County wildfire smoke filtration, cottonwood coil care, uneven room temperatures, and 2026 cooling rebates.</p></div>
+        <div><p className="eyebrow">Useful answers</p><h2 id="cooling-faq-heading">Frequently asked questions about air conditioning in Great Falls.</h2><p>Repair costs, warm air, ice, hot upstairs rooms, and smoke-season filtration. Start with the question that fits your home.</p></div>
         <div>
           {coolingFaqs.map(({ question, answer, sources }) => <details className="faq-item" key={question}>
             <summary>{question}<span aria-hidden="true">+</span></summary>

@@ -52,6 +52,7 @@ export default async function Page({
                 ? siteConfig.hours
                 : "Call to confirm current service availability."}
             </p>
+            <p><strong>{siteConfig.emergencyAvailability}</strong>. Call for emergency help.</p>
           </div>
           <div>
             <h2>Business address</h2>
@@ -61,9 +62,7 @@ export default async function Page({
             </address>
             <h2>Great Falls & nearby communities</h2>
             <p>
-              Contact us to confirm service at your address. Military families
-              in off-base households are welcome to inquire; no base affiliation
-              or access is implied.
+              Call to check service at your address. Military families living off base are welcome to get in touch. We’re independent of the base, and access to on-base homes needs separate confirmation.
             </p>
             <div className="form-alert">
               <strong>Gas odor or CO alarm?</strong>

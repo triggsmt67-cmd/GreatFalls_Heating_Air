@@ -50,18 +50,18 @@ export default function Page() {
       <div className={`page-heading ${styles.hero}`}>
         <ServiceIcon name="ac-repair" size={48} />
         <p className="eyebrow">Seasonal cooling service / Great Falls &amp; Cascade County</p>
-        <h1>AC maintenance for cleaner coils, dependable airflow, and explained findings.</h1>
+        <h1>Get your AC ready for the next hot spell.</h1>
         <p>Plan seasonal service around your equipment and what it has been exposed to. Understand the cleaning needed, the checks performed, and any work that needs a separate decision.</p>
         <div className="hero-actions"><Link className="button button-orange" href="/contact?intent=maintenance">Request an AC tune-up ↗</Link><Link className="text-link" href="/services/cooling/ac-repair">AC already blowing warm air or icing up? →</Link></div>
         <p className={styles.notice}>Call <a href={`tel:${siteConfig.phoneE164}`}>{siteConfig.phoneDisplay}</a> for current pricing, included service, and availability. An online request does not reserve an appointment; forms are not continuously monitored.</p>
       </div>
       <div className="interior-grid">
         <div className="article-copy">
-          <p className="eyebrow">Our view / Condition and season</p>
-          <h2>A useful visit explains what the season has changed.</h2>
-          <p>At Great Falls Heating and Air, our maintenance perspective connects three things: what the equipment has been exposed to, what the checks reveal, and what needs attention next. Outdoor cleaning, indoor airflow, drainage, and operating condition belong in the same conversation.</p>
+          <p className="eyebrow">Our approach / Condition and season</p>
+          <h2>What has your AC been through since its last check?</h2>
+          <p>Cottonwood, dust, smoke, and months of use can leave different problems behind. We look at the outdoor unit, indoor airflow, drainage, and how the system runs. You should know what we found and what needs attention.</p>
           <p>Cottonwood fluff on the outdoor coil and smoke-related indoor filter care involve different parts of the system. A clean-looking outdoor cabinet cannot tell you whether the indoor filter, condensate drain, or controls need attention.</p>
-          <p>For a Great Falls home with cottonwoods nearby, describe how quickly debris collects on the coil. For a property near Fort Shaw, share directions, access, the equipment model, and the water source if deposits are a concern. The work should follow the actual equipment and exposure rather than assumptions about the neighborhood.</p>
+          <p>For a Great Falls home with cottonwoods nearby, describe how quickly debris collects on the coil. For a property near Fort Shaw, share directions, access, the equipment model, and the water source if deposits are a concern. The equipment and its condition determine the work needed.</p>
           <p className={styles.source}>Cleaning and filtration background: <a href={maintenanceSources.coils}>Carrier coil-care guidance</a>; <a href={maintenanceSources.smoke}>EPA wildfire smoke and indoor air guidance</a>.</p>
         </div>
         <div className="service-hub-media">
@@ -103,16 +103,16 @@ export default function Page() {
         <p>Discuss falling ice, drifting snow, or service-access concerns at the actual equipment location.</p><p className={styles.source}>Manufacturer guidance: <a href={maintenanceSources.covers}>Trane seasonal AC care</a>; <a href={maintenanceSources.winter}>heat-pump winter preparation</a>.</p>
       </div></section>
       <section className={styles.section} aria-labelledby="ac-records-heading"><div className="article-copy">
-        <h2 id="ac-records-heading">Leave with findings and a clear next step.</h2>
+        <h2 id="ac-records-heading">Know what was done and what still needs attention.</h2>
         <p>Ask for a dated record of completed work, available measurements, relevant test conditions, and anything that could not be checked. Separate owner care, recommended cleaning, further diagnosis, and proposed repairs so each next step has a clear purpose and price.</p>
         <p>Keep records with the equipment documents and read the actual warranty. Maintenance does not guarantee against future failures or promise that a warranty claim will be approved. Registration, exclusions, parts and labor coverage, and maintenance requirements vary.</p>
         <p className={styles.source}>Example manufacturer terms: <a href={maintenanceSources.warranty}>Trane warranty and registration guidance</a>. Refer to your own equipment’s warranty.</p>
-        <p>If the system is already struggling, use the repair page to describe the symptoms. If assessment points toward replacement, compare the complete installation scope rather than assuming a tune-up or new outdoor unit will solve a room-comfort problem.</p>
+        <p>If the system is already struggling, use the repair page to describe the symptoms. If assessment points toward replacement, compare all the installation work rather than assuming a tune-up or new outdoor unit will solve a room-comfort problem.</p>
       </div><div className="related-links"><Link className="text-link" href="/services/cooling/ac-repair">AC symptoms and repair decisions →</Link><Link className="text-link" href="/services/cooling/ac-installation">AC installation and written estimate scope →</Link><Link className="text-link" href="/services/cooling">Back to Great Falls cooling services →</Link></div>
       {/* Add a real maintenance record or job photo only after checks, findings, outcome, location, photo rights, and publication permission are confirmed. */}
       </section>
     </div>
-    <section className="faq-section section" aria-labelledby="ac-maintenance-faq-heading"><div className="wrap faq-grid"><div><p className="eyebrow">Seasonal service questions</p><h2 id="ac-maintenance-faq-heading">Frequently asked questions about AC maintenance.</h2></div><div>{maintenanceFaqs.map(({ question, answer }) => <details className="faq-item" key={question}><summary>{question}<span aria-hidden="true">+</span></summary><p>{answer}</p></details>)}</div></div></section>
+    <section className="faq-section section" aria-labelledby="ac-maintenance-faq-heading"><div className="wrap faq-grid"><div><p className="eyebrow">Seasonal service questions</p><h2 id="ac-maintenance-faq-heading">Frequently asked questions about AC maintenance.</h2></div><div>{maintenanceFaqs.map(({ question, answer, sources }) => <details className="faq-item" key={question}><summary>{question}<span aria-hidden="true">+</span></summary><p>{answer}</p>{sources?.length ? <p className="faq-sources">Sources: {sources.map((source, index) => <span key={source.url}>{index > 0 ? "; " : ""}<a className="text-link" href={source.url}>{source.label}</a></span>)}</p> : null}</details>)}</div></div></section>
     <FinalDarkCTA title="Plan the next cooling season around your system." subtitle="Discuss your equipment, recent changes, and seasonal maintenance needs. Call to confirm included work, pricing, and availability." requestHref="/contact?intent=maintenance" requestLabel="Request an AC tune-up ↗" />
   </>;
 }

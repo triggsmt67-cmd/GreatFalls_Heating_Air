@@ -1,5 +1,7 @@
+import type { FAQItem } from "@/content/faqs";
+
 export const maintenanceSources = {
-  annual: "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center/Home-Heating-Equipment",
+  annual: "https://www.cpsc.gov/Newsroom/News-Releases/2026/Keep-Warm-and-Safe-This-Winter-Tips-for-Using-Generators-Furnaces-and-Space-Heaters",
   service: "https://www.carrier.com/us/en/residential/hvac-resources/furnaces/furnace-cleaning/",
   exchanger: "https://www.ahrinet.org/search-standards/ahri-guideline-x-induced-draft-furnace-heat-exchanger-inspection",
   warranty: "https://consumer.ftc.gov/articles/warranties",
@@ -15,29 +17,64 @@ export const maintenanceChecks = [
   ["Filter, airflow & temperature rise", "Inspect filter fit and condition, accessible airflow paths, and operating temperature rise as applicable. Compare filter resistance and equipment limits rather than choosing by thickness alone.", "Discuss a suitable replacement filter, any airflow concern, and whether ductwork or further measurement needs a separate assessment."],
   ["Vents, controls & service record", "Inspect accessible intake/exhaust routes and thermostat operation. Note shared venting with a water heater and explain any inspection limitations.", "Review completed checks, findings, recommendations, and next steps. Keep the dated invoice and available readings with the equipment records."],
 ];
-export const maintenanceFaqs = [
+export const maintenanceFaqs: FAQItem[] = [
   {
-    question: "What should a furnace tune-up in Great Falls include?",
-    answer: "Confirm the scope for your exact furnace when arranging service. A useful visit covers relevant combustion and venting checks, ignition, airflow, controls, electrical operation, and condensate handling where fitted. Inspection, cleaning, and repairs are different tasks: deeper cleaning, parts, or follow-up diagnosis may require separate approval. Ask what findings and records you will receive, and whether filters or other materials are included. Call Great Falls Heating and Air for current pricing and availability; a time estimate alone is not proof of a thorough inspection.",
+    question: "Does my furnace really need a tune-up every year if it’s working fine?",
+    answer: "CPSC recommends a professional inspection of fuel-burning heating systems every year, including gas and propane furnaces. Follow your model’s maintenance instructions too. Producing heat doesn’t tell you whether venting, combustion, or other components need attention. Plan the visit before sustained winter use when practical; late summer or fall can be useful times to book in Great Falls. If the furnace starts behaving differently, don’t wait for the annual appointment.",
+    sources: [
+      { label: "CPSC: annual inspection of fuel-burning heating systems", url: maintenanceSources.annual },
+      { label: "ENERGY STAR: pre-season maintenance checklist", url: "https://www.energystar.gov/saveathome/heating-cooling/maintenance-checklist" },
+    ],
   },
   {
-    question: "How often should a gas or propane furnace be inspected?",
-    answer: "CPSC recommends yearly professional inspection of fuel-burning home heating systems. Follow the furnace manufacturer’s maintenance instructions as well, and arrange service sooner for unusual operation or safety concerns. Propane equipment needs the same attention to model-specific requirements; fuel type alone does not establish a separate universal legal maintenance schedule. A furnace working normally today can still benefit from inspection, but annual service cannot predict or prevent every failure.",
+    question: "What should a furnace tune-up include besides changing the filter?",
+    answer: "Ask which checks and cleaning tasks are included for your furnace. Areas to discuss include combustion and venting, ignition, blower and electrical operation, airflow, thermostat controls, and drainage on equipment that has it. Inspection, cleaning, and repairs are different tasks. A visit may identify a need for deeper cleaning, parts, or more testing that requires a separate price and approval. Ask for a record of what was checked, the findings, any limits to the inspection, and what needs attention next.",
+    sources: [
+      { label: "Carrier: furnace cleaning and professional service", url: maintenanceSources.service },
+      { label: "ENERGY STAR: heating maintenance checks", url: "https://www.energystar.gov/saveathome/heating-cooling/maintenance-checklist" },
+    ],
   },
   {
-    question: "When should I request a fall tune-up in Great Falls?",
-    answer: "Request service before sustained winter heating demand when practical. Late summer or early fall can be useful planning windows, but smoke events, early cold fronts, and appointment availability vary. Do not wait for a particular month if the furnace is behaving abnormally. For a rural property near Fort Shaw or Simms, confirm service availability and access details when calling. A mid-winter problem may need a diagnostic repair visit rather than routine maintenance.",
+    question: "How much does a furnace tune-up cost in Great Falls?",
+    answer: "Call for the current price and what the visit includes for your equipment. Confirm whether filters, cleaning, operating tests, and service records are included, and what would cost extra. A basic inspection, deep cleaning, and a repair visit can involve different work. National price guides are general budgeting references, not a quote, advertised rate, or price cap from Great Falls Heating and Air. Actual costs can be lower or substantially higher depending on the equipment, condition, access, included work, and any additional service you approve.",
+    sources: [
+      { label: "Carrier: furnace service scope and cleaning cost differences", url: maintenanceSources.service },
+    ],
   },
   {
-    question: "Can a tune-up lower my winter heating bill?",
-    answer: "Addressing a dirty filter, impaired airflow, or an operating fault can improve a system that is not working as intended. It does not change the furnace’s rated AFUE or guarantee a bill reduction. Outdoor weather, thermostat settings, energy prices, and the home’s heat loss also affect cost. Ask what problem was found and how the proposed work addresses it rather than relying on a promised savings percentage.",
+    question: "How often should I change my furnace filter, especially after wildfire smoke?",
+    answer: "Follow the furnace and filter instructions, then check the filter’s actual condition. Filter design, system use, pets, dust, and smoke can change how quickly it loads up; one replacement schedule won’t fit every home. EPA advises more frequent checks and replacement during heavy smoke. Use the correct size and a filter your system can handle. A thicker filter or higher MERV number alone doesn’t prove compatibility. Turn the system off as instructed before changing the filter, and don’t run without one.",
+    sources: [
+      { label: "EPA: filter checks during wildfire smoke", url: maintenanceSources.smoke },
+      { label: "ENERGY STAR: homeowner filter care", url: "https://www.energystar.gov/saveathome/heating-cooling/maintenance-checklist" },
+    ],
   },
   {
-    question: "What can I maintain myself between service visits?",
-    answer: "Follow the owner’s instructions for inspecting and replacing the filter, and check it more often during heavy smoke events. Keep registers and accessible equipment space clear. From ground level, check for loose snow around accessible exterior vents; do not climb, chip ice, disconnect pipes, or alter venting. Test CO alarms and replace batteries or expired units according to each alarm’s instructions. Leave internal cleaning, gas adjustments, electrical testing, and condensate-trap service to a qualified technician. If you smell gas or suspect CO exposure, leave immediately and call emergency services or your utility from outside.",
+    question: "What furnace maintenance can I do myself between visits?",
+    answer: "Keep homeowner care to the tasks in your owner instructions: inspect or replace an accessible filter, keep supply and return grilles clear, and leave room around the furnace for service. From ground level, look for loose snow around accessible exterior vents; don’t climb, chip ice, disconnect pipes, or alter venting. Leave internal burner or blower cleaning, fuel adjustments, wiring, safety controls, and condensate-trap disassembly to a qualified technician. If you smell gas or a CO alarm sounds, leave immediately and call 911 from a safe location.",
+    sources: [
+      { label: "Carrier: homeowner care versus professional furnace service", url: maintenanceSources.service },
+    ],
   },
   {
-    question: "Will furnace maintenance keep my warranty valid?",
-    answer: "Keep dated service records and follow the maintenance requirements in your equipment’s actual warranty and owner instructions. Coverage, registration deadlines, exclusions, and responsibility for parts versus labor vary. A maintenance invoice documents work performed; it does not guarantee claim approval or extend coverage automatically. Do not assume a particular provider or a universal ten-year warranty is required. Review the written terms and ask the manufacturer about unclear requirements.",
+    question: "Will a tune-up lower my heating bill or prevent a winter breakdown?",
+    answer: "Correcting a dirty filter, restricted airflow, or an operating problem can help a struggling system work as intended. It doesn’t change the furnace’s rated efficiency or guarantee lower bills. Weather, fuel prices, thermostat settings, and the home’s heat loss also affect your costs. Maintenance can identify concerns, but a component can still fail later. Ask what was found and how the proposed work addresses it, rather than relying on a promised savings percentage or a breakdown-free winter.",
+    sources: [
+      { label: "Carrier: what maintenance can help identify", url: maintenanceSources.service },
+    ],
+  },
+  {
+    question: "Will skipping a tune-up void my furnace warranty?",
+    answer: "Read your equipment’s actual warranty and maintenance instructions rather than assuming every furnace has the same rule. Maintenance requirements, registration deadlines, exclusions, and parts-versus-labor coverage vary. Keep dated invoices, completed checks, and available readings with the equipment records. A service invoice doesn’t guarantee a claim will be approved, and a maintenance plan is a separate agreement from the equipment warranty. Ask the manufacturer about any unclear condition before relying on coverage.",
+    sources: [
+      { label: "FTC: written warranty terms and service contracts", url: maintenanceSources.warranty },
+    ],
+  },
+  {
+    question: "My furnace keeps shutting off or making a new noise. Should I book a tune-up or a repair?",
+    answer: "Describe the symptoms when you call so the right visit can be arranged. Repeated shutdowns, loss of heat, new grinding or banging, and unusual operation may need a diagnostic repair visit rather than routine maintenance. Don’t keep resetting the furnace or wait for a scheduled tune-up while the house gets colder. We offer 24/7 emergency service and repair for urgent no-heat problems. For gas odor, suspected CO exposure, or a sounding CO alarm, leave and call 911 from outside before contacting us.",
+    sources: [
+      { label: "Carrier: signs that need professional attention", url: maintenanceSources.service },
+    ],
   },
 ];

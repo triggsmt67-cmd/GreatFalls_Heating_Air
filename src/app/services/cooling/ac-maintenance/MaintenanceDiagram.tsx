@@ -8,7 +8,7 @@ const areas = [
 
 export function MaintenanceDiagram() {
   return <figure className={styles.diagram} aria-labelledby="maintenance-diagram-heading">
-    <figcaption><p className="eyebrow">A quick system map</p><h2 id="maintenance-diagram-heading">Three places maintenance looks.</h2><p>Outdoor debris, indoor filtration, and cooling water involve different parts of the system.</p></figcaption>
+    <figcaption><p className="eyebrow">A quick system map</p><h2 id="maintenance-diagram-heading">Three areas to check.</h2><p>Outdoor debris, indoor filters, and water from cooling each need their own check.</p></figcaption>
     <div className={styles.areas}>{areas.map(({ label, title, exposure, check, drawing }) => <div className={styles.area} key={title}>
       <p className={styles.label}>{label}</p>
       <svg viewBox="0 0 96 96" width="96" height="96" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d={drawing} /></svg>

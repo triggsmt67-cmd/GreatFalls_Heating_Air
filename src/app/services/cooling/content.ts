@@ -25,36 +25,46 @@ export const coolingSources = {
 
 export const coolingFaqs = [
   {
-    question: "Should I switch from a swamp cooler to central AC in Great Falls?",
-    answer: "It depends on your home, budget, and comfort needs. Evaporative coolers can work well in dry weather, but they draw outdoor air into the home and need an airflow path out. During wildfire smoke events, that can bring smoke indoors. Central AC or ductless cooling can keep you comfortable with windows closed, but fine smoke particles still require suitable filtration or a properly sized room air cleaner. We can compare options for your home without assuming a full replacement is necessary.",
-    sources: [{ label: "EPA: wildfire smoke and indoor air", url: coolingSources.epa }],
+    question: "How much does AC repair cost in Great Falls?",
+    answer: "HomeAdvisor’s 2026 guide reports a $417 national average for AC repair, with a typical range of $172–$664 across different AC systems. These figures are general budgeting references, not a quote, advertised rate, or price cap from Great Falls Heating and Air. Your repair may cost less or substantially more depending on the fault, parts, refrigerant, equipment access, labor, warranty coverage, and any emergency or after-hours charges. Call to confirm the diagnostic fee and what it includes, then review the proposed repair price before approving work.",
+    sources: [{ label: "HomeAdvisor: national AC repair costs (June 2026)", url: "https://www.homeadvisor.com/cost/heating-and-cooling/repair-an-ac-unit/" }],
   },
   {
-    question: "How do I clean cottonwood seeds out of my outside AC unit without damaging the fins?",
-    answer: "Start with your model’s owner instructions. Turn the system off and follow the manufacturer’s power-isolation procedure before any permitted cleaning; the thermostat alone does not isolate electrical power. Keep loose debris away from the cabinet, and use only the gentle cleaning method approved for that coil. Never use a pressure washer, force a brush into the fins, or spray electrical components. Do not remove panels, the fan, or electrical covers. Matted buildup, hard-to-reach coils, or unfamiliar equipment are reasons to arrange a professional cleaning.",
-    sources: [{ label: "Carrier: AC coil cleaning guidance", url: "https://www.carrier.com/us/en/residential/hvac-resources/air-conditioners/ac-coil-cleaner-tips/" }],
+    question: "Why is my AC running but the house isn’t getting cool?",
+    answer: "Thermostat settings, a restricted filter or airflow path, outdoor-unit trouble, icing, or a refrigerant problem can cause similar symptoms. Check the homeowner controls and accessible filter only as your equipment instructions allow. Tell us whether every room is warm or just one area, when the problem started, and whether you see ice or an alert. Those details help guide testing; they don’t identify a failed part by themselves. Keep electrical covers closed. For smoke, sparking, or a burning smell, stop troubleshooting and stay clear; leave and call 911 for fire or immediate danger.",
+    sources: [{ label: "Carrier: reasons an AC runs without cooling", url: "https://www.carrier.com/residential/en/ca/products/air-conditioners/air-conditioner-service/ac-not-blowing-cold-air/" }],
   },
   {
-    question: "Why is my upstairs hotter than my basement in my Great Falls home?",
-    answer: "Sun exposure, insulation, duct leakage, return-air paths, and airflow balance can all contribute to a warm upstairs and cold basement. Keep supply and return grilles clear and check the filter first. Avoid closing multiple basement registers or changing blower settings yourself; those changes can restrict system airflow. A technician can measure airflow and static pressure and assess the ductwork and equipment sizing. A ductless system may help a difficult room, but it is one option to assess rather than a guaranteed fix for every home.",
-    sources: [],
+    question: "My AC lines are covered in ice. Should I keep it running?",
+    answer: "No. Switch cooling off and call for guidance. Use fan-only mode only if the blower is operating normally and your equipment instructions allow it. Don’t chip ice, apply heat, remove panels, or keep restarting cooling. Thawing doesn’t fix the underlying cause, and there isn’t one thawing time that fits every system. Airflow restrictions, refrigerant trouble, or another fault may need testing. Stay clear of water near electrical equipment and report it when you call.",
+    sources: [{ label: "Carrier: frozen AC coils and underlying causes", url: "https://www.carrier.com/us/en/residential/hvac-resources/air-conditioners/will-frozen-ac-fix-itself/" }],
   },
   {
-    question: "Can I use a high-MERV air filter during Montana wildfire season without hurting my AC?",
-    answer: "Use the highest-efficiency filter your system can accommodate. EPA recommends MERV 13 where compatible, but filter thickness alone does not determine suitability. Filter design, face area, airflow, and the blower’s available pressure all matter. A deeper media cabinet may reduce resistance for a suitable filter, but no filter has zero resistance. Follow your equipment instructions, have compatibility checked if uncertain, and inspect filters more frequently during smoke events rather than relying on a fixed three- or four-week interval. A properly sized portable air cleaner can supplement filtration when your HVAC system cannot support a higher-efficiency filter.",
-    sources: [{ label: "EPA: selecting filtration for wildfire smoke", url: coolingSources.epa }],
+    question: "Why is my upstairs hot when the basement and main floor are cool?",
+    answer: "The system may be cooling while air isn’t reaching the rooms that need it. Sun exposure, insulation, duct leaks, return-air paths, thermostat location, and airflow can all matter. Tell us which rooms overheat, when it happens, and whether doors are usually closed. Keep grilles clear, but don’t close a group of downstairs vents or change blower settings to force air upstairs. Have the airflow and room conditions assessed before assuming a bigger AC or a new part will fix the problem.",
+    sources: [{ label: "Trane: hot upstairs rooms and uneven temperatures", url: "https://www.trane.com/residential/en/resources/blog/help-house-hot-upstairs-cold-downstairs/" }],
   },
   {
-    question: "Do I have to replace my R-410A air conditioner because of refrigerant rules?",
-    answer: "No. The refrigerant transition does not require replacing an existing working R-410A air conditioner. Qualified technicians can continue servicing existing equipment, subject to applicable refrigerant-handling requirements. If the system is low on refrigerant, investigate the cause rather than treating recharging as routine maintenance. Newer refrigerants such as R-32 and R-454B are for equipment designed for them; they are not drop-in replacements for R-410A. When replacement makes sense, compare matched equipment, installation requirements, efficiency, and total cost—not just the refrigerant name.",
-    sources: [{ label: "EPA: refrigerant phasedown questions", url: "https://www.epa.gov/hfcs/frequent-questions-phasedown-hydrofluorocarbons" }],
+    question: "Can I run my AC during wildfire smoke, and will it filter the smoke out?",
+    answer: "Cooling can help you keep windows closed during a smoke event, but fine-smoke removal needs suitable filtration. For central systems, EPA recommends MERV 13 or the highest efficiency the system can accommodate. Check compatibility, fit, and filter condition; a higher rating alone doesn’t mean a filter suits your blower. Inspect more often during heavy smoke. A properly sized portable air cleaner can help. Standard ductless washable screens aren’t a substitute for fine-particle filtration. Follow current local guidance, and seek a cooler location if you can’t keep the home comfortably cool.",
+    sources: [{ label: "EPA: cooling, compatible filters, and indoor air during wildfire smoke", url: coolingSources.epa }],
   },
   {
-    question: "Are there 2026 utility rebates for cooling or heat pump upgrades in Great Falls?",
-    answer: "There may be, depending on your utility service, equipment, and project. NorthWestern Energy offers E+ incentives for qualifying energy-saving measures, and Sun River Electric Cooperative has a separate air-source heat pump rebate program. A particular efficiency rating, ENERGY STAR label, or furnace pairing alone does not establish eligibility. Confirm current program dates, eligible equipment combinations, account requirements, and paperwork with your utility before purchasing. Our Montana HVAC rebate guide is a starting point for comparing programs.",
+    question: "Can I wash cottonwood fluff off my outdoor AC unit myself?",
+    answer: "Only do the cleaning your exact model’s owner instructions permit. Turn the system off and follow its power-isolation instructions first; turning down the thermostat doesn’t isolate electrical power. Keep loose debris away and use only the coil’s approved gentle cleaning method. Don’t remove the fan or panels, spray electrical components, use a pressure washer, or force a brush into the fins. Matted fluff, difficult access, or an unfamiliar unit are reasons to arrange professional cleaning. A clean-looking cabinet alone doesn’t tell you the coil is clear.",
+    sources: [{ label: "Carrier: coil-specific cleaning methods and precautions", url: "https://www.carrier.com/us/en/residential/hvac-resources/air-conditioners/ac-coil-cleaner-tips/" }],
+  },
+  {
+    question: "Should I repair my older air conditioner or replace it?",
+    answer: "Start with the diagnosis, equipment condition, repair history, parts availability, warranty, and written repair price. A repair may make sense for an otherwise sound system. Repeated failures or a major repair can make replacement worth comparing. Age alone doesn’t settle it. If the main problem is one hot room, assess airflow and the house too. When replacement makes sense, compare the full installation work for standard AC and a heat pump, including existing-furnace compatibility and expected heating use. Confirm any rebate separately before counting it toward the price.",
     sources: [
-      { label: "NorthWestern Energy E+ incentives", url: coolingSources.northwestern },
-      { label: "Sun River Electric heat pump rebates", url: coolingSources.sunRiver },
+      { label: "ENERGY STAR: replacement and whole-system considerations", url: "https://www.energystar.gov/saveathome/heating-cooling/replace" },
+      { label: "DOE: heat pumps for heating and cooling", url: "https://www.energy.gov/heat-pumps" },
     ],
+  },
+  {
+    question: "Do refrigerant rules mean I have to replace my working R-410A air conditioner?",
+    answer: "No. EPA says existing systems can continue to be used and repaired as refrigerants are phased down. That doesn’t guarantee every part or refrigerant will always be available at the same price. Have the actual refrigerant and compatible repair options identified before deciding. A different refrigerant isn’t automatically suitable for your equipment, and recharging isn’t routine upkeep for a leaking system. Ask what caused any refrigerant loss, what repair is proposed, and how operation will be checked afterward.",
+    sources: [{ label: "EPA: continued use and repair of existing air conditioners", url: "https://www.epa.gov/hfcs/frequent-questions-phasedown-hydrofluorocarbons" }],
   },
 ];

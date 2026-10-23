@@ -74,7 +74,7 @@ export function validateLeadForm(
   // Strip non-digits except +
   const cleanedDigits = rawPhone.replace(/[^\d]/g, "");
   if (!rawPhone) {
-    errors.phone = "Please provide a telephone contact number.";
+    errors.phone = "Please enter your phone number.";
   } else if (
     cleanedDigits.length < 10 ||
     cleanedDigits.length > 15 ||
@@ -90,7 +90,7 @@ export function validateLeadForm(
     errors.location =
       "Please enter your town or ZIP code (e.g., Great Falls or 59404).";
   } else if (location.length < 2 || location.length > 60) {
-    errors.location = "Please enter a valid service community or ZIP code.";
+    errors.location = "Please enter your town or ZIP code.";
   }
 
   // 7. Preferred Contact Method
@@ -106,12 +106,12 @@ export function validateLeadForm(
   const message = String(formData.message || "").trim();
   if (!message) {
     errors.message =
-      "Please describe what heating or cooling issue you are experiencing.";
+      "Tell us what’s happening with your heating or cooling.";
   } else if (message.length < 10) {
     errors.message =
-      "Please provide at least 10 characters describing the issue.";
+      "Please add a little more detail (at least 10 characters).";
   } else if (message.length > 2500) {
-    errors.message = "Message must not exceed 2500 characters.";
+    errors.message = "Please keep your message to 2,500 characters or fewer.";
   }
 
   // 9. Consent

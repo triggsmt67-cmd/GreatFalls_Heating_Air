@@ -22,6 +22,7 @@ export function Footer() {
               {siteConfig.streetAddress}<br />
               {siteConfig.locality}, {siteConfig.region} {siteConfig.postalCode}
             </address>
+          <p>{siteConfig.hours}<br />{siteConfig.emergencyAvailability}</p>
           <LicenseMark />
         </div>
         <div>

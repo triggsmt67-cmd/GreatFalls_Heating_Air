@@ -126,7 +126,7 @@ export function LeadForm({
       <h2>{headline}</h2>
       <p className="form-intro">
         {progressive
-          ? "Choose a service need to get started."
+          ? "Choose the kind of help you need."
           : "Tell us a little about your home and how to reach you."}
       </p>
       <div className="intent-options" role="group" aria-label="Service need">
@@ -309,7 +309,7 @@ export function LeadForm({
             />
             <span>
               I agree to the <Link href="/privacy">privacy policy</Link> and
-              authorize contact about this inquiry.
+              agree to be contacted about this request.
             </span>
           </label>
           {errors.consent && (
@@ -337,8 +337,7 @@ export function LeadForm({
             <small>* Required fields</small>
           </div>
           <p className="form-next-step">
-            We’ll contact you to discuss the next steps. Sending a request does
-            not reserve an appointment. For urgent help, please call.
+            We’ll be in touch to talk through your request. Your appointment still needs to be confirmed. For urgent help, please call.
           </p>
         </form>
       </div>

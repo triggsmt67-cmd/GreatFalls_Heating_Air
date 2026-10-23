@@ -8,7 +8,7 @@ export function UtilityBar() {
           <span className="utility-extra"> & surrounding communities</span>
         </span>
         <a href={`tel:${siteConfig.phoneE164}`}>
-          Heating & cooling help <strong>{siteConfig.phoneDisplay}</strong>
+          24/7 emergency repair <strong>{siteConfig.phoneDisplay}</strong>
         </a>
       </div>
     </div>

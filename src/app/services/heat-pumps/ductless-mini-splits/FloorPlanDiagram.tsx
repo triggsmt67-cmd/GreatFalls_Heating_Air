@@ -2,7 +2,7 @@ import styles from "./floor-plan.module.css";
 
 export function FloorPlanDiagram() {
   return <figure className={styles.figure} aria-labelledby="ductless-floor-plan-heading" aria-describedby="ductless-floor-plan-note">
-    <figcaption><p className="eyebrow">Illustrative layout / Coverage starts with doors</p><h2 id="ductless-floor-plan-heading">An open living area is one zone. Closed bedrooms need a plan.</h2><p>A unit in the living area does not establish that adjoining bedrooms will reach their setpoints.</p></figcaption>
+    <figcaption><p className="eyebrow">Illustrative layout / Coverage starts with doors</p><h2 id="ductless-floor-plan-heading">An open living area is one zone. Closed bedrooms need a plan.</h2><p>A unit in the living area may not keep adjoining bedrooms at the temperature you want.</p></figcaption>
     <svg className={styles.desktopPlan} viewBox="0 0 900 440" aria-hidden="true" focusable="false">
       <rect className={styles.living} x="30" y="30" width="480" height="360" />
       <rect className={styles.hall} x="510" y="30" width="120" height="360" />

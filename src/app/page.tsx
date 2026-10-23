@@ -1,3 +1,4 @@
+import { RebateNotice } from "@/components/ui/RebateNotice";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { ServiceIcon } from "@/components/ui/ServiceIcon";
@@ -33,16 +34,14 @@ export default function HomePage() {
               </span>
             </h1>
             <p className={styles.heroDescription}>
-              Understand the problem, the proposed work, and the cost before
-              making a decision about your home. Start with repair, maintenance,
-              or replacement planning.
+              Know what’s wrong, what the work involves, and what it costs. Whether you need a repair, maintenance, or a new system, start with a clear explanation.
             </p>
             <div className={styles.heroActions}>
               <a
                 className="button button-orange"
                 href={`tel:${siteConfig.phoneE164}`}
               >
-                Call for emergency repair <ArrowUpRight size={17} />
+                Call for 24/7 emergency repair <ArrowUpRight size={17} />
               </a>
               <Link
                 href="/rebates/2026-montana-hvac-rebates"
@@ -80,8 +79,7 @@ export default function HomePage() {
               home need?
             </h2>
             <p>
-              Repair, routine care, or a fresh start. Choose a service and tell
-              us a little about your home.
+              Need a repair, a tune-up, or a replacement? Choose a service and tell us what’s happening.
             </p>
             <div className="concierge-credentials">
               <LicenseMark />
@@ -231,8 +229,7 @@ export default function HomePage() {
               of HVAC rebates.
             </h3>
             <p>
-              Current utility incentives, expired credits, and eligibility
-              details in one source-linked guide.
+              See which utility incentives may apply, which credits have expired, and where to check the rules.
             </p>
             <Link
               href="/rebates/2026-montana-hvac-rebates"
@@ -240,7 +237,7 @@ export default function HomePage() {
             >
               Explore the rebate guide <ArrowUpRight size={17} />
             </Link>
-            <small>Verify eligibility with your utility before purchase.</small>
+            <RebateNotice />
           </article>
         </div>
       </section>
@@ -282,9 +279,7 @@ export default function HomePage() {
             the age of the building.
           </p>
           <p>
-            Our approach starts with how your house feels and how the system
-            operates. The recommendation should explain what the work is meant
-            to improve, what it costs, and what decisions remain yours.
+            We start with how your house feels and how the system runs. You should know why we recommend the work, what it should improve, and what it costs. Then you can decide.
           </p>
           <Link href="/about" className="text-link">
             About Great Falls Heating & Air LLC <ArrowUpRight size={18} />

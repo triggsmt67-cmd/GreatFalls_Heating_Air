@@ -1,3 +1,5 @@
+import type { FAQItem } from "@/content/faqs";
+
 export const installationSources = {
   sizing: "https://basc.pnnl.gov/resource-guides/cold-climate-heat-pump-sizing-and-selection",
   acca: "https://www.acca.org/standards/technical-manuals",
@@ -23,11 +25,73 @@ export const scopeChecklist = [
   ["Piping, permits, and startup", "Approved joining and line reuse/replacement, testing and charge procedures, permit/inspection responsibility, operating checks, and any follow-up test."],
   ["Price, documentation, and handoff", "Included work and exclusions, equipment records, warranty/registration responsibilities, owner instructions, and incentive paperwork requirements."],
 ];
-export const installationFaqs = [
-  { question: "Can I keep my existing gas or propane furnace when installing a heat pump?", answer: "Possibly. A central dual-fuel retrofit needs a suitable furnace, compatible indoor coil and blower, adequate airflow, and an approved equipment and control arrangement. The furnace’s condition and installation access also matter. Great Falls Heating and Air’s installation perspective is to explain what stays, what changes, and how heating will work in cold weather. A functioning furnace alone does not establish compatibility. Ask for the exact proposed combination and required changes in the written scope." },
-  { question: "Will a heat pump require an upgrade to my 100-amp electrical panel?", answer: "The panel rating alone cannot answer that. The selected equipment’s electrical requirements, other household loads, circuit arrangement, and any backup heat need assessment. Keeping gas or propane backup may avoid electric resistance backup loads, but it does not establish that the existing service has enough capacity. Ask which electrical work is included and who will perform it. Empty breaker spaces and the age or neighborhood of the house are not substitutes for a load assessment." },
-  { question: "How is backup heat set up for Great Falls winter weather?", answer: "The plan should compare the home’s heating demand with the selected heat pump’s available output at relevant outdoor temperatures, then define how any backup will operate. A capacity balance point concerns heat output versus demand; an economic balance point compares heating costs. Equipment operating limits and manufacturer-approved controls also matter. There is no universal Great Falls switchover temperature. Ask for the actual control plan and a demonstration of normal and backup operation at handoff, with any testing limits explained." },
-  { question: "How high should an outdoor heat pump be mounted above the ground?", answer: "Use the selected equipment’s instructions and the actual site conditions. Support and elevation need to account for expected snow, drifting, defrost drainage, roof runoff, required clearances, service access, and noise or vibration. A universal 12-to-18-inch stand does not establish that every location is suitable. Wall brackets and ground-supported stands have different site requirements. Ask the proposal to identify the location, support, drainage plan, and any conditions needing attention before installation." },
-  { question: "How long does heat pump installation take, and what affects its cost?", answer: "The scope determines both. Furnace or air-handler changes, ductwork, circuits or service work, line routing, drainage, outdoor support, access, permits, inspections, and equipment availability can affect the plan. Confirm the appointment schedule, expected interruptions, included work, exclusions, and any follow-up checks in writing. A one-day installation or a national price range is not a promise for your home. Call Great Falls Heating and Air to discuss an estimate and current availability." },
-  { question: "Which NorthWestern Energy or Sun River rebates might apply to my installation?", answer: "Confirm the utility account and exact project before relying on an incentive. NorthWestern’s 2026–2027 electric existing-home application lists $450 for qualifying ducted or ductless heat pumps, requiring ENERGY STAR rated equipment or SEER2 of at least 15.2 and HSPF2 of at least 8.5, along with its other account, timing, documentation, and funding conditions. A NorthWestern gas account alone does not establish electric-program eligibility. Sun River Electric has a separate air-source heat-pump program requiring approval before installation. Verify current terms with the utility before ordering equipment." },
+export const installationFaqs: FAQItem[] = [
+  {
+    "question": "What size heat pump do I need, and is bigger better for Montana winters?",
+    "answer": "Start with a heating and cooling load calculation for your home, not a square-footage chart or the old unit’s tonnage. The installer should compare that demand with the exact model’s output at local winter design conditions and its ability to run at lower output in mild weather. A larger unit can create cycling or comfort problems if its minimum output is too high for the load. Ask which rooms the design covers and how any cold-weather heating shortfall will be handled.",
+    "sources": [
+      {
+        "label": "PNNL: cold-climate sizing and selection",
+        "url": "https://basc.pnnl.gov/resource-guides/cold-climate-heat-pump-sizing-and-selection"
+      }
+    ]
+  },
+  {
+    "question": "Will I need to replace my 100-amp electrical panel to install a heat pump?",
+    "answer": "The panel rating alone cannot answer that. Have a qualified professional assess the selected equipment, other household loads, existing service and circuits, and any electric backup heat. Keeping a gas or propane furnace may avoid resistance-heater loads, but it does not prove the existing electrical supply is adequate. Before approving the job, confirm which circuits, disconnects, panel or service changes are needed, who will do that work, and whether it is included in the price.",
+    "sources": [
+      {
+        "label": "DOE Building Science Education: electrical panel assessment",
+        "url": "https://bsesc.energy.gov/training-modules/hvac-electrical-panel-assessment"
+      }
+    ]
+  },
+  {
+    "question": "Can I keep my current furnace, and how will the heat pump switch to backup heat?",
+    "answer": "A suitable furnace may stay if the proposed indoor coil, blower, heat pump, airflow, and controls work together. Ask the quote to identify the exact equipment combination and the condition of the furnace being retained. The backup plan should account for heat-pump capacity, your home’s demand, fuel costs, and manufacturer operating requirements; there is no universal Great Falls changeover temperature. At handoff, ask how normal and backup operation were checked and which settings you should use.",
+    "sources": [
+      {
+        "label": "Carrier: dual-fuel controls and changeover",
+        "url": "https://www.carrier.com/us/en/residential/hvac-resources/dual-fuel-heating-system/"
+      },
+      {
+        "label": "PNNL: capacity and supplemental-heat planning",
+        "url": "https://basc.pnnl.gov/resource-guides/cold-climate-heat-pump-sizing-and-selection"
+      }
+    ]
+  },
+  {
+    "question": "Where should the outdoor heat pump go, and does it need a stand?",
+    "answer": "Choose the location and support for the actual equipment and site, following the manufacturer’s instructions. Account for snow and drifting, roof runoff, defrost drainage, required airflow and service clearances, and noise or vibration near bedrooms. A fixed stand height does not suit every property, and meltwater should not be directed where it can freeze across a walkway. Have the quote show the proposed location, mounting method, line route, and drainage plan before work begins.",
+    "sources": [
+      {
+        "label": "PNNL: outdoor placement and installation",
+        "url": "https://basc.pnnl.gov/resource-guides/ductless-mini-split-heat-pumps"
+      }
+    ]
+  },
+  {
+    "question": "Why do heat pump installation quotes vary so much, and what should the price include?",
+    "answer": "Compare the exact equipment and all the work needed to serve the same rooms: indoor units or coil, ducts, electrical work, piping, drainage, outdoor support, backup heat, controls, removal, and applicable permits. Ask for exclusions, startup checks, warranty and registration responsibilities, and the process for approving extra work in writing. Online cost guides are budgeting references, not a quote, advertised rate, or price cap from Great Falls Heating and Air; your actual cost may be lower or substantially higher. Confirm any rebate separately with the utility serving your address before counting it toward the price.",
+    "sources": [
+      {
+        "label": "Carrier: installation assessment and scope",
+        "url": "https://www.carrier.com/us/en/residential/hvac-resources/hvac-installation/"
+      }
+    ]
+  },
+  {
+    "question": "How long will installation take, and how do I know the system was checked before handoff?",
+    "answer": "Confirm the job’s schedule and expected heating, cooling, and electrical interruptions before work begins. Access, equipment delivery, duct or electrical changes, permits, inspections, and weather can affect completion, so do not assume every installation takes one day. Ask for startup records covering the checks required for your equipment, including airflow, refrigerant setup, controls, and backup operation where applicable. If conditions prevent a required test, get the remaining check and follow-up plan in writing, along with owner instructions and warranty responsibilities.",
+    "sources": [
+      {
+        "label": "Carrier: installation timing and startup",
+        "url": "https://www.carrier.com/us/en/residential/hvac-resources/hvac-installation/"
+      },
+      {
+        "label": "ENERGY STAR: quality installation checks",
+        "url": "https://www.energystar.gov/saveathome/heating-cooling/hvac-quality-installation"
+      }
+    ]
+  }
 ];

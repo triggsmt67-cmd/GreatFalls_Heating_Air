@@ -1,3 +1,4 @@
+import { RebateNotice } from "@/components/ui/RebateNotice";
 import Link from "next/link";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
@@ -50,8 +51,8 @@ export default function Page() {
       <div className="page-heading">
         <ServiceIcon name="heating" size={48} />
         <p className="eyebrow">Winter heating / Great Falls &amp; Cascade County</p>
-        <h1>Reliable heat for Great Falls winters—without the guesswork.</h1>
-        <p>Straightforward furnace repair, seasonal tune-ups, and honest replacement planning built for high-plains winds and sub-zero snaps.</p>
+        <h1>Furnace trouble? Let’s find out what’s wrong.</h1>
+        <p>Furnace repairs, seasonal tune-ups, and replacement planning for Great Falls homes. Understand the problem and your options before deciding on the work.</p>
         <div className="hero-actions">
           <Link className="button button-yellow" href="/contact?intent=estimate">Request service or an estimate ↗</Link>
           <Link className="text-link" href="/services/heating/emergency-furnace-repair">Emergency furnace repair &amp; safety →</Link>
@@ -61,7 +62,7 @@ export default function Page() {
         <div className="article-copy">
           <h2>Built for Cascade County weather.</h2>
           <p>Great Falls heating has to handle long runs during deep freezes and lighter demand during winter warm-ups. Wind exposure, snow around accessible vents, and the equipment’s altitude requirements all belong in the assessment.</p>
-          <p>For a home in Riverview or a property near Belt, start with the furnace’s actual condition, fuel supply, and the rooms that need heat. A mailing address cannot tell us whether a repair, airflow change, or replacement is the right next step.</p>
+          <p>For a home in Riverview or a property near Belt, start with the furnace’s actual condition, fuel supply, and the rooms that need heat. We need to see what’s happening in your home before recommending a repair, an airflow change, or a replacement.</p>
           <ul>
             <li>Diagnostic assessment for gas, propane, and electric furnaces</li>
             <li>Operating checks against manufacturer altitude requirements</li>
@@ -71,16 +72,16 @@ export default function Page() {
           <h2>How a service visit works.</h2>
           <p>A service visit should leave you understanding the problem and the proposed work. Discuss the scope and charges when arranging the visit.</p>
           <ol>
-            <li><strong>Arrange the diagnostic:</strong> Confirm the appointment window, diagnostic fee, and what the visit includes.</li>
+            <li><strong>Book the visit:</strong> Confirm the appointment window, diagnostic fee, and what the visit includes.</li>
             <li><strong>Understand the findings:</strong> We explain what was found, the proposed repair, and its price before you authorize repair work.</li>
-            <li><strong>Discuss safety findings:</strong> Ask which combustion and venting checks apply to your equipment and visit. We explain any concern and the next action; one normal reading cannot establish the condition of the entire system.</li>
+            <li><strong>Understand any safety concerns:</strong> Ask which combustion and venting checks apply to your equipment and visit. We explain any concern and the next action; one normal reading can’t tell us the condition of the whole system.</li>
           </ol>
         </div>
         <div className="service-hub-media">
           <PhotoPlaceholder slot="06" subject="Residential furnace and ductwork" dimensions="1600 × 1200" src="/images/heating-furnace-installation.webp" alt="Residential furnace with metal ductwork, gas supply piping, and a condensate pump." caption="The furnace, duct connections, fuel supply, and drainage are parts of the heating assessment." />
           <div className="safety-panel">
             <h2>No heat in freezing weather?</h2>
-            <p>Call <a href={`tel:${siteConfig.phoneE164}`}>{siteConfig.phoneDisplay}</a> to check today&apos;s dispatch schedule.</p>
+            <p>Call <a href={`tel:${siteConfig.phoneE164}`}>{siteConfig.phoneDisplay}</a> to ask about today&apos;s availability.</p>
             <p><strong>Warning:</strong> If you smell rotten-egg gas odor, your carbon monoxide alarm sounds, or you suspect a gas or CO leak, do not touch your thermostat or light switches. Leave the house immediately and call 911 or your gas utility from outside.</p>
             <Link className="text-link" href="/services/heating/emergency-furnace-repair">Read our winter furnace safety &amp; troubleshooting guide →</Link>
           </div>
@@ -98,7 +99,7 @@ export default function Page() {
         <div className="article-copy">
           <p className="eyebrow">Fall heating maintenance</p>
           <h2 id="tune-up-heading">What’s included in our pre-winter furnace tune-up?</h2>
-          <p>Don’t wait for the first -20°F night to find out your ignitor is cracked. Our seasonal heating inspection covers the parts that actually fail under load:</p>
+          <p>Plan a seasonal check before you’re relying on the furnace every day. These are the areas our heating inspection covers:</p>
         </div>
         <ul className={styles.tuneup}>
           <li><strong>Combustion &amp; CO Safety Test</strong><p>Inspecting the heat exchanger, checking flue draft, and testing for carbon monoxide.</p></li>
@@ -110,18 +111,18 @@ export default function Page() {
       </section>
       <p><Link className="text-link" href="/services/heating/furnace-maintenance">Explore furnace maintenance, seasonal checks &amp; homeowner care →</Link></p>
       <section className={styles.section}>
-        <div className="article-copy"><p className="eyebrow">Our view / Heating decisions</p><h2>Give a repair a fair assessment.</h2><p>Our starting point is whether your furnace can be repaired safely and sensibly. We weigh the actual fault, overall condition, repair history, and available parts before recommending replacement. Age belongs in that conversation alongside those findings.</p><h3>What changes the repair-or-replace decision?</h3></div>
+        <div className="article-copy"><p className="eyebrow">Our approach / Heating decisions</p><h2>Give a repair a fair assessment.</h2><p>Our starting point is whether your furnace can be repaired safely and sensibly. We weigh the actual fault, overall condition, repair history, and available parts before recommending replacement. Age belongs in that conversation alongside those findings.</p><h3>What changes the repair-or-replace decision?</h3></div>
         {/* Add a real repair decision here only after the job findings and permission to publish are confirmed. */}
         <div className={styles.comparison}>{["Stick With a Repair When...", "Start Planning a Replacement When..."].map((heading, index) => <article key={heading}><h3>{heading}</h3><ul>{comparisons.map((row) => <li key={row[index]}>{row[index]}</li>)}</ul></article>)}</div>
-        <div className={styles.upgrade}><p><strong>Planning an upgrade?</strong> Upgrading to a high-efficiency furnace or a qualifying cold-climate heat pump can cut your winter gas usage and qualify for local incentives.</p><div className="related-links"><Link className="text-link" href="/services/heating/furnace-installation">Plan furnace installation &amp; replacement →</Link><Link className="text-link" href="/services/heat-pumps/cold-climate">Considering a cold-climate heat pump? →</Link><Link className="text-link" href="/rebates/2026-montana-hvac-rebates">Check 2026 Montana HVAC &amp; utility rebates →</Link></div></div>
+        <div className={styles.upgrade}><p><strong>Planning an upgrade?</strong> Compare the full installed price and expected energy use before choosing equipment. Utility incentives depend on the account, exact equipment, project, and current program rules; an upgrade does not automatically qualify.</p><RebateNotice /><div className="related-links"><Link className="text-link" href="/services/heating/furnace-installation">Plan furnace installation &amp; replacement →</Link><Link className="text-link" href="/services/heat-pumps/cold-climate">Considering a cold-climate heat pump? →</Link><Link className="text-link" href="/rebates/2026-montana-hvac-rebates">Check 2026 Montana HVAC &amp; utility rebates →</Link></div></div>
       </section>
     </div>
     <section className={styles.serviceArea} aria-labelledby="heating-area-heading">
       <div className="wrap article-copy">
         <p className="eyebrow">Great Falls &amp; surrounding communities</p>
-        <h2 id="heating-area-heading">Where our heating techs travel</h2>
+        <h2 id="heating-area-heading">Heating service around Great Falls</h2>
         <p>Based in Great Falls, we discuss heating service in <strong>{new Intl.ListFormat("en-US", { style: "long", type: "conjunction" }).format(heatingCommunities)}</strong>—plus off-base households near Malmstrom AFB. Confirm availability for your address and equipment when calling.</p>
-        <p>Not sure if you’re in our dispatch zone? <a className="text-link" href={`tel:${siteConfig.phoneE164}`}>Call {siteConfig.phoneDisplay} and ask.</a></p>
+        <p>Not sure whether we can get to your home? <a className="text-link" href={`tel:${siteConfig.phoneE164}`}>Call {siteConfig.phoneDisplay} and ask.</a></p>
       </div>
     </section>
     <HeatingFaq />
