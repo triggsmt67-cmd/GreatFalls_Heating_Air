@@ -1,3 +1,4 @@
+import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import Link from "next/link";
 import { ServiceIcon } from "@/components/ui/ServiceIcon";
 import { buildMetadata } from "@/lib/seo/metadata";
@@ -32,7 +33,6 @@ function getRepairSchema() {
   const provider = getHVACBusinessSchema() ? { "@id": businessId } : verification.businessIdentity ? {
     "@type": "Organization", "@id": businessId, name: siteConfig.businessName, url: baseUrl,
     ...(verification.contactDetails ? { telephone: siteConfig.phoneE164, email: siteConfig.email } : {}),
-    ...(verification.address ? { address: { "@type": "PostalAddress", streetAddress: siteConfig.streetAddress, addressLocality: siteConfig.locality, addressRegion: siteConfig.region, postalCode: siteConfig.postalCode, addressCountry: "US" } } : {}),
   } : undefined;
   return { "@context": "https://schema.org", "@graph": [
     { "@type": "ImageObject", "@id": `${url}#image`, url: imageUrl, contentUrl: imageUrl, width: 1200, height: 900, name: "Residential outdoor AC condenser", description: imageAlt, caption: imageCaption },
@@ -61,6 +61,7 @@ export default function Page() {
         <p>For smoke, sparking, a burning smell, or water near electrical equipment, stop troubleshooting and stay clear. For fire or immediate danger, leave and call 911.</p>
         <p className={styles.source}>Background: <a href={repairSources.frozen}>Carrier: frozen AC coils and underlying causes</a>.</p>
       </section>
+      <GuideNavigation route="/services/cooling/ac-repair" />
       <div className="interior-grid">
         <div className="article-copy">
           <p className="eyebrow">Our approach / Repair decisions</p>

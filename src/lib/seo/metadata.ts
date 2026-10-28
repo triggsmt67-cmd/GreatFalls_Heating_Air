@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { siteConfig } from "@/content/site";
+import { canonicalUrl as getCanonicalUrl } from "./urls";
 
 interface MetadataOptions {
   title: string;
@@ -22,7 +23,7 @@ export function buildMetadata({
     ? title
     : `${title} | ${siteConfig.businessName}`;
 
-  const canonicalUrl = `${siteConfig.siteUrl}${canonicalPath === "/" ? "" : canonicalPath}`;
+  const canonicalUrl = getCanonicalUrl(canonicalPath);
 
   return {
     title: fullTitle,

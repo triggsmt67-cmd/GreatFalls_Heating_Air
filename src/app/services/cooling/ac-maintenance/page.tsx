@@ -1,3 +1,4 @@
+import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import Link from "next/link";
 import { ServiceIcon } from "@/components/ui/ServiceIcon";
 import { buildMetadata } from "@/lib/seo/metadata";
@@ -32,7 +33,6 @@ function getMaintenanceSchema() {
   const provider = getHVACBusinessSchema() ? { "@id": businessId } : verification.businessIdentity ? {
     "@type": "Organization", "@id": businessId, name: siteConfig.businessName, url: baseUrl,
     ...(verification.contactDetails ? { telephone: siteConfig.phoneE164, email: siteConfig.email } : {}),
-    ...(verification.address ? { address: { "@type": "PostalAddress", streetAddress: siteConfig.streetAddress, addressLocality: siteConfig.locality, addressRegion: siteConfig.region, postalCode: siteConfig.postalCode, addressCountry: "US" } } : {}),
   } : undefined;
   return { "@context": "https://schema.org", "@graph": [
     { "@type": "ImageObject", "@id": `${url}#image`, url: imageUrl, contentUrl: imageUrl, width: 1200, height: 900, name: "Residential outdoor AC condenser", description: imageAlt, caption: imageCaption },
@@ -55,6 +55,7 @@ export default function Page() {
         <div className="hero-actions"><Link className="button button-orange" href="/contact?intent=maintenance">Request an AC tune-up ↗</Link><Link className="text-link" href="/services/cooling/ac-repair">AC already blowing warm air or icing up? →</Link></div>
         <p className={styles.notice}>Call <a href={`tel:${siteConfig.phoneE164}`}>{siteConfig.phoneDisplay}</a> for current pricing, included service, and availability. An online request does not reserve an appointment; forms are not continuously monitored.</p>
       </div>
+      <GuideNavigation route="/services/cooling/ac-maintenance" />
       <div className="interior-grid">
         <div className="article-copy">
           <p className="eyebrow">Our approach / Condition and season</p>

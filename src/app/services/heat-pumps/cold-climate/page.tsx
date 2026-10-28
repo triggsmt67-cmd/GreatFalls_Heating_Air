@@ -1,3 +1,4 @@
+import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import { RebateNotice } from "@/components/ui/RebateNotice";
 import Link from "next/link";
 import { ServiceIcon } from "@/components/ui/ServiceIcon";
@@ -47,10 +48,11 @@ export default function Page() {
       <div className={`page-heading ${styles.hero}`}>
         <ServiceIcon name="heat-pump" size={48} />
         <p className="eyebrow">Great Falls &amp; Cascade County / Heating + cooling</p>
-        <h1>Cold-climate heat pumps and dual-fuel systems for Great Falls homes.</h1>
+        <h1>Heat pumps for Great Falls winters.</h1>
         <p>A Chinook warm-up and a deep freeze call for different things from your heating system. Compare electric heating, furnace backup, and summer cooling around your home and your fuel bills.</p>
         <div className="hero-actions"><Link className="button button-yellow" href="/contact?intent=estimate">Request a heat pump estimate ↗</Link><Link className="text-link" href="/rebates/2026-montana-hvac-rebates">Check Montana heat pump incentives →</Link></div>
       </div>
+      <GuideNavigation route="/services/heat-pumps/cold-climate" />
       <div className="interior-grid">
         <div className="article-copy">
           <h2>Plan for the cold that follows a warm-up.</h2>

@@ -1,0 +1,13 @@
+{
+  "mobileEmergencyWarning": true,
+  "mobileMenuOpens": true,
+  "escapeClosesMenuAndReturnsFocus": true,
+  "desktopServicesMenuFiveLinks": true,
+  "emptyFormInlineValidationAndSummary": true,
+  "faqDisclosureOpens": true,
+  "mobileContactFormTopCSSPixels": 1394.31640625,
+  "mobileBodyCSSPixels": 14,
+  "mobileInputCSSPixels": 16,
+  "mobileHeaderCSSPixels": 97,
+  "mobileHomepageHeading": "What does yourhome need?"
+}

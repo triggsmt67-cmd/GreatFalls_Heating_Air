@@ -51,7 +51,7 @@
 }
 
 .page :global(.text-link) {
-  font-size: 14px;
+  font-size: var(--type-body);
 }
 
 .hero {
@@ -110,7 +110,7 @@
   grid-area: description;
   margin: 0 0 2px;
   color: #d0d9db;
-  font-size: 15px;
+  font-size: var(--type-body);
   line-height: 1.75;
   max-width: 360px;
 }
@@ -162,7 +162,7 @@
 }
 
 .page :global(.concierge-intro > p:not(.eyebrow)) {
-  font-size: 15px;
+  font-size: var(--type-body);
   line-height: 1.7;
   margin: 0;
   max-width: 360px;
@@ -191,7 +191,7 @@
 }
 
 .page :global(.concierge-form .intent-option > span) {
-  font-size: 14px;
+  font-size: var(--type-body);
   font-weight: 600;
 }
 
@@ -208,7 +208,7 @@
 .page :global(.section-intro > p:last-child),
 .page :global(.local-grid p:not(.eyebrow)),
 .page :global(.area-grid p:not(.eyebrow)) {
-  font-size: 15px;
+  font-size: var(--type-body);
   line-height: 1.75;
 }
 
@@ -262,12 +262,12 @@
 .page :global(.region-list dt) {
   color: #d8e0dd;
   font-weight: 600;
-  font-size: 14px;
+  font-size: var(--type-body);
 }
 
 .page :global(.region-list dd) {
   color: #c5d1d4;
-  font-size: 14px;
+  font-size: var(--type-body);
   line-height: 1.7;
 }
 
@@ -282,12 +282,12 @@
 
 .page :global(.process-list p),
 .page :global(.faq-item p) {
-  font-size: 14px;
+  font-size: var(--type-body);
   line-height: 1.75;
 }
 
 .page :global(.faq-item summary) {
-  font-size: 15px;
+  font-size: var(--type-body);
 }
 
 .page :global(.final-cta)::before {
@@ -366,7 +366,7 @@
   }
 
   .heroDescription {
-    font-size: 14px;
+    font-size: var(--type-body);
     line-height: 1.65;
   }
 
@@ -425,6 +425,15 @@
   }
 
   .page :global(.faq-item summary) {
-    font-size: 14px;
+    font-size: var(--type-body);
   }
+}
+
+.ownerQuote {
+  border-left: 3px solid var(--blue);
+  padding-left: 22px;
+  margin: 24px 0;
+  color: var(--ink);
+  font-size: clamp(1.05rem, 1.5vw, 1.25rem);
+  line-height: 1.65;
 }

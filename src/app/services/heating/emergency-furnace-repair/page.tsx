@@ -1,3 +1,4 @@
+import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import Link from "next/link";
 import { ServiceIcon } from "@/components/ui/ServiceIcon";
 import { siteConfig } from "@/content/site";
@@ -91,7 +92,8 @@ export default function Page() {
           <p>From a safe location outside, call <a href="tel:911">911</a> or your gas utility. NorthWestern Energy’s Montana emergency number is <a href="tel:+18884672669">888-467-2669</a>. If you use propane, contact your propane supplier.</p>
           <p>If anyone has a sudden headache, dizziness, or nausea and CO exposure is suspected, get to fresh air and call 911. A detector chirp can indicate a battery or device fault, but never ignore a sounding alarm or suspected exposure. Do not re-enter until responders say it is safe. Contact us after the immediate danger has been addressed.</p>
         </section>
-        <div className="interior-grid">
+        <GuideNavigation route="/services/heating/emergency-furnace-repair" />
+      <div className="interior-grid">
           <div className="article-copy">
             <p className="eyebrow">Our approach / Urgent repairs</p>
             <h2>Even when it’s urgent, you should understand the repair.</h2>

@@ -33,10 +33,11 @@ export default async function Page({
         <h1>Let’s start with your home.</h1>
         <p>
           Tell us what’s happening or what you’re considering. For urgent
-          heating or cooling needs, please call.
+          heating or cooling needs, call <a className="text-link" href={`tel:${siteConfig.phoneE164}`}>{siteConfig.phoneDisplay}</a>.
         </p>
       </div>
-      <div className="contact-grid">
+      <div className="contact-grid" id="request-form">
+        <LeadForm initialIntent={intent} sourceRoute="/contact" />
         <aside className="contact-info">
           <div>
             <LicenseMark />
@@ -55,11 +56,6 @@ export default async function Page({
             <p><strong>{siteConfig.emergencyAvailability}</strong>. Call for emergency help.</p>
           </div>
           <div>
-            <h2>Business address</h2>
-            <address className="not-italic">
-              {siteConfig.streetAddress}<br />
-              {siteConfig.locality}, {siteConfig.region} {siteConfig.postalCode}
-            </address>
             <h2>Great Falls & nearby communities</h2>
             <p>
               Call to check service at your address. Military families living off base are welcome to get in touch. We’re independent of the base, and access to on-base homes needs separate confirmation.
@@ -73,7 +69,6 @@ export default async function Page({
             </div>
           </div>
         </aside>
-        <LeadForm initialIntent={intent} sourceRoute="/contact" />
       </div>
     </div>
   );

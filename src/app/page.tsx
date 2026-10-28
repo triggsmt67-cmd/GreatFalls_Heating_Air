@@ -27,7 +27,7 @@ export default function HomePage() {
           </p>
           <div className={styles.heroIntro}>
             <h1 id="home-hero-title" className={styles.heroHeading}>
-              <span>Heating and cooling</span>
+              <span>Heating and cooling</span>{" "}
               <span>
                 built for{" "}
                 <span className={styles.placeName}>Great Falls weather.</span>
@@ -74,7 +74,7 @@ export default function HomePage() {
           <div className="concierge-intro">
             <p className="eyebrow">Let’s start here</p>
             <h2 id="service-concierge-title">
-              What does your
+              What does your{" "}
               <br />
               home need?
             </h2>
@@ -267,22 +267,22 @@ export default function HomePage() {
           </div>
         </div>
         <div>
-          <p className="eyebrow">03 / A place of its own</p>
-          <h2>
-            The weather changes.
-            <br />
-            Home should feel like home.
-          </h2>
+          <p className="eyebrow">Veteran-owned / Locally operated</p>
+          <h2>Meet Robert Ross.</h2>
           <p>
-            Winter wind, sudden Chinook warmups, and hot summer afternoons all
-            shape how a home heats and cools. So do insulation, ductwork, and
-            the age of the building.
+            Robert is the owner of Greatfalls Heating and Air, a United States
+            military veteran with more than 20 years of experience in HVAC.
           </p>
+          <blockquote className={styles.ownerQuote}>
+            “I started this company with a straightforward goal: give customers
+            the service and quality of work they’re paying for.”
+          </blockquote>
           <p>
-            We start with how your house feels and how the system runs. You should know why we recommend the work, what it should improve, and what it costs. Then you can decide.
+            Clear answers. Respect for your time. Work completed carefully.
+            Learn what “customers deserve better” means to Robert.
           </p>
           <Link href="/about" className="text-link">
-            About Great Falls Heating & Air LLC <ArrowUpRight size={18} />
+            Meet the owner <ArrowUpRight size={18} />
           </Link>
         </div>
       </section>

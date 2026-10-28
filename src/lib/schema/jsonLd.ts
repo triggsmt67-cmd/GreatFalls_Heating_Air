@@ -11,7 +11,6 @@ export function getHVACBusinessSchema() {
   if (
     !verification.businessIdentity ||
     !verification.contactDetails ||
-    !verification.address ||
     !verification.hours ||
     !verification.credentials
   ) {
@@ -29,14 +28,6 @@ export function getHVACBusinessSchema() {
     email: siteConfig.email,
     description: siteConfig.shortDescription,
     priceRange: "$$",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: siteConfig.streetAddress,
-      addressLocality: siteConfig.locality,
-      addressRegion: siteConfig.region,
-      postalCode: siteConfig.postalCode,
-      addressCountry: "US",
-    },
     areaServed: serviceCommunities.map((c) => ({
       "@type": "City",
       name: c.name,

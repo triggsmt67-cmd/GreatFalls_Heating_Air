@@ -2,7 +2,7 @@
 @theme {
   --color-ink-950: #0b2239;
   --color-ink-800: #173b59;
-  --color-service-blue: #0877b5;
+  --color-service-blue: #07699e;
   --color-cold-cyan: #69bce0;
   --color-heat-orange: #e4572e;
   --color-action-yellow: #ffd24a;
@@ -12,7 +12,7 @@
 }
 :root {
   --ink: #152b36;
-  --blue: #0877b5;
+  --blue: #07699e;
   --orange: #e4572e;
   --yellow: #ffd24a;
   --sky: #43a6d3;
@@ -26,8 +26,8 @@
   --type-article: clamp(1.65rem, 2.3vw, 2rem);
   --type-subheading: 1.25rem;
   --type-panel: 1.5rem;
-  --type-body: 15px;
-  --type-small: 13px;
+  --type-body: 16px;
+  --type-small: 14px;
   --type-caption: 12px;
   --leading-body: 1.75;
 }
@@ -36,7 +36,7 @@
 }
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 90px;
+  scroll-padding-top: 144px;
 }
 body {
   margin: 0;
@@ -189,6 +189,7 @@ a:hover {
   }
   html {
     scroll-padding-bottom: 90px;
+    scroll-padding-top: 116px;
   }
 }
 .text-link {
@@ -1377,10 +1378,12 @@ a:hover {
 }
 .contact-grid {
   display: grid;
+  grid-template-areas: "info form";
   grid-template-columns: 1fr 1.8fr;
   gap: 65px;
 }
 .contact-info {
+  grid-area: info;
   font-size: var(--type-body);
 }
 .contact-info h2 {
@@ -1394,6 +1397,7 @@ a:hover {
   color: var(--blue);
 }
 .contact-grid .lead-form {
+  grid-area: form;
   background: #ffffff;
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -1522,6 +1526,7 @@ a:hover {
   }
   .contact-grid {
     grid-template-columns: 1fr;
+    grid-template-areas: "form" "info";
     gap: 25px;
   }
   .service-page-hero {
@@ -1552,7 +1557,7 @@ a:hover {
     --type-section: 1.9rem;
     --type-article: 1.65rem;
     --type-panel: 1.35rem;
-    --type-body: 14px;
+    --type-body: 16px;
   }
   .wrap {
     width: calc(100% - 40px);

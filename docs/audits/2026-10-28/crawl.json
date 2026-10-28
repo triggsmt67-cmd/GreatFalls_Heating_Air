@@ -1,0 +1,2877 @@
+{
+  "base": "http://localhost:3002",
+  "pages": [
+    {
+      "path": "/",
+      "url": "http://localhost:3002/",
+      "status": 200,
+      "final": "http://localhost:3002/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 91646,
+      "seconds": 0.006,
+      "title": "HVAC Services in Great Falls, MT | Great Falls Heating and Air LLC",
+      "description": [
+        "Residential heating, cooling, furnace repair and heat-pump information for Great Falls and surrounding communities."
+      ],
+      "canonical": [
+        "https://greatfallsheatingandair.com"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "mainCount": 1,
+      "headings": [
+        [
+          "h1",
+          "Heating and coolingbuilt for Great Falls weather."
+        ],
+        [
+          "h2",
+          "What does yourhome need?"
+        ],
+        [
+          "h2",
+          "How can we help?"
+        ],
+        [
+          "h2",
+          "Comfort starts withthe right next step."
+        ],
+        [
+          "h3",
+          "A Montana winterdoesn\u2019t wait."
+        ],
+        [
+          "h3",
+          "Keep summer comfortable."
+        ],
+        [
+          "h3",
+          "One system. Two seasons."
+        ],
+        [
+          "h2",
+          "Montana winters.Modern options."
+        ],
+        [
+          "h3",
+          "Make senseof HVAC rebates."
+        ],
+        [
+          "h2",
+          "The weather changes.Home should feel like home."
+        ],
+        [
+          "h2",
+          "Great Falls.And the towns around it."
+        ],
+        [
+          "h2",
+          "Tell us what\u2019s happening."
+        ],
+        [
+          "h3",
+          "Get in touch"
+        ],
+        [
+          "h3",
+          "Share the details"
+        ],
+        [
+          "h3",
+          "Discuss next steps"
+        ],
+        [
+          "h2",
+          "A few useful answers."
+        ],
+        [
+          "h2",
+          "Let\u2019s talk about your home."
+        ]
+      ],
+      "words": 1197,
+      "faqCount": 6,
+      "faqQuestions": [
+        "My furnace stopped working. Can I get help after hours?",
+        "How much does a furnace or AC repair cost in Great Falls?",
+        "Should I repair my furnace or replace it?",
+        "Will a heat pump keep my home warm during a Montana winter?",
+        "Do you service homes outside Great Falls?",
+        "Can I get a rebate for a new furnace, AC, or heat pump?"
+      ],
+      "faqVisibleMatches": true,
+      "jsonErrors": [],
+      "missingAlt": [],
+      "duplicateIds": [],
+      "flags": []
+    },
+    {
+      "path": "/about",
+      "url": "http://localhost:3002/about",
+      "status": 200,
+      "final": "http://localhost:3002/about",
+      "type": "text/html; charset=utf-8",
+      "bytes": 41854,
+      "seconds": 0.003,
+      "title": "Meet Robert Ross | About Greatfalls Heating and Air | Great Falls Heating and Air LLC",
+      "description": [
+        "Meet Robert Ross, owner of Greatfalls Heating and Air LLC, a veteran-owned HVAC company serving Great Falls, Montana, and surrounding communities."
+      ],
+      "canonical": [
+        "https://greatfallsheatingandair.com/about"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "mainCount": 1,
+      "headings": [
+        [
+          "h1",
+          "Meet Robert Ross,Owner of Greatfalls Heating and Air"
+        ],
+        [
+          "h2",
+          "Let\u2019s talk about your home."
+        ]
+      ],
+      "words": 270,
+      "faqCount": 0,
+      "faqQuestions": [],
+      "faqVisibleMatches": true,
+      "jsonErrors": [],
+      "missingAlt": [],
+      "duplicateIds": [],
+      "flags": []
+    },
+    {
+      "path": "/contact",
+      "url": "http://localhost:3002/contact",
+      "status": 200,
+      "final": "http://localhost:3002/contact",
+      "type": "text/html; charset=utf-8",
+      "bytes": 40170,
+      "seconds": 0.034,
+      "title": "Contact & Request Service | Great Falls Heating and Air LLC",
+      "description": [
+        "Contact Great Falls Heating and Air LLC about heating, cooling, maintenance, or an equipment estimate."
+      ],
+      "canonical": [
+        "https://greatfallsheatingandair.com/contact"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "mainCount": 1,
+      "headings": [
+        [
+          "h1",
+          "Let\u2019s start with your home."
+        ],
+        [
+          "h2",
+          "Prefer to talk?"
+        ],
+        [
+          "h2",
+          "Great Falls & nearby communities"
+        ],
+        [
+          "h2",
+          "Request service or an estimate"
+        ]
+      ],
+      "words": 202,
+      "faqCount": 0,
+      "faqQuestions": [],
+      "faqVisibleMatches": true,
+      "jsonErrors": [],
+      "missingAlt": [],
+      "duplicateIds": [],
+      "flags": []
+    },
+    {
+      "path": "/rebates/2026-montana-hvac-rebates",
+      "url": "http://localhost:3002/rebates/2026-montana-hvac-rebates",
+      "status": 200,
+      "final": "http://localhost:3002/rebates/2026-montana-hvac-rebates",
+      "type": "text/html; charset=utf-8",
+      "bytes": 87973,
+      "seconds": 0.004,
+      "title": "2026 Montana HVAC Rebates: Great Falls Homeowner Guide | Great Falls Heating and Air LLC",
+      "description": [
+        "Compare Great Falls HVAC incentives by utility account and project: NorthWestern Energy, Sun River Electric, expired 25C credits, and pending Montana DEQ programs."
+      ],
+      "canonical": [
+        "https://greatfallsheatingandair.com/rebates/2026-montana-hvac-rebates"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "mainCount": 1,
+      "headings": [
+        [
+          "h1",
+          "A clearer pictureof Montana HVAC rebates."
+        ],
+        [
+          "h2",
+          "Look at the full price before counting a rebate."
+        ],
+        [
+          "h2",
+          "Rebates can change before this page is updated."
+        ],
+        [
+          "h2",
+          "Published utility incentives \u2014 confirm availability"
+        ],
+        [
+          "h3",
+          "Existing Home Electric Heat Pump Incentive"
+        ],
+        [
+          "h3",
+          "Participating-Contractor Heat Pump Water Heater Incentive"
+        ],
+        [
+          "h3",
+          "Air-Source Heat Pump Incentive"
+        ],
+        [
+          "h3",
+          "Ground-Source (Geothermal) Heat Pump Incentive"
+        ],
+        [
+          "h2",
+          "Expired & pending programs"
+        ],
+        [
+          "h3",
+          "Federal Energy Efficient Home Improvement Credit (Section 25C)"
+        ],
+        [
+          "h3",
+          "Montana DEQ Home Energy Rebate Programs (HOMES & HEEHR)"
+        ],
+        [
+          "h2",
+          "Frequently asked questions about Montana HVAC rebates."
+        ],
+        [
+          "h2",
+          "Let\u2019s talk about your home."
+        ]
+      ],
+      "words": 1684,
+      "faqCount": 6,
+      "faqQuestions": [
+        "Can I still claim the federal $2,000 heat pump tax credit for a 2026 installation?",
+        "Does my NorthWestern account qualify for the $450 heat pump rebate?",
+        "Do I need approval before installing a heat pump to get a Sun River Electric rebate?",
+        "Can I apply for Montana\u2019s HOMES or HEEHR rebates now?",
+        "Is NorthWestern\u2019s up-to-$3,000 incentive for the heat pump that heats my house?",
+        "What paperwork and deadlines should I confirm before counting a rebate in my budget?"
+      ],
+      "faqVisibleMatches": true,
+      "jsonErrors": [],
+      "missingAlt": [],
+      "duplicateIds": [],
+      "flags": []
+    },
+    {
+      "path": "/privacy",
+      "url": "http://localhost:3002/privacy",
+      "status": 200,
+      "final": "http://localhost:3002/privacy",
+      "type": "text/html; charset=utf-8",
+      "bytes": 39755,
+      "seconds": 0.003,
+      "title": "Privacy Policy | Great Falls Heating and Air LLC",
+      "description": [
+        "Privacy policy and data practices disclosure for Great Falls Heating and Air LLC. Information collection, form submissions, and customer communication policies."
+      ],
+      "canonical": [
+        "https://greatfallsheatingandair.com/privacy"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "mainCount": 1,
+      "headings": [
+        [
+          "h1",
+          "Privacy Policy & Data Practices"
+        ],
+        [
+          "h2",
+          "1. Information We Collect"
+        ],
+        [
+          "h2",
+          "2. How We Use Your Information"
+        ],
+        [
+          "h2",
+          "3. Form Submissions and Email Transmission"
+        ],
+        [
+          "h2",
+          "4. Cookies and Website Analytics"
+        ],
+        [
+          "h2",
+          "5. Data Retention and Security"
+        ],
+        [
+          "h2",
+          "6. Your Privacy Rights & Contacting Us"
+        ]
+      ],
+      "words": 423,
+      "faqCount": 0,
+      "faqQuestions": [],
+      "faqVisibleMatches": true,
+      "jsonErrors": [],
+      "missingAlt": [],
+      "duplicateIds": [],
+      "flags": [
+        "Home Privacy Policy Pre-Launch Notice for Legal Review This draft explains how the website handles form details and hosting data. The client\u2019s legal c",
+        "ast Updated: September 24, 2026 \u2022 Effective Date: Pre-Launch First Pass 1. Information We Collect Great Falls Heating and Air LLC (\u201cwe\u201d, \u201cour\u201d, or \u201cus\u201d) collects the personal infor"
+      ]
+    },
+    {
+      "path": "/sitemap",
+      "url": "http://localhost:3002/sitemap",
+      "status": 200,
+      "final": "http://localhost:3002/sitemap",
+      "type": "text/html; charset=utf-8",
+      "bytes": 36324,
+      "seconds": 0.003,
+      "title": "Website Sitemap | Great Falls Heating and Air LLC",
+      "description": [
+        "Find heating, cooling, heat-pump services, company information, and contact details for Great Falls Heating and Air LLC."
+      ],
+      "canonical": [
+        "https://greatfallsheatingandair.com/sitemap"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "mainCount": 1,
+      "headings": [
+        [
+          "h1",
+          "Website sitemap"
+        ],
+        [
+          "h2",
+          "Company & helpful information"
+        ],
+        [
+          "h2",
+          "Heating"
+        ],
+        [
+          "h2",
+          "Cooling"
+        ],
+        [
+          "h2",
+          "Heat pumps"
+        ]
+      ],
+      "words": 67,
+      "faqCount": 0,
+      "faqQuestions": [],
+      "faqVisibleMatches": true,
+      "jsonErrors": [],
+      "missingAlt": [],
+      "duplicateIds": [],
+      "flags": []
+    },
+    {
+      "path": "/services/heating",
+      "url": "http://localhost:3002/services/heating",
+      "status": 200,
+      "final": "http://localhost:3002/services/heating",
+      "type": "text/html; charset=utf-8",
+      "bytes": 103355,
+      "seconds": 0.002,
+      "title": "Heating & Furnace Repair in Great Falls, MT | Great Falls Heating & Air",
+      "description": [
+        "Honest furnace repair, seasonal maintenance, and heating replacement in Great Falls, MT. Upfront diagnostics, CO safety checks, and built for Cascade County winters."
+      ],
+      "canonical": [
+        "https://greatfallsheatingandair.com/services/heating"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "mainCount": 1,
+      "headings": [
+        [
+          "h1",
+          "Furnace trouble? Let\u2019s find out what\u2019s wrong."
+        ],
+        [
+          "h2",
+          "Built for Cascade County weather."
+        ],
+        [
+          "h2",
+          "How a service visit works."
+        ],
+        [
+          "h2",
+          "No heat in freezing weather?"
+        ],
+        [
+          "h2",
+          "Equipment we service and install."
+        ],
+        [
+          "h3",
+          "Natural Gas & Propane Furnaces"
+        ],
+        [
+          "h3",
+          "Cold-Climate Heat Pumps & Dual-Fuel"
+        ],
+        [
+          "h3",
+          "Garage & Shop Unit Heaters"
+        ],
+        [
+          "h3",
+          "Thermostats & Airflow Balancing"
+        ],
+        [
+          "h2",
+          "Heating symptoms worth investigating."
+        ],
+        [
+          "h3",
+          "Blower runs, but the air is cold"
+        ],
+        [
+          "h3",
+          "Frequent cycling (Short-cycling)"
+        ],
+        [
+          "h3",
+          "Banging, squealing, or scraping noises"
+        ],
+        [
+          "h3",
+          "Yellow burner flames or CO alerts"
+        ],
+        [
+          "h2",
+          "What\u2019s included in our pre-winter furnace tune-up?"
+        ],
+        [
+          "h2",
+          "Give a repair a fair assessment."
+        ],
+        [
+          "h3",
+          "What changes the repair-or-replace decision?"
+        ],
+        [
+          "h3",
+          "Stick With a Repair When..."
+        ],
+        [
+          "h3",
+          "Start Planning a Replacement When..."
+        ],
+        [
+          "h2",
+          "Heating service around Great Falls"
+        ],
+        [
+          "h2",
+          "Frequently asked questions about heating in Great Falls."
+        ],
+        [
+          "h2",
+          "Straightforward scheduling & payment"
+        ],
+        [
+          "h3",
+          "Registration & scheduling"
+        ],
+        [
+          "h3",
+          "Payment & project records"
+        ],
+        [
+          "h2",
+          "Let\u2019s get your heat sorted out."
+        ]
+      ],
+      "words": 2066,
+      "faqCount": 7,
+      "faqQuestions": [
+        "How much does a furnace repair cost?",
+        "Why is my furnace running but blowing cold air?",
+        "Why does my furnace keep shutting off, especially in windy or freezing weather?",
+        "Should I repair an older furnace or replace it?",
+        "Does my furnace need an inspection every year if it still works?",
+        "What can I safely check before calling for furnace repair?",
+        "Can I keep my gas furnace and add a heat pump for Montana winters?"
+      ],
+      "faqVisibleMatches": true,
+      "jsonErrors": [],
+      "missingAlt": [],
+      "duplicateIds": [],
+      "flags": [
+        "Test Inspecting the heat exchanger, checking flue draft, and testing for carbon monoxide. Flame Sensor Cleaning & Ignitor Testing Cleaning oxidation from the flame rod and tes"
+      ]
+    },
+    {
+      "path": "/services/heating/emergency-furnace-repair",
+      "url": "http://localhost:3002/services/heating/emergency-furnace-repair",
+      "status": 200,
+      "final": "http://localhost:3002/services/heating/emergency-furnace-repair",
+      "type": "text/html; charset=utf-8",
+      "bytes": 93168,
+      "seconds": 0.005,
+      "title": "Emergency Furnace Repair in Great Falls, MT | Great Falls Heating and Air LLC",
+      "description": [
+        "No heat in Great Falls or Cascade County? Call for furnace repair availability, safe homeowner checks, and diagnostic guidance for gas, propane, and electric heating."
+      ],
+      "canonical": [
+        "https://greatfallsheatingandair.com/services/heating/emergency-furnace-repair"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "mainCount": 1,
+      "headings": [
+        [
+          "h1",
+          "No heat? Let\u2019s get your furnace firing safely."
+        ],
+        [
+          "h2",
+          "Gas odor or CO alarm sounding? Stop here."
+        ],
+        [
+          "h2",
+          "Even when it\u2019s urgent, you should understand the repair."
+        ],
+        [
+          "h2",
+          "What to do while waiting for service."
+        ],
+        [
+          "h2",
+          "Before authorizing a repair"
+        ],
+        [
+          "h2",
+          "Five things to check before calling for a repair."
+        ],
+        [
+          "h3",
+          "Check accessible exterior vents"
+        ],
+        [
+          "h3",
+          "Inspect the air filter"
+        ],
+        [
+          "h3",
+          "Look at the external power switch and breaker"
+        ],
+        [
+          "h3",
+          "Confirm thermostat settings"
+        ],
+        [
+          "h3",
+          "Record fault codes before considering a reset"
+        ],
+        [
+          "h2",
+          "Common cold-weather furnace failures."
+        ],
+        [
+          "h3",
+          "Ignitor or flame-sensor trouble"
+        ],
+        [
+          "h3",
+          "Condensate or pressure-switch faults"
+        ],
+        [
+          "h3",
+          "Inducer or blower problems"
+        ],
+        [
+          "h3",
+          "High-limit or rollout safety shutdowns"
+        ],
+        [
+          "h2",
+          "On propane outside Great Falls? Check your tank gauge."
+        ],
+        [
+          "h2",
+          "Emergency furnace repair FAQs for Great Falls homeowners."
+        ],
+        [
+          "h2",
+          "Talk with us about your furnace."
+        ]
+      ],
+      "words": 1926,
+      "faqCount": 8,
+      "faqQuestions": [],
+      "faqVisibleMatches": true,
+      "jsonErrors": [],
+      "missingAlt": [],
+      "duplicateIds": [],
+      "flags": []
+    },
+    {
+      "path": "/services/heating/furnace-installation",
+      "url": "http://localhost:3002/services/heating/furnace-installation",
+      "status": 200,
+      "final": "http://localhost:3002/services/heating/furnace-installation",
+      "type": "text/html; charset=utf-8",
+      "bytes": 112441,
+      "seconds": 0.004,
+      "title": "Furnace Installation & Replacement in Great Falls, MT | Great Falls Heating and Air LLC",
+      "description": [
+        "Plan furnace replacement in Great Falls: home-specific sizing, ductwork, shared-chimney checks, gas or propane compatibility, and written installation estimates."
+      ],
+      "canonical": [
+        "https://greatfallsheatingandair.com/services/heating/furnace-installation"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "mainCount": 1,
+      "headings": [
+        [
+          "h1",
+          "Replacing your furnace? Start with the house you have today."
+        ],
+        [
+          "h2",
+          "The old BTU sticker is a starting point, not a sizing calculation."
+        ],
+        [
+          "h2",
+          "Already comparing furnace quotes?"
+        ],
+        [
+          "h2",
+          "A replacement quote should account for the whole system."
+        ],
+        [
+          "h2",
+          "80% or condensing? Compare the installation around the furnace."
+        ],
+        [
+          "h3",
+          "Non-condensing furnace options"
+        ],
+        [
+          "h3",
+          "High-efficiency condensing options"
+        ],
+        [
+          "h3",
+          "Keeping a gas water heater on the old chimney?"
+        ],
+        [
+          "h2",
+          "Four airflow checks before a new furnace goes in."
+        ],
+        [
+          "h3",
+          "Return-air capacity"
+        ],
+        [
+          "h3",
+          "Filter fit & resistance"
+        ],
+        [
+          "h3",
+          "Supply transitions & leakage"
+        ],
+        [
+          "h3",
+          "Room-by-room comfort"
+        ],
+        [
+          "h2",
+          "Start with the fuel your home actually uses."
+        ],
+        [
+          "h2",
+          "What affects furnace replacement cost in Great Falls?"
+        ],
+        [
+          "h2",
+          "Great Falls Heating and Air\u2019s furnace estimate checklist."
+        ],
+        [
+          "h2",
+          "Plan the work\u2014and the time without heat."
+        ],
+        [
+          "h2",
+          "Check which rebates apply to your utility account."
+        ],
+        [
+          "h2",
+          "Frequently asked questions about furnace installation in Great Falls."
+        ],
+        [
+          "h2",
+          "Get a written estimate you can compare."
+        ]
+      ],
+      "words": 2414,
+      "faqCount": 8,
+      "faqQuestions": [],
+      "faqVisibleMatches": true,
+      "jsonErrors": [],
+      "missingAlt": [],
+      "duplicateIds": [],
+      "flags": [
+        "red system has changed, so sizing, condition, and draft need review. Any required changes should be identified before installation day. Technical references: DOE: direct-vent "
+      ]
+    },
+    {
+      "path": "/services/heating/furnace-maintenance",
+      "url": "http://localhost:3002/services/heating/furnace-maintenance",
+      "status": 200,
+      "final": "http://localhost:3002/services/heating/furnace-maintenance",
+      "type": "text/html; charset=utf-8",
+      "bytes": 105454,
+      "seconds": 0.003,
+      "title": "Furnace Maintenance & Fall Tune-Ups in Great Falls, MT | Great Falls Heating and Air LLC",
+      "description": [
+        "Plan furnace maintenance in Great Falls and Cascade County. Understand seasonal checks, gas and propane equipment care, service records, and safe homeowner tasks."
+      ],
+      "canonical": [
+        "https://greatfallsheatingandair.com/services/heating/furnace-maintenance"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "mainCount": 1,
+      "headings": [
+        [
+          "h1",
+          "Get your furnace ready for a Great Falls winter."
+        ],
+        [
+          "h2",
+          "Plan the check before you need the heat."
+        ],
+        [
+          "h2",
+          "Tell us what has changed."
+        ],
+        [
+          "h2",
+          "A tune-up should leave you understanding your furnace better."
+        ],
+        [
+          "h2",
+          "Leave with findings you can act on."
+        ],
+        [
+          "h3",
+          "Maintenance completed"
+        ],
+        [
+          "h3",
+          "Further work proposed"
+        ],
+        [
+          "h3",
+          "A safety concern identified"
+        ],
+        [
+          "h2",
+          "Scheduling around a Great Falls heating season."
+        ],
+        [
+          "h3",
+          "Before the visit"
+        ],
+        [
+          "h2",
+          "What you can do between visits."
+        ],
+        [
+          "h2",
+          "Keep the records. Read the actual warranty."
+        ],
+        [
+          "h2",
+          "Frequently asked questions about furnace maintenance in Great Falls."
+        ],
+        [
+          "h2",
+          "Plan your next furnace check."
+        ]
+      ],
+      "words": 2044,
+      "faqCount": 8,
+      "faqQuestions": [],
+      "faqVisibleMatches": true,
+      "jsonErrors": [],
+      "missingAlt": [],
+      "duplicateIds": [],
+      "flags": [
+        "ier: furnace cleaning and service ; AHRI: induced-draft furnace heat exchanger inspection . Procedures depend on the equipment. Leave with findings you can act on. Ask for a r"
+      ]
+    },
+    {
+      "path": "/services/cooling",
+      "url": "http://localhost:3002/services/cooling",
+      "status": 200,
+      "final": "http://localhost:3002/services/cooling",
+      "type": "text/html; charset=utf-8",
+      "bytes": 104271,
+      "seconds": 0.003,
+      "title": "Air Conditioning & Cooling Services in Great Falls, MT | Great Falls Heating and Air LLC",
+      "description": [
+        "Central AC repair, seasonal maintenance, ductless mini-splits, and cooling upgrades for Great Falls and Cascade County homes. Explore airflow and filtration options."
+      ],
+      "canonical": [
+        "https://greatfallsheatingandair.com/services/cooling"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "mainCount": 1,
+      "headings": [
+        [
+          "h1",
+          "Hot upstairs? AC struggling? Start here."
+        ],
+        [
+          "h2",
+          "Tell us which rooms aren\u2019t comfortable."
+        ],
+        [
+          "h2",
+          "How a cooling service visit works."
+        ],
+        [
+          "h2",
+          "AC blowing warm air or icing up?"
+        ],
+        [
+          "h2",
+          "Cooling equipment we work on."
+        ],
+        [
+          "h3",
+          "Central split-system air conditioners"
+        ],
+        [
+          "h3",
+          "Ductless mini-splits"
+        ],
+        [
+          "h3",
+          "Central heat pumps"
+        ],
+        [
+          "h3",
+          "Evaporative-cooler transitions & filtration"
+        ],
+        [
+          "h2",
+          "Common Great Falls cooling problems."
+        ],
+        [
+          "h3",
+          "Ice on refrigerant lines or the indoor coil"
+        ],
+        [
+          "h3",
+          "Outdoor unit runs or hums, but the air stays warm"
+        ],
+        [
+          "h3",
+          "Cottonwood and dust on the outdoor coil"
+        ],
+        [
+          "h3",
+          "A cold basement and hot upstairs bedrooms"
+        ],
+        [
+          "h2",
+          "What we check during a spring AC tune-up."
+        ],
+        [
+          "h3",
+          "Outdoor coil & cabinet inspection"
+        ],
+        [
+          "h3",
+          "Electrical components & operating readings"
+        ],
+        [
+          "h3",
+          "Airflow & filter check"
+        ],
+        [
+          "h3",
+          "Refrigerant performance assessment"
+        ],
+        [
+          "h3",
+          "Condensate drainage & controls"
+        ],
+        [
+          "h2",
+          "Cool air and cleaner air need a plan."
+        ],
+        [
+          "h2",
+          "Repair, replace, or consider a heat pump?"
+        ],
+        [
+          "h2",
+          "Frequently asked questions about air conditioning in Great Falls."
+        ],
+        [
+          "h2",
+          "Let\u2019s get your cooling sorted out."
+        ]
+      ],
+      "words": 2080,
+      "faqCount": 8,
+      "faqQuestions": [],
+      "faqVisibleMatches": true,
+      "jsonErrors": [],
+      "missingAlt": [],
+      "duplicateIds": [],
+      "flags": []
+    },
+    {
+      "path": "/services/cooling/ac-repair",
+      "url": "http://localhost:3002/services/cooling/ac-repair",
+      "status": 200,
+      "final": "http://localhost:3002/services/cooling/ac-repair",
+      "type": "text/html; charset=utf-8",
+      "bytes": 117714,
+      "seconds": 0.003,
+      "title": "AC Repair & Diagnostics in Great Falls, MT | Great Falls Heating and Air LLCFive areas of a central AC assessment",
+      "description": [
+        "AC repair in Great Falls: warm air, frozen coils, electrical symptoms, safe homeowner checks, and explained repair decisions for your cooling system."
+      ],
+      "canonical": [
+        "https://greatfallsheatingandair.com/services/cooling/ac-repair"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "mainCount": 1,
+      "headings": [
+        [
+          "h1",
+          "AC repair in Great Falls starts with finding the cause."
+        ],
+        [
+          "h2",
+          "Visible ice? Stop cooling and call for guidance."
+        ],
+        [
+          "h2",
+          "Know what failed and how the repair will be checked."
+        ],
+        [
+          "h3",
+          "Useful observations from your home"
+        ],
+        [
+          "h2",
+          "Before the diagnostic visit"
+        ],
+        [
+          "h2",
+          "What we check when your AC blows warm air."
+        ],
+        [
+          "h3",
+          "Thermostat"
+        ],
+        [
+          "h3",
+          "Filter & airflow"
+        ],
+        [
+          "h3",
+          "Indoor coil & drainage"
+        ],
+        [
+          "h3",
+          "Outdoor unit"
+        ],
+        [
+          "h3",
+          "Refrigerant circuit"
+        ],
+        [
+          "h2",
+          "What the symptoms help us investigate."
+        ],
+        [
+          "h3",
+          "Warm air while the system runs"
+        ],
+        [
+          "h3",
+          "Outdoor unit hums, clicks, or will not start"
+        ],
+        [
+          "h3",
+          "Ice, weak airflow, or water after shutdown"
+        ],
+        [
+          "h3",
+          "Cottonwood buildup or unusual outdoor noise"
+        ],
+        [
+          "h2",
+          "Safe observations before calling for AC service."
+        ],
+        [
+          "h3",
+          "Confirm thermostat settings"
+        ],
+        [
+          "h3",
+          "Inspect an accessible filter and grilles"
+        ],
+        [
+          "h3",
+          "Observe power and outdoor conditions"
+        ],
+        [
+          "h3",
+          "Report visible drainage problems"
+        ],
+        [
+          "h2",
+          "What you should know before approving a repair."
+        ],
+        [
+          "h2",
+          "Repair or replace? Start with what\u2019s wrong."
+        ],
+        [
+          "h2",
+          "Low refrigerant deserves an explanation."
+        ],
+        [
+          "h2",
+          "When replacement is worth discussing."
+        ],
+        [
+          "h2",
+          "Arrange the visit around your equipment and address."
+        ],
+        [
+          "h2",
+          "Frequently asked questions about AC repair in Great Falls."
+        ],
+        [
+          "h2",
+          "Tell us what your AC is doing."
+        ]
+      ],
+      "words": 2310,
+      "faqCount": 8,
+      "faqQuestions": [],
+      "faqVisibleMatches": true,
+      "jsonErrors": [],
+      "missingAlt": [],
+      "duplicateIds": [],
+      "flags": []
+    },
+    {
+      "path": "/services/cooling/ac-installation",
+      "url": "http://localhost:3002/services/cooling/ac-installation",
+      "status": 200,
+      "final": "http://localhost:3002/services/cooling/ac-installation",
+      "type": "text/html; charset=utf-8",
+      "bytes": 100497,
+      "seconds": 0.003,
+      "title": "AC Installation & Replacement in Great Falls, MT | Great Falls Heating and Air LLC",
+      "description": [
+        "AC installation in Great Falls: room comfort, sizing, furnace compatibility, written installation scope, cost factors, and heat-pump comparisons."
+      ],
+      "canonical": [
+        "https://greatfallsheatingandair.com/services/cooling/ac-installation"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "mainCount": 1,
+      "headings": [
+        [
+          "h1",
+          "AC installation starts with the rooms you need to cool."
+        ],
+        [
+          "h2",
+          "What do you want your new AC to improve?"
+        ],
+        [
+          "h2",
+          "Bring your room-by-room priorities."
+        ],
+        [
+          "h2",
+          "Size for the house, then check how air reaches each room."
+        ],
+        [
+          "h2",
+          "Are you replacing AC, adding it, or cooling one room?"
+        ],
+        [
+          "h3",
+          "Replace an existing central AC"
+        ],
+        [
+          "h3",
+          "Add cooling to an existing furnace"
+        ],
+        [
+          "h3",
+          "Solve a room-specific comfort problem"
+        ],
+        [
+          "h2",
+          "What changes the installed cost?"
+        ],
+        [
+          "h2",
+          "Seven things to look for in your AC quote."
+        ],
+        [
+          "h2",
+          "Know which refrigerant and components the proposal includes."
+        ],
+        [
+          "h2",
+          "Replacing your AC? Compare a heat pump too."
+        ],
+        [
+          "h2",
+          "Plan installation day and what happens afterward."
+        ],
+        [
+          "h3",
+          "Plan for smoke season alongside cooling."
+        ],
+        [
+          "h2",
+          "Frequently asked questions about AC installation in Great Falls."
+        ],
+        [
+          "h2",
+          "Tell us which rooms need better cooling."
+        ]
+      ],
+      "words": 1983,
+      "faqCount": 6,
+      "faqQuestions": [],
+      "faqVisibleMatches": true,
+      "jsonErrors": [],
+      "missingAlt": [],
+      "duplicateIds": [],
+      "flags": []
+    },
+    {
+      "path": "/services/cooling/ac-maintenance",
+      "url": "http://localhost:3002/services/cooling/ac-maintenance",
+      "status": 200,
+      "final": "http://localhost:3002/services/cooling/ac-maintenance",
+      "type": "text/html; charset=utf-8",
+      "bytes": 107010,
+      "seconds": 0.003,
+      "title": "AC Maintenance & Seasonal Tune-Ups in Great Falls, MT | Great Falls Heating and Air LLC",
+      "description": [
+        "AC maintenance in Great Falls: cottonwood coil care, airflow and filter checks, seasonal planning, drainage, explained findings, and equipment-specific service."
+      ],
+      "canonical": [
+        "https://greatfallsheatingandair.com/services/cooling/ac-maintenance"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "mainCount": 1,
+      "headings": [
+        [
+          "h1",
+          "Get your AC ready for the next hot spell."
+        ],
+        [
+          "h2",
+          "What has your AC been through since its last check?"
+        ],
+        [
+          "h2",
+          "Before the heat, then as conditions change."
+        ],
+        [
+          "h2",
+          "Three areas to check."
+        ],
+        [
+          "h3",
+          "Outdoor condenser coil"
+        ],
+        [
+          "h3",
+          "Filter & blower airflow"
+        ],
+        [
+          "h3",
+          "Condensate drainage"
+        ],
+        [
+          "h2",
+          "What to clean, check, and explain."
+        ],
+        [
+          "h2",
+          "Cottonwood cleaning and sprinkler deposits need the right method."
+        ],
+        [
+          "h2",
+          "Useful observations between maintenance visits."
+        ],
+        [
+          "h3",
+          "Watch the outdoor coil"
+        ],
+        [
+          "h3",
+          "Check filters during smoke events"
+        ],
+        [
+          "h3",
+          "Keep sprinklers off the equipment"
+        ],
+        [
+          "h3",
+          "Report changes before the visit"
+        ],
+        [
+          "h2",
+          "Ductless systems need their own maintenance plan."
+        ],
+        [
+          "h2",
+          "Seasonal AC and a working heat pump need different winter care."
+        ],
+        [
+          "h2",
+          "Know what was done and what still needs attention."
+        ],
+        [
+          "h2",
+          "Frequently asked questions about AC maintenance."
+        ],
+        [
+          "h2",
+          "Plan the next cooling season around your system."
+        ]
+      ],
+      "words": 2025,
+      "faqCount": 6,
+      "faqQuestions": [],
+      "faqVisibleMatches": true,
+      "jsonErrors": [],
+      "missingAlt": [],
+      "duplicateIds": [],
+      "flags": []
+    },
+    {
+      "path": "/services/heat-pumps/cold-climate",
+      "url": "http://localhost:3002/services/heat-pumps/cold-climate",
+      "status": 200,
+      "final": "http://localhost:3002/services/heat-pumps/cold-climate",
+      "type": "text/html; charset=utf-8",
+      "bytes": 104666,
+      "seconds": 0.003,
+      "title": "Cold-Climate Heat Pumps & Dual-Fuel Systems in Great Falls, MT | Great Falls Heating and Air LLC",
+      "description": [
+        "Compare cold-climate heat pumps, dual-fuel heating, and ductless options for Great Falls homes. Plan for Chinook warm-ups, deep freezes, fuel costs, and utility incentives."
+      ],
+      "canonical": [
+        "https://greatfallsheatingandair.com/services/heat-pumps/cold-climate"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "mainCount": 1,
+      "headings": [
+        [
+          "h1",
+          "Cold-climate heat pumps and dual-fuel systems for Great Falls homes."
+        ],
+        [
+          "h2",
+          "Plan for the cold that follows a warm-up."
+        ],
+        [
+          "h2",
+          "Replacing AC? Using propane or baseboard heat?"
+        ],
+        [
+          "h2",
+          "Three ways to fit a heat pump to a Cascade County home."
+        ],
+        [
+          "h3",
+          "Dual-fuel: heat pump + furnace"
+        ],
+        [
+          "h3",
+          "Ductless: room-by-room heating & cooling"
+        ],
+        [
+          "h3",
+          "All-electric: heat pump + a cold-weather plan"
+        ],
+        [
+          "h2",
+          "Will a heat pump make sense for your heating bills?"
+        ],
+        [
+          "h3",
+          "Keeping your system may make sense too."
+        ],
+        [
+          "h2",
+          "What to look for in your heat pump quote."
+        ],
+        [
+          "h3",
+          "Snow clearance & service access"
+        ],
+        [
+          "h3",
+          "Defrost water & ice management"
+        ],
+        [
+          "h3",
+          "Wind exposure & outdoor placement"
+        ],
+        [
+          "h3",
+          "Compatible controls & commissioning"
+        ],
+        [
+          "h2",
+          "Heat pump service when the weather changes."
+        ],
+        [
+          "h2",
+          "Check the utility serving your property before choosing equipment."
+        ],
+        [
+          "h2",
+          "Great Falls and the communities around it."
+        ],
+        [
+          "h2",
+          "Frequently asked questions about cold-climate heat pumps in Great Falls."
+        ],
+        [
+          "h2",
+          "Does a heat pump pencil out for your house?"
+        ]
+      ],
+      "words": 2105,
+      "faqCount": 6,
+      "faqQuestions": [],
+      "faqVisibleMatches": true,
+      "jsonErrors": [],
+      "missingAlt": [],
+      "duplicateIds": [],
+      "flags": []
+    },
+    {
+      "path": "/services/heat-pumps/heat-pump-installation",
+      "url": "http://localhost:3002/services/heat-pumps/heat-pump-installation",
+      "status": 200,
+      "final": "http://localhost:3002/services/heat-pumps/heat-pump-installation",
+      "type": "text/html; charset=utf-8",
+      "bytes": 112970,
+      "seconds": 0.003,
+      "title": "Heat Pump Installation & Replacement in Great Falls, MT | Great Falls Heating and Air LLC",
+      "description": [
+        "Heat pump installation in Great Falls: furnace compatibility, electrical assessment, winter placement, backup controls, written scope, and current utility incentives."
+      ],
+      "canonical": [
+        "https://greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "mainCount": 1,
+      "headings": [
+        [
+          "h1",
+          "Heat pump installation planned around your home\u2019s coldest days."
+        ],
+        [
+          "h2",
+          "What needs to change along with the heat pump?"
+        ],
+        [
+          "h3",
+          "Keeping a working furnace while replacing the cooling system"
+        ],
+        [
+          "h2",
+          "Bring the equipment details and actual bills."
+        ],
+        [
+          "h2",
+          "Start with the heating goal and the house\u2019s demand."
+        ],
+        [
+          "h2",
+          "Define what stays and what changes."
+        ],
+        [
+          "h3",
+          "Keep a suitable furnace"
+        ],
+        [
+          "h3",
+          "Replace the furnace and cooling together"
+        ],
+        [
+          "h3",
+          "Serve particular rooms with ductless"
+        ],
+        [
+          "h2",
+          "Check electrical capacity before promising what will fit."
+        ],
+        [
+          "h2",
+          "Two heat sources. One coordinated heating plan."
+        ],
+        [
+          "h3",
+          "Thermostat & approved controls"
+        ],
+        [
+          "h3",
+          "Heat pump"
+        ],
+        [
+          "h3",
+          "Gas or propane furnace"
+        ],
+        [
+          "h2",
+          "Explain the backup settings and the reason for them."
+        ],
+        [
+          "h2",
+          "Place the outdoor unit for winter operation and future service."
+        ],
+        [
+          "h2",
+          "Seven things to check in your heat pump quote."
+        ],
+        [
+          "h2",
+          "Know what will be checked before the job is done."
+        ],
+        [
+          "h2",
+          "Check the electric account before counting a rebate."
+        ],
+        [
+          "h2",
+          "Frequently asked questions about heat pump installation."
+        ],
+        [
+          "h2",
+          "Plan the whole installation before choosing equipment."
+        ]
+      ],
+      "words": 2244,
+      "faqCount": 6,
+      "faqQuestions": [],
+      "faqVisibleMatches": true,
+      "jsonErrors": [],
+      "missingAlt": [],
+      "duplicateIds": [],
+      "flags": []
+    },
+    {
+      "path": "/services/heat-pumps/ductless-mini-splits",
+      "url": "http://localhost:3002/services/heat-pumps/ductless-mini-splits",
+      "status": 200,
+      "final": "http://localhost:3002/services/heat-pumps/ductless-mini-splits",
+      "type": "text/html; charset=utf-8",
+      "bytes": 110557,
+      "seconds": 0.003,
+      "title": "Ductless Mini-Split Installation in Great Falls, MT | Great Falls Heating and Air LLC",
+      "description": [
+        "Ductless mini-split installation in Great Falls: room coverage, closed-bedroom planning, indoor-unit placement, piping and drainage, winter heating, and utility incentives."
+      ],
+      "canonical": [
+        "https://greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "mainCount": 1,
+      "headings": [
+        [
+          "h1",
+          "Ductless mini-split installation planned around the rooms you actually use."
+        ],
+        [
+          "h2",
+          "The room list should come before the equipment list."
+        ],
+        [
+          "h3",
+          "A local planning example: cooling a boiler-heated home."
+        ],
+        [
+          "h2",
+          "Bring a floor plan and your room priorities."
+        ],
+        [
+          "h2",
+          "An open living area is one zone. Closed bedrooms need a plan."
+        ],
+        [
+          "h2",
+          "Three starting points for a ductless layout."
+        ],
+        [
+          "h3",
+          "Add cooling to a boiler-heated home"
+        ],
+        [
+          "h3",
+          "Address a particular room"
+        ],
+        [
+          "h3",
+          "Compare an electric-heating upgrade"
+        ],
+        [
+          "h2",
+          "One outdoor unit or several? Look at how you use the rooms."
+        ],
+        [
+          "h2",
+          "Choose indoor-unit locations you can live with and service."
+        ],
+        [
+          "h2",
+          "See the piping and drainage route before approving the layout."
+        ],
+        [
+          "h2",
+          "Decide how much winter heating you expect."
+        ],
+        [
+          "h2",
+          "Plan cooling and smoke filtration separately."
+        ],
+        [
+          "h2",
+          "Six layout decisions to confirm in writing."
+        ],
+        [
+          "h2",
+          "Verify incentives for the account and exact equipment."
+        ],
+        [
+          "h2",
+          "Frequently asked questions about ductless mini-splits."
+        ],
+        [
+          "h2",
+          "Start with the rooms you want to improve."
+        ]
+      ],
+      "words": 2131,
+      "faqCount": 6,
+      "faqQuestions": [],
+      "faqVisibleMatches": true,
+      "jsonErrors": [],
+      "missingAlt": [],
+      "duplicateIds": [],
+      "flags": []
+    },
+    {
+      "path": "/services/heat-pumps/repair-maintenance",
+      "url": "http://localhost:3002/services/heat-pumps/repair-maintenance",
+      "status": 200,
+      "final": "http://localhost:3002/services/heat-pumps/repair-maintenance",
+      "type": "text/html; charset=utf-8",
+      "bytes": 108717,
+      "seconds": 0.003,
+      "title": "Heat Pump Repair & Maintenance in Great Falls, MT | Great Falls Heating and Air LLC",
+      "description": [
+        "Heat pump repair and maintenance in Great Falls: defrost patterns, persistent ice, backup heat, ductless care, explained findings, and seasonal service."
+      ],
+      "canonical": [
+        "https://greatfallsheatingandair.com/services/heat-pumps/repair-maintenance"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ],
+      "mainCount": 1,
+      "headings": [
+        [
+          "h1",
+          "Heat pump acting differently? Tell us what changed."
+        ],
+        [
+          "h2",
+          "Gas odor, a CO alarm, fire, or electrical danger?"
+        ],
+        [
+          "h2",
+          "Explain what changed before choosing a repair."
+        ],
+        [
+          "h3",
+          "A Great Falls winter planning example."
+        ],
+        [
+          "h2",
+          "Have a few details ready."
+        ],
+        [
+          "h2",
+          "Does normal heating return, or does the problem continue?"
+        ],
+        [
+          "h3",
+          "Frost clears and heating resumes."
+        ],
+        [
+          "h3",
+          "Ice persists or comfort declines."
+        ],
+        [
+          "h2",
+          "What to tell us when you call."
+        ],
+        [
+          "h3",
+          "Ice that persists or returns with poor heating"
+        ],
+        [
+          "h3",
+          "More backup heat or higher electricity use"
+        ],
+        [
+          "h3",
+          "Weak airflow, uneven rooms, or a ductless alert"
+        ],
+        [
+          "h3",
+          "Poor summer cooling or indoor water"
+        ],
+        [
+          "h2",
+          "More backup heat? Look at what changed."
+        ],
+        [
+          "h2",
+          "Useful checks stay outside the equipment cabinet."
+        ],
+        [
+          "h2",
+          "Three things you should know about the repair."
+        ],
+        [
+          "h2",
+          "Plan maintenance around heating and cooling use."
+        ],
+        [
+          "h2",
+          "Ductless and furnace-backed systems need different access."
+        ],
+        [
+          "h2",
+          "Use the diagnosis to weigh repair against replacement."
+        ],
+        [
+          "h2",
+          "Frequently asked questions about heat pump repair and maintenance."
+        ],
+        [
+          "h2",
+          "Tell us what changed and when."
+        ]
+      ],
+      "words": 2224,
+      "faqCount": 6,
+      "faqQuestions": [],
+      "faqVisibleMatches": true,
+      "jsonErrors": [],
+      "missingAlt": [],
+      "duplicateIds": [],
+      "flags": []
+    },
+    {
+      "path": "/thank-you",
+      "url": "http://localhost:3002/thank-you",
+      "status": 200,
+      "final": "http://localhost:3002/thank-you",
+      "type": "text/html; charset=utf-8",
+      "bytes": 27589,
+      "seconds": 0.007,
+      "title": "Thank You | Request Confirmation | Great Falls Heating and Air LLC",
+      "description": [
+        "Service inquiry confirmation and next steps."
+      ],
+      "canonical": [
+        "https://greatfallsheatingandair.com/thank-you"
+      ],
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "mainCount": 1,
+      "headings": [
+        [
+          "h1",
+          "Thanks for getting in touch."
+        ]
+      ],
+      "words": 62,
+      "faqCount": 0,
+      "faqQuestions": [],
+      "faqVisibleMatches": true,
+      "jsonErrors": [],
+      "missingAlt": [],
+      "duplicateIds": [],
+      "flags": []
+    }
+  ],
+  "internalLinks": [
+    {
+      "url": "http://localhost:3002/",
+      "status": 200,
+      "final": "http://localhost:3002/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 91646,
+      "seconds": 0.002
+    },
+    {
+      "url": "http://localhost:3002/about",
+      "status": 200,
+      "final": "http://localhost:3002/about",
+      "type": "text/html; charset=utf-8",
+      "bytes": 41854,
+      "seconds": 0.002
+    },
+    {
+      "url": "http://localhost:3002/contact",
+      "status": 200,
+      "final": "http://localhost:3002/contact",
+      "type": "text/html; charset=utf-8",
+      "bytes": 40170,
+      "seconds": 0.021
+    },
+    {
+      "url": "http://localhost:3002/contact?intent=emergency",
+      "status": 200,
+      "final": "http://localhost:3002/contact?intent=emergency",
+      "type": "text/html; charset=utf-8",
+      "bytes": 40598,
+      "seconds": 0.015
+    },
+    {
+      "url": "http://localhost:3002/contact?intent=estimate",
+      "status": 200,
+      "final": "http://localhost:3002/contact?intent=estimate",
+      "type": "text/html; charset=utf-8",
+      "bytes": 40236,
+      "seconds": 0.018
+    },
+    {
+      "url": "http://localhost:3002/contact?intent=general",
+      "status": 200,
+      "final": "http://localhost:3002/contact?intent=general",
+      "type": "text/html; charset=utf-8",
+      "bytes": 40232,
+      "seconds": 0.021
+    },
+    {
+      "url": "http://localhost:3002/contact?intent=maintenance",
+      "status": 200,
+      "final": "http://localhost:3002/contact?intent=maintenance",
+      "type": "text/html; charset=utf-8",
+      "bytes": 40248,
+      "seconds": 0.021
+    },
+    {
+      "url": "http://localhost:3002/privacy",
+      "status": 200,
+      "final": "http://localhost:3002/privacy",
+      "type": "text/html; charset=utf-8",
+      "bytes": 39755,
+      "seconds": 0.006
+    },
+    {
+      "url": "http://localhost:3002/rebates/2026-montana-hvac-rebates",
+      "status": 200,
+      "final": "http://localhost:3002/rebates/2026-montana-hvac-rebates",
+      "type": "text/html; charset=utf-8",
+      "bytes": 87973,
+      "seconds": 0.004
+    },
+    {
+      "url": "http://localhost:3002/services/cooling",
+      "status": 200,
+      "final": "http://localhost:3002/services/cooling",
+      "type": "text/html; charset=utf-8",
+      "bytes": 104271,
+      "seconds": 0.003
+    },
+    {
+      "url": "http://localhost:3002/services/cooling/ac-installation",
+      "status": 200,
+      "final": "http://localhost:3002/services/cooling/ac-installation",
+      "type": "text/html; charset=utf-8",
+      "bytes": 100497,
+      "seconds": 0.003
+    },
+    {
+      "url": "http://localhost:3002/services/cooling/ac-maintenance",
+      "status": 200,
+      "final": "http://localhost:3002/services/cooling/ac-maintenance",
+      "type": "text/html; charset=utf-8",
+      "bytes": 107010,
+      "seconds": 0.003
+    },
+    {
+      "url": "http://localhost:3002/services/cooling/ac-repair",
+      "status": 200,
+      "final": "http://localhost:3002/services/cooling/ac-repair",
+      "type": "text/html; charset=utf-8",
+      "bytes": 117714,
+      "seconds": 0.002
+    },
+    {
+      "url": "http://localhost:3002/services/heat-pumps/cold-climate",
+      "status": 200,
+      "final": "http://localhost:3002/services/heat-pumps/cold-climate",
+      "type": "text/html; charset=utf-8",
+      "bytes": 104666,
+      "seconds": 0.003
+    },
+    {
+      "url": "http://localhost:3002/services/heat-pumps/ductless-mini-splits",
+      "status": 200,
+      "final": "http://localhost:3002/services/heat-pumps/ductless-mini-splits",
+      "type": "text/html; charset=utf-8",
+      "bytes": 110557,
+      "seconds": 0.003
+    },
+    {
+      "url": "http://localhost:3002/services/heat-pumps/heat-pump-installation",
+      "status": 200,
+      "final": "http://localhost:3002/services/heat-pumps/heat-pump-installation",
+      "type": "text/html; charset=utf-8",
+      "bytes": 112970,
+      "seconds": 0.003
+    },
+    {
+      "url": "http://localhost:3002/services/heat-pumps/repair-maintenance",
+      "status": 200,
+      "final": "http://localhost:3002/services/heat-pumps/repair-maintenance",
+      "type": "text/html; charset=utf-8",
+      "bytes": 108717,
+      "seconds": 0.003
+    },
+    {
+      "url": "http://localhost:3002/services/heating",
+      "status": 200,
+      "final": "http://localhost:3002/services/heating",
+      "type": "text/html; charset=utf-8",
+      "bytes": 103355,
+      "seconds": 0.003
+    },
+    {
+      "url": "http://localhost:3002/services/heating/emergency-furnace-repair",
+      "status": 200,
+      "final": "http://localhost:3002/services/heating/emergency-furnace-repair",
+      "type": "text/html; charset=utf-8",
+      "bytes": 93168,
+      "seconds": 0.003
+    },
+    {
+      "url": "http://localhost:3002/services/heating/furnace-installation",
+      "status": 200,
+      "final": "http://localhost:3002/services/heating/furnace-installation",
+      "type": "text/html; charset=utf-8",
+      "bytes": 112441,
+      "seconds": 0.003
+    },
+    {
+      "url": "http://localhost:3002/services/heating/furnace-maintenance",
+      "status": 200,
+      "final": "http://localhost:3002/services/heating/furnace-maintenance",
+      "type": "text/html; charset=utf-8",
+      "bytes": 105454,
+      "seconds": 0.003
+    },
+    {
+      "url": "http://localhost:3002/sitemap",
+      "status": 200,
+      "final": "http://localhost:3002/sitemap",
+      "type": "text/html; charset=utf-8",
+      "bytes": 36324,
+      "seconds": 0.003
+    },
+    {
+      "url": "http://localhost:3002/thank-you",
+      "status": 200,
+      "final": "http://localhost:3002/thank-you",
+      "type": "text/html; charset=utf-8",
+      "bytes": 27589,
+      "seconds": 0.005
+    }
+  ],
+  "assets": [
+    {
+      "url": "http://localhost:3002/_next/image?url=%2Fimages%2Fac-repair-outdoor-condenser.webp&w=3840&q=75",
+      "status": 200,
+      "final": "http://localhost:3002/_next/image?url=%2Fimages%2Fac-repair-outdoor-condenser.webp&w=3840&q=75",
+      "type": "image/jpeg",
+      "bytes": 176366,
+      "seconds": 0.128
+    },
+    {
+      "url": "http://localhost:3002/_next/image?url=%2Fimages%2Fac-service.webp&w=3840&q=75",
+      "status": 200,
+      "final": "http://localhost:3002/_next/image?url=%2Fimages%2Fac-service.webp&w=3840&q=75",
+      "type": "image/jpeg",
+      "bytes": 156291,
+      "seconds": 0.114
+    },
+    {
+      "url": "http://localhost:3002/_next/image?url=%2Fimages%2Fcold-climate-heat-pump-installation.webp&w=3840&q=75",
+      "status": 200,
+      "final": "http://localhost:3002/_next/image?url=%2Fimages%2Fcold-climate-heat-pump-installation.webp&w=3840&q=75",
+      "type": "image/jpeg",
+      "bytes": 186715,
+      "seconds": 0.115
+    },
+    {
+      "url": "http://localhost:3002/_next/image?url=%2Fimages%2Fcold-climate-mitsubishi-outdoor-heat-pump.webp&w=3840&q=75",
+      "status": 200,
+      "final": "http://localhost:3002/_next/image?url=%2Fimages%2Fcold-climate-mitsubishi-outdoor-heat-pump.webp&w=3840&q=75",
+      "type": "image/jpeg",
+      "bytes": 202648,
+      "seconds": 0.129
+    },
+    {
+      "url": "http://localhost:3002/_next/image?url=%2Fimages%2Fcooling-service-great-falls.webp&w=3840&q=75",
+      "status": 200,
+      "final": "http://localhost:3002/_next/image?url=%2Fimages%2Fcooling-service-great-falls.webp&w=3840&q=75",
+      "type": "image/jpeg",
+      "bytes": 178194,
+      "seconds": 0.185
+    },
+    {
+      "url": "http://localhost:3002/_next/image?url=%2Fimages%2Femergency-furnace-repair-great-falls.webp&w=3840&q=75",
+      "status": 200,
+      "final": "http://localhost:3002/_next/image?url=%2Fimages%2Femergency-furnace-repair-great-falls.webp&w=3840&q=75",
+      "type": "image/jpeg",
+      "bytes": 117537,
+      "seconds": 0.072
+    },
+    {
+      "url": "http://localhost:3002/_next/image?url=%2Fimages%2Ffurnace-diagnostic.webp&w=3840&q=75",
+      "status": 200,
+      "final": "http://localhost:3002/_next/image?url=%2Fimages%2Ffurnace-diagnostic.webp&w=3840&q=75",
+      "type": "image/jpeg",
+      "bytes": 91647,
+      "seconds": 0.05
+    },
+    {
+      "url": "http://localhost:3002/_next/image?url=%2Fimages%2Fgreat-falls-neighborhood-footer.png&w=3840&q=75",
+      "status": 200,
+      "final": "http://localhost:3002/_next/image?url=%2Fimages%2Fgreat-falls-neighborhood-footer.png&w=3840&q=75",
+      "type": "image/png",
+      "bytes": 540345,
+      "seconds": 0.361
+    },
+    {
+      "url": "http://localhost:3002/_next/image?url=%2Fimages%2Fheating-furnace-installation.webp&w=3840&q=75",
+      "status": 200,
+      "final": "http://localhost:3002/_next/image?url=%2Fimages%2Fheating-furnace-installation.webp&w=3840&q=75",
+      "type": "image/jpeg",
+      "bytes": 125922,
+      "seconds": 0.112
+    },
+    {
+      "url": "http://localhost:3002/_next/image?url=%2Fimages%2Fhigh-plains-montana.webp&w=3840&q=75",
+      "status": 200,
+      "final": "http://localhost:3002/_next/image?url=%2Fimages%2Fhigh-plains-montana.webp&w=3840&q=75",
+      "type": "image/jpeg",
+      "bytes": 172686,
+      "seconds": 0.095
+    },
+    {
+      "url": "http://localhost:3002/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=3840&q=75",
+      "status": 200,
+      "final": "http://localhost:3002/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=3840&q=75",
+      "type": "image/jpeg",
+      "bytes": 223776,
+      "seconds": 0.106
+    },
+    {
+      "url": "http://localhost:3002/_next/image?url=%2Fimages%2Fwinter-heat-pump.webp&w=3840&q=75",
+      "status": 200,
+      "final": "http://localhost:3002/_next/image?url=%2Fimages%2Fwinter-heat-pump.webp&w=3840&q=75",
+      "type": "image/jpeg",
+      "bytes": 72177,
+      "seconds": 0.055
+    },
+    {
+      "url": "http://localhost:3002/_next/static/chunks/0361rzkw7srzj.js",
+      "status": 200,
+      "final": "http://localhost:3002/_next/static/chunks/0361rzkw7srzj.js",
+      "type": "application/javascript; charset=UTF-8",
+      "bytes": 29045,
+      "seconds": 0.002
+    },
+    {
+      "url": "http://localhost:3002/_next/static/chunks/0cz1d0mv5g_q7.js",
+      "status": 200,
+      "final": "http://localhost:3002/_next/static/chunks/0cz1d0mv5g_q7.js",
+      "type": "application/javascript; charset=UTF-8",
+      "bytes": 112594,
+      "seconds": 0.002
+    },
+    {
+      "url": "http://localhost:3002/_next/static/chunks/0efc16nyvwa2y.css",
+      "status": 200,
+      "final": "http://localhost:3002/_next/static/chunks/0efc16nyvwa2y.css",
+      "type": "text/css; charset=UTF-8",
+      "bytes": 1440,
+      "seconds": 0.001
+    },
+    {
+      "url": "http://localhost:3002/_next/static/chunks/0kuw6orsml-e_.js",
+      "status": 200,
+      "final": "http://localhost:3002/_next/static/chunks/0kuw6orsml-e_.js",
+      "type": "application/javascript; charset=UTF-8",
+      "bytes": 5598,
+      "seconds": 0.001
+    },
+    {
+      "url": "http://localhost:3002/_next/static/chunks/0lpe1o21a68gr.css",
+      "status": 200,
+      "final": "http://localhost:3002/_next/static/chunks/0lpe1o21a68gr.css",
+      "type": "text/css; charset=UTF-8",
+      "bytes": 3199,
+      "seconds": 0.001
+    },
+    {
+      "url": "http://localhost:3002/_next/static/chunks/11_2y1s-d0pi8.js",
+      "status": 200,
+      "final": "http://localhost:3002/_next/static/chunks/11_2y1s-d0pi8.js",
+      "type": "application/javascript; charset=UTF-8",
+      "bytes": 25945,
+      "seconds": 0.001
+    },
+    {
+      "url": "http://localhost:3002/_next/static/chunks/12ov2--gi2hm9.css",
+      "status": 200,
+      "final": "http://localhost:3002/_next/static/chunks/12ov2--gi2hm9.css",
+      "type": "text/css; charset=UTF-8",
+      "bytes": 2025,
+      "seconds": 0.001
+    },
+    {
+      "url": "http://localhost:3002/_next/static/chunks/1pajt6ffb2ken.js",
+      "status": 200,
+      "final": "http://localhost:3002/_next/static/chunks/1pajt6ffb2ken.js",
+      "type": "application/javascript; charset=UTF-8",
+      "bytes": 14383,
+      "seconds": 0.001
+    },
+    {
+      "url": "http://localhost:3002/_next/static/chunks/1swp8t01b9p0r.css",
+      "status": 200,
+      "final": "http://localhost:3002/_next/static/chunks/1swp8t01b9p0r.css",
+      "type": "text/css; charset=UTF-8",
+      "bytes": 1800,
+      "seconds": 0.001
+    },
+    {
+      "url": "http://localhost:3002/_next/static/chunks/2-bmsa53urtan.css",
+      "status": 200,
+      "final": "http://localhost:3002/_next/static/chunks/2-bmsa53urtan.css",
+      "type": "text/css; charset=UTF-8",
+      "bytes": 6922,
+      "seconds": 0.001
+    },
+    {
+      "url": "http://localhost:3002/_next/static/chunks/2-v3d1mzhh7tf.css",
+      "status": 200,
+      "final": "http://localhost:3002/_next/static/chunks/2-v3d1mzhh7tf.css",
+      "type": "text/css; charset=UTF-8",
+      "bytes": 1791,
+      "seconds": 0.001
+    },
+    {
+      "url": "http://localhost:3002/_next/static/chunks/22g_yd6-tb46u.js",
+      "status": 200,
+      "final": "http://localhost:3002/_next/static/chunks/22g_yd6-tb46u.js",
+      "type": "application/javascript; charset=UTF-8",
+      "bytes": 165769,
+      "seconds": 0.001
+    },
+    {
+      "url": "http://localhost:3002/_next/static/chunks/23smtmfoeuj25.css",
+      "status": 200,
+      "final": "http://localhost:3002/_next/static/chunks/23smtmfoeuj25.css",
+      "type": "text/css; charset=UTF-8",
+      "bytes": 69555,
+      "seconds": 0.001
+    },
+    {
+      "url": "http://localhost:3002/_next/static/chunks/2_g9o24k7a9bk.js",
+      "status": 200,
+      "final": "http://localhost:3002/_next/static/chunks/2_g9o24k7a9bk.js",
+      "type": "application/javascript; charset=UTF-8",
+      "bytes": 12198,
+      "seconds": 0.001
+    },
+    {
+      "url": "http://localhost:3002/_next/static/chunks/2dpw_mly1k2lt.css",
+      "status": 200,
+      "final": "http://localhost:3002/_next/static/chunks/2dpw_mly1k2lt.css",
+      "type": "text/css; charset=UTF-8",
+      "bytes": 3114,
+      "seconds": 0.001
+    },
+    {
+      "url": "http://localhost:3002/_next/static/chunks/2tvl26_t4mrzt.css",
+      "status": 200,
+      "final": "http://localhost:3002/_next/static/chunks/2tvl26_t4mrzt.css",
+      "type": "text/css; charset=UTF-8",
+      "bytes": 655,
+      "seconds": 0.001
+    },
+    {
+      "url": "http://localhost:3002/_next/static/chunks/2ydqm_m-gzgdf.css",
+      "status": 200,
+      "final": "http://localhost:3002/_next/static/chunks/2ydqm_m-gzgdf.css",
+      "type": "text/css; charset=UTF-8",
+      "bytes": 3408,
+      "seconds": 0.001
+    },
+    {
+      "url": "http://localhost:3002/_next/static/chunks/2zn1g6epipc7z.css",
+      "status": 200,
+      "final": "http://localhost:3002/_next/static/chunks/2zn1g6epipc7z.css",
+      "type": "text/css; charset=UTF-8",
+      "bytes": 3981,
+      "seconds": 0.001
+    },
+    {
+      "url": "http://localhost:3002/_next/static/chunks/3j9k_-b19n8ju.js",
+      "status": 200,
+      "final": "http://localhost:3002/_next/static/chunks/3j9k_-b19n8ju.js",
+      "type": "application/javascript; charset=UTF-8",
+      "bytes": 228920,
+      "seconds": 0.001
+    },
+    {
+      "url": "http://localhost:3002/_next/static/chunks/3l_d_qsvunw86.css",
+      "status": 200,
+      "final": "http://localhost:3002/_next/static/chunks/3l_d_qsvunw86.css",
+      "type": "text/css; charset=UTF-8",
+      "bytes": 2098,
+      "seconds": 0.001
+    },
+    {
+      "url": "http://localhost:3002/_next/static/chunks/3p2aq2j3zhljb.js",
+      "status": 200,
+      "final": "http://localhost:3002/_next/static/chunks/3p2aq2j3zhljb.js",
+      "type": "application/javascript; charset=UTF-8",
+      "bytes": 8715,
+      "seconds": 0.001
+    },
+    {
+      "url": "http://localhost:3002/_next/static/chunks/3p68s106m3ba6.css",
+      "status": 200,
+      "final": "http://localhost:3002/_next/static/chunks/3p68s106m3ba6.css",
+      "type": "text/css; charset=UTF-8",
+      "bytes": 2744,
+      "seconds": 0.001
+    },
+    {
+      "url": "http://localhost:3002/_next/static/chunks/3z_ywzjmtxn62.css",
+      "status": 200,
+      "final": "http://localhost:3002/_next/static/chunks/3z_ywzjmtxn62.css",
+      "type": "text/css; charset=UTF-8",
+      "bytes": 3577,
+      "seconds": 0.001
+    },
+    {
+      "url": "http://localhost:3002/_next/static/chunks/432hxhzb0g9-o.css",
+      "status": 200,
+      "final": "http://localhost:3002/_next/static/chunks/432hxhzb0g9-o.css",
+      "type": "text/css; charset=UTF-8",
+      "bytes": 5206,
+      "seconds": 0.001
+    },
+    {
+      "url": "http://localhost:3002/_next/static/chunks/45bduas88atc-.css",
+      "status": 200,
+      "final": "http://localhost:3002/_next/static/chunks/45bduas88atc-.css",
+      "type": "text/css; charset=UTF-8",
+      "bytes": 1763,
+      "seconds": 0.003
+    },
+    {
+      "url": "http://localhost:3002/_next/static/chunks/turbopack-0_-9jv1x-_z5-.js",
+      "status": 200,
+      "final": "http://localhost:3002/_next/static/chunks/turbopack-0_-9jv1x-_z5-.js",
+      "type": "application/javascript; charset=UTF-8",
+      "bytes": 10946,
+      "seconds": 0.004
+    },
+    {
+      "url": "http://localhost:3002/_next/static/media/a343f882a40d2cc9-s.p.0p-wng2nn8o-p.woff2",
+      "status": 200,
+      "final": "http://localhost:3002/_next/static/media/a343f882a40d2cc9-s.p.0p-wng2nn8o-p.woff2",
+      "type": "font/woff2",
+      "bytes": 24436,
+      "seconds": 0.003
+    },
+    {
+      "url": "http://localhost:3002/favicon.ico",
+      "status": 200,
+      "final": "http://localhost:3002/favicon.ico",
+      "type": "image/x-icon",
+      "bytes": 25931,
+      "seconds": 0.006
+    },
+    {
+      "url": "http://localhost:3002/favicon.ico?favicon.2vob68tjqpejf.ico",
+      "status": 200,
+      "final": "http://localhost:3002/favicon.ico?favicon.2vob68tjqpejf.ico",
+      "type": "image/x-icon",
+      "bytes": 25931,
+      "seconds": 0.005
+    },
+    {
+      "url": "http://localhost:3002/images/great-falls-heating-air-logo.svg",
+      "status": 200,
+      "final": "http://localhost:3002/images/great-falls-heating-air-logo.svg",
+      "type": "image/svg+xml",
+      "bytes": 76381,
+      "seconds": 0.003
+    }
+  ],
+  "externalLinks": [
+    {
+      "url": "https://basc.pnnl.gov/resource-guides/cold-climate-heat-pump-sizing-and-selection",
+      "status": 200,
+      "final": "https://basc.pnnl.gov/resource-guides/cold-climate-heat-pump-sizing-and-selection",
+      "type": "text/html; charset=UTF-8",
+      "bytes": 240797,
+      "seconds": 1.187
+    },
+    {
+      "url": "https://basc.pnnl.gov/resource-guides/ductless-mini-split-heat-pumps",
+      "status": 200,
+      "final": "https://basc.pnnl.gov/resource-guides/ductless-mini-split-heat-pumps",
+      "type": "text/html; charset=UTF-8",
+      "bytes": 254710,
+      "seconds": 1.368
+    },
+    {
+      "url": "https://basc.pnnl.gov/resource-guides/gas-fired-tankless-water-heaters",
+      "status": 200,
+      "final": "https://basc.pnnl.gov/resource-guides/gas-fired-tankless-water-heaters",
+      "type": "text/html; charset=UTF-8",
+      "bytes": 143303,
+      "seconds": 0.878
+    },
+    {
+      "url": "https://bsd.dli.mt.gov/Building-Codes-Permits/permit-applications/mechanical-permits/",
+      "status": 200,
+      "final": "https://bsd.dli.mt.gov/Building-Codes-Permits/permit-applications/mechanical-permits/",
+      "type": "text/html",
+      "bytes": 78718,
+      "seconds": 1.036
+    },
+    {
+      "url": "https://bsesc.energy.gov/energy-basics/hvac-direct-vent-equipment",
+      "status": 200,
+      "final": "https://bsesc.energy.gov/energy-basics/hvac-direct-vent-equipment",
+      "type": "text/html; charset=UTF-8",
+      "bytes": 31556,
+      "seconds": 0.547
+    },
+    {
+      "url": "https://bsesc.energy.gov/lecture-notes/cold-climate-heat-pump-sizing-understand",
+      "status": 200,
+      "final": "https://bsesc.energy.gov/lecture-notes/cold-climate-heat-pump-sizing-understand",
+      "type": "text/html; charset=UTF-8",
+      "bytes": 29787,
+      "seconds": 0.467
+    },
+    {
+      "url": "https://bsesc.energy.gov/training-modules/hvac-electrical-panel-assessment",
+      "status": 200,
+      "final": "https://bsesc.energy.gov/training-modules/hvac-electrical-panel-assessment",
+      "type": "text/html; charset=UTF-8",
+      "bytes": 50293,
+      "seconds": 1.449
+    },
+    {
+      "url": "https://consumer.ftc.gov/articles/warranties",
+      "status": 404,
+      "final": "https://consumer.ftc.gov/articles/warranties"
+    },
+    {
+      "url": "https://deq.mt.gov/energy/Programs/efficiency",
+      "status": 200,
+      "final": "https://deq.mt.gov/energy/Programs/efficiency",
+      "type": "text/html",
+      "bytes": 40104,
+      "seconds": 0.665
+    },
+    {
+      "url": "https://greatfallsmt.gov/1034/Commonly-Asked-Questions-about-Water-Tre",
+      "status": 200,
+      "final": "https://greatfallsmt.gov/1034/Commonly-Asked-Questions-about-Water-Tre",
+      "type": "text/html; charset=utf-8",
+      "bytes": 99812,
+      "seconds": 0.845
+    },
+    {
+      "url": "https://greatfallsmt.gov/880/Building-Forms",
+      "status": 200,
+      "final": "https://greatfallsmt.gov/880/Building-Forms",
+      "type": "text/html; charset=utf-8",
+      "bytes": 110546,
+      "seconds": 1.046
+    },
+    {
+      "url": "https://greatfallsmt.gov/882/2021-Building-Code-Adoption",
+      "status": 200,
+      "final": "https://greatfallsmt.gov/882/2021-Building-Code-Adoption",
+      "type": "text/html; charset=utf-8",
+      "bytes": 108436,
+      "seconds": 0.675
+    },
+    {
+      "url": "https://hvac-blog.acca.org/hey-ed-what-is-the-correct-airflow-for-an-ac/",
+      "status": 200,
+      "final": "https://hvac-blog.acca.org/hey-ed-what-is-the-correct-airflow-for-an-ac/",
+      "type": "text/html; charset=UTF-8",
+      "bytes": 75744,
+      "seconds": 0.507
+    },
+    {
+      "url": "https://hvac-blog.acca.org/hvac-bigger-frequently-not-better/",
+      "status": 200,
+      "final": "https://hvac-blog.acca.org/hvac-bigger-frequently-not-better/",
+      "type": "text/html; charset=UTF-8",
+      "bytes": 79047,
+      "seconds": 0.964
+    },
+    {
+      "url": "https://npgallery.nps.gov/AssetDetail/8327df66-87d9-43fb-91bf-259b58154a5c",
+      "status": 200,
+      "final": "https://npgallery.nps.gov/AssetDetail/8327df66-87d9-43fb-91bf-259b58154a5c",
+      "type": "text/html; charset=utf-8",
+      "bytes": 23332,
+      "seconds": 0.846
+    },
+    {
+      "url": "https://sunriverelectric.coop/air-source-heat-pumps",
+      "status": 200,
+      "final": "https://sunriverelectric.coop/air-source-heat-pumps",
+      "type": "text/html; charset=UTF-8",
+      "bytes": 101563,
+      "seconds": 1.019
+    },
+    {
+      "url": "https://sunriverelectric.coop/sites/default/files/2025-06/ground-source-heat-pump-rebate-form.pdf",
+      "status": 200,
+      "final": "https://sunriverelectric.coop/sites/default/files/2025-06/ground-source-heat-pump-rebate-form.pdf",
+      "type": "application/pdf",
+      "bytes": 579946,
+      "seconds": 0.897
+    },
+    {
+      "url": "https://truepath406.com",
+      "status": 200,
+      "final": "https://truepath406.com",
+      "type": "text/html; charset=utf-8",
+      "bytes": 123752,
+      "seconds": 0.844
+    },
+    {
+      "url": "https://www.acca.org/standards/technical-manuals",
+      "status": 200,
+      "final": "https://www.acca.org/standards/technical-manuals",
+      "type": "text/html; charset=utf-8",
+      "bytes": 92689,
+      "seconds": 1.3
+    },
+    {
+      "url": "https://www.ahrinet.org/search-standards/ahri-guideline-x-induced-draft-furnace-heat-exchanger-inspection",
+      "status": 200,
+      "final": "https://www.ahrinet.org/search-standards/ahri-guideline-x-induced-draft-furnace-heat-exchanger-inspection",
+      "type": "text/html; charset=UTF-8",
+      "bytes": 120551,
+      "seconds": 4.851
+    },
+    {
+      "url": "https://www.angi.com/articles/how-much-does-common-furnace-repair-cost.htm",
+      "status": 403,
+      "final": "https://www.angi.com/articles/how-much-does-common-furnace-repair-cost.htm"
+    },
+    {
+      "url": "https://www.carrier.com/residential/en/ca/products/air-conditioners/air-conditioner-service/ac-not-blowing-cold-air/",
+      "status": 200,
+      "final": "https://www.carrier.com/residential/en/ca/products/air-conditioners/air-conditioner-service/ac-not-blowing-cold-air/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 99651,
+      "seconds": 0.612
+    },
+    {
+      "url": "https://www.carrier.com/residential/en/ca/products/furnaces/buying-a-furnace/",
+      "status": 200,
+      "final": "https://www.carrier.com/residential/en/ca/products/furnaces/buying-a-furnace/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 72604,
+      "seconds": 0.728
+    },
+    {
+      "url": "https://www.carrier.com/us/en/residential/hvac-resources/air-conditioners/ac-capacitor/",
+      "status": 200,
+      "final": "https://www.carrier.com/us/en/residential/hvac-resources/air-conditioners/ac-capacitor/",
+      "type": "text/html;charset=utf-8",
+      "bytes": 165210,
+      "seconds": 0.698
+    },
+    {
+      "url": "https://www.carrier.com/us/en/residential/hvac-resources/air-conditioners/ac-coil-cleaner-tips/",
+      "status": 200,
+      "final": "https://www.carrier.com/us/en/residential/hvac-resources/air-conditioners/ac-coil-cleaner-tips/",
+      "type": "text/html;charset=utf-8",
+      "bytes": 172865,
+      "seconds": 0.537
+    },
+    {
+      "url": "https://www.carrier.com/us/en/residential/hvac-resources/air-conditioners/ac-fan-not-spinning/",
+      "status": 200,
+      "final": "https://www.carrier.com/us/en/residential/hvac-resources/air-conditioners/ac-fan-not-spinning/",
+      "type": "text/html;charset=utf-8",
+      "bytes": 168018,
+      "seconds": 0.718
+    },
+    {
+      "url": "https://www.carrier.com/us/en/residential/hvac-resources/air-conditioners/prices/",
+      "status": 200,
+      "final": "https://www.carrier.com/us/en/residential/hvac-resources/air-conditioners/prices/",
+      "type": "text/html;charset=utf-8",
+      "bytes": 174251,
+      "seconds": 0.67
+    },
+    {
+      "url": "https://www.carrier.com/us/en/residential/hvac-resources/air-conditioners/will-frozen-ac-fix-itself/",
+      "status": 200,
+      "final": "https://www.carrier.com/us/en/residential/hvac-resources/air-conditioners/will-frozen-ac-fix-itself/",
+      "type": "text/html;charset=utf-8",
+      "bytes": 169496,
+      "seconds": 0.741
+    },
+    {
+      "url": "https://www.carrier.com/us/en/residential/hvac-resources/dual-fuel-heating-system/",
+      "status": 200,
+      "final": "https://www.carrier.com/us/en/residential/hvac-resources/dual-fuel-heating-system/",
+      "type": "text/html;charset=utf-8",
+      "bytes": 159167,
+      "seconds": 0.525
+    },
+    {
+      "url": "https://www.carrier.com/us/en/residential/hvac-resources/ductless-mini-splits/mini-split-maintenance/",
+      "status": 200,
+      "final": "https://www.carrier.com/us/en/residential/hvac-resources/ductless-mini-splits/mini-split-maintenance/",
+      "type": "text/html;charset=utf-8",
+      "bytes": 156326,
+      "seconds": 0.855
+    },
+    {
+      "url": "https://www.carrier.com/us/en/residential/hvac-resources/furnaces/furnace-blowing-cold-air/",
+      "status": 200,
+      "final": "https://www.carrier.com/us/en/residential/hvac-resources/furnaces/furnace-blowing-cold-air/",
+      "type": "text/html;charset=utf-8",
+      "bytes": 160333,
+      "seconds": 0.784
+    },
+    {
+      "url": "https://www.carrier.com/us/en/residential/hvac-resources/furnaces/furnace-cleaning/",
+      "status": 200,
+      "final": "https://www.carrier.com/us/en/residential/hvac-resources/furnaces/furnace-cleaning/",
+      "type": "text/html;charset=utf-8",
+      "bytes": 164137,
+      "seconds": 0.654
+    },
+    {
+      "url": "https://www.carrier.com/us/en/residential/hvac-resources/furnaces/furnace-installation/",
+      "status": 200,
+      "final": "https://www.carrier.com/us/en/residential/hvac-resources/furnaces/furnace-installation/",
+      "type": "text/html;charset=utf-8",
+      "bytes": 176253,
+      "seconds": 0.57
+    },
+    {
+      "url": "https://www.carrier.com/us/en/residential/hvac-resources/furnaces/modulating-vs-variable-speed/",
+      "status": 200,
+      "final": "https://www.carrier.com/us/en/residential/hvac-resources/furnaces/modulating-vs-variable-speed/",
+      "type": "text/html;charset=utf-8",
+      "bytes": 157599,
+      "seconds": 0.633
+    },
+    {
+      "url": "https://www.carrier.com/us/en/residential/hvac-resources/furnaces/new-gas-furnace-cost/",
+      "status": 200,
+      "final": "https://www.carrier.com/us/en/residential/hvac-resources/furnaces/new-gas-furnace-cost/",
+      "type": "text/html;charset=utf-8",
+      "bytes": 173146,
+      "seconds": 0.823
+    },
+    {
+      "url": "https://www.carrier.com/us/en/residential/hvac-resources/heat-pumps/heat-pump-not-heating/",
+      "status": 200,
+      "final": "https://www.carrier.com/us/en/residential/hvac-resources/heat-pumps/heat-pump-not-heating/",
+      "type": "text/html;charset=utf-8",
+      "bytes": 158207,
+      "seconds": 0.521
+    },
+    {
+      "url": "https://www.carrier.com/us/en/residential/hvac-resources/heat-pumps/heat-pump-troubleshooting/",
+      "status": 200,
+      "final": "https://www.carrier.com/us/en/residential/hvac-resources/heat-pumps/heat-pump-troubleshooting/",
+      "type": "text/html;charset=utf-8",
+      "bytes": 181346,
+      "seconds": 0.632
+    },
+    {
+      "url": "https://www.carrier.com/us/en/residential/hvac-resources/hvac-installation/",
+      "status": 200,
+      "final": "https://www.carrier.com/us/en/residential/hvac-resources/hvac-installation/",
+      "type": "text/html;charset=utf-8",
+      "bytes": 165136,
+      "seconds": 0.89
+    },
+    {
+      "url": "https://www.carrier.com/us/en/residential/hvac-resources/what-is-auxiliary-heat/",
+      "status": 200,
+      "final": "https://www.carrier.com/us/en/residential/hvac-resources/what-is-auxiliary-heat/",
+      "type": "text/html;charset=utf-8",
+      "bytes": 157737,
+      "seconds": 0.552
+    },
+    {
+      "url": "https://www.cpsc.gov/Newsroom/News-Releases/2026/Keep-Warm-and-Safe-This-Winter-Tips-for-Using-Generators-Furnaces-and-Space-Heaters",
+      "status": 403,
+      "final": "https://www.cpsc.gov/Newsroom/News-Releases/2026/Keep-Warm-and-Safe-This-Winter-Tips-for-Using-Generators-Furnaces-and-Space-Heaters"
+    },
+    {
+      "url": "https://www.energy.gov/documents/combustionappliance-safetytech-briefpdf",
+      "status": 200,
+      "final": "https://www.energy.gov/documents/combustionappliance-safetytech-briefpdf",
+      "type": "application/pdf",
+      "bytes": 3020295,
+      "seconds": 0.991
+    },
+    {
+      "url": "https://www.energy.gov/heat-pumps",
+      "status": 200,
+      "final": "https://www.energy.gov/heat-pumps",
+      "type": "text/html; charset=utf-8",
+      "bytes": 113290,
+      "seconds": 5.768
+    },
+    {
+      "url": "https://www.energystar.gov/products/ductless_heating_cooling",
+      "status": 200,
+      "final": "https://www.energystar.gov/products/ductless_heating_cooling",
+      "type": "text/html; charset=UTF-8",
+      "bytes": 59894,
+      "seconds": 0.644
+    },
+    {
+      "url": "https://www.energystar.gov/saveathome/heating-cooling/hvac-quality-installation",
+      "status": 200,
+      "final": "https://www.energystar.gov/saveathome/heating-cooling/hvac-quality-installation",
+      "type": "text/html; charset=UTF-8",
+      "bytes": 37945,
+      "seconds": 0.516
+    },
+    {
+      "url": "https://www.energystar.gov/saveathome/heating-cooling/maintenance-checklist",
+      "status": 200,
+      "final": "https://www.energystar.gov/saveathome/heating-cooling/maintenance-checklist",
+      "type": "text/html; charset=UTF-8",
+      "bytes": 39899,
+      "seconds": 0.501
+    },
+    {
+      "url": "https://www.energystar.gov/saveathome/heating-cooling/replace",
+      "status": 200,
+      "final": "https://www.energystar.gov/saveathome/heating-cooling/replace",
+      "type": "text/html; charset=UTF-8",
+      "bytes": 39512,
+      "seconds": 0.472
+    },
+    {
+      "url": "https://www.epa.gov/emergencies-iaq/wildfires-and-indoor-air-quality-iaq",
+      "status": 200,
+      "final": "https://www.epa.gov/emergencies-iaq/wildfires-and-indoor-air-quality-iaq",
+      "type": "text/html; charset=UTF-8",
+      "bytes": 93585,
+      "seconds": 0.459
+    },
+    {
+      "url": "https://www.epa.gov/hfcs/frequent-questions-phasedown-hydrofluorocarbons",
+      "status": 200,
+      "final": "https://www.epa.gov/hfcs/frequent-questions-phasedown-hydrofluorocarbons",
+      "type": "text/html; charset=UTF-8",
+      "bytes": 230417,
+      "seconds": 0.395
+    },
+    {
+      "url": "https://www.epa.gov/ods-phaseout/homeowners-and-consumers-frequently-asked-questions",
+      "status": 200,
+      "final": "https://www.epa.gov/ods-phaseout/homeowners-and-consumers-frequently-asked-questions",
+      "type": "text/html; charset=UTF-8",
+      "bytes": 69557,
+      "seconds": 0.393
+    },
+    {
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-05-26/pdf/2026-10387.pdf",
+      "status": 200,
+      "final": "https://www.govinfo.gov/content/pkg/FR-2026-05-26/pdf/2026-10387.pdf",
+      "type": "application/pdf",
+      "bytes": 478677,
+      "seconds": 0.768
+    },
+    {
+      "url": "https://www.greatfallsmt.gov/DocumentCenter/View/6117/Mechanical-Permit-Fees-Effective-10-05-2023",
+      "status": 200,
+      "final": "https://www.greatfallsmt.gov/DocumentCenter/View/6117/Mechanical-Permit-Fees-Effective-10-05-2023",
+      "type": "application/pdf",
+      "bytes": 745224,
+      "seconds": 1.541
+    },
+    {
+      "url": "https://www.homeadvisor.com/cost/heating-and-cooling/repair-an-ac-unit/",
+      "status": 403,
+      "final": "https://www.homeadvisor.com/cost/heating-and-cooling/repair-an-ac-unit/"
+    },
+    {
+      "url": "https://www.irs.gov/credits-deductions/energy-efficient-home-improvement-credit",
+      "status": 200,
+      "final": "https://www.irs.gov/credits-deductions/energy-efficient-home-improvement-credit",
+      "type": "text/html; charset=UTF-8",
+      "bytes": 119381,
+      "seconds": 0.517
+    },
+    {
+      "url": "https://www.kidde.com/support/carbon-monoxide-alarms/replacement",
+      "status": 200,
+      "final": "https://www.kidde.com/support/carbon-monoxide-alarms/replacement",
+      "type": "text/html; charset=utf-8",
+      "bytes": 106633,
+      "seconds": 0.535
+    },
+    {
+      "url": "https://www.mitsubishicomfort.com/articles/zoned-home",
+      "status": 200,
+      "final": "https://www.mitsubishicomfort.com/articles/zoned-home",
+      "type": "text/html; charset=utf-8",
+      "bytes": 290489,
+      "seconds": 0.591
+    },
+    {
+      "url": "https://www.northwesternenergy.com/billing-payment/ways-to-save/rebates-incentives",
+      "status": 200,
+      "final": "https://www.northwesternenergy.com/billing-payment/ways-to-save/rebates-incentives",
+      "type": "text/html; charset=utf-8",
+      "bytes": 45793,
+      "seconds": 0.556
+    },
+    {
+      "url": "https://www.northwesternenergy.com/billing-payment/ways-to-save/rebates-incentives/heat-pump-water-heater-program",
+      "status": 200,
+      "final": "https://www.northwesternenergy.com/billing-payment/ways-to-save/rebates-incentives/heat-pump-water-heater-program",
+      "type": "text/html; charset=utf-8",
+      "bytes": 66381,
+      "seconds": 1.186
+    },
+    {
+      "url": "https://www.northwesternenergy.com/docs/default-source/default-document-library/billing-and-payment/e-programs/e-rebate-electric-existing-home.pdf",
+      "status": 200,
+      "final": "https://www.northwesternenergy.com/docs/default-source/default-document-library/billing-and-payment/e-programs/e-rebate-electric-existing-home.pdf",
+      "type": "application/pdf",
+      "bytes": 76549,
+      "seconds": 0.619
+    },
+    {
+      "url": "https://www.northwesternenergy.com/safety/natural-gas-propane-safety/natural-gas-emergency",
+      "status": 200,
+      "final": "https://www.northwesternenergy.com/safety/natural-gas-propane-safety/natural-gas-emergency",
+      "type": "text/html; charset=utf-8",
+      "bytes": 51182,
+      "seconds": 0.546
+    },
+    {
+      "url": "https://www.redcross.org/about-us/news-and-events/news/heat-your-home-safely-during-cold-weather.html",
+      "status": 200,
+      "final": "https://www.redcross.org/about-us/news-and-events/news/heat-your-home-safely-during-cold-weather.html",
+      "type": "text/html;charset=utf-8",
+      "bytes": 142534,
+      "seconds": 1.045
+    },
+    {
+      "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/winter-storm/frozen-pipes.html",
+      "status": 200,
+      "final": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/winter-storm/frozen-pipes.html",
+      "type": "text/html;charset=utf-8",
+      "bytes": 137312,
+      "seconds": 0.452
+    },
+    {
+      "url": "https://www.trane.com/residential/en/resources/blog/extreme-winter-weather-preparation-for-your-home-and-hvac/",
+      "status": 200,
+      "final": "https://www.trane.com/residential/en/resources/blog/extreme-winter-weather-preparation-for-your-home-and-hvac/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 292954,
+      "seconds": 6.83
+    },
+    {
+      "url": "https://www.trane.com/residential/en/resources/blog/help-house-hot-upstairs-cold-downstairs/",
+      "status": 200,
+      "final": "https://www.trane.com/residential/en/resources/blog/help-house-hot-upstairs-cold-downstairs/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 321693,
+      "seconds": 5.476
+    },
+    {
+      "url": "https://www.trane.com/residential/en/resources/blog/what-is-heat-pump-defrost-cycle/",
+      "status": 200,
+      "final": "https://www.trane.com/residential/en/resources/blog/what-is-heat-pump-defrost-cycle/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 296588,
+      "seconds": 5.794
+    },
+    {
+      "url": "https://www.trane.com/residential/en/resources/maintenance-tips/air-conditioners/",
+      "status": 200,
+      "final": "https://www.trane.com/residential/en/resources/maintenance-tips/air-conditioners/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 344877,
+      "seconds": 5.227
+    },
+    {
+      "url": "https://www.trane.com/residential/en/resources/maintenance-tips/heat-pumps/",
+      "status": 200,
+      "final": "https://www.trane.com/residential/en/resources/maintenance-tips/heat-pumps/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 317667,
+      "seconds": 5.232
+    },
+    {
+      "url": "https://www.trane.com/residential/en/resources/troubleshooting/gas-furnaces/furnace-hard-lock-out/",
+      "status": 200,
+      "final": "https://www.trane.com/residential/en/resources/troubleshooting/gas-furnaces/furnace-hard-lock-out/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 306373,
+      "seconds": 7.21
+    },
+    {
+      "url": "https://www.trane.com/residential/en/resources/troubleshooting/gas-furnaces/furnace-light-blinking/",
+      "status": 200,
+      "final": "https://www.trane.com/residential/en/resources/troubleshooting/gas-furnaces/furnace-light-blinking/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 295340,
+      "seconds": 7.114
+    },
+    {
+      "url": "https://www.trane.com/residential/en/resources/warranty-and-registration/",
+      "status": 200,
+      "final": "https://www.trane.com/residential/en/resources/warranty-and-registration/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 251178,
+      "seconds": 0.401
+    },
+    {
+      "url": "https://www.weather.gov/media/wrh/online_publications/TMs/TM-64.pdf",
+      "status": 200,
+      "final": "https://www.weather.gov/media/wrh/online_publications/TMs/TM-64.pdf",
+      "type": "application/pdf",
+      "bytes": 2002923,
+      "seconds": 0.895
+    }
+  ],
+  "brokenAnchors": [],
+  "missingRoute": {
+    "url": "http://localhost:3002/audit-definitely-missing",
+    "status": 404,
+    "final": "http://localhost:3002/audit-definitely-missing"
+  },
+  "robots": "User-Agent: *\nUser-Agent: Googlebot\nUser-Agent: Bingbot\nUser-Agent: OAI-SearchBot\nUser-Agent: ChatGPT-User\nUser-Agent: PerplexityBot\nUser-Agent: Perplexity-User\nAllow: /\nDisallow: /api/\nDisallow: /api$\n\nSitemap: https://greatfallsheatingandair.com/sitemap.xml\n"
+}

@@ -1,3 +1,4 @@
+import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import { RebateNotice } from "@/components/ui/RebateNotice";
 import Link from "next/link";
 import { buildMetadata } from "@/lib/seo/metadata";
@@ -58,6 +59,7 @@ export default function Page() {
           <Link className="text-link" href="/services/heating/emergency-furnace-repair">Emergency furnace repair &amp; safety →</Link>
         </div>
       </div>
+      <GuideNavigation route="/services/heating" />
       <div className="interior-grid">
         <div className="article-copy">
           <h2>Built for Cascade County weather.</h2>

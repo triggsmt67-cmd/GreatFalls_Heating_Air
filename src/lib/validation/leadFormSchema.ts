@@ -88,7 +88,7 @@ export function validateLeadForm(
   const location = String(formData.location || "").trim();
   if (!location) {
     errors.location =
-      "Please enter your town or ZIP code (e.g., Great Falls or 59404).";
+      "Please enter your town or ZIP code (e.g., Great Falls).";
   } else if (location.length < 2 || location.length > 60) {
     errors.location = "Please enter your town or ZIP code.";
   }

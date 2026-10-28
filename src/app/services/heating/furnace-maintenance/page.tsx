@@ -1,3 +1,4 @@
+import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import Link from "next/link";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { getFAQSchema, getHVACBusinessSchema } from "@/lib/schema/jsonLd";
@@ -21,7 +22,6 @@ function getMaintenanceSchema() {
   const provider = getHVACBusinessSchema() ? { "@id": businessId } : verification.businessIdentity ? {
     "@type": "Organization", "@id": businessId, name: siteConfig.businessName, url: baseUrl,
     ...(verification.contactDetails ? { telephone: siteConfig.phoneE164, email: siteConfig.email } : {}),
-    ...(verification.address ? { address: { "@type": "PostalAddress", streetAddress: siteConfig.streetAddress, addressLocality: siteConfig.locality, addressRegion: siteConfig.region, postalCode: siteConfig.postalCode, addressCountry: "US" } } : {}),
   } : undefined;
   return { "@context": "https://schema.org", "@graph": [
     { "@type": "ImageObject", "@id": `${url}#image`, contentUrl: `${baseUrl}/images/emergency-furnace-repair-great-falls.webp`, url: `${baseUrl}/images/emergency-furnace-repair-great-falls.webp`, name: "Residential gas furnace and venting", description: "Residential gas furnace with metal exhaust venting and ductwork in a utility room.", width: 1600, height: 1200, encodingFormat: "image/webp" },
@@ -44,6 +44,7 @@ export default function Page() {
         <div className="hero-actions"><Link className="button button-yellow" href="/contact?intent=maintenance">Request a furnace tune-up ↗</Link><Link className="text-link" href="/services/heating/emergency-furnace-repair">Furnace already acting up? →</Link></div>
         <p className={styles.formNotice}>Call for current pricing and availability. An online request does not reserve an appointment; forms are not continuously monitored.</p>
       </div>
+      <GuideNavigation route="/services/heating/furnace-maintenance" />
       <div className="interior-grid">
         <div className="article-copy">
           <h2>Plan the check before you need the heat.</h2>

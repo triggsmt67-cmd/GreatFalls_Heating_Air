@@ -1,3 +1,4 @@
+import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import Link from "next/link";
 import { ServiceIcon } from "@/components/ui/ServiceIcon";
 import { buildMetadata } from "@/lib/seo/metadata";
@@ -32,7 +33,6 @@ function getServiceSchema() {
   const provider = getHVACBusinessSchema() ? { "@id": businessId } : verification.businessIdentity ? {
     "@type": "Organization", "@id": businessId, name: siteConfig.businessName, url: baseUrl,
     ...(verification.contactDetails ? { telephone: siteConfig.phoneE164, email: siteConfig.email } : {}),
-    ...(verification.address ? { address: { "@type": "PostalAddress", streetAddress: siteConfig.streetAddress, addressLocality: siteConfig.locality, addressRegion: siteConfig.region, postalCode: siteConfig.postalCode, addressCountry: "US" } } : {}),
   } : undefined;
   return { "@context": "https://schema.org", "@graph": [
     { "@type": "ImageObject", "@id": `${url}#image`, url: imageUrl, contentUrl: imageUrl, width: 1280, height: 960, name: "Outdoor heat pump beside a wood-sided home", description: imageAlt, caption: imageCaption },
@@ -56,6 +56,7 @@ export default function Page() {
         <p className={styles.notice}>Call for diagnostic fees, included service, and availability. For loss of heat, call first; online requests do not reserve appointments and forms are not continuously monitored.</p>
       </div>
       <section className={`safety-panel ${styles.safety}`} aria-labelledby="hp-service-safety-heading"><h2 id="hp-service-safety-heading">Gas odor, a CO alarm, fire, or electrical danger?</h2><p>For gas odor, a sounding CO alarm, fire, or immediate danger, leave and call 911 from a safe place. Stay clear of sparking, suspected smoke, burning smells, or water near electrical equipment. Stop troubleshooting; do not approach a cloud to identify it.</p><p>For a fan striking ice or new grinding, stop using the affected equipment through normal controls if safe and call promptly for guidance. Do not chip ice, apply heat, remove panels, or keep resetting the system.</p></section>
+      <GuideNavigation route="/services/heat-pumps/repair-maintenance" />
       <div className="interior-grid">
         <div className="article-copy">
           <p className="eyebrow">Our approach / The pattern before the part</p>

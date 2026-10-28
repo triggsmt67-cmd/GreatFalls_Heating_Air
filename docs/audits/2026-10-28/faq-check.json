@@ -1,0 +1,97 @@
+[
+  {
+    "path": "/",
+    "count": 6,
+    "mismatch": []
+  },
+  {
+    "path": "/about",
+    "count": 0,
+    "mismatch": []
+  },
+  {
+    "path": "/contact",
+    "count": 0,
+    "mismatch": []
+  },
+  {
+    "path": "/rebates/2026-montana-hvac-rebates",
+    "count": 6,
+    "mismatch": []
+  },
+  {
+    "path": "/privacy",
+    "count": 0,
+    "mismatch": []
+  },
+  {
+    "path": "/sitemap",
+    "count": 0,
+    "mismatch": []
+  },
+  {
+    "path": "/services/heating",
+    "count": 7,
+    "mismatch": []
+  },
+  {
+    "path": "/services/heating/emergency-furnace-repair",
+    "count": 8,
+    "mismatch": []
+  },
+  {
+    "path": "/services/heating/furnace-installation",
+    "count": 8,
+    "mismatch": []
+  },
+  {
+    "path": "/services/heating/furnace-maintenance",
+    "count": 8,
+    "mismatch": []
+  },
+  {
+    "path": "/services/cooling",
+    "count": 8,
+    "mismatch": []
+  },
+  {
+    "path": "/services/cooling/ac-repair",
+    "count": 8,
+    "mismatch": []
+  },
+  {
+    "path": "/services/cooling/ac-installation",
+    "count": 6,
+    "mismatch": []
+  },
+  {
+    "path": "/services/cooling/ac-maintenance",
+    "count": 6,
+    "mismatch": []
+  },
+  {
+    "path": "/services/heat-pumps/cold-climate",
+    "count": 6,
+    "mismatch": []
+  },
+  {
+    "path": "/services/heat-pumps/heat-pump-installation",
+    "count": 6,
+    "mismatch": []
+  },
+  {
+    "path": "/services/heat-pumps/ductless-mini-splits",
+    "count": 6,
+    "mismatch": []
+  },
+  {
+    "path": "/services/heat-pumps/repair-maintenance",
+    "count": 6,
+    "mismatch": []
+  },
+  {
+    "path": "/thank-you",
+    "count": 0,
+    "mismatch": []
+  }
+]

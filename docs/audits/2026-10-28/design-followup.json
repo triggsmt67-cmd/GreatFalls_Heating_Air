@@ -1,0 +1,341 @@
+{
+  "date": "2026-10-28",
+  "environment": "local production build, port 3002",
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "guideLinks": 0
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "guideLinks": 0
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "guideLinks": 0
+    },
+    {
+      "path": "/rebates/2026-montana-hvac-rebates",
+      "status": 200,
+      "guideLinks": 0
+    },
+    {
+      "path": "/privacy",
+      "status": 200,
+      "guideLinks": 0
+    },
+    {
+      "path": "/services/heating",
+      "status": 200,
+      "guideLinks": 3
+    },
+    {
+      "path": "/services/heating/emergency-furnace-repair",
+      "status": 200,
+      "guideLinks": 3
+    },
+    {
+      "path": "/services/heating/furnace-installation",
+      "status": 200,
+      "guideLinks": 4
+    },
+    {
+      "path": "/services/heating/furnace-maintenance",
+      "status": 200,
+      "guideLinks": 3
+    },
+    {
+      "path": "/services/cooling",
+      "status": 200,
+      "guideLinks": 4
+    },
+    {
+      "path": "/services/cooling/ac-repair",
+      "status": 200,
+      "guideLinks": 4
+    },
+    {
+      "path": "/services/cooling/ac-installation",
+      "status": 200,
+      "guideLinks": 4
+    },
+    {
+      "path": "/services/cooling/ac-maintenance",
+      "status": 200,
+      "guideLinks": 3
+    },
+    {
+      "path": "/services/heat-pumps/cold-climate",
+      "status": 200,
+      "guideLinks": 4
+    },
+    {
+      "path": "/services/heat-pumps/heat-pump-installation",
+      "status": 200,
+      "guideLinks": 4
+    },
+    {
+      "path": "/services/heat-pumps/ductless-mini-splits",
+      "status": 200,
+      "guideLinks": 4
+    },
+    {
+      "path": "/services/heat-pumps/repair-maintenance",
+      "status": 200,
+      "guideLinks": 4
+    },
+    {
+      "path": "/thank-you",
+      "status": 200,
+      "guideLinks": 0
+    }
+  ],
+  "publicSitemapURLs": 17,
+  "guideAnchors": 44,
+  "checkedInternalDestinationsAndAssets": 57,
+  "allPassed": true,
+  "favicon": {
+    "icoFrames": [
+      16,
+      32,
+      48
+    ],
+    "icoBytes": 8352,
+    "png": 96,
+    "appleTouch": 180
+  },
+  "sitemapLegacyRedirect": 308,
+  "checks": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/_next/image?url=%2Fimages%2Fac-repair-outdoor-condenser.webp&w=3840&q=75",
+      "status": 200
+    },
+    {
+      "path": "/_next/image?url=%2Fimages%2Fac-service.webp&w=3840&q=75",
+      "status": 200
+    },
+    {
+      "path": "/_next/image?url=%2Fimages%2Fcold-climate-heat-pump-installation.webp&w=3840&q=75",
+      "status": 200
+    },
+    {
+      "path": "/_next/image?url=%2Fimages%2Fcold-climate-mitsubishi-outdoor-heat-pump.webp&w=3840&q=75",
+      "status": 200
+    },
+    {
+      "path": "/_next/image?url=%2Fimages%2Fcooling-service-great-falls.webp&w=3840&q=75",
+      "status": 200
+    },
+    {
+      "path": "/_next/image?url=%2Fimages%2Femergency-furnace-repair-great-falls.webp&w=3840&q=75",
+      "status": 200
+    },
+    {
+      "path": "/_next/image?url=%2Fimages%2Ffurnace-diagnostic.webp&w=3840&q=75",
+      "status": 200
+    },
+    {
+      "path": "/_next/image?url=%2Fimages%2Fgreat-falls-neighborhood-footer.png&w=3840&q=75",
+      "status": 200
+    },
+    {
+      "path": "/_next/image?url=%2Fimages%2Fheating-furnace-installation.webp&w=3840&q=75",
+      "status": 200
+    },
+    {
+      "path": "/_next/image?url=%2Fimages%2Fhigh-plains-montana.webp&w=3840&q=75",
+      "status": 200
+    },
+    {
+      "path": "/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=3840&q=75",
+      "status": 200
+    },
+    {
+      "path": "/_next/image?url=%2Fimages%2Fwinter-heat-pump.webp&w=3840&q=75",
+      "status": 200
+    },
+    {
+      "path": "/_next/static/chunks/0361rzkw7srzj.js",
+      "status": 200
+    },
+    {
+      "path": "/_next/static/chunks/0cz1d0mv5g_q7.js",
+      "status": 200
+    },
+    {
+      "path": "/_next/static/chunks/0efc16nyvwa2y.css",
+      "status": 200
+    },
+    {
+      "path": "/_next/static/chunks/0kuw6orsml-e_.js",
+      "status": 200
+    },
+    {
+      "path": "/_next/static/chunks/10i6k07t-k6_m.js",
+      "status": 200
+    },
+    {
+      "path": "/_next/static/chunks/11_2y1s-d0pi8.js",
+      "status": 200
+    },
+    {
+      "path": "/_next/static/chunks/1pajt6ffb2ken.js",
+      "status": 200
+    },
+    {
+      "path": "/_next/static/chunks/1rini6jc5oop7.css",
+      "status": 200
+    },
+    {
+      "path": "/_next/static/chunks/22g_yd6-tb46u.js",
+      "status": 200
+    },
+    {
+      "path": "/_next/static/chunks/2412zihrakdqz.js",
+      "status": 200
+    },
+    {
+      "path": "/_next/static/chunks/3j9k_-b19n8ju.js",
+      "status": 200
+    },
+    {
+      "path": "/_next/static/chunks/3njulo36py_4a.css",
+      "status": 200
+    },
+    {
+      "path": "/_next/static/chunks/42wbvolz614em.css",
+      "status": 200
+    },
+    {
+      "path": "/_next/static/chunks/turbopack-0_-9jv1x-_z5-.js",
+      "status": 200
+    },
+    {
+      "path": "/about",
+      "status": 200
+    },
+    {
+      "path": "/apple-icon.png?apple-icon.2_j9jvvv5tob6.png",
+      "status": 200
+    },
+    {
+      "path": "/contact",
+      "status": 200
+    },
+    {
+      "path": "/contact?intent=emergency",
+      "status": 200
+    },
+    {
+      "path": "/contact?intent=estimate",
+      "status": 200
+    },
+    {
+      "path": "/contact?intent=general",
+      "status": 200
+    },
+    {
+      "path": "/contact?intent=maintenance",
+      "status": 200
+    },
+    {
+      "path": "/favicon.ico?favicon.2kf7qck71f9s3.ico",
+      "status": 200
+    },
+    {
+      "path": "/icon.png?icon.2gs2bucvpror0.png",
+      "status": 200
+    },
+    {
+      "path": "/images/great-falls-heating-air-logo.svg",
+      "status": 200
+    },
+    {
+      "path": "/privacy",
+      "status": 200
+    },
+    {
+      "path": "/rebates/2026-montana-hvac-rebates",
+      "status": 200
+    },
+    {
+      "path": "/services/cooling",
+      "status": 200
+    },
+    {
+      "path": "/services/cooling#cooling-smoke-heading",
+      "status": 200
+    },
+    {
+      "path": "/services/cooling/ac-installation",
+      "status": 200
+    },
+    {
+      "path": "/services/cooling/ac-maintenance",
+      "status": 200
+    },
+    {
+      "path": "/services/cooling/ac-maintenance#ac-ductless-care-heading",
+      "status": 200
+    },
+    {
+      "path": "/services/cooling/ac-repair",
+      "status": 200
+    },
+    {
+      "path": "/services/heat-pumps/cold-climate",
+      "status": 200
+    },
+    {
+      "path": "/services/heat-pumps/cold-climate#heat-pump-options-heading",
+      "status": 200
+    },
+    {
+      "path": "/services/heat-pumps/ductless-mini-splits",
+      "status": 200
+    },
+    {
+      "path": "/services/heat-pumps/heat-pump-installation",
+      "status": 200
+    },
+    {
+      "path": "/services/heat-pumps/heat-pump-installation#hp-backup-heading",
+      "status": 200
+    },
+    {
+      "path": "/services/heat-pumps/heat-pump-installation#hp-winter-heading",
+      "status": 200
+    },
+    {
+      "path": "/services/heat-pumps/repair-maintenance",
+      "status": 200
+    },
+    {
+      "path": "/services/heating",
+      "status": 200
+    },
+    {
+      "path": "/services/heating/emergency-furnace-repair",
+      "status": 200
+    },
+    {
+      "path": "/services/heating/furnace-installation",
+      "status": 200
+    },
+    {
+      "path": "/services/heating/furnace-maintenance",
+      "status": 200
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200
+    }
+  ]
+}

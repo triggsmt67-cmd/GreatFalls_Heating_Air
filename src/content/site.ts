@@ -14,10 +14,8 @@ export const siteConfig = {
   phoneDisplay: "406-781-4027",
   phoneE164: "+14067814027",
   email: "GFheatingandair@icloud.com",
-  streetAddress: "108 Riverview B",
   locality: "Great Falls",
   region: "MT",
-  postalCode: "59404",
   serviceAreaSummary:
     "Great Falls and surrounding north-central Montana communities",
   hours: "Monday–Friday, 8 a.m.–5 p.m.",
@@ -32,9 +30,10 @@ export const siteConfig = {
   reviewCount: null,
   googleBusinessProfileUrl: "[GBP URL]",
   siteUrl:
-    process.env.NEXT_PUBLIC_SITE_URL || "https://greatfallsheatingandair.com",
+    (process.env.NEXT_PUBLIC_SITE_URL || "https://greatfallsheatingandair.com").replace(/\/+$/, ""),
   socials: {
     facebook: "[FACEBOOK URL]",
+    instagram: "[INSTAGRAM URL]",
   },
 } as const;
 
@@ -42,7 +41,6 @@ export const siteConfig = {
 export const verification = {
   businessIdentity: true,
   contactDetails: true,
-  address: true,
   hours: true,
   emergency24Hours: true,
   credentials: false,
@@ -168,11 +166,11 @@ export const launchReadinessChecklist: LaunchReadinessItem[] = [
     notes: "Public email supplied by the client. Production web lead delivery still requires mailbox configuration and verification.",
   },
   {
-    key: "physicalAddress",
-    label: "Business Address & GBP Location",
-    currentValue: `${siteConfig.streetAddress}, ${siteConfig.locality}, ${siteConfig.region} ${siteConfig.postalCode}`,
+    key: "serviceArea",
+    label: "Public Service Area",
+    currentValue: siteConfig.serviceAreaSummary,
     status: "ready",
-    notes: "Public business address supplied by the client. Walk-in availability and office hours are not implied.",
+    notes: "Service-area business. Publish the service area only; keep the private street address out of website configuration and browser-delivered files.",
   },
   {
     key: "hours",

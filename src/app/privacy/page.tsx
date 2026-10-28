@@ -1,13 +1,11 @@
-import React from "react";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { siteConfig } from "@/content/site";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
-import { AlertCircle } from "lucide-react";
 
 export const metadata = buildMetadata({
   title: "Privacy Policy | Great Falls Heating and Air LLC",
   description:
-    "Privacy policy and data practices disclosure for Great Falls Heating and Air LLC. Information collection, form submissions, and customer communication policies.",
+    "How Great Falls Heating and Air LLC handles website inquiries, contact information, and basic website usage data.",
   canonicalPath: "/privacy",
 });
 
@@ -15,128 +13,106 @@ export default function PrivacyPage() {
   return (
     <div className="wrap interior">
       <div className="article-copy privacy-copy">
-        <Breadcrumbs items={[{ name: "Privacy Policy", url: "/privacy" }]} />
-
-        {/* Legal Review Notice */}
-        <div className="my-6 rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm text-amber-950 flex items-start gap-3">
-          <AlertCircle className="w-5 h-5 text-amber-700 shrink-0 mt-0.5" />
-          <div>
-            <span className="font-semibold block">
-              Pre-Launch Notice for Legal Review
-            </span>
-            <span>
-              This draft explains how the website handles form details and hosting data. The client’s legal counsel must review and approve it before the site launches publicly.
-            </span>
-          </div>
-        </div>
-
-        <div className="page-heading">
-          <h1>Privacy Policy & Data Practices</h1>
+        <Breadcrumbs items={[{ name: "Privacy policy", url: "/privacy" }]} />
+        <header className="page-heading">
+          <h1>Privacy policy</h1>
           <p className="privacy-meta">
-            Last Updated: September 24, 2026 • Effective Date: Pre-Launch First
-            Pass
+            Effective date: <time dateTime="2026-10-28">October 28, 2026</time>
           </p>
-        </div>
+          <p>
+            This policy explains how Great Falls Heating and Air LLC handles
+            information you share through this website or when contacting us
+            about service.
+          </p>
+        </header>
 
         <div className="privacy-sections">
-          <section>
-            <h2 className="font-display">
-              1. Information We Collect
-            </h2>
+          <section aria-labelledby="privacy-information">
+            <h2 id="privacy-information">1. Information you share</h2>
             <p>
-              Great Falls Heating and Air LLC (&ldquo;we&rdquo;, &ldquo;our&rdquo;,
-              or &ldquo;us&rdquo;) collects the personal information you choose to share when you request an estimate, ask about a service visit, or send a question through this website.
-            </p>
-            <p>This information includes:</p>
-            <ul className="list-disc pl-5 space-y-1">
-              <li>Full name</li>
-              <li>Phone number</li>
-              <li>Email address</li>
-              <li>Service address, community, or ZIP code</li>
-              <li>Preferred contact method (phone call, email, or SMS text)</li>
-              <li>
-                Description of your heating, air conditioning, or heat pump
-                issue
-              </li>
-            </ul>
-          </section>
-
-          <section>
-            <h2 className="font-display">
-              2. How We Use Your Information
-            </h2>
-            <p>
-              We use your information only for business purposes:
-            </p>
-            <ul className="list-disc pl-5 space-y-1">
-              <li>
-                Talking with you about your heating or cooling problem
-              </li>
-              <li>
-                Arranging a diagnostic visit or an in-home estimate
-              </li>
-              <li>
-                Sizing equipment and preparing written estimates
-              </li>
-              <li>
-                Sending a technician to your home
-              </li>
-              <li>
-                Preparing documents needed for utility rebate claims
-                (such as NorthWestern Energy or Sun River Electric Cooperative)
-              </li>
-            </ul>
-            <p className="font-semibold text-[#071827]">
-              We do not sell, rent, trade, or distribute your personal contact
-              information to third-party marketing companies, lead brokers, or
-              advertisers.
+              When you ask about service or an estimate, you may provide your
+              name, phone number, email address, town or ZIP code, preferred
+              contact method, and details about your heating or cooling system.
+              You may also share a service address when arranging a visit.
             </p>
           </section>
 
-          <section>
-            <h2 className="font-display">
-              3. Form Submissions and Email Transmission
-            </h2>
+          <section aria-labelledby="privacy-use">
+            <h2 id="privacy-use">2. How we use your information</h2>
             <p>
-              When live form delivery is enabled, an authenticated email service sends your form details to the designated mailbox. Development previews may test the form without sending an email.
-              If you smell gas or a carbon monoxide alarm sounds, leave the
-              building and contact emergency services from a safe location. Do
-              not wait for a form response.
+              We use the information you provide to respond to your questions,
+              discuss service availability, prepare estimates, arrange requested
+              work, and communicate about your project. Information related to
+              completed work may also be used for service records, invoices,
+              warranty questions, or rebate documentation you request.
+            </p>
+            <p>
+              Sending a service inquiry does not sign you up for marketing
+              emails. We do not sell your contact information to advertisers or
+              lead brokers.
             </p>
           </section>
 
-          <section>
-            <h2 className="font-display">
-              4. Cookies and Website Analytics
-            </h2>
+          <section aria-labelledby="privacy-delivery">
+            <h2 id="privacy-delivery">3. Online requests and service providers</h2>
             <p>
-              This website may use essential cookies for security and basic operation. We do not currently use invasive cross-site tracking cookies. If we add website analytics, such as Google Analytics 4, they will collect only anonymous usage information, such as page visits, screen widths, and button clicks. They will not record customer identities or form contents.
+              When online form delivery is available, your request is sent to our
+              business email through an email delivery service. If the website
+              cannot send your request, it displays an error and provides our
+              phone number. An online request does not confirm an appointment.
+            </p>
+            <p>
+              Providers that host the website or deliver email may process
+              information as part of providing those services. For urgent
+              heating or cooling needs, please call. Forms are not continuously
+              monitored.
             </p>
           </section>
 
-          <section>
-            <h2 className="font-display">
-              5. Data Retention and Security
-            </h2>
+          <section aria-labelledby="privacy-technical">
+            <h2 id="privacy-technical">4. Website operation and usage data</h2>
             <p>
-              We use reasonable administrative and technical safeguards to protect your information from unauthorized access, loss, or disclosure. No internet connection or storage system can guarantee complete security. We keep inquiry information only as long as needed to complete your requested service or meet accounting and warranty record requirements.
+              Website hosting and security systems may process technical
+              information such as IP addresses, browser details, requested pages,
+              and request times to operate the website, identify errors, and
+              help prevent abuse.
+            </p>
+            <p>
+              The website does not currently load third-party advertising or
+              analytics scripts. We will update this policy if we introduce
+              tools that change how website usage information is collected or
+              used.
             </p>
           </section>
 
-          <section>
-            <h2 className="font-display">
-              6. Your Privacy Rights & Contacting Us
-            </h2>
+          <section aria-labelledby="privacy-records">
+            <h2 id="privacy-records">5. Records and security</h2>
             <p>
-              You can contact us at any time to ask to review, correct, or delete your personal contact records from our communication systems:
+              We keep inquiry and service information as needed to respond to
+              requests, carry out work, maintain related business records, and
+              meet applicable recordkeeping obligations. No website or email
+              service can guarantee complete security.
             </p>
+            <p>
+              You can contact us to ask about information you have shared, request
+              a correction, or ask for its deletion. Some records may need to be
+              retained for completed services, accounting, or other applicable
+              obligations.
+            </p>
+          </section>
+
+          <section aria-labelledby="privacy-contact">
+            <h2 id="privacy-contact">6. Contact us</h2>
+            <p>For questions about this policy or information you have shared:</p>
             <div className="rounded-lg bg-slate-50 border border-slate-200 p-4 text-sm text-slate-800 space-y-1">
-              <div className="font-bold text-[#071827]">
-                {siteConfig.businessName}
-              </div>
-              <div>Telephone: {siteConfig.phoneDisplay}</div>
-              <div>Email: {siteConfig.email}</div>
-              <div>Service Territory: Great Falls and Cascade County, MT</div>
+              <p className="font-semibold">{siteConfig.businessName}</p>
+              <p>
+                Phone: <a className="text-link" href={`tel:${siteConfig.phoneE164}`}>{siteConfig.phoneDisplay}</a>
+              </p>
+              <p>
+                Email: <a className="text-link" href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
+              </p>
+              <p>Service area: {siteConfig.serviceAreaSummary}.</p>
             </div>
           </section>
         </div>

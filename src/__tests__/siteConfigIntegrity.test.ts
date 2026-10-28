@@ -18,6 +18,14 @@ describe("Site Configuration & Content Integrity", () => {
     expect(siteConfig.phoneE164).toMatch(/^\+\d{11}$/);
   });
 
+  it("publishes a service area without private address fields in shared configuration", () => {
+    expect(siteConfig).not.toHaveProperty("streetAddress");
+    expect(siteConfig).not.toHaveProperty("postalCode");
+    expect(launchReadinessChecklist.some((item) => item.key === "physicalAddress")).toBe(false);
+    expect(launchReadinessChecklist.find((item) => item.key === "serviceArea")?.currentValue)
+      .toBe(siteConfig.serviceAreaSummary);
+  });
+
   it("should include all 13 core service communities", () => {
     const names = serviceCommunities.map((c) => c.name);
     expect(names).toContain("Great Falls");

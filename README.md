@@ -173,7 +173,7 @@ Maintain these centrally in `src/content/site.ts`:
 - Business: **Great Falls Heating and Air LLC**
 - Phone: **406-781-4027** / `+14067814027`
 - Email: **GFheatingandair@icloud.com**
-- Address: **108 Riverview B, Great Falls, MT 59404**
+- Public location: **Great Falls, MT and surrounding communities.** Service-area business; do not publish a private street address.
 - Owner-supplied registration: **C1680325**
 
 The address does not establish walk-in hours or a storefront policy. Hours, insurance/credential evidence, warranty terms, manufacturer affiliations, after-hours arrangements, and some operational claims still need final owner confirmation. The verification flags and launch checklist in `site.ts` contain older pending items; reconcile them with current evidence rather than treating every label as current.

@@ -1,3 +1,4 @@
+import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import { RebateNotice } from "@/components/ui/RebateNotice";
 import Link from "next/link";
 import { siteConfig, verification } from "@/content/site";
@@ -77,6 +78,7 @@ export default function Page() {
         <p>Central AC repair, seasonal maintenance, ductless cooling, and replacement planning for your home—with airflow and filtration options for smoky summer days.</p>
         <div className="hero-actions"><Link className="button button-yellow" href="/contact?intent=estimate">Request service or an estimate ↗</Link><Link className="text-link" href="/services/cooling/ac-repair">AC repair &amp; diagnostics →</Link></div>
       </div>
+      <GuideNavigation route="/services/cooling" />
       <div className="interior-grid">
         <div className="article-copy">
           <p className="eyebrow">Our approach / Summer comfort</p>

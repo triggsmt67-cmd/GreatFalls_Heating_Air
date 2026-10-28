@@ -627,7 +627,7 @@
   margin-bottom: 18px;
 }
 .concierge-intro > p:not(.eyebrow) {
-  font-size: 14px;
+  font-size: var(--type-body);
   max-width: 340px;
 }
 .concierge-credentials {

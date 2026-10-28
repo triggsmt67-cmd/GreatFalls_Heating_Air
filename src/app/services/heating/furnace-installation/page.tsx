@@ -1,3 +1,4 @@
+import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import { RebateNotice } from "@/components/ui/RebateNotice";
 import Link from "next/link";
 import { buildMetadata } from "@/lib/seo/metadata";
@@ -22,7 +23,6 @@ function getInstallationSchema() {
   const provider = getHVACBusinessSchema() ? { "@id": businessId } : verification.businessIdentity ? {
     "@type": "Organization", "@id": businessId, name: siteConfig.businessName, url: baseUrl,
     ...(verification.contactDetails ? { telephone: siteConfig.phoneE164, email: siteConfig.email } : {}),
-    ...(verification.address ? { address: { "@type": "PostalAddress", streetAddress: siteConfig.streetAddress, addressLocality: siteConfig.locality, addressRegion: siteConfig.region, postalCode: siteConfig.postalCode, addressCountry: "US" } } : {}),
   } : undefined;
   return { "@context": "https://schema.org", "@graph": [
     { "@type": "ImageObject", "@id": `${url}#image`, contentUrl: `${baseUrl}/images/heating-furnace-installation.webp`, url: `${baseUrl}/images/heating-furnace-installation.webp`, name: "Residential furnace and duct connections", description: "Residential furnace with metal ductwork, gas supply piping, and a condensate pump.", width: 1600, height: 1200, encodingFormat: "image/webp" },
@@ -44,6 +44,7 @@ export default function Page() {
         <p>Compare sizing, ductwork, venting, and gas or propane options before choosing a new furnace. Get a written estimate that explains the work as clearly as the equipment.</p>
         <div className="hero-actions"><Link className="button button-yellow" href="/contact?intent=estimate">Request a replacement estimate ↗</Link><Link className="text-link" href="/services/heating/emergency-furnace-repair">Need a furnace repair instead? →</Link></div>
       </div>
+      <GuideNavigation route="/services/heating/furnace-installation" />
       <div className="interior-grid">
         <div className="article-copy">
           <h2>The old BTU sticker is a starting point, not a sizing calculation.</h2>

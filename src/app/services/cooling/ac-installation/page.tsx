@@ -1,3 +1,4 @@
+import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import { RebateNotice } from "@/components/ui/RebateNotice";
 import Link from "next/link";
 import { ServiceIcon } from "@/components/ui/ServiceIcon";
@@ -32,7 +33,6 @@ function getInstallationSchema() {
   const provider = getHVACBusinessSchema() ? { "@id": businessId } : verification.businessIdentity ? {
     "@type": "Organization", "@id": businessId, name: siteConfig.businessName, url: baseUrl,
     ...(verification.contactDetails ? { telephone: siteConfig.phoneE164, email: siteConfig.email } : {}),
-    ...(verification.address ? { address: { "@type": "PostalAddress", streetAddress: siteConfig.streetAddress, addressLocality: siteConfig.locality, addressRegion: siteConfig.region, postalCode: siteConfig.postalCode, addressCountry: "US" } } : {}),
   } : undefined;
   return { "@context": "https://schema.org", "@graph": [
     { "@type": "ImageObject", "@id": `${url}#image`, url: imageUrl, contentUrl: imageUrl, width: 1200, height: 900, name: "Residential outdoor AC condenser", description: imageAlt, caption: imageCaption },
@@ -55,6 +55,7 @@ export default function Page() {
         <div className="hero-actions"><Link className="button button-orange" href="/contact?intent=estimate">Request an installation estimate ↗</Link><a className="text-link" href={`tel:${siteConfig.phoneE164}`}>Discuss your options: {siteConfig.phoneDisplay}</a></div>
         <p className={styles.notice}>Call to confirm an estimate and current availability. An online inquiry does not reserve an appointment.</p>
       </div>
+      <GuideNavigation route="/services/cooling/ac-installation" />
       <div className="interior-grid">
         <div className="article-copy">
           <p className="eyebrow">Our approach / Start with the intended result</p>

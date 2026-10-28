@@ -1,3 +1,4 @@
+import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import { RebateNotice } from "@/components/ui/RebateNotice";
 import Link from "next/link";
 import { ServiceIcon } from "@/components/ui/ServiceIcon";
@@ -22,7 +23,6 @@ function getDuctlessSchema() {
   const provider = getHVACBusinessSchema() ? { "@id": businessId } : verification.businessIdentity ? {
     "@type": "Organization", "@id": businessId, name: siteConfig.businessName, url: baseUrl,
     ...(verification.contactDetails ? { telephone: siteConfig.phoneE164, email: siteConfig.email } : {}),
-    ...(verification.address ? { address: { "@type": "PostalAddress", streetAddress: siteConfig.streetAddress, addressLocality: siteConfig.locality, addressRegion: siteConfig.region, postalCode: siteConfig.postalCode, addressCountry: "US" } } : {}),
   } : undefined;
   return { "@context": "https://schema.org", "@graph": [
     { "@type": "WebPage", "@id": `${url}#webpage`, url, name: String(metadata.title), description, inLanguage: "en-US", isPartOf: { "@id": `${baseUrl}/services/heat-pumps/cold-climate#webpage` }, mainEntity: { "@id": `${url}#service` }, breadcrumb: { "@id": `${url}#breadcrumb` }, hasPart: { "@id": `${url}#faq` }, citation: Object.values(ductlessSources) },
@@ -39,11 +39,12 @@ export default function Page() {
       <div className={`page-heading ${styles.hero}`}>
         <ServiceIcon name="heat-pump" size={48} />
         <p className="eyebrow">Zoned heating &amp; cooling / Great Falls &amp; Cascade County</p>
-        <h1>Ductless mini-split installation planned around the rooms you actually use.</h1>
+        <h1>Ductless comfort, room by room.</h1>
         <p>Start with room coverage, normal door positions, and practical equipment locations. Get a written plan for indoor units, piping, drainage, electrical work, and the heating you expect in winter.</p>
         <div className="hero-actions"><Link className="button button-orange" href="/contact?intent=estimate">Request a ductless estimate ↗</Link><Link className="text-link" href="/services/heat-pumps/cold-climate">Compare ducted and ductless options →</Link></div>
         <p className={styles.notice}>Call <a href={`tel:${siteConfig.phoneE164}`}>{siteConfig.phoneDisplay}</a> for an estimate and current availability. An online inquiry does not reserve an appointment.</p>
       </div>
+      <GuideNavigation route="/services/heat-pumps/ductless-mini-splits" />
       <div className="interior-grid">
         <div className="article-copy">
           <p className="eyebrow">Our approach / Coverage before head count</p>

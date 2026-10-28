@@ -3,74 +3,70 @@ import { TrustMarks } from "@/components/ui/TrustMarks";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { FinalDarkCTA } from "@/components/sections/FinalDarkCTA";
-import { verification, siteConfig } from "@/content/site";
+import styles from "./about.module.css";
+
 export const metadata = buildMetadata({
-  title: "About Great Falls Heating and Air LLC",
+  title: "Meet Robert Ross | About Greatfalls Heating and Air",
   description:
-    "Great Falls Heating and Air’s approach to home heating and cooling: understand the house, explain findings, and make the proposed work clear.",
+    "Meet Robert Ross, owner of Greatfalls Heating and Air LLC, a veteran-owned HVAC company serving Great Falls, Montana, and surrounding communities.",
   canonicalPath: "/about",
 });
+
 export default function Page() {
   return (
     <>
       <div className="wrap interior">
         <Breadcrumbs items={[{ name: "About", url: "/about" }]} />
-        <div className="page-heading">
-          <p className="eyebrow">Great Falls Heating & Air LLC</p>
-          <h1>
-            Understand the house.
-            <br />
-            Explain the recommendation.
-          </h1>
-          <p>
-            You should know why we recommend the work and what it should improve. That’s where we start.
-          </p>
-        </div>
-        <TrustMarks />
-        <div className="interior-grid">
-          <div className="article-copy">
-            <h2>The house comes first.</h2>
-            <p>
-              Tell us about your equipment, the rooms you use, and what’s changed. Is one bedroom always cold? Does the furnace keep shutting off? Are you planning a replacement? Those are different problems. We start by understanding yours.
+        <article className={styles.introduction} aria-labelledby="owner-heading">
+          <header className={styles.heading}>
+            <p className="eyebrow">About Greatfalls Heating and Air LLC</p>
+            <h1 id="owner-heading">
+              Meet Robert Ross,
+              <span>Owner of Greatfalls Heating and Air</span>
+            </h1>
+            <p className={styles.lead}>
+              Greatfalls Heating and Air LLC is a veteran-owned heating and cooling
+              company serving Great Falls, Montana, and surrounding communities.
             </p>
-            {/* Add the owner’s name, approved introduction, background, and reasons for this approach only after direct confirmation. */}
-            {verification.companyHistory && <p>{siteConfig.companyHistory}</p>}
-            <h2>Know what you’re approving.</h2>
+          </header>
+          <div className={styles.story}>
             <p>
-              Ask what we found, what needs attention now, and what can wait. If something needs more testing, you should know that too. Before approving work, make sure you understand what’s included, the price, and the warranty that applies.
+              I’m Robert Ross, the owner. I’m a United States military veteran with
+              more than 20 years of experience in the HVAC industry. I started this
+              company with a straightforward goal: give customers the service and
+              quality of work they’re paying for.
             </p>
+            <p>
+              When your heating or cooling system needs attention, you deserve
+              clear answers. You should understand what’s wrong, what work is
+              recommended, and what the quote covers. You should also be able to
+              count on someone showing up when they say they will and treating your
+              home or business with respect.
+            </p>
+            <p>
+              Taking shortcuts might save a contractor time, but it doesn’t serve
+              the customer. My approach is to take the time the job requires,
+              explain the work, and complete it carefully.
+            </p>
+            <p className={styles.commitment}>
+              That’s what “customers deserve better” means to me. Respect your time.
+              Be straightforward about the price. Do the work properly. Those are
+              the expectations I want Greatfalls Heating and Air to be known for.
+            </p>
+          </div>
+          <footer className={styles.closing}>
+            <ul className={styles.values} aria-label="Company values">
+              <li>Veteran-Owned</li>
+              <li>Locally Operated</li>
+              <li>Built on Integrity</li>
+            </ul>
+            <p>Proudly serving Great Falls, Montana, and surrounding communities!</p>
             <Link className="text-link" href="/contact">
               Start a conversation →
             </Link>
-          </div>
-          <div className="article-copy">
-            <h2>What are you deciding?</h2>
-            <ul>
-              <li>
-                Repair: understand the fault and whether the proposed work can
-                restore safe, practical service.
-              </li>
-              <li>
-                Replacement: look at the ductwork, venting, controls, and installation work along with the new equipment.
-              </li>
-              <li>
-                Maintenance: know what was checked, what needs attention, and what to do next.
-              </li>
-              <li>Heat pumps: compare the home’s demand, actual fuel costs, and cold-weather plan.</li>
-            </ul>
-            <p>Discuss the approach for your project in our <Link className="text-link" href="/services/heating">heating</Link>, <Link className="text-link" href="/services/cooling">cooling</Link>, and <Link className="text-link" href="/services/heat-pumps/cold-climate">heat-pump guides</Link>.</p>
-            {process.env.NODE_ENV !== "production" && (
-              <div className="resource-notice">
-                <strong>Internal verification pending</strong>
-                <p>
-                  Company history, EPA credentials,
-                  insurance and warranty details require client
-                  confirmation.
-                </p>
-              </div>
-            )}
-          </div>
-        </div>
+          </footer>
+        </article>
+        <TrustMarks />
       </div>
       <FinalDarkCTA />
     </>

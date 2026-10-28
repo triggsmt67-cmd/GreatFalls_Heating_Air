@@ -28,9 +28,6 @@ export const metadata: Metadata = {
   authors: [{ name: siteConfig.businessName }],
   creator: siteConfig.businessName,
   publisher: siteConfig.businessName,
-  icons: {
-    icon: "/favicon.ico",
-  },
 };
 
 export default function RootLayout({

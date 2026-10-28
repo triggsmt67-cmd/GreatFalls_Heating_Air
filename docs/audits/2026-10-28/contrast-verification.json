@@ -1,0 +1,10 @@
+{
+  "confirmedSmallBlueTextRatios": [
+    4.34,
+    4.38,
+    4.47
+  ],
+  "minimum": 4.5,
+  "excludedAutomaticCandidates": "Homepage hero light-text results use an unresolved pseudo-element background; excluded after visual review.",
+  "candidateData": "readability.json"
+}
