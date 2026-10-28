@@ -170,17 +170,6 @@ export default function HomePage() {
             alt="Outdoor central air conditioner on a concrete pad beside a home, wood fence, and exterior utility piping."
             sizes="(max-width: 900px) 100vw, 55vw"
           />
-          <div className="climate-art" aria-hidden="true">
-            <span className="climate-place">GREAT FALLS / MONTANA</span>
-            <svg viewBox="0 0 480 120" fill="none">
-              <path d="M0 62Q100 22 200 62T480 52M0 87Q120 57 240 82T480 72" />
-              <path d="m0 37 90-12 80 6 100-28 80 24 130-9" />
-              <circle cx="414" cy="22" r="16" />
-            </svg>
-            <span className="climate-caption">
-              High plains. Changing seasons.
-            </span>
-          </div>
         </div>
         <div>
           <p className="eyebrow">Veteran-owned / Locally operated</p>

@@ -194,9 +194,8 @@
   line-height: 1.5;
 }
 
-.page :global(.climate-art) {
-  background: #e9efec;
-  border-color: #c3cfc9;
+.page :global(.local-visual) {
+  padding-bottom: 0;
 }
 
 .page :global(.region-list dt) {
