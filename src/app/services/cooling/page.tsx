@@ -1,3 +1,4 @@
+import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import { RebateNotice } from "@/components/ui/RebateNotice";
 import Link from "next/link";
@@ -76,7 +77,7 @@ export default function Page() {
         <p className="eyebrow">Summer cooling / Great Falls &amp; Cascade County</p>
         <h1>Hot upstairs? AC struggling? Start here.</h1>
         <p>Central AC repair, seasonal maintenance, ductless cooling, and replacement planning for your home—with airflow and filtration options for smoky summer days.</p>
-        <div className="hero-actions"><Link className="button button-yellow" href="/contact?intent=estimate">Request service or an estimate ↗</Link><Link className="text-link" href="/services/cooling/ac-repair">AC repair &amp; diagnostics →</Link></div>
+        <div className="hero-actions"><RequestServiceLink className="button button-yellow" intent="estimate">Request service or an estimate ↗</RequestServiceLink><Link className="text-link" href="/services/cooling/ac-repair">AC repair &amp; diagnostics →</Link></div>
       </div>
       <GuideNavigation route="/services/cooling" />
       <div className="interior-grid">

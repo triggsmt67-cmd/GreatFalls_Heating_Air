@@ -1,3 +1,4 @@
+import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import Link from "next/link";
 import { ServiceIcon } from "@/components/ui/ServiceIcon";
@@ -52,7 +53,7 @@ export default function Page() {
         <p className="eyebrow">Seasonal cooling service / Great Falls &amp; Cascade County</p>
         <h1>Get your AC ready for the next hot spell.</h1>
         <p>Plan seasonal service around your equipment and what it has been exposed to. Understand the cleaning needed, the checks performed, and any work that needs a separate decision.</p>
-        <div className="hero-actions"><Link className="button button-orange" href="/contact?intent=maintenance">Request an AC tune-up ↗</Link><Link className="text-link" href="/services/cooling/ac-repair">AC already blowing warm air or icing up? →</Link></div>
+        <div className="hero-actions"><RequestServiceLink className="button button-orange" intent="maintenance">Request an AC tune-up ↗</RequestServiceLink><Link className="text-link" href="/services/cooling/ac-repair">AC already blowing warm air or icing up? →</Link></div>
         <p className={styles.notice}>Call <a href={`tel:${siteConfig.phoneE164}`}>{siteConfig.phoneDisplay}</a> for current pricing, included service, and availability. An online request does not reserve an appointment; forms are not continuously monitored.</p>
       </div>
       <GuideNavigation route="/services/cooling/ac-maintenance" />

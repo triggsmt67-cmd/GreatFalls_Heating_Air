@@ -1,3 +1,4 @@
+import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import Link from "next/link";
 import { ServiceIcon } from "@/components/ui/ServiceIcon";
@@ -52,7 +53,7 @@ export default function Page() {
         <p className="eyebrow">AC repair / Great Falls &amp; Cascade County</p>
         <h1>AC repair in Great Falls starts with finding the cause.</h1>
         <p>Warm air, ice, or an outdoor unit that won’t start? Understand the test findings, proposed work, and repair price before deciding what comes next.</p>
-        <div className="hero-actions"><a className="button button-orange" href={`tel:${siteConfig.phoneE164}`}>Call for AC repair: {siteConfig.phoneDisplay}</a><Link className="text-link" href="/contact?intent=general">Request an AC diagnostic ↗</Link></div>
+        <div className="hero-actions"><a className="button button-orange" href={`tel:${siteConfig.phoneE164}`}>Call for AC repair: {siteConfig.phoneDisplay}</a><RequestServiceLink className="text-link" intent="general">Request an AC diagnostic ↗</RequestServiceLink></div>
         <p className={styles.notice}>Call for current availability and diagnostic fees. An online request does not reserve an appointment; forms are not continuously monitored.</p>
       </div>
       <section className={`safety-panel ${styles.safety}`} aria-labelledby="ac-ice-heading">

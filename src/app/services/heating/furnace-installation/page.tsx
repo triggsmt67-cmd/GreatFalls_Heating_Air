@@ -1,3 +1,4 @@
+import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import { RebateNotice } from "@/components/ui/RebateNotice";
 import Link from "next/link";
@@ -42,7 +43,7 @@ export default function Page() {
         <p className="eyebrow">Furnace replacement / Great Falls &amp; Cascade County</p>
         <h1>Replacing your furnace? Start with the house you have today.</h1>
         <p>Compare sizing, ductwork, venting, and gas or propane options before choosing a new furnace. Get a written estimate that explains the work as clearly as the equipment.</p>
-        <div className="hero-actions"><Link className="button button-yellow" href="/contact?intent=estimate">Request a replacement estimate ↗</Link><Link className="text-link" href="/services/heating/emergency-furnace-repair">Need a furnace repair instead? →</Link></div>
+        <div className="hero-actions"><RequestServiceLink className="button button-yellow" intent="estimate">Request a replacement estimate ↗</RequestServiceLink><Link className="text-link" href="/services/heating/emergency-furnace-repair">Need a furnace repair instead? →</Link></div>
       </div>
       <GuideNavigation route="/services/heating/furnace-installation" />
       <div className="interior-grid">
@@ -93,7 +94,7 @@ export default function Page() {
             <li><strong>Optional additions and warranty terms:</strong> Identify any cooling or heat-pump work separately, along with labor coverage, registration responsibilities, and ongoing service costs.</li>
           </ul>
           <p>Ask whether the total includes applicable taxes, permits, disposal, and all required installation work. Compare utility incentives separately until eligibility is confirmed. Your written quote should make clear what could change the price and how additional work would be approved.</p>
-          <Link className="text-link" href="/contact?intent=estimate">Request a furnace replacement estimate →</Link>
+          <RequestServiceLink className="text-link" intent="estimate">Request a furnace replacement estimate →</RequestServiceLink>
         </div>
       </section>
       <section className={styles.section} aria-labelledby="furnace-estimate-heading">

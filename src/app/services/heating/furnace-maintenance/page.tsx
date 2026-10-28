@@ -1,3 +1,4 @@
+import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import Link from "next/link";
 import { buildMetadata } from "@/lib/seo/metadata";
@@ -41,7 +42,7 @@ export default function Page() {
         <p className="eyebrow">Seasonal heating service / Great Falls &amp; Cascade County</p>
         <h1>Get your furnace ready for a Great Falls winter.</h1>
         <p>Plan a seasonal check for your gas or propane furnace. Know what was checked, what needs attention, and what any extra work would cost before you approve it.</p>
-        <div className="hero-actions"><Link className="button button-yellow" href="/contact?intent=maintenance">Request a furnace tune-up ↗</Link><Link className="text-link" href="/services/heating/emergency-furnace-repair">Furnace already acting up? →</Link></div>
+        <div className="hero-actions"><RequestServiceLink className="button button-yellow" intent="maintenance">Request a furnace tune-up ↗</RequestServiceLink><Link className="text-link" href="/services/heating/emergency-furnace-repair">Furnace already acting up? →</Link></div>
         <p className={styles.formNotice}>Call for current pricing and availability. An online request does not reserve an appointment; forms are not continuously monitored.</p>
       </div>
       <GuideNavigation route="/services/heating/furnace-maintenance" />

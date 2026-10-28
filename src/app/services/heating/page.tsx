@@ -1,3 +1,4 @@
+import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import { RebateNotice } from "@/components/ui/RebateNotice";
 import Link from "next/link";
@@ -55,7 +56,7 @@ export default function Page() {
         <h1>Furnace trouble? Let’s find out what’s wrong.</h1>
         <p>Furnace repairs, seasonal tune-ups, and replacement planning for Great Falls homes. Understand the problem and your options before deciding on the work.</p>
         <div className="hero-actions">
-          <Link className="button button-yellow" href="/contact?intent=estimate">Request service or an estimate ↗</Link>
+          <RequestServiceLink className="button button-yellow" intent="estimate">Request service or an estimate ↗</RequestServiceLink>
           <Link className="text-link" href="/services/heating/emergency-furnace-repair">Emergency furnace repair &amp; safety →</Link>
         </div>
       </div>

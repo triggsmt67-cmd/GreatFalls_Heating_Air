@@ -1,3 +1,4 @@
+import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import { RebateNotice } from "@/components/ui/RebateNotice";
 import Link from "next/link";
@@ -53,7 +54,7 @@ export default function Page() {
         <p className="eyebrow">Heat pump installation / Great Falls &amp; Cascade County</p>
         <h1>Plan your heat pump for a Montana winter.</h1>
         <p>Understand what stays, what changes, and how the finished system will heat your home when temperatures fall. Compare equipment, electrical work, winter placement, and backup controls in one written scope.</p>
-        <div className="hero-actions"><Link className="button button-orange" href="/contact?intent=estimate">Request a heat pump estimate ↗</Link><Link className="text-link" href="/services/heat-pumps/cold-climate">Compare cold-climate heat pump options →</Link></div>
+        <div className="hero-actions"><RequestServiceLink className="button button-orange" intent="estimate">Request a heat pump estimate ↗</RequestServiceLink><Link className="text-link" href="/services/heat-pumps/cold-climate">Compare cold-climate heat pump options →</Link></div>
         <p className={styles.notice}>Call <a href={`tel:${siteConfig.phoneE164}`}>{siteConfig.phoneDisplay}</a> for an estimate and availability. An online inquiry does not reserve an appointment.</p>
       </div>
       <GuideNavigation route="/services/heat-pumps/heat-pump-installation" />

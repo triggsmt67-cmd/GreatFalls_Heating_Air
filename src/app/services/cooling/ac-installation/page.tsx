@@ -1,3 +1,4 @@
+import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import { RebateNotice } from "@/components/ui/RebateNotice";
 import Link from "next/link";
@@ -52,7 +53,7 @@ export default function Page() {
         <p className="eyebrow">AC installation / Great Falls &amp; Cascade County</p>
         <h1>AC installation starts with the rooms you need to cool.</h1>
         <p>Tell us which rooms need cooling and what you want to improve. Whether you’re replacing an AC or adding cooling for the first time, your quote should explain the equipment and all the work included.</p>
-        <div className="hero-actions"><Link className="button button-orange" href="/contact?intent=estimate">Request an installation estimate ↗</Link><a className="text-link" href={`tel:${siteConfig.phoneE164}`}>Discuss your options: {siteConfig.phoneDisplay}</a></div>
+        <div className="hero-actions"><RequestServiceLink className="button button-orange" intent="estimate">Request an installation estimate ↗</RequestServiceLink><a className="text-link" href={`tel:${siteConfig.phoneE164}`}>Discuss your options: {siteConfig.phoneDisplay}</a></div>
         <p className={styles.notice}>Call to confirm an estimate and current availability. An online inquiry does not reserve an appointment.</p>
       </div>
       <GuideNavigation route="/services/cooling/ac-installation" />

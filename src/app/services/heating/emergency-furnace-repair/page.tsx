@@ -1,3 +1,4 @@
+import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import Link from "next/link";
 import { ServiceIcon } from "@/components/ui/ServiceIcon";
@@ -81,7 +82,7 @@ export default function Page() {
           <p>No heat in Great Falls or Cascade County? Call for 24/7 emergency service and repair, diagnostic fees, and next steps.</p>
           <div className="hero-actions">
             <a className="button button-orange" href={`tel:${siteConfig.phoneE164}`}>Call for furnace repair: {siteConfig.phoneDisplay}</a>
-            <Link className="text-link" href="/contact?intent=emergency">Send a service request ↗</Link>
+            <RequestServiceLink className="text-link" intent="emergency">Send a service request ↗</RequestServiceLink>
           </div>
           <p className={styles.formNotice}>For urgent no-heat problems, call first. Forms are not continuously monitored.</p>
         </div>
@@ -145,7 +146,7 @@ export default function Page() {
       <section className="final-cta">
         <div className="wrap">
           <div><p className="eyebrow">Need help with no heat?</p><h2>Talk with us about your furnace.</h2><p>Describe what’s happening and ask about service availability in Great Falls and surrounding Cascade County communities. For urgent no-heat problems, call first.</p></div>
-          <div className="cta-actions"><a className="button button-orange" href={`tel:${siteConfig.phoneE164}`}>Call {siteConfig.phoneDisplay}</a><Link className="button button-yellow" href="/contact?intent=emergency">Send a service request ↗</Link><p className={styles.ctaNotice}>Forms are not continuously monitored.</p></div>
+          <div className="cta-actions"><a className="button button-orange" href={`tel:${siteConfig.phoneE164}`}>Call {siteConfig.phoneDisplay}</a><RequestServiceLink className="button button-yellow" intent="emergency">Send a service request ↗</RequestServiceLink><p className={styles.ctaNotice}>Forms are not continuously monitored.</p></div>
         </div>
       </section>
     </>
