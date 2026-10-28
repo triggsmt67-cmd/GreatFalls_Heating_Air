@@ -13,7 +13,7 @@ export const siteConfig = {
     "Home heating, emergency furnace repair, air conditioning, and cold-climate heat pumps for Great Falls weather.",
   phoneDisplay: "406-781-4027",
   phoneE164: "+14067814027",
-  email: "GFheatingandair@icloud.com",
+  email: "gfheatingandair@icloud.com",
   locality: "Great Falls",
   region: "MT",
   serviceAreaSummary:

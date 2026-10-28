@@ -1,3 +1,4 @@
+import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import Link from "next/link";
 import { siteConfig } from "@/content/site";
 import { LicenseMark } from "@/components/ui/TrustMarks";
@@ -29,12 +30,11 @@ export function FinalDarkCTA({
             Call {siteConfig.phoneDisplay}
           </a>
           <small className="cta-next-step">Tell us what’s happening and ask about availability.</small>
-          <Link
-            className="button button-yellow"
-            href={requestHref}
-          >
-            {requestLabel}
-          </Link>
+          {requestLabel.startsWith("Request service") ? (
+            <RequestServiceLink className="button button-yellow">{requestLabel}</RequestServiceLink>
+          ) : (
+            <Link className="button button-yellow" href={requestHref}>{requestLabel}</Link>
+          )}
           <small className="cta-next-step">Tell us what you need. We’ll be in touch to talk it through.</small>
         </div>
       </div>

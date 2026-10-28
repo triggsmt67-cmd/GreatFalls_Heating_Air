@@ -5,6 +5,7 @@ import { LicenseMark } from "@/components/ui/TrustMarks";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { siteConfig } from "@/content/site";
 import { PhotoPlaceholder } from "@/components/ui/PhotoPlaceholder";
+import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { LeadForm } from "@/components/forms/LeadForm";
 import { generalFaqs } from "@/content/faqs";
 import { FaqAccordion } from "@/components/sections/FaqAccordion";
@@ -42,12 +43,9 @@ export default function HomePage() {
               >
                 Call for 24/7 emergency repair <ArrowUpRight size={17} />
               </a>
-              <Link
-                href="#estimate"
-                className="button button-yellow"
-              >
+              <RequestServiceLink className="button button-yellow">
                 Request service <ArrowUpRight size={17} />
-              </Link>
+              </RequestServiceLink>
             </div>
           </div>
           <p className={styles.heroTrust}>Veteran-owned · Locally operated · Robert Ross, 20+ years in HVAC</p>
@@ -95,7 +93,7 @@ export default function HomePage() {
       </section>
       <section className="section wrap">
         <div className="section-intro">
-          <p className="eyebrow">01 / Heating & cooling</p>
+          <p className="eyebrow">Heating & cooling</p>
           <h2>
             Heating, cooling,
             <br />
@@ -237,7 +235,7 @@ export default function HomePage() {
       <section className="guide-section">
         <div className="wrap guide-grid">
           <div className="guide-copy">
-            <p className="eyebrow">02 / Plan with a clearer picture</p>
+            <p className="eyebrow">Plan with a clearer picture</p>
             <h2>
               Considering a
               <br />

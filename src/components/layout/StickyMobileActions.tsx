@@ -1,5 +1,5 @@
 "use client";
-import Link from "next/link";
+import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { usePathname } from "next/navigation";
 import { siteConfig } from "@/content/site";
 import { trackEvent } from "@/lib/analytics/events";
@@ -31,21 +31,14 @@ export function StickyMobileActions() {
       >
         Tap to call
       </a>
-      <Link
-        className="button button-yellow"
-        href={pathname === "/" ? "/#estimate" : `/contact?intent=${intent}`}
-        onClick={() =>
-          trackEvent({
-            name: intent === "estimate" ? "estimate_cta_click" : "service_request_cta_click",
-            properties: {
-              route: window.location.pathname,
-              placement: "sticky_mobile",
-            },
-          })
-        }
-      >
+      <RequestServiceLink className="button button-yellow" intent={pathname === "/" ? "general" : intent} onOpen={() =>
+        trackEvent({
+          name: intent === "estimate" ? "estimate_cta_click" : "service_request_cta_click",
+          properties: { route: pathname, placement: "sticky_mobile" },
+        })
+      }>
         {label} ↗
-      </Link>
+      </RequestServiceLink>
     </div>
   );
 }

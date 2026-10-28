@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { ServiceIcon, type ServiceIconName } from "@/components/ui/ServiceIcon";
 import { ChevronDown, Menu, X } from "lucide-react";
 import { navigationServices } from "@/content/services";
+import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { Brand } from "@/components/ui/Brand";
 export function Header() {
   const pathname = usePathname();
@@ -96,13 +97,9 @@ export function Header() {
             Contact
           </Link>
         </nav>
-        <Link
-          href={pathname === "/" ? "/#estimate" : "/contact?intent=general"}
-          className="button button-yellow header-cta"
-          onClick={close}
-        >
+        <RequestServiceLink className="button button-yellow header-cta" onOpen={close}>
           Request service ↗
-        </Link>
+        </RequestServiceLink>
         <button
           ref={mobileButton}
           className="mobile-toggle"
@@ -139,13 +136,9 @@ export function Header() {
           <Link href="/contact" onClick={close}>
             Contact
           </Link>
-          <Link
-            className="button button-yellow"
-            href={pathname === "/" ? "/#estimate" : "/contact?intent=general"}
-            onClick={close}
-          >
+          <RequestServiceLink className="button button-yellow" onOpen={close}>
             Request service
-          </Link>
+          </RequestServiceLink>
         </nav>
       )}
     </header>

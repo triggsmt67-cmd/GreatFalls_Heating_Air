@@ -4,6 +4,7 @@ import "./globals.css";
 import "./premium.css";
 import { siteConfig } from "@/content/site";
 import { UtilityBar } from "@/components/layout/UtilityBar";
+import { ServiceRequestProvider } from "@/components/forms/ServiceRequestDrawer";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { StickyMobileActions } from "@/components/layout/StickyMobileActions";
@@ -61,15 +62,17 @@ export default function RootLayout({
         )}
 
         {/* Global Shell */}
-        <UtilityBar />
-        <Header />
+        <ServiceRequestProvider>
+          <UtilityBar />
+          <Header />
 
-        <main id="main-content" className="flex-1">
-          {children}
-        </main>
+          <main id="main-content" className="flex-1">
+            {children}
+          </main>
 
-        <Footer />
-        <StickyMobileActions />
+          <Footer />
+          <StickyMobileActions />
+        </ServiceRequestProvider>
       </body>
     </html>
   );

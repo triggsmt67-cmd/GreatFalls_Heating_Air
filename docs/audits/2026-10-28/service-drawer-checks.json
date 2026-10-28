@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-28",
+  "environment": "Local development and production preview",
+  "headerHeight": {
+    "desktop": 80,
+    "tablet": 80,
+    "mobile": 68
+  },
+  "checks": {
+    "productionHomepage": 200,
+    "footerEmailLowercase": true,
+    "numberedEyebrowsRemoved": true,
+    "drawerFormImmediatelyExpanded": true,
+    "desktopDrawerWidth": 620,
+    "mobileDrawerWidth": 390,
+    "mobileOverflow": false,
+    "keyboardContained": true,
+    "escapeCloses": true,
+    "closeButtonWorks": true,
+    "backdropCloses": true,
+    "focusRestoredToTrigger": true,
+    "mobileMenuFocusRestored": true,
+    "scrollRestored": true,
+    "routeChangeCloses": true,
+    "maintenanceIntentPreserved": true,
+    "duplicateFormIDs": false,
+    "emptyFormClientValidation": true
+  },
+  "validation": {
+    "lint": "passed",
+    "typecheck": "passed",
+    "tests": 32,
+    "productionBuild": "passed"
+  },
+  "limitations": [
+    "No real request submitted; Resend delivery remains deferred."
+  ]
+}
