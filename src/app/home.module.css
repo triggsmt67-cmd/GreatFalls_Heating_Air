@@ -130,7 +130,7 @@
 }
 
 .heroPhoto {
-  margin-top: 32px;
+  margin-top: 44px;
 }
 
 .heroPhoto :global(.photo-real-frame) {
@@ -266,7 +266,7 @@
   }
 
   .heroPhoto {
-    margin-top: 20px;
+    margin-top: 32px;
   }
 
   .heroPhoto :global(.photo-real-frame) {
@@ -322,7 +322,7 @@
   }
 
   .heroPhoto {
-    margin-top: 12px;
+    margin-top: 24px;
   }
 
   .heroPhoto :global(.photo-real-frame) {
@@ -372,3 +372,6 @@
   line-height: 1.7;
   max-width: 440px;
 }
+
+.heroRegistration { display: block; margin-top: 6px; }
+.heroRegistration strong { font-weight: 600; color: #fff; }

@@ -46,7 +46,12 @@ export default function HomePage() {
               </RequestServiceLink>
             </div>
           </div>
-          <p className={styles.heroTrust}>Veteran-owned · Locally operated · Robert Ross, 20+ years in HVAC</p>
+          <p className={styles.heroTrust}>
+            Veteran-owned · Locally operated · Robert Ross, 20+ years in HVAC
+            <span className={styles.heroRegistration}>
+              Montana registration <strong>{siteConfig.montanaRegistration}</strong>
+            </span>
+          </p>
           <PhotoPlaceholder
             slot="01"
             subject="Installed cold-climate heat pump outside residential home"
