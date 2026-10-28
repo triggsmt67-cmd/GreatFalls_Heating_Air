@@ -1,12 +1,10 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { ServiceIcon } from "@/components/ui/ServiceIcon";
-import { LicenseMark } from "@/components/ui/TrustMarks";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { siteConfig } from "@/content/site";
 import { PhotoPlaceholder } from "@/components/ui/PhotoPlaceholder";
 import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
-import { LeadForm } from "@/components/forms/LeadForm";
 import { generalFaqs } from "@/content/faqs";
 import { FaqAccordion } from "@/components/sections/FaqAccordion";
 import { FinalDarkCTA } from "@/components/sections/FinalDarkCTA";
@@ -60,34 +58,6 @@ export default function HomePage() {
             alt="Mitsubishi Electric outdoor heat pump beside a dark-sided home, with covered refrigerant lines and an exterior disconnect."
             priority
             sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 1248px) calc(100vw - 64px), 1184px"
-          />
-        </div>
-      </section>
-      <section
-        className="service-concierge"
-        id="estimate"
-        aria-labelledby="service-concierge-title"
-      >
-        <div className="wrap concierge-grid">
-          <div className="concierge-intro">
-            <p className="eyebrow">Let’s start here</p>
-            <h2 id="service-concierge-title">
-              What does your{" "}
-              <br />
-              home need?
-            </h2>
-            <p>
-              Need a repair, a tune-up, or a replacement? Choose a service and tell us what’s happening.
-            </p>
-            <div className="concierge-credentials">
-              <LicenseMark />
-              <span>Great Falls, Montana & surrounding communities</span>
-            </div>
-          </div>
-          <LeadForm
-            progressive
-            headline="How can we help?"
-            className="concierge-form"
           />
         </div>
       </section>
@@ -251,6 +221,15 @@ export default function HomePage() {
             >
               Get to know cold-climate systems <ArrowUpRight size={18} />
             </Link>
+            <div className={styles.rebateNote}>
+              <p>
+                Planning a heat pump installation? Check rebate programs and
+                eligibility before buying equipment. Funding and approval vary.
+              </p>
+              <Link className="text-link" href="/rebates/2026-montana-hvac-rebates">
+                Explore Montana HVAC rebates <ArrowUpRight size={17} />
+              </Link>
+            </div>
           </div>
           <PhotoPlaceholder
             slot="04"
@@ -300,10 +279,6 @@ export default function HomePage() {
           </dl>
         </div>
       </section>
-      <aside className={`wrap ${styles.rebateResource}`} aria-label="Rebate resource">
-        <div><p className="eyebrow">Planning a replacement?</p><h2>Check current rebate programs.</h2><p>Eligibility, funding, and approval vary. Confirm current terms with the program administrator before buying equipment or authorizing work.</p></div>
-        <Link className="text-link" href="/rebates/2026-montana-hvac-rebates">Read the 2026 rebate guide <ArrowUpRight size={17} /></Link>
-      </aside>
       <section className="section wrap process-section">
         <div>
           <p className="eyebrow">A simple place to start</p>
@@ -338,7 +313,7 @@ export default function HomePage() {
         subtitle=""
         badge="Before you call"
       />
-      <FinalDarkCTA requestHref="#estimate" requestLabel="Request service ↗" />
+      <FinalDarkCTA requestLabel="Request service ↗" />
     </div>
   );
 }
