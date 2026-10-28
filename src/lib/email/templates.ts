@@ -18,9 +18,9 @@ Intent: ${data.intent.toUpperCase()}
 CUSTOMER DETAILS:
 -----------------
 Name: ${data.fullName}
-Email: ${data.email}
-Phone: ${data.phone}
-Location: ${data.location}
+Email: ${data.email || "Not provided"}
+Phone: ${data.phone || "Not provided"}
+Location: ${data.location || "Not provided"}
 Preferred Contact: ${data.preferredContact.toUpperCase()}
 
 ISSUE / ESTIMATE SUMMARY:
@@ -91,11 +91,11 @@ export function formatHtmlEmail(payload: FormEmailPayload): string {
         </tr>
         <tr style="border-bottom: 1px solid #F1F5F9;">
           <td style="padding: 10px 0; color: #64748B;">Phone:</td>
-          <td style="padding: 10px 0; font-weight: 600; color: #071827;"><a href="tel:${telephone}" style="color: #087BEA; text-decoration: none;">${data.phone}</a></td>
+          <td style="padding: 10px 0; font-weight: 600; color: #071827;">${data.phone ? `<a href="tel:${telephone}" style="color: #087BEA; text-decoration: none;">${data.phone}</a>` : "Not provided"}</td>
         </tr>
         <tr style="border-bottom: 1px solid #F1F5F9;">
           <td style="padding: 10px 0; color: #64748B;">Email:</td>
-          <td style="padding: 10px 0; font-weight: 600; color: #071827;"><a href="mailto:${data.email}" style="color: #087BEA; text-decoration: none;">${data.email}</a></td>
+          <td style="padding: 10px 0; font-weight: 600; color: #071827;">${data.email ? `<a href="mailto:${data.email}" style="color: #087BEA; text-decoration: none;">${data.email}</a>` : "Not provided"}</td>
         </tr>
         <tr style="border-bottom: 1px solid #F1F5F9;">
           <td style="padding: 10px 0; color: #64748B;">Service Location:</td>

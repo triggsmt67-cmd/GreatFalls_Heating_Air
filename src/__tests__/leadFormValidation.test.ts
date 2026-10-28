@@ -88,3 +88,25 @@ describe("validateLeadForm", () => {
     expect(result.errors.consent).toBeDefined();
   });
 });
+
+
+describe("Preferred contact requests", () => {
+  const base = { intent: "maintenance", fullName: "Test Customer", location: "Great Falls", message: "Please discuss a furnace tune-up.", consent: true };
+  it("accepts phone-only and text-only requests without an email", () => {
+    for (const preferredContact of ["phone", "text"]) {
+      expect(validateLeadForm({ ...base, preferredContact, phone: "406-555-0199" }).isValid).toBe(true);
+    }
+  });
+  it("accepts email-only requests without a phone", () => {
+    expect(validateLeadForm({ ...base, preferredContact: "email", email: "test@example.com" }).isValid).toBe(true);
+  });
+  it("requires the selected contact method even when another is provided", () => {
+    expect(validateLeadForm({ ...base, preferredContact: "email", phone: "406-555-0199" }).errors.email).toBeDefined();
+    expect(validateLeadForm({ ...base, preferredContact: "text", email: "test@example.com" }).errors.phone).toBeDefined();
+  });
+  it("allows a general inquiry without location but requires it for maintenance", () => {
+    const request = { ...base, preferredContact: "email", email: "test@example.com", location: "" };
+    expect(validateLeadForm({ ...request, intent: "general" }).isValid).toBe(true);
+    expect(validateLeadForm(request).errors.location).toBeDefined();
+  });
+});

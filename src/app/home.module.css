@@ -437,3 +437,19 @@
   font-size: clamp(1.05rem, 1.5vw, 1.25rem);
   line-height: 1.65;
 }
+
+.heroTrust { margin: 20px 0 0; color: #d0d9db; font-size: 14px; line-height: 1.65; max-width: 680px; }
+.page :global(.guide-grid) { grid-template-columns: 1fr 1fr; }
+.page :global(.guide-copy), .page :global(.guide-photo) { grid-column: auto; grid-row: auto; }
+.rebateResource { display: flex; align-items: center; justify-content: space-between; gap: 32px; padding-block: 32px; border-bottom: 1px solid var(--line); }
+.rebateResource h2 { font-size: 24px; margin: 8px 0; }
+.rebateResource p { max-width: 650px; }
+.rebateResource > a { flex-shrink: 0; }
+@media (max-width: 767px) {
+  .page :global(.guide-grid) { grid-template-columns: 1fr; }
+  .rebateResource { flex-direction: column; align-items: flex-start; gap: 12px; }
+}
+@media (max-width: 600px) {
+  .heroPhoto :global(.photo-real-frame) { height: 150px; }
+  .heroTrust { font-size: 13px; margin-top: 14px; }
+}

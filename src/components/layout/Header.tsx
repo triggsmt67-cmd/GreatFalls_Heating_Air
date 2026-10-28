@@ -97,11 +97,11 @@ export function Header() {
           </Link>
         </nav>
         <Link
-          href="/contact?intent=estimate"
+          href={pathname === "/" ? "/#estimate" : "/contact?intent=general"}
           className="button button-yellow header-cta"
           onClick={close}
         >
-          Request an estimate ↗
+          Request service ↗
         </Link>
         <button
           ref={mobileButton}
@@ -141,10 +141,10 @@ export function Header() {
           </Link>
           <Link
             className="button button-yellow"
-            href="/contact?intent=estimate"
+            href={pathname === "/" ? "/#estimate" : "/contact?intent=general"}
             onClick={close}
           >
-            Request an estimate
+            Request service
           </Link>
         </nav>
       )}

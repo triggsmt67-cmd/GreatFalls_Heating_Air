@@ -58,41 +58,6 @@ export function validateLeadForm(
     errors.fullName = "Name must not exceed 100 characters.";
   }
 
-  // 4. Email
-  const email = String(formData.email || "")
-    .trim()
-    .toLowerCase();
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  if (!email) {
-    errors.email = "Please provide an email address.";
-  } else if (!emailRegex.test(email) || email.length > 150) {
-    errors.email = "Please provide a valid email address.";
-  }
-
-  // 5. Phone
-  const rawPhone = String(formData.phone || "").trim();
-  // Strip non-digits except +
-  const cleanedDigits = rawPhone.replace(/[^\d]/g, "");
-  if (!rawPhone) {
-    errors.phone = "Please enter your phone number.";
-  } else if (
-    cleanedDigits.length < 10 ||
-    cleanedDigits.length > 15 ||
-    rawPhone.length > 30 ||
-    !/^[+\d\s().-]+$/.test(rawPhone)
-  ) {
-    errors.phone = "Please enter a valid 10-digit phone number.";
-  }
-
-  // 6. Location (ZIP or Community)
-  const location = String(formData.location || "").trim();
-  if (!location) {
-    errors.location =
-      "Please enter your town or ZIP code (e.g., Great Falls).";
-  } else if (location.length < 2 || location.length > 60) {
-    errors.location = "Please enter your town or ZIP code.";
-  }
-
   // 7. Preferred Contact Method
   const prefMethodStr = String(
     formData.preferredContact || "phone",
@@ -101,6 +66,41 @@ export function validateLeadForm(
     prefMethodStr === "email" || prefMethodStr === "text"
       ? prefMethodStr
       : "phone";
+
+  // 4. Email
+  const email = String(formData.email || "")
+    .trim()
+    .toLowerCase();
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!email && preferredContact === "email") {
+    errors.email = "Please provide an email address.";
+  } else if (email && (!emailRegex.test(email) || email.length > 150)) {
+    errors.email = "Please provide a valid email address.";
+  }
+
+  // 5. Phone
+  const rawPhone = String(formData.phone || "").trim();
+  // Strip non-digits except +
+  const cleanedDigits = rawPhone.replace(/[^\d]/g, "");
+  if (!rawPhone && preferredContact !== "email") {
+    errors.phone = "Please enter your phone number.";
+  } else if (
+    rawPhone && (cleanedDigits.length < 10 ||
+    cleanedDigits.length > 15 ||
+    rawPhone.length > 30 ||
+    !/^[+\d\s().-]+$/.test(rawPhone))
+  ) {
+    errors.phone = "Please enter a valid 10-digit phone number.";
+  }
+
+  // 6. Location (ZIP or Community)
+  const location = String(formData.location || "").trim();
+  if (!location && intent !== "general") {
+    errors.location =
+      "Please enter your town or ZIP code (e.g., Great Falls).";
+  } else if (location && (location.length < 2 || location.length > 60)) {
+    errors.location = "Please enter your town or ZIP code.";
+  }
 
   // 8. Message / Problem Summary
   const message = String(formData.message || "").trim();

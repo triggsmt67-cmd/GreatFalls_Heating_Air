@@ -15,13 +15,13 @@ const intents = [
   { value: "emergency", label: "Emergency Repair", icon: "emergency" },
   { value: "estimate", label: "New Estimate", icon: "estimate" },
   { value: "maintenance", label: "Maintenance", icon: "maintenance" },
-  { value: "general", label: "General Question", icon: "general" },
+  { value: "general", label: "Repair or Question", icon: "general" },
 ] as const;
 const intentDescriptions = {
   emergency: "A problem that needs attention",
   estimate: "Explore a repair or replacement",
   maintenance: "Care for your existing system",
-  general: "Talk through your options",
+  general: "Routine repair or advice",
 };
 export function LeadForm({
   initialIntent = "estimate",
@@ -68,6 +68,10 @@ export function LeadForm({
           ? (e.target as HTMLInputElement).checked
           : value,
     }));
+    if (name === "preferredContact") {
+      setData(d => ({ ...d, ...(value === "email" ? { phone: "" } : { email: "" }) }));
+      setErrors(v => ({ ...v, phone: undefined, email: undefined }));
+    }
     setErrors((v) => ({ ...v, [name]: undefined }));
     if (!started) {
       setStarted(true);
@@ -199,6 +203,32 @@ export function LeadForm({
               onChange={change}
             />
           </div>
+          <p className="form-next-step">
+            We’ll use your chosen contact method to discuss your request and
+            service availability. Sending this form does not book an appointment.
+            For urgent help, <a className="text-link" href={`tel:${siteConfig.phoneE164}`}>call {siteConfig.phoneDisplay}</a>.
+          </p>
+          <fieldset className="contact-method">
+            <legend>How should we contact you?</legend>
+            <div>
+              {["phone", "email", "text"].map((method) => (
+                <label key={method}>
+                  <input
+                    type="radio"
+                    name="preferredContact"
+                    value={method}
+                    checked={data.preferredContact === method}
+                    onChange={change}
+                  />
+                  {method === "phone"
+                    ? "Phone"
+                    : method === "email"
+                      ? "Email"
+                      : "Text"}
+                </label>
+              ))}
+            </div>
+          </fieldset>
           <div className="form-fields">
             {(
               [
@@ -227,15 +257,15 @@ export function LeadForm({
                   autoComplete: "postal-code",
                 },
               ] as const
-            ).map((f) => (
+            ).filter(f => f.name !== (data.preferredContact === "email" ? "phone" : "email")).map((f) => (
               <div className="form-field" key={f.name}>
-                <label htmlFor={`${id}-${f.name}`}>{f.label} *</label>
+                <label htmlFor={`${id}-${f.name}`}>{f.label}{f.name === "location" && intent === "general" ? " (optional)" : " *"}</label>
                 <input
                   id={`${id}-${f.name}`}
                   name={f.name}
                   type={f.type}
                   autoComplete={f.autoComplete}
-                  required
+                  required={f.name !== "location" || intent !== "general"}
                   value={data[f.name]}
                   onChange={change}
                   aria-invalid={!!errors[f.name]}
@@ -252,7 +282,7 @@ export function LeadForm({
             ))}
             <div className="form-field form-wide">
               <label htmlFor={`${id}-message`}>
-                What’s happening with your system? *
+                {intent === "general" ? "How can we help?" : "What’s happening with your system?"} *
               </label>
               <textarea
                 id={`${id}-message`}
@@ -274,27 +304,6 @@ export function LeadForm({
               )}
             </div>
           </div>
-          <fieldset className="contact-method">
-            <legend>How should we contact you?</legend>
-            <div>
-              {["phone", "email", "text"].map((method) => (
-                <label key={method}>
-                  <input
-                    type="radio"
-                    name="preferredContact"
-                    value={method}
-                    checked={data.preferredContact === method}
-                    onChange={change}
-                  />
-                  {method === "phone"
-                    ? "Phone"
-                    : method === "email"
-                      ? "Email"
-                      : "Text"}
-                </label>
-              ))}
-            </div>
-          </fieldset>
           <label className="consent-label">
             <input
               type="checkbox"
@@ -336,9 +345,6 @@ export function LeadForm({
             </button>
             <small>* Required fields</small>
           </div>
-          <p className="form-next-step">
-            We’ll be in touch to talk through your request. Your appointment still needs to be confirmed. For urgent help, please call.
-          </p>
         </form>
       </div>
     </div>

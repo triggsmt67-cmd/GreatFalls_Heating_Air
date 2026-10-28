@@ -47,7 +47,7 @@ export async function sendLeadNotificationEmail(
       body: JSON.stringify({
         from: fromEmail,
         to: [toEmail],
-        reply_to: data.email,
+        ...(data.email ? { reply_to: data.email } : {}),
         subject: `[GF HVAC ${data.intent.toUpperCase()}] New web inquiry`,
         text: formatPlainTextEmail({ data, timestamp }),
         html: formatHtmlEmail({ data, timestamp }),

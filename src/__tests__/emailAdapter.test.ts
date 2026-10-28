@@ -39,6 +39,12 @@ describe("Email Adapter and Templates", () => {
     expect(html).toContain("john@example.com");
   });
 
+  it("omits empty contact links in phone-only notifications", () => {
+    const html = formatHtmlEmail({ data: { ...sampleData, email: "" }, timestamp: "Test" });
+    expect(html).not.toContain('href="mailto:"');
+    expect(html).toContain("Not provided");
+  });
+
   it("should simulate email dispatch in test/dev environment", async () => {
     vi.stubEnv("NODE_ENV", "test");
     vi.stubEnv("LEAD_EMAIL_MODE", "simulate");

@@ -8,7 +8,7 @@ export function StickyMobileActions() {
   const maintenance = pathname.endsWith("/ac-maintenance") || pathname.endsWith("/furnace-maintenance");
   const repair = pathname.endsWith("/ac-repair") || pathname.endsWith("/emergency-furnace-repair") || pathname.endsWith("/repair-maintenance");
   const intent = maintenance ? "maintenance" : repair ? "general" : "estimate";
-  const label = maintenance ? "Request a tune-up" : repair ? "Request service" : "Request an estimate";
+  const label = pathname === "/" ? "Request service" : maintenance ? "Request a tune-up" : repair ? "Request service" : "Request an estimate";
   return (
     <div
       className="mobile-actions"
@@ -33,7 +33,7 @@ export function StickyMobileActions() {
       </a>
       <Link
         className="button button-yellow"
-        href={`/contact?intent=${intent}`}
+        href={pathname === "/" ? "/#estimate" : `/contact?intent=${intent}`}
         onClick={() =>
           trackEvent({
             name: intent === "estimate" ? "estimate_cta_click" : "service_request_cta_click",

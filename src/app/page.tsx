@@ -1,4 +1,3 @@
-import { RebateNotice } from "@/components/ui/RebateNotice";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { ServiceIcon } from "@/components/ui/ServiceIcon";
@@ -44,13 +43,14 @@ export default function HomePage() {
                 Call for 24/7 emergency repair <ArrowUpRight size={17} />
               </a>
               <Link
-                href="/rebates/2026-montana-hvac-rebates"
+                href="#estimate"
                 className="button button-yellow"
               >
-                Explore 2026 rebates <ArrowUpRight size={17} />
+                Request service <ArrowUpRight size={17} />
               </Link>
             </div>
           </div>
+          <p className={styles.heroTrust}>Veteran-owned · Locally operated · Robert Ross, 20+ years in HVAC</p>
           <PhotoPlaceholder
             slot="01"
             subject="Installed cold-climate heat pump outside residential home"
@@ -97,9 +97,9 @@ export default function HomePage() {
         <div className="section-intro">
           <p className="eyebrow">01 / Heating & cooling</p>
           <h2>
-            Comfort starts with
+            Heating, cooling,
             <br />
-            the right next step.
+            repair & maintenance.
           </h2>
           <p>
             From a furnace that won’t start to a better way to cool your home.
@@ -112,9 +112,9 @@ export default function HomePage() {
               <ServiceIcon name="heating" size={40} />
               <p className="eyebrow">When the heat goes out</p>
               <h3>
-                A Montana winter
+                Furnace repair
                 <br />
-                doesn’t wait.
+                & heating services.
               </h3>
               <p>
                 Furnace trouble in freezing weather? Call to discuss service
@@ -157,7 +157,7 @@ export default function HomePage() {
               />
               <div className="support-service-copy">
                 <ServiceIcon name="cooling" size={36} />
-                <h3>Keep summer comfortable.</h3>
+                <h3>AC repair & cooling services.</h3>
                 <p>
                   Warm air, uneven cooling, or an aging AC? Understand your
                   repair and replacement options.
@@ -173,7 +173,7 @@ export default function HomePage() {
             <article className="heat-pump-feature">
               <ServiceIcon name="heat-pump" size={40} />
               <div>
-                <h3>One system. Two seasons.</h3>
+                <h3>Heat pumps for heating & cooling.</h3>
                 <p>
                   Explore heat pumps, cold-weather performance, and where a
                   backup heat source fits.
@@ -187,58 +187,6 @@ export default function HomePage() {
               </div>
             </article>
           </div>
-        </div>
-      </section>
-      <section className="guide-section">
-        <div className="wrap guide-grid">
-          <div className="guide-copy">
-            <p className="eyebrow">02 / Plan with a clearer picture</p>
-            <h2>
-              Montana winters.
-              <br />
-              Modern options.
-            </h2>
-            <p>
-              Can a heat pump work here? The answer depends on the equipment,
-              the home, and the plan for the coldest days.
-            </p>
-            <Link
-              className="text-link"
-              href="/services/heat-pumps/cold-climate"
-            >
-              Get to know cold-climate systems <ArrowUpRight size={18} />
-            </Link>
-          </div>
-          <PhotoPlaceholder
-            slot="04"
-            subject="Outdoor cold-climate heat pump operating in winter snow"
-            dimensions="1280 × 960"
-            ratio="landscape"
-            tone="blue"
-            className="guide-photo"
-            src="/images/winter-heat-pump.webp"
-            alt="Outdoor heat pump on raised supports beside a home, surrounded by snow."
-            sizes="(max-width: 900px) 100vw, 45vw"
-          />
-          <article className="rebate-feature">
-            <ServiceIcon name="efficiency" size={36} />
-            <span className="resource-label">Homeowner resource / 2026</span>
-            <h3>
-              Make sense
-              <br />
-              of HVAC rebates.
-            </h3>
-            <p>
-              See which utility incentives may apply, which credits have expired, and where to check the rules.
-            </p>
-            <Link
-              href="/rebates/2026-montana-hvac-rebates"
-              className="button button-yellow"
-            >
-              Explore the rebate guide <ArrowUpRight size={17} />
-            </Link>
-            <RebateNotice />
-          </article>
         </div>
       </section>
       <section className="section wrap local-grid">
@@ -286,6 +234,40 @@ export default function HomePage() {
           </Link>
         </div>
       </section>
+      <section className="guide-section">
+        <div className="wrap guide-grid">
+          <div className="guide-copy">
+            <p className="eyebrow">02 / Plan with a clearer picture</p>
+            <h2>
+              Considering a
+              <br />
+              heat pump?
+            </h2>
+            <p>
+              Can a heat pump work here? The answer depends on the equipment,
+              the home, and the plan for the coldest days.
+            </p>
+            <Link
+              className="text-link"
+              href="/services/heat-pumps/cold-climate"
+            >
+              Get to know cold-climate systems <ArrowUpRight size={18} />
+            </Link>
+          </div>
+          <PhotoPlaceholder
+            slot="04"
+            subject="Outdoor cold-climate heat pump operating in winter snow"
+            dimensions="1280 × 960"
+            ratio="landscape"
+            tone="blue"
+            className="guide-photo"
+            src="/images/winter-heat-pump.webp"
+            alt="Outdoor heat pump on raised supports beside a home, surrounded by snow."
+            sizes="(max-width: 900px) 100vw, 45vw"
+          />
+
+        </div>
+      </section>
       <section className="area-section">
         <div className="wrap area-grid">
           <div>
@@ -320,6 +302,10 @@ export default function HomePage() {
           </dl>
         </div>
       </section>
+      <aside className={`wrap ${styles.rebateResource}`} aria-label="Rebate resource">
+        <div><p className="eyebrow">Planning a replacement?</p><h2>Check current rebate programs.</h2><p>Eligibility, funding, and approval vary. Confirm current terms with the program administrator before buying equipment or authorizing work.</p></div>
+        <Link className="text-link" href="/rebates/2026-montana-hvac-rebates">Read the 2026 rebate guide <ArrowUpRight size={17} /></Link>
+      </aside>
       <section className="section wrap process-section">
         <div>
           <p className="eyebrow">A simple place to start</p>
@@ -329,7 +315,7 @@ export default function HomePage() {
           {[
             [
               "Get in touch",
-              "Call for urgent heating or cooling needs, or send an estimate request.",
+              "Call for urgent heating or cooling needs, or send a service request.",
             ],
             [
               "Share the details",
@@ -354,7 +340,7 @@ export default function HomePage() {
         subtitle=""
         badge="Before you call"
       />
-      <FinalDarkCTA />
+      <FinalDarkCTA requestHref="#estimate" requestLabel="Request service ↗" />
     </div>
   );
 }
