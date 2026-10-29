@@ -8,6 +8,7 @@ export interface LaunchReadinessItem {
 
 export const siteConfig = {
   businessName: "Great Falls Heating and Air LLC",
+  businessShortName: "Great Falls Heating and Air",
   tagline: "Heating and cooling that make sense for your home.",
   shortDescription:
     "Home heating, emergency furnace repair, air conditioning, and cold-climate heat pumps for Great Falls weather.",
@@ -23,7 +24,7 @@ export const siteConfig = {
   emergencyAvailabilityBadge: "24/7 emergency service and repair",
   montanaRegistration: "C1680325",
   epaCertification: "[CONFIRM EPA 608 CREDENTIALS]",
-  ownerName: "[OWNER NAME]",
+  ownerName: "Robert Ross",
   companyHistory: "[CLIENT-APPROVED COMPANY HISTORY]",
   warranty: "[CLIENT-APPROVED WARRANTY]",
   reviewRating: null,

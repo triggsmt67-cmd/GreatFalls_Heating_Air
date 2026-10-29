@@ -178,7 +178,7 @@ export default function HomePage() {
           <p className="eyebrow">Veteran-owned / Locally operated</p>
           <h2>Meet Robert Ross.</h2>
           <p>
-            Robert is the owner of Greatfalls Heating and Air, a United States
+            Robert is the owner of Great Falls Heating and Air, a United States
             military veteran with more than 20 years of experience in HVAC.
           </p>
           <blockquote className={styles.ownerQuote}>

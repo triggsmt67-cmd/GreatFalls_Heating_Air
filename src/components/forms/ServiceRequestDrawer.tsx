@@ -3,6 +3,7 @@
 import { createContext, useContext, useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import { X } from "lucide-react";
+import { siteConfig } from "@/content/site";
 import { LeadForm } from "./LeadForm";
 import type { FormIntent } from "@/lib/validation/leadFormSchema";
 import styles from "./ServiceRequestDrawer.module.css";
@@ -55,7 +56,7 @@ export function ServiceRequestProvider({ children }: { children: React.ReactNode
         }}
       >
         <div className={styles.top}>
-          <span>Great Falls Heating and Air</span>
+          <span>{siteConfig.businessShortName}</span>
           <button type="button" aria-label="Close service request" onClick={() => dialog.current?.close()}>
             <X size={22} /><span>Close</span>
           </button>

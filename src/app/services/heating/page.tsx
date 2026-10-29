@@ -13,7 +13,7 @@ import styles from "./heating.module.css";
 import { getHeatingPageSchema, heatingUrl, heatingCommunities } from "./schema";
 import { HeatingFaq } from "./HeatingFaq";
 
-const title = "Heating & Furnace Repair in Great Falls, MT | Great Falls Heating & Air";
+const title = "Heating & Furnace Repair in Great Falls, MT";
 const baseMetadata = buildMetadata({
   title,
   description: "Honest furnace repair, seasonal maintenance, and heating replacement in Great Falls, MT. Upfront diagnostics, CO safety checks, and built for Cascade County winters.",
@@ -21,12 +21,7 @@ const baseMetadata = buildMetadata({
   ogImage: "/images/heating-furnace-installation-social.jpg",
   ogImageAlt: "Residential furnace with metal ductwork, gas supply piping, and a condensate pump.",
 });
-export const metadata = {
-  ...baseMetadata,
-  title,
-  openGraph: { ...baseMetadata.openGraph, title },
-  twitter: { ...baseMetadata.twitter, title },
-};
+export const metadata = baseMetadata;
 
 const equipment = [
   ["Natural Gas & Propane Furnaces", "From older 80% standard-efficiency workhorses to modern 95%+ AFUE two-stage and modulating condensing furnaces. We handle ignitors, blower motors, control boards, and gas valve conversions."],

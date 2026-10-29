@@ -1,0 +1,104 @@
+[
+  {
+    "route": "/",
+    "title": "HVAC Services in Great Falls, MT | Great Falls Heating and Air LLC",
+    "h1Count": 1,
+    "sharingTitlesMatch": true
+  },
+  {
+    "route": "/about",
+    "title": "Meet Robert Ross | About | Great Falls Heating and Air LLC",
+    "h1Count": 1,
+    "sharingTitlesMatch": true
+  },
+  {
+    "route": "/contact",
+    "title": "Contact & Request Service | Great Falls Heating and Air LLC",
+    "h1Count": 1,
+    "sharingTitlesMatch": true
+  },
+  {
+    "route": "/rebates/2026-montana-hvac-rebates",
+    "title": "2026 Montana HVAC Rebates: Great Falls Homeowner Guide | Great Falls Heating and Air LLC",
+    "h1Count": 1,
+    "sharingTitlesMatch": true
+  },
+  {
+    "route": "/privacy",
+    "title": "Privacy Policy | Great Falls Heating and Air LLC",
+    "h1Count": 1,
+    "sharingTitlesMatch": true
+  },
+  {
+    "route": "/services/heating",
+    "title": "Heating & Furnace Repair in Great Falls, MT | Great Falls Heating and Air LLC",
+    "h1Count": 1,
+    "sharingTitlesMatch": true
+  },
+  {
+    "route": "/services/heating/emergency-furnace-repair",
+    "title": "Emergency Furnace Repair in Great Falls, MT | Great Falls Heating and Air LLC",
+    "h1Count": 1,
+    "sharingTitlesMatch": true
+  },
+  {
+    "route": "/services/heating/furnace-installation",
+    "title": "Furnace Installation & Replacement in Great Falls, MT | Great Falls Heating and Air LLC",
+    "h1Count": 1,
+    "sharingTitlesMatch": true
+  },
+  {
+    "route": "/services/heating/furnace-maintenance",
+    "title": "Furnace Maintenance & Fall Tune-Ups in Great Falls, MT | Great Falls Heating and Air LLC",
+    "h1Count": 1,
+    "sharingTitlesMatch": true
+  },
+  {
+    "route": "/services/cooling",
+    "title": "Air Conditioning & Cooling Services in Great Falls, MT | Great Falls Heating and Air LLC",
+    "h1Count": 1,
+    "sharingTitlesMatch": true
+  },
+  {
+    "route": "/services/cooling/ac-repair",
+    "title": "AC Repair & Diagnostics in Great Falls, MT | Great Falls Heating and Air LLC",
+    "h1Count": 1,
+    "sharingTitlesMatch": true
+  },
+  {
+    "route": "/services/cooling/ac-installation",
+    "title": "AC Installation & Replacement in Great Falls, MT | Great Falls Heating and Air LLC",
+    "h1Count": 1,
+    "sharingTitlesMatch": true
+  },
+  {
+    "route": "/services/cooling/ac-maintenance",
+    "title": "AC Maintenance & Seasonal Tune-Ups in Great Falls, MT | Great Falls Heating and Air LLC",
+    "h1Count": 1,
+    "sharingTitlesMatch": true
+  },
+  {
+    "route": "/services/heat-pumps/cold-climate",
+    "title": "Cold-Climate Heat Pumps & Dual-Fuel Systems in Great Falls, MT | Great Falls Heating and Air LLC",
+    "h1Count": 1,
+    "sharingTitlesMatch": true
+  },
+  {
+    "route": "/services/heat-pumps/heat-pump-installation",
+    "title": "Heat Pump Installation & Replacement in Great Falls, MT | Great Falls Heating and Air LLC",
+    "h1Count": 1,
+    "sharingTitlesMatch": true
+  },
+  {
+    "route": "/services/heat-pumps/ductless-mini-splits",
+    "title": "Ductless Mini-Split Installation in Great Falls, MT | Great Falls Heating and Air LLC",
+    "h1Count": 1,
+    "sharingTitlesMatch": true
+  },
+  {
+    "route": "/services/heat-pumps/repair-maintenance",
+    "title": "Heat Pump Repair & Maintenance in Great Falls, MT | Great Falls Heating and Air LLC",
+    "h1Count": 1,
+    "sharingTitlesMatch": true
+  }
+]

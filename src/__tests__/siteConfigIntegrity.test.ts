@@ -10,6 +10,8 @@ import { navigationServices } from "@/content/services";
 describe("Site Configuration & Content Integrity", () => {
   it("should use the confirmed legal business identity", () => {
     expect(siteConfig.businessName).toBe("Great Falls Heating and Air LLC");
+    expect(siteConfig.ownerName).toBe("Robert Ross");
+    expect(siteConfig.businessShortName).toBe("Great Falls Heating and Air");
     expect(siteConfig.montanaRegistration).toBe("C1680325");
   });
 

@@ -1,3 +1,4 @@
+import { siteConfig } from "@/content/site";
 import Image from "next/image";
 import Link from "next/link";
 import { TrustMarks } from "@/components/ui/TrustMarks";
@@ -7,9 +8,9 @@ import { FinalDarkCTA } from "@/components/sections/FinalDarkCTA";
 import styles from "./about.module.css";
 
 export const metadata = buildMetadata({
-  title: "Meet Robert Ross | About Greatfalls Heating and Air",
+  title: `Meet ${siteConfig.ownerName} | About`,
   description:
-    "Meet Robert Ross, owner of Greatfalls Heating and Air LLC, a veteran-owned HVAC company serving Great Falls, Montana, and surrounding communities.",
+    "Meet Robert Ross, owner of Great Falls Heating and Air LLC, a veteran-owned HVAC company serving Great Falls, Montana, and surrounding communities.",
   canonicalPath: "/about",
 });
 
@@ -20,13 +21,13 @@ export default function Page() {
         <Breadcrumbs items={[{ name: "About", url: "/about" }]} />
         <article className={styles.introduction} aria-labelledby="owner-heading">
           <header className={styles.heading}>
-            <p className="eyebrow">About Greatfalls Heating and Air LLC</p>
+            <p className="eyebrow">About {siteConfig.businessName}</p>
             <h1 id="owner-heading">
-              Meet Robert Ross,
-              <span>Owner of Greatfalls Heating and Air</span>
+              Meet {siteConfig.ownerName},
+              <span>Owner of {siteConfig.businessShortName}</span>
             </h1>
             <p className={styles.lead}>
-              Greatfalls Heating and Air LLC is a veteran-owned heating and cooling
+              Great Falls Heating and Air LLC is a veteran-owned heating and cooling
               company serving Great Falls, Montana, and surrounding communities.
             </p>
           </header>
@@ -60,7 +61,7 @@ export default function Page() {
             <p className={styles.commitment}>
               That’s what “customers deserve better” means to me. Respect your time.
               Be straightforward about the price. Do the work properly. Those are
-              the expectations I want Greatfalls Heating and Air to be known for.
+              the expectations I want Great Falls Heating and Air to be known for.
             </p>
           </div>
           <footer className={styles.closing}>
