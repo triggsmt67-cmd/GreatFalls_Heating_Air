@@ -1,0 +1,380 @@
+[
+  {
+    "path": "/",
+    "width": 390,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/about",
+    "width": 390,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/contact",
+    "width": 390,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/rebates/2026-montana-hvac-rebates",
+    "width": 390,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/privacy",
+    "width": 390,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/heating",
+    "width": 390,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/heating/emergency-furnace-repair",
+    "width": 390,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/heating/furnace-installation",
+    "width": 390,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/heating/furnace-maintenance",
+    "width": 390,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/cooling",
+    "width": 390,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/cooling/ac-repair",
+    "width": 390,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/cooling/ac-installation",
+    "width": 390,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/cooling/ac-maintenance",
+    "width": 390,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/heat-pumps/cold-climate",
+    "width": 390,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/heat-pumps/heat-pump-installation",
+    "width": 390,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/heat-pumps/ductless-mini-splits",
+    "width": 390,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/heat-pumps/repair-maintenance",
+    "width": 390,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/thank-you",
+    "width": 390,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/",
+    "width": 768,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/about",
+    "width": 768,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/contact",
+    "width": 768,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/rebates/2026-montana-hvac-rebates",
+    "width": 768,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/privacy",
+    "width": 768,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/heating",
+    "width": 768,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/heating/emergency-furnace-repair",
+    "width": 768,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/heating/furnace-installation",
+    "width": 768,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/heating/furnace-maintenance",
+    "width": 768,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/cooling",
+    "width": 768,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/cooling/ac-repair",
+    "width": 768,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/cooling/ac-installation",
+    "width": 768,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/cooling/ac-maintenance",
+    "width": 768,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/heat-pumps/cold-climate",
+    "width": 768,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/heat-pumps/heat-pump-installation",
+    "width": 768,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/heat-pumps/ductless-mini-splits",
+    "width": 768,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/heat-pumps/repair-maintenance",
+    "width": 768,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/thank-you",
+    "width": 768,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/",
+    "width": 1440,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/about",
+    "width": 1440,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/contact",
+    "width": 1440,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/rebates/2026-montana-hvac-rebates",
+    "width": 1440,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/privacy",
+    "width": 1440,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/heating",
+    "width": 1440,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/heating/emergency-furnace-repair",
+    "width": 1440,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/heating/furnace-installation",
+    "width": 1440,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/heating/furnace-maintenance",
+    "width": 1440,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/cooling",
+    "width": 1440,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/cooling/ac-repair",
+    "width": 1440,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/cooling/ac-installation",
+    "width": 1440,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/cooling/ac-maintenance",
+    "width": 1440,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/heat-pumps/cold-climate",
+    "width": 1440,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/heat-pumps/heat-pump-installation",
+    "width": 1440,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/heat-pumps/ductless-mini-splits",
+    "width": 1440,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/services/heat-pumps/repair-maintenance",
+    "width": 1440,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  },
+  {
+    "path": "/thank-you",
+    "width": 1440,
+    "h1s": 1,
+    "main": 1,
+    "overflow": false
+  }
+]

@@ -15,7 +15,7 @@ export default function Page() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(getFAQSchema(rebateFaqs)).replace(/</g, "\\u003c") }} />
-      <div className="wrap interior">
+      <div className="wrap interior compact-interior">
         <Breadcrumbs
           items={[
             {

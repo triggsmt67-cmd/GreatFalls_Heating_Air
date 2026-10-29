@@ -1,7 +1,7 @@
 .introduction {
   max-width: 760px;
   margin: 0 auto;
-  padding: 44px 0 48px;
+  padding: 24px 0 48px;
 }
 
 .heading {
@@ -73,7 +73,7 @@
 
 @media (max-width: 600px) {
   .introduction {
-    padding-block: 28px 36px;
+    padding-block: 20px 36px;
   }
 
   .lead {

@@ -1,5 +1,5 @@
+import { ServiceIntroTrust } from "@/components/ui/ServiceIntroTrust";
 import { buildMetadata } from "@/lib/seo/metadata";
-import { LicenseMark } from "@/components/ui/TrustMarks";
 import { ServiceIcon } from "@/components/ui/ServiceIcon";
 import { siteConfig, verification } from "@/content/site";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
@@ -25,7 +25,7 @@ export default async function Page({
       : "estimate"
   ) as FormIntent;
   return (
-    <div className="wrap interior">
+    <div className="wrap interior compact-interior">
       <Breadcrumbs items={[{ name: "Contact", url: "/contact" }]} />
       <div className="page-heading">
         <ServiceIcon name="general" size={48} />
@@ -35,12 +35,12 @@ export default async function Page({
           Tell us what’s happening or what you’re considering. For urgent
           heating or cooling needs, call <a className="text-link" href={`tel:${siteConfig.phoneE164}`}>{siteConfig.phoneDisplay}</a>.
         </p>
+        <ServiceIntroTrust />
       </div>
       <div className="contact-grid" id="request-form">
         <LeadForm initialIntent={intent} sourceRoute="/contact" />
         <aside className="contact-info">
           <div>
-            <LicenseMark />
             <h2>Prefer to talk?</h2>
             <a className="contact-phone" href={`tel:${siteConfig.phoneE164}`}>
               {siteConfig.phoneDisplay}
