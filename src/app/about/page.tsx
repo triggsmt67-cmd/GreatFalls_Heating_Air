@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { TrustMarks } from "@/components/ui/TrustMarks";
 import { buildMetadata } from "@/lib/seo/metadata";
@@ -29,6 +30,14 @@ export default function Page() {
               company serving Great Falls, Montana, and surrounding communities.
             </p>
           </header>
+          <Image
+            src="/images/robert-ross.webp"
+            alt="Robert Ross outdoors beside a tree."
+            width={428}
+            height={319}
+            sizes="(max-width: 600px) calc(100vw - 40px), 480px"
+            className={styles.ownerPhoto}
+          />
           <div className={styles.story}>
             <p>
               I’m Robert Ross, the owner. I’m a United States military veteran with

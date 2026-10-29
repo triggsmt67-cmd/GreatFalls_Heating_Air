@@ -95,3 +95,5 @@
     padding-left: 0;
   }
 }
+
+.ownerPhoto { display: block; width: 100%; max-width: 480px; height: auto; margin: 28px auto 8px; border-radius: 4px; }

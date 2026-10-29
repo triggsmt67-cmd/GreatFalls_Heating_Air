@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { ServiceIcon } from "@/components/ui/ServiceIcon";
@@ -164,16 +165,13 @@ export default function HomePage() {
       </section>
       <section className="section wrap local-grid">
         <div className="local-visual">
-          <PhotoPlaceholder
-            slot="05"
-            subject="Great Falls home exterior and HVAC installation in high-plains context"
-            dimensions="1400 × 788"
-            ratio="wide"
-            tone="light"
-            className="local-photo"
-            src="/images/high-plains-montana.webp"
-            alt="Outdoor central air conditioner on a concrete pad beside a home, wood fence, and exterior utility piping."
-            sizes="(max-width: 900px) 100vw, 55vw"
+          <Image
+            src="/images/robert-ross.webp"
+            alt="Robert Ross outdoors beside a tree."
+            width={428}
+            height={319}
+            sizes="(max-width: 600px) calc(100vw - 40px), 480px"
+            className={styles.ownerPhoto}
           />
         </div>
         <div>

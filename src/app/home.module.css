@@ -375,3 +375,5 @@
 
 .heroRegistration { display: block; margin-top: 6px; }
 .heroRegistration strong { font-weight: 600; color: #fff; }
+
+.ownerPhoto { display: block; width: 100%; max-width: 480px; height: auto; margin-inline: auto; border-radius: 4px; }
