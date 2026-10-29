@@ -1,3 +1,4 @@
+import { ServiceIntroTrust } from "@/components/ui/ServiceIntroTrust";
 import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import Link from "next/link";
@@ -70,7 +71,7 @@ export default function Page() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(getEmergencySchema()).replace(/</g, "\\u003c") }} />
-      <div className="wrap interior">
+      <div className="wrap interior service-interior">
         <Breadcrumbs schemaId={`${pageUrl}#breadcrumb`} items={[
           { name: "Heating services", url: "/services/heating" },
           { name: "Emergency furnace repair", url: route },
@@ -84,6 +85,7 @@ export default function Page() {
             <a className="button button-orange" href={`tel:${siteConfig.phoneE164}`}>Call for furnace repair: {siteConfig.phoneDisplay}</a>
             <RequestServiceLink className="text-link" intent="emergency">Send a service request ↗</RequestServiceLink>
           </div>
+          <ServiceIntroTrust />
           <p className={styles.formNotice}>For urgent no-heat problems, call first. Forms are not continuously monitored.</p>
         </div>
         <section className={`safety-panel ${styles.safety}`} aria-labelledby="emergency-safety-heading">

@@ -1,3 +1,4 @@
+import { ServiceIntroTrust } from "@/components/ui/ServiceIntroTrust";
 import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import { RebateNotice } from "@/components/ui/RebateNotice";
@@ -35,7 +36,7 @@ function getDuctlessSchema() {
 export default function Page() {
   return <>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(getDuctlessSchema()).replace(/</g, "\\u003c") }} />
-    <div className="wrap interior">
+    <div className="wrap interior service-interior">
       <Breadcrumbs schemaId={`${url}#breadcrumb`} items={[{ name: "Cold-climate heat pumps", url: "/services/heat-pumps/cold-climate" }, { name: "Ductless mini-split installation", url: route }]} />
       <div className={`page-heading ${styles.hero}`}>
         <ServiceIcon name="heat-pump" size={48} />
@@ -43,6 +44,7 @@ export default function Page() {
         <h1>Ductless comfort, room by room.</h1>
         <p>Start with room coverage, normal door positions, and practical equipment locations. Get a written plan for indoor units, piping, drainage, electrical work, and the heating you expect in winter.</p>
         <div className="hero-actions"><RequestServiceLink className="button button-orange" intent="estimate">Request a ductless estimate ↗</RequestServiceLink><Link className="text-link" href="/services/heat-pumps/cold-climate">Compare ducted and ductless options →</Link></div>
+          <ServiceIntroTrust />
         <p className={styles.notice}>Call <a href={`tel:${siteConfig.phoneE164}`}>{siteConfig.phoneDisplay}</a> for an estimate and current availability. An online inquiry does not reserve an appointment.</p>
       </div>
       <GuideNavigation route="/services/heat-pumps/ductless-mini-splits" />

@@ -1,3 +1,4 @@
+import { ServiceIntroTrust } from "@/components/ui/ServiceIntroTrust";
 import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import Link from "next/link";
@@ -35,7 +36,7 @@ function getMaintenanceSchema() {
 export default function Page() {
   return <>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(getMaintenanceSchema()).replace(/</g, "\\u003c") }} />
-    <div className="wrap interior">
+    <div className="wrap interior service-interior">
       <Breadcrumbs schemaId={`${url}#breadcrumb`} items={[{ name: "Heating services", url: "/services/heating" }, { name: "Furnace maintenance & tune-ups", url: route }]} />
       <div className={`page-heading ${styles.hero}`}>
         <ServiceIcon name="heating" size={48} />
@@ -43,6 +44,7 @@ export default function Page() {
         <h1>Get your furnace ready for a Great Falls winter.</h1>
         <p>Plan a seasonal check for your gas or propane furnace. Know what was checked, what needs attention, and what any extra work would cost before you approve it.</p>
         <div className="hero-actions"><RequestServiceLink className="button button-yellow" intent="maintenance">Request a furnace tune-up ↗</RequestServiceLink><Link className="text-link" href="/services/heating/emergency-furnace-repair">Furnace already acting up? →</Link></div>
+          <ServiceIntroTrust />
         <p className={styles.formNotice}>Call for current pricing and availability. An online request does not reserve an appointment; forms are not continuously monitored.</p>
       </div>
       <GuideNavigation route="/services/heating/furnace-maintenance" />

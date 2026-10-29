@@ -1,3 +1,4 @@
+import { ServiceIntroTrust } from "@/components/ui/ServiceIntroTrust";
 import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import Link from "next/link";
@@ -46,7 +47,7 @@ function getServiceSchema() {
 export default function Page() {
   return <>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(getServiceSchema()).replace(/</g, "\\u003c") }} />
-    <div className="wrap interior">
+    <div className="wrap interior service-interior">
       <Breadcrumbs schemaId={`${url}#breadcrumb`} items={[{ name: "Cold-climate heat pumps", url: "/services/heat-pumps/cold-climate" }, { name: "Heat pump repair & maintenance", url: route }]} />
       <div className={`page-heading ${styles.hero}`}>
         <ServiceIcon name="maintenance" size={48} />
@@ -54,6 +55,7 @@ export default function Page() {
         <h1>Heat pump acting differently? Tell us what changed.</h1>
         <p>Persistent ice, unfamiliar backup-heat use, or rooms losing comfort? Describe the operating pattern, understand the findings, and review the proposed work before deciding what comes next.</p>
         <div className="hero-actions"><a className="button button-orange" href={`tel:${siteConfig.phoneE164}`}>Call for heat pump service: {siteConfig.phoneDisplay}</a><RequestServiceLink className="text-link" intent="maintenance">Request seasonal maintenance ↗</RequestServiceLink></div>
+          <ServiceIntroTrust />
         <p className={styles.notice}>Call for diagnostic fees, included service, and availability. For loss of heat, call first; online requests do not reserve appointments and forms are not continuously monitored.</p>
       </div>
       <section className={`safety-panel ${styles.safety}`} aria-labelledby="hp-service-safety-heading"><h2 id="hp-service-safety-heading">Gas odor, a CO alarm, fire, or electrical danger?</h2><p>For gas odor, a sounding CO alarm, fire, or immediate danger, leave and call 911 from a safe place. Stay clear of sparking, suspected smoke, burning smells, or water near electrical equipment. Stop troubleshooting; do not approach a cloud to identify it.</p><p>For a fan striking ice or new grinding, stop using the affected equipment through normal controls if safe and call promptly for guidance. Do not chip ice, apply heat, remove panels, or keep resetting the system.</p></section>

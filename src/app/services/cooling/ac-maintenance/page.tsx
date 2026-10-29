@@ -1,3 +1,4 @@
+import { ServiceIntroTrust } from "@/components/ui/ServiceIntroTrust";
 import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import Link from "next/link";
@@ -46,7 +47,7 @@ function getMaintenanceSchema() {
 export default function Page() {
   return <>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(getMaintenanceSchema()).replace(/</g, "\\u003c") }} />
-    <div className="wrap interior">
+    <div className="wrap interior service-interior">
       <Breadcrumbs schemaId={`${url}#breadcrumb`} items={[{ name: "Cooling services", url: "/services/cooling" }, { name: "AC maintenance & tune-ups", url: route }]} />
       <div className={`page-heading ${styles.hero}`}>
         <ServiceIcon name="ac-repair" size={48} />
@@ -54,6 +55,7 @@ export default function Page() {
         <h1>Get your AC ready for the next hot spell.</h1>
         <p>Plan seasonal service around your equipment and what it has been exposed to. Understand the cleaning needed, the checks performed, and any work that needs a separate decision.</p>
         <div className="hero-actions"><RequestServiceLink className="button button-orange" intent="maintenance">Request an AC tune-up ↗</RequestServiceLink><Link className="text-link" href="/services/cooling/ac-repair">AC already blowing warm air or icing up? →</Link></div>
+          <ServiceIntroTrust />
         <p className={styles.notice}>Call <a href={`tel:${siteConfig.phoneE164}`}>{siteConfig.phoneDisplay}</a> for current pricing, included service, and availability. An online request does not reserve an appointment; forms are not continuously monitored.</p>
       </div>
       <GuideNavigation route="/services/cooling/ac-maintenance" />

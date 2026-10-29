@@ -1937,3 +1937,18 @@ nav[aria-label="Breadcrumb"] li {
   .site-header .header-inner { height: 68px; }
   .site-header .brand--logo-only .brand-logo { height: 60px; }
 }
+
+/* Compact service introductions while preserving semantic headings and content. */
+.service-interior { padding-top: 16px; }
+.service-interior .page-heading { padding-top: 12px; padding-bottom: 24px; }
+.service-interior .page-heading > .service-icon { width: 36px; height: 36px; margin-bottom: 10px; }
+.service-interior .page-heading > .eyebrow { margin-top: 8px; margin-bottom: 12px; }
+.service-interior .page-heading h1 { margin-bottom: 14px; }
+.service-interior .page-heading .hero-actions { margin-top: 18px; }
+.service-intro-trust { display: flex; flex-wrap: wrap; gap: 6px 24px; margin-top: 16px; font-size: 13px; line-height: 1.6; color: var(--muted); }
+.service-intro-trust strong { font-weight: 600; color: var(--ink); }
+@media (max-width: 600px) {
+  .service-interior { padding-top: 10px; }
+  .service-interior .page-heading { padding-top: 8px; padding-bottom: 20px; }
+  .service-intro-trust { gap: 4px 18px; margin-top: 14px; }
+}

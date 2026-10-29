@@ -1,3 +1,4 @@
+import { ServiceIntroTrust } from "@/components/ui/ServiceIntroTrust";
 import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import { RebateNotice } from "@/components/ui/RebateNotice";
@@ -46,7 +47,7 @@ function getInstallationSchema() {
 export default function Page() {
   return <>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(getInstallationSchema()).replace(/</g, "\\u003c") }} />
-    <div className="wrap interior">
+    <div className="wrap interior service-interior">
       <Breadcrumbs schemaId={`${url}#breadcrumb`} items={[{ name: "Cooling services", url: "/services/cooling" }, { name: "AC installation & replacement", url: route }]} />
       <div className={`page-heading ${styles.hero}`}>
         <ServiceIcon name="ac-repair" size={48} />
@@ -54,6 +55,7 @@ export default function Page() {
         <h1>AC installation starts with the rooms you need to cool.</h1>
         <p>Tell us which rooms need cooling and what you want to improve. Whether you’re replacing an AC or adding cooling for the first time, your quote should explain the equipment and all the work included.</p>
         <div className="hero-actions"><RequestServiceLink className="button button-orange" intent="estimate">Request an installation estimate ↗</RequestServiceLink><a className="text-link" href={`tel:${siteConfig.phoneE164}`}>Discuss your options: {siteConfig.phoneDisplay}</a></div>
+          <ServiceIntroTrust />
         <p className={styles.notice}>Call to confirm an estimate and current availability. An online inquiry does not reserve an appointment.</p>
       </div>
       <GuideNavigation route="/services/cooling/ac-installation" />

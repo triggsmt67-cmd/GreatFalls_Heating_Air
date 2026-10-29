@@ -1,3 +1,4 @@
+import { ServiceIntroTrust } from "@/components/ui/ServiceIntroTrust";
 import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import { RebateNotice } from "@/components/ui/RebateNotice";
@@ -70,7 +71,7 @@ function getCoolingSchema() {
 export default function Page() {
   return <>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(getCoolingSchema()).replace(/</g, "\\u003c") }} />
-    <div className="wrap interior">
+    <div className="wrap interior service-interior">
       <Breadcrumbs schemaId={`${url}#breadcrumb`} items={[{ name: "Cooling services", url: route }]} />
       <div className={`page-heading ${styles.hero}`}>
         <ServiceIcon name="cooling" size={48} />
@@ -78,6 +79,7 @@ export default function Page() {
         <h1>Hot upstairs? AC struggling? Start here.</h1>
         <p>Central AC repair, seasonal maintenance, ductless cooling, and replacement planning for your home—with airflow and filtration options for smoky summer days.</p>
         <div className="hero-actions"><RequestServiceLink className="button button-yellow" intent="estimate">Request service or an estimate ↗</RequestServiceLink><Link className="text-link" href="/services/cooling/ac-repair">AC repair &amp; diagnostics →</Link></div>
+          <ServiceIntroTrust />
       </div>
       <GuideNavigation route="/services/cooling" />
       <div className="interior-grid">

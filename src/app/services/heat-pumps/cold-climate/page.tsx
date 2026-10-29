@@ -1,3 +1,4 @@
+import { ServiceIntroTrust } from "@/components/ui/ServiceIntroTrust";
 import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import { RebateNotice } from "@/components/ui/RebateNotice";
@@ -44,7 +45,7 @@ function getHeatPumpSchema() {
 export default function Page() {
   return <>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(getHeatPumpSchema()).replace(/</g, "\\u003c") }} />
-    <div className="wrap interior">
+    <div className="wrap interior service-interior">
       <Breadcrumbs schemaId={`${url}#breadcrumb`} items={[{ name: "Cold-climate heat pumps", url: route }]} />
       <div className={`page-heading ${styles.hero}`}>
         <ServiceIcon name="heat-pump" size={48} />
@@ -52,6 +53,7 @@ export default function Page() {
         <h1>Heat pumps for Great Falls winters.</h1>
         <p>A Chinook warm-up and a deep freeze call for different things from your heating system. Compare electric heating, furnace backup, and summer cooling around your home and your fuel bills.</p>
         <div className="hero-actions"><RequestServiceLink className="button button-yellow" intent="estimate">Request a heat pump estimate ↗</RequestServiceLink><Link className="text-link" href="/rebates/2026-montana-hvac-rebates">Check Montana heat pump incentives →</Link></div>
+          <ServiceIntroTrust />
       </div>
       <GuideNavigation route="/services/heat-pumps/cold-climate" />
       <div className="interior-grid">

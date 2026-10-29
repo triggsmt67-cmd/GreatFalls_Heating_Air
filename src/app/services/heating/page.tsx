@@ -1,3 +1,4 @@
+import { ServiceIntroTrust } from "@/components/ui/ServiceIntroTrust";
 import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import { RebateNotice } from "@/components/ui/RebateNotice";
@@ -48,7 +49,7 @@ const comparisons = [
 export default function Page() {
   return <>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(getHeatingPageSchema(title, baseMetadata.description ?? "")).replace(/</g, "\\u003c") }} />
-    <div className="wrap interior">
+    <div className="wrap interior service-interior">
       <Breadcrumbs schemaId={`${heatingUrl}#breadcrumb`} items={[{ name: "Heating services", url: "/services/heating" }]} />
       <div className="page-heading">
         <ServiceIcon name="heating" size={48} />
@@ -59,6 +60,7 @@ export default function Page() {
           <RequestServiceLink className="button button-yellow" intent="estimate">Request service or an estimate ↗</RequestServiceLink>
           <Link className="text-link" href="/services/heating/emergency-furnace-repair">Emergency furnace repair &amp; safety →</Link>
         </div>
+          <ServiceIntroTrust />
       </div>
       <GuideNavigation route="/services/heating" />
       <div className="interior-grid">

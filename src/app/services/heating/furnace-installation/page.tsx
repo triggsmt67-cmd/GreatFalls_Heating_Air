@@ -1,3 +1,4 @@
+import { ServiceIntroTrust } from "@/components/ui/ServiceIntroTrust";
 import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import { RebateNotice } from "@/components/ui/RebateNotice";
@@ -36,7 +37,7 @@ function getInstallationSchema() {
 export default function Page() {
   return <>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(getInstallationSchema()).replace(/</g, "\\u003c") }} />
-    <div className="wrap interior">
+    <div className="wrap interior service-interior">
       <Breadcrumbs schemaId={`${url}#breadcrumb`} items={[{ name: "Heating services", url: "/services/heating" }, { name: "Furnace installation & replacement", url: route }]} />
       <div className={`page-heading ${styles.hero}`}>
         <ServiceIcon name="heating" size={48} />
@@ -44,6 +45,7 @@ export default function Page() {
         <h1>Replacing your furnace? Start with the house you have today.</h1>
         <p>Compare sizing, ductwork, venting, and gas or propane options before choosing a new furnace. Get a written estimate that explains the work as clearly as the equipment.</p>
         <div className="hero-actions"><RequestServiceLink className="button button-yellow" intent="estimate">Request a replacement estimate ↗</RequestServiceLink><Link className="text-link" href="/services/heating/emergency-furnace-repair">Need a furnace repair instead? →</Link></div>
+          <ServiceIntroTrust />
       </div>
       <GuideNavigation route="/services/heating/furnace-installation" />
       <div className="interior-grid">
