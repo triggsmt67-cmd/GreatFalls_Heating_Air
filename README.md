@@ -11,7 +11,7 @@ This section supersedes older checkpoint counts and deferred pricing notes below
 
 ### Priority to-do items before public launch and link building
 
-- [ ] **Finish production lead capture.** Implement a shared durable rate limiter and configure email delivery in the authorized environment. The current production rate limiter deliberately returns unavailable. Verify a real authorized submission from browser through delivery and confirmation; a development simulation is not proof. Keep call/email alternatives visible.
+- [ ] **Finish production lead capture.** Server-side Resend and basic in-memory rate limiting are implemented; no database is required. Production environment variables are configured. Deploy the changes and verify an authorized browser submission through inbox delivery; a simulation is not proof. See [Resend setup](docs/resend-setup.md). Keep call/email alternatives visible.
 - [ ] **Add verified business proof.** Obtain the actual Google Business Profile URL, approved owner/team introduction, applicable credentials/insurance and warranty terms, genuine customer reviews, and more documented projects/photos. Preserve existing approved job evidence. Do not publish placeholders or invent affiliations, guarantees, or reviews.
 - [ ] **Confirm additional services and customer programs.** Ask the owner which indoor-air/ventilation, thermostat/control, ductwork/airflow, boiler or commercial services are actually offered before creating dedicated pages. Add financing or maintenance-plan information only if an actual program is established; competitor menus do not establish our offerings.
 - [ ] **Complete public launch and search verification.** Confirm the final domain, DNS/HTTPS, canonical URLs and redirects, deployed mobile/accessibility/performance checks, Search Console ownership/indexing, and accurate Google Business Profile details. Establish impressions, qualified calls/leads and conversion tracking before measuring link-building results. Review rebate sources again before launch; published offers are not guaranteed funding or approval.
@@ -46,7 +46,7 @@ This checkpoint completes the planned **three service hubs and nine subpages**. 
 1. Collect owner feedback and confirm service scope, public owner details, credentials, hours/dispatch, payment, and warranty statements before strengthening any claims.
 2. Add approved reviews and real job evidence; obtain dedicated indoor ductless and maintenance photos plus homepage photos 01–05. Keep reused equipment photos separate from claims about a particular job.
 3. Revisit the three deferred H1 suggestions under **Pre-publication headline review**. Price ranges stay out until actual prices and scope are confirmed.
-4. Finish and test durable rate limiting and email delivery in authorized staging, or disable request-form entry points before public launch. Do not treat a simulated success as delivery.
+4. Deploy and test form rate limiting and email delivery, or disable request-form entry points before public launch. Do not treat a simulated success as delivery.
 5. Verify the deployed final domain, canonical URLs, robots/sitemap, mobile performance and accessibility, then Search Console/GBP details and indexing. A client-review deployment is not a completed launch signoff.
 
 ## Where we are
@@ -197,14 +197,15 @@ No invented GPS coordinates or unconfirmed photo locations were added. Existing 
 
 Five tracked image files were already deleted in the working tree before this session’s edits: `ac-service.webp`, `furnace-diagnostic.webp`, `high-plains-montana.webp`, `home-exterior.webp`, and `winter-heat-pump.webp`. Those unrelated deletions are intentionally excluded from this checkpoint commit; they remain recoverable in Git. Do not stage or restore them without inspecting the intended change.
 
-## Deferred form delivery — required before enabling real submissions
+## Form delivery — configuration required before enabling real submissions
 
-The owner explicitly deferred connecting the forms. Public contact details do **not** configure web-lead delivery.
+The owner authorized connecting Resend on October 30, 2026 and confirmed the sender and recipient in [Resend setup](docs/resend-setup.md). Public contact details do **not** configure web-lead delivery.
 
-- Production `POST /api/lead` intentionally returns **HTTP 503** because `src/lib/validation/rateLimit.ts` has only a development in-memory limiter.
+- `POST /api/lead` uses an in-memory limiter (five attempts per IP per ten minutes per server instance). Counters reset on restarts and are not shared across Vercel instances. No database or rate-limiting subscription is required.
 - Development can simulate success; no message is sent in simulation mode. Do not present that as inbox-delivery proof.
-- [ ] Implement a durable shared rate limiter without a bypass flag.
-- [ ] Configure `EMAIL_PROVIDER_API_KEY`, `CONTACT_FROM_EMAIL` (verified sender), and `CONTACT_TO_EMAIL`; confirm the intended recipient.
+- [x] Implement basic per-instance rate limiting without an external service.
+- [x] Confirm sender and recipient with the owner.
+- [x] Configure Resend credentials and confirmed addresses in Vercel Production with `LEAD_EMAIL_MODE=live`.
 - [ ] Test successful inbox delivery, provider failure, preserved form input, and failure/no-success-redirect behavior in an authorized staging environment.
 - [ ] Before public launch, either finish delivery or clearly disable request-form entry points. Client-review builds currently retain the forms and their call-first notices.
 

@@ -1,14 +1,16 @@
+import "server-only";
+
 export type RateLimitResult = "allowed" | "limited" | "unavailable";
 export interface LeadRateLimiter {
   check(key: string): Promise<RateLimitResult>;
 }
 
-// Local development only. A shared durable implementation must replace this
-// adapter before production submissions are enabled. No env flag bypass.
+// Basic abuse protection without a database: five attempts per IP in ten
+// minutes per server instance. Counters reset on restarts and are not shared
+// across Vercel instances. Validation and the honeypot remain separate checks.
 const attempts = new Map<string, number[]>();
 export const leadRateLimiter: LeadRateLimiter = {
   async check(key) {
-    if (process.env.NODE_ENV === "production") return "unavailable";
     const now = Date.now();
     for (const [ip, times] of attempts) {
       const recent = times.filter((t) => now - t < 600_000);

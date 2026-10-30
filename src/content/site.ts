@@ -138,12 +138,12 @@ export const launchReadinessChecklist: LaunchReadinessItem[] = [
       "Replace Photo 01–10 with approved authentic or licensed photography. Each slot displays its recommended source dimensions, subject, and crop guidance.",
   },
   {
-    key: "durableRateLimiter",
+    key: "rateLimiter",
     label: "Production rate limiter",
-    currentValue: "Development-only limiter",
-    status: "pending_client_confirmation",
+    currentValue: "Basic in-memory limiter; no external service",
+    status: "ready",
     notes:
-      "Production lead endpoint fails closed until a durable shared rate-limiter implementation is configured and tested.",
+      "Five attempts per IP per ten minutes on each server instance. Counters reset on restarts and are not shared across instances.",
   },
   {
     key: "businessName",
@@ -243,13 +243,9 @@ export const launchReadinessChecklist: LaunchReadinessItem[] = [
   {
     key: "emailCredentials",
     label: "Email Dispatch API Credentials",
-    currentValue: process.env.EMAIL_PROVIDER_API_KEY
-      ? "Configured"
-      : "Simulated Local Fallback",
-    status: process.env.EMAIL_PROVIDER_API_KEY
-      ? "ready"
-      : "pending_client_confirmation",
+    currentValue: "Server-side Resend handler; live delivery verification required",
+    status: "pending_client_confirmation",
     notes:
-      "Set CONTACT_TO_EMAIL, CONTACT_FROM_EMAIL, and EMAIL_PROVIDER_API_KEY in production env.",
+      "Set CONTACT_TO_EMAIL, CONTACT_FROM_EMAIL, EMAIL_PROVIDER_API_KEY, and LEAD_EMAIL_MODE=live in production. See docs/resend-setup.md.",
   },
 ];

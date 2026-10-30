@@ -1,3 +1,4 @@
+import "server-only";
 import { LeadFormData } from "../validation/leadFormSchema";
 import { formatHtmlEmail, formatPlainTextEmail } from "./templates";
 import { siteConfig } from "@/content/site";
@@ -10,16 +11,16 @@ export interface SendLeadEmailResult {
 export async function sendLeadNotificationEmail(
   data: LeadFormData,
 ): Promise<SendLeadEmailResult> {
-  const apiKey = process.env.EMAIL_PROVIDER_API_KEY;
-  const toEmail = process.env.CONTACT_TO_EMAIL;
-  const fromEmail = process.env.CONTACT_FROM_EMAIL;
+  const apiKey = process.env.EMAIL_PROVIDER_API_KEY?.trim();
+  const toEmail = process.env.CONTACT_TO_EMAIL?.trim();
+  const fromEmail = process.env.CONTACT_FROM_EMAIL?.trim();
   const failure = {
     success: false,
     error: `Unable to confirm delivery. Please call ${siteConfig.phoneDisplay}.`,
   };
   if (
     process.env.NODE_ENV !== "production" &&
-    (!apiKey || process.env.LEAD_EMAIL_MODE === "simulate")
+    process.env.LEAD_EMAIL_MODE === "simulate"
   ) {
     console.info(
       "[EMAIL] Development simulation: no email sent; customer details are not logged.",
@@ -30,7 +31,10 @@ export async function sendLeadNotificationEmail(
       simulated: true,
     };
   }
-  if (!apiKey || !toEmail || !fromEmail) return failure;
+  if (process.env.LEAD_EMAIL_MODE !== "live" || !apiKey || !toEmail || !fromEmail) {
+    console.error("[EMAIL] Live delivery configuration is incomplete.");
+    return failure;
+  }
   const timestamp = new Date().toLocaleString("en-US", {
     timeZone: "America/Denver",
     dateStyle: "medium",

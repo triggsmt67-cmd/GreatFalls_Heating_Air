@@ -46,9 +46,11 @@ describe("Lead security", () => {
         .phone,
     ).toBeDefined();
   });
-  it("fails closed in production without a durable limiter", async () => {
+  it("limits production attempts without an external database", async () => {
     vi.stubEnv("NODE_ENV", "production");
-    expect(await leadRateLimiter.check("test")).toBe("unavailable");
+    for (let i = 0; i < 5; i++)
+      expect(await leadRateLimiter.check("production-limit-test")).toBe("allowed");
+    expect(await leadRateLimiter.check("production-limit-test")).toBe("limited");
   });
   it("limits local repeated attempts", async () => {
     vi.stubEnv("NODE_ENV", "test");
@@ -64,6 +66,7 @@ describe("Lead security", () => {
   });
   it("requires a provider confirmation ID", async () => {
     vi.stubEnv("NODE_ENV", "production");
+    vi.stubEnv("LEAD_EMAIL_MODE", "live");
     vi.stubEnv("EMAIL_PROVIDER_API_KEY", "test-key");
     vi.stubEnv("CONTACT_TO_EMAIL", "to@example.com");
     vi.stubEnv("CONTACT_FROM_EMAIL", "from@example.com");

@@ -7,7 +7,9 @@ export async function POST(req: NextRequest) {
   const fallback = `Your request could not be delivered. Please call ${siteConfig.phoneDisplay}.`;
   try {
     const key =
-      req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "unknown";
+      (process.env.VERCEL === "1"
+        ? req.headers.get("x-vercel-forwarded-for")
+        : req.headers.get("x-forwarded-for"))?.split(",")[0]?.trim() || "unknown";
     const limit = await leadRateLimiter.check(key);
     if (limit === "unavailable")
       return NextResponse.json(
