@@ -1,23 +1,32 @@
 # Great Falls Heating and Air LLC
 
-## Current client-review checkpoint — October 23, 2026
+## Current project checklist — October 30, 2026
 
-This section supersedes older checkpoint counts and deferred pricing notes below. The current site has 18 page routes and 95 FAQs. National furnace/AC repair budgeting figures are sourced and explicitly not company quotes, advertised rates, or price caps. Installation and maintenance prices remain project-specific. Regular hours are owner-confirmed Monday–Friday, 8 a.m.–5 p.m., with 24/7 emergency service and repair.
+This is the current checklist. Dated checkpoints below are historical records and do not override this status. The live site has 17 canonical public pages, a separate noindex confirmation page, and 95 FAQs. The three service hubs and nine service subpages are built.
 
-- Client-review URL: https://great-falls-heating-air.vercel.app/
-- Release target: existing `origin/main` → Vercel `great-falls-heating-air` client-review deployment. This uses the Production environment but is not a completed public-launch signoff.
-- Updated: plainspoken copy, researched homeowner FAQs with matching schema/source links, officially checked rebate guidance, shared rebate disclaimers, supplied branding, and internal-link verification.
-- Audit records: [FAQ/source/rebate research](docs/faq-research-2026-10-23.md), [internal linking](docs/internal-link-audit-2026-10-23.md), and [Google competitor comparison](docs/competitor-coverage-2026-10-23.md).
+- Live site: https://www.greatfallsheatingandair.com/
+- Verified form-delivery release: `64672e2c52a95c72d3d4a0881638768b25aa6085` on `origin/main`, Vercel Production deployment `dpl_29hNr9ebar61dvrZUPchqhBeZB2a` (READY).
+- Repository/team/project: `triggsmt67-cmd/GreatFalls_Heating_Air` / `trevor-riggs-projects` / `great-falls-heating-air`.
+- Form evidence and exact environment names: [Resend setup and verification](docs/resend-setup.md).
 
-### Priority to-do items before public launch and link building
+### Completed
 
-- [ ] **Finish production lead capture.** Server-side Resend and basic in-memory rate limiting are implemented; no database is required. Production environment variables are configured. Deploy the changes and verify an authorized browser submission through inbox delivery; a simulation is not proof. See [Resend setup](docs/resend-setup.md). Keep call/email alternatives visible.
-- [ ] **Add verified business proof.** Obtain the actual Google Business Profile URL, approved owner/team introduction, applicable credentials/insurance and warranty terms, genuine customer reviews, and more documented projects/photos. Preserve existing approved job evidence. Do not publish placeholders or invent affiliations, guarantees, or reviews.
-- [ ] **Confirm additional services and customer programs.** Ask the owner which indoor-air/ventilation, thermostat/control, ductwork/airflow, boiler or commercial services are actually offered before creating dedicated pages. Add financing or maintenance-plan information only if an actual program is established; competitor menus do not establish our offerings.
-- [ ] **Complete public launch and search verification.** Confirm the final domain, DNS/HTTPS, canonical URLs and redirects, deployed mobile/accessibility/performance checks, Search Console ownership/indexing, and accurate Google Business Profile details. Establish impressions, qualified calls/leads and conversion tracking before measuring link-building results. Review rebate sources again before launch; published offers are not guaranteed funding or approval.
+- [x] **Connect forms to Resend.** The contact-page form, homepage/header request forms, and all 12 service-page drawers use the shared `/api/lead` handler. All four request types were checked on the live endpoint without additional email sends. The authorized real email test was marked Delivered by Resend, and Trevor confirmed receipt in the intended inbox on October 30.
+- [x] **Configure Production email settings and verify the sending domain.** Sender: `Great Falls Heating and Air <notifications@greatfallsheatingandair.com>`; recipient: `gfheatingandair@icloud.com`. The API key is server-side and stored as a Vercel secret. No Redis database or subscription is required.
+- [x] **Keep validation and delivery errors working.** Required fields, consent, honeypot, request size limits, escaped email HTML, preserved input on failure, and basic per-instance rate limiting remain in place. All 38 tests, TypeScript, lint, and the production build passed for the deployed form release.
+- [x] **Publish owner introduction and portrait.** Robert Ross's introduction, veteran background, 20+ years in HVAC, and portrait are present on Home/About. The supplied logo and branded favicon are installed.
+- [x] **Complete the documented mobile/design cleanup.** Body-text sizing, contrast, heading spacing, contact-form ordering, and service-guide navigation were checked in the October 28 audit. These checks do not replace final real-device accessibility or measured production performance checks.
+- [x] **Clean up the privacy page and private address exposure.** The dated policy is published; the private street address was removed from shared browser configuration. Review disclosure changes if tracking or operational policies change.
+- [x] **Align the final domain and SEO URLs.** The preferred host is `https://www.greatfallsheatingandair.com`. Vercel permanently redirects the apex domain to `www`; Production `NEXT_PUBLIC_SITE_URL`, the source fallback, canonical tags, sitemap, robots, social metadata, and generated structured-data URLs use the same host. Domain-alignment checks are required on the resulting deployment before reporting the release complete.
 
-Client review should focus on content, service scope, contact details, imagery and the homeowner experience. Do not treat the review deployment as confirmation that online requests are delivered.
+### Still to finish, in priority order
 
+- [ ] **Finish Google Search Console and Google Business Profile setup.** Confirm ownership, submit the final sitemap, inspect indexing, and supply the actual GBP URL and accurate service-area/business details. Ownership and Google indexing have not been verified here.
+- [ ] **Set up measurement if wanted.** Choose an analytics tool and configure call clicks and successful form submissions as conversions. The current event adapter alone is not an analytics installation; no third-party analytics script is configured. Review privacy/consent wording for the selected setup.
+- [ ] **Add customer proof and final profile links.** Obtain genuine approved reviews, the real Facebook/Instagram URLs (or hide inactive social controls), and a few documented projects. Dedicated maintenance and indoor ductless photos would improve the reused imagery; confirm image rights and which project each photo actually depicts.
+- [ ] **Confirm the remaining business policies and credentials.** Written labor/equipment warranty terms, insurance/EPA credentials as applicable, payment methods, diagnostic/emergency fees, and any manufacturer affiliation claims need owner evidence before stronger statements are published. Keep unverified structured-data claims gated. Additional services, financing, or maintenance plans are optional and should be added only if actually offered.
+- [ ] **Measure final-host performance and complete accessibility checks.** Run deployed mobile Lighthouse/Core Web Vitals checks and final real-device, keyboard/screen-reader, zoom/reflow, and reduced-motion checks. Existing layout/audit results are useful evidence, not a full accessibility certification or field performance measurement.
+- [ ] **Recheck rebate information and approve final content.** Confirm current program terms/funding against primary sources, including the ground-source program details not fully re-certified in the October 28 pass. Finish any optional headline/branding review. Installation and maintenance prices stay project-specific unless the owner supplies actual pricing and scope.
 
 ## Checkpoint — October 19, 2026
 
@@ -197,34 +206,25 @@ No invented GPS coordinates or unconfirmed photo locations were added. Existing 
 
 Five tracked image files were already deleted in the working tree before this session’s edits: `ac-service.webp`, `furnace-diagnostic.webp`, `high-plains-montana.webp`, `home-exterior.webp`, and `winter-heat-pump.webp`. Those unrelated deletions are intentionally excluded from this checkpoint commit; they remain recoverable in Git. Do not stage or restore them without inspecting the intended change.
 
-## Form delivery — configuration required before enabling real submissions
+## Form delivery — connected and verified October 30, 2026
 
-The owner authorized connecting Resend on October 30, 2026 and confirmed the sender and recipient in [Resend setup](docs/resend-setup.md). Public contact details do **not** configure web-lead delivery.
+The forms are connected on the live site. Resend is verified, Production variables are configured, and the user confirmed receipt of the authorized test email. See [Resend setup](docs/resend-setup.md) for the evidence and configuration.
 
 - `POST /api/lead` uses an in-memory limiter (five attempts per IP per ten minutes per server instance). Counters reset on restarts and are not shared across Vercel instances. No database or rate-limiting subscription is required.
 - Development can simulate success; no message is sent in simulation mode. Do not present that as inbox-delivery proof.
 - [x] Implement basic per-instance rate limiting without an external service.
 - [x] Confirm sender and recipient with the owner.
 - [x] Configure Resend credentials and confirmed addresses in Vercel Production with `LEAD_EMAIL_MODE=live`.
-- [ ] Test successful inbox delivery, provider failure, preserved form input, and failure/no-success-redirect behavior in an authorized staging environment.
-- [ ] Before public launch, either finish delivery or clearly disable request-form entry points. Client-review builds currently retain the forms and their call-first notices.
+- [x] Verify actual email delivery and recipient receipt; verify provider-failure handling and preserved input. The successful send ran from the local browser through real Resend; the same code is deployed, and live forms and server validation were checked separately without sending duplicate emails.
+- [x] Deploy connected request forms and verify the live contact page, shared header/home forms, all 12 service-page drawers, and four request types. Keep urgent-call and appointment-expectation notices.
 
 Customer input is validated, email HTML escaped, body sizes limited, and payloads excluded from logs. Failed delivery must not redirect to Thank You. Provider acceptance/message ID alone does not prove inbox delivery.
 
 ## Remaining launch and client-review work
 
-- [x] Complete the service roadmap above locally: three hubs and three subpages per hub. This is content/build completion, not a public-launch signoff.
-- [ ] Recheck `src/content/rebates.ts` against current primary sources before launch. October 19 reconciliation confirmed the electric form's $450 amount and dates, clarified electric-account eligibility, Sun River approval timing, and separate air/ground-source programs. Do not extend an electric program to a former Energy West gas-only account.
-- [ ] Finish homepage/About copy and imagery; confirm any insurance, hours, payment, pricing, dispatch, manufacturer, and warranty claims sitewide.
-- [ ] Add authentic reviews only after obtaining them and permission to use them. The heating page’s sample homeowner-proof block is commented out.
-- [ ] Confirm final branding approvals. `Brand.tsx` currently uses the dimensional SVG logo supplied in the previous checkpoint; it is not the old generic temporary mark.
-- [ ] Confirm privacy, analytics/consent, and retention disclosures before enabling real leads.
-- [ ] Obtain actual price ranges and scope from the owner before adding them.
-- [ ] Run deployed mobile performance/Lighthouse and Core Web Vitals checks; local layout/build checks are not measured production performance.
-- [ ] Finish real-device, keyboard/screen-reader, zoom/reflow, and reduced-motion checks.
-- [ ] Verify Search Console ownership/indexing, live canonical host, sitemap/robots access, and accurate GBP business/service details. No ranking or AI-attribution guarantee is implied.
+Use the current October 30 checklist at the top of this file. Forms, owner introduction/portrait, mobile layout repairs, favicon, and private-address cleanup are complete. Remaining priorities are Search Console/GBP, optional analytics/conversions, genuine reviews/social links/project evidence, business-policy confirmations, final performance/accessibility checks, and rebate/final-content review.
 
-### Pre-publication headline review — deferred October 19, 2026
+### Optional headline suggestions — recorded October 19, 2026
 
 Revisit these suggestions before public launch and requesting Google indexing. They are pending editorial choices; the three page H1s below have not been changed.
 
@@ -271,7 +271,7 @@ Build/typecheck/lint and all 22 existing tests passed during the content work. R
 - `src/components/sections/FinalDarkCTA.tsx`: defaults to estimate; accepts `requestHref`/`requestLabel` for maintenance-specific requests.
 - `src/components/ui/Breadcrumbs.tsx`: optional schema ID connects breadcrumbs to page graphs.
 - `src/components/ui/PhotoPlaceholder.tsx`: renders supplied image when `src` is present, numbered placeholder otherwise.
-- `src/components/forms/LeadForm.tsx`, `src/app/api/lead/route.ts`, `src/lib/email/`, `src/lib/validation/`: deferred real-lead delivery work.
+- `src/components/forms/LeadForm.tsx`, `src/app/api/lead/route.ts`, `src/lib/email/`, `src/lib/validation/`: connected form delivery; see `docs/resend-setup.md`.
 
 ### Image audit — October 19
 

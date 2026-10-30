@@ -32,7 +32,7 @@ afterEach(() => {
 });
 
 function request(body: unknown = lead) {
-  return new NextRequest("https://greatfallsheatingandair.com/api/lead", {
+  return new NextRequest("https://www.greatfallsheatingandair.com/api/lead", {
     method: "POST",
     headers: { "Content-Type": "application/json", "x-vercel-forwarded-for": `192.0.2.${testNumber}`, "x-forwarded-for": "spoofed" },
     body: JSON.stringify(body),

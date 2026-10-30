@@ -1,5 +1,7 @@
 # Great Falls Heating and Air prelaunch website audit
 
+**October 30 status update:** form delivery is connected and deployed; Trevor confirmed inbox receipt of the real Resend test email. The final .com domain serves over HTTPS. The preferred host has been set consistently to HTTPS `www`; final release checks and remaining launch tasks are tracked in the current checklist at the top of [README](../README.md). Findings below retain their October 28 chronology; their deferred form/domain status does not override the October 30 verification.
+
 October 28, 2026. Repository: `triggsmt67-cmd/GreatFalls_Heating_Air`, branch `main`, HEAD `cbb68e2`, including the current uncommitted About, footer, service-area, and sitemap work.
 
 **Current follow-up status:** the street address has been removed from shared configuration, schema code, README guidance, and the rebuilt browser files. The privacy page has been cleaned up and dated October 28, 2026. All 26 tests and the production build pass. Resend integration and final .com domain verification are deferred at Trevor’s request. The original audit findings below remain as evidence; design recommendations have not yet been implemented. A rebuild is unnecessary.

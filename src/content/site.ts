@@ -31,7 +31,7 @@ export const siteConfig = {
   reviewCount: null,
   googleBusinessProfileUrl: "[GBP URL]",
   siteUrl:
-    (process.env.NEXT_PUBLIC_SITE_URL || "https://greatfallsheatingandair.com").replace(/\/+$/, ""),
+    (process.env.NEXT_PUBLIC_SITE_URL || "https://www.greatfallsheatingandair.com").replace(/\/+$/, ""),
   socials: {
     facebook: "[FACEBOOK URL]",
     instagram: "[INSTAGRAM URL]",
@@ -132,10 +132,10 @@ export const launchReadinessChecklist: LaunchReadinessItem[] = [
   {
     key: "temporaryPhotography",
     label: "Temporary imagery",
-    currentValue: "Ten labeled photography placeholders",
+    currentValue: "Existing images installed; dedicated job photography still needed",
     status: "pending_client_confirmation",
     notes:
-      "Replace Photo 01–10 with approved authentic or licensed photography. Each slot displays its recommended source dimensions, subject, and crop guidance.",
+      "Obtain dedicated maintenance and indoor ductless photos and confirm rights and project associations for any new job examples. Existing images and Robert's portrait are installed.",
   },
   {
     key: "rateLimiter",
@@ -163,8 +163,8 @@ export const launchReadinessChecklist: LaunchReadinessItem[] = [
     key: "email",
     label: "Contact & Dispatch Email",
     currentValue: siteConfig.email,
-    status: "pending_client_confirmation",
-    notes: "Public email supplied by the client. Production web lead delivery still requires mailbox configuration and verification.",
+    status: "ready",
+    notes: "Confirmed recipient for live Resend notifications. Trevor confirmed receipt of the authorized test email on October 30, 2026.",
   },
   {
     key: "serviceArea",
@@ -206,9 +206,9 @@ export const launchReadinessChecklist: LaunchReadinessItem[] = [
     key: "ownerStory",
     label: "Owner & Company History",
     currentValue: siteConfig.ownerName,
-    status: "pending_client_confirmation",
+    status: "ready",
     notes:
-      "Client approval required for founder bio, local roots, and technician backgrounds.",
+      "Approved Robert Ross introduction and portrait are published on Home/About. Additional history or technician biographies still require supplied evidence and approval.",
   },
   {
     key: "warranties",
@@ -243,9 +243,9 @@ export const launchReadinessChecklist: LaunchReadinessItem[] = [
   {
     key: "emailCredentials",
     label: "Email Dispatch API Credentials",
-    currentValue: "Server-side Resend handler; live delivery verification required",
-    status: "pending_client_confirmation",
+    currentValue: "Connected through Resend; recipient confirmed test receipt",
+    status: "ready",
     notes:
-      "Set CONTACT_TO_EMAIL, CONTACT_FROM_EMAIL, EMAIL_PROVIDER_API_KEY, and LEAD_EMAIL_MODE=live in production. See docs/resend-setup.md.",
+      "Production credentials and sender domain are configured. Live contact and request-drawer wiring verified October 30, 2026. See docs/resend-setup.md; credentials remain server-side.",
   },
 ];

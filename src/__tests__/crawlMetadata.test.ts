@@ -16,9 +16,9 @@ function pageRoutes(directory: string, prefix = ""): string[] {
 
 describe("Canonical routes and crawler metadata", () => {
   it("keeps old HTML sitemap links working without an extra presentation page", () => {
-    const response = sitemapRedirect(new Request("https://greatfallsheatingandair.com/sitemap"));
+    const response = sitemapRedirect(new Request("https://www.greatfallsheatingandair.com/sitemap"));
     expect(response.status).toBe(308);
-    expect(response.headers.get("location")).toBe("https://greatfallsheatingandair.com/sitemap.xml");
+    expect(response.headers.get("location")).toBe("https://www.greatfallsheatingandair.com/sitemap.xml");
     expect(sitemap().some((entry) => new URL(entry.url).pathname === "/sitemap")).toBe(false);
   });
 
@@ -33,9 +33,11 @@ describe("Canonical routes and crawler metadata", () => {
 
   it("uses identical clean canonical URLs in metadata and the sitemap", () => {
     for (const entry of sitemap()) {
+      expect(new URL(entry.url).origin).toBe("https://www.greatfallsheatingandair.com");
       const pathname = new URL(entry.url).pathname;
       const metadata = buildMetadata({ title: "Test", description: "Test", canonicalPath: pathname });
       expect(metadata.alternates?.canonical).toBe(entry.url);
+      expect(metadata.openGraph).toMatchObject({ url: entry.url });
     }
     expect(canonicalUrl("/contact/?intent=estimate#form")).toBe(canonicalUrl("/contact"));
   });
