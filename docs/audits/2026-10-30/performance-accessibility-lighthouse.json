@@ -1,0 +1,885 @@
+{
+  "about-after": {
+    "url": "https://www.greatfallsheatingandair.com/about",
+    "lighthouseVersion": "13.0.1",
+    "throttlingMethod": "simulate",
+    "scores": {
+      "performance": 87,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 969.682,
+        "display": "1.0\u00a0s"
+      },
+      "largest-contentful-paint": {
+        "value": 3983.0249999999996,
+        "display": "4.0\u00a0s"
+      },
+      "total-blocking-time": {
+        "value": 73.49999999999977,
+        "display": "70\u00a0ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0,
+        "display": "0"
+      },
+      "speed-index": {
+        "value": 2608.4586262359353,
+        "display": "2.6\u00a0s"
+      }
+    },
+    "accessibilityFailures": []
+  },
+  "about-before": {
+    "url": "https://www.greatfallsheatingandair.com/about",
+    "lighthouseVersion": "13.0.1",
+    "throttlingMethod": "simulate",
+    "scores": {
+      "performance": 98,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 926.918,
+        "display": "0.9\u00a0s"
+      },
+      "largest-contentful-paint": {
+        "value": 2351.918,
+        "display": "2.4\u00a0s"
+      },
+      "total-blocking-time": {
+        "value": 17.999999999999773,
+        "display": "20\u00a0ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0,
+        "display": "0"
+      },
+      "speed-index": {
+        "value": 1622.0012400027033,
+        "display": "1.6\u00a0s"
+      }
+    },
+    "accessibilityFailures": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "nodes": [
+          "ol.flex > li.flex > a.hover:text-[#087BEA] > span"
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "nodes": [
+          "footer.Footer-module__3hUVsW__footer > div.wrap > div.Footer-module__3hUVsW__contact > a.Footer-module__3hUVsW__wordmark"
+        ]
+      }
+    ]
+  },
+  "about-measured-mobile": {
+    "url": "https://www.greatfallsheatingandair.com/about",
+    "lighthouseVersion": "13.0.1",
+    "throttlingMethod": "devtools",
+    "scores": {
+      "performance": 96
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 2182.778,
+        "display": "2.2\u00a0s"
+      },
+      "largest-contentful-paint": {
+        "value": 2184.638,
+        "display": "2.2\u00a0s"
+      },
+      "total-blocking-time": {
+        "value": 65.85600000000068,
+        "display": "70\u00a0ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 2.066746386688765e-05,
+        "display": "0"
+      },
+      "speed-index": {
+        "value": 2190,
+        "display": "2.2\u00a0s"
+      }
+    },
+    "accessibilityFailures": []
+  },
+  "contact-after": {
+    "url": "https://www.greatfallsheatingandair.com/contact",
+    "lighthouseVersion": "13.0.1",
+    "throttlingMethod": "simulate",
+    "scores": {
+      "performance": 85,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 1026.704,
+        "display": "1.0\u00a0s"
+      },
+      "largest-contentful-paint": {
+        "value": 4298.277,
+        "display": "4.3\u00a0s"
+      },
+      "total-blocking-time": {
+        "value": 48.5,
+        "display": "50\u00a0ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0,
+        "display": "0"
+      },
+      "speed-index": {
+        "value": 2335.051025984442,
+        "display": "2.3\u00a0s"
+      }
+    },
+    "accessibilityFailures": []
+  },
+  "contact-before": {
+    "url": "https://www.greatfallsheatingandair.com/contact",
+    "lighthouseVersion": "13.0.1",
+    "throttlingMethod": "simulate",
+    "scores": {
+      "performance": 100,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 1053.402,
+        "display": "1.1\u00a0s"
+      },
+      "largest-contentful-paint": {
+        "value": 1803.402,
+        "display": "1.8\u00a0s"
+      },
+      "total-blocking-time": {
+        "value": 28,
+        "display": "30\u00a0ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0,
+        "display": "0"
+      },
+      "speed-index": {
+        "value": 1516.7637239926935,
+        "display": "1.5\u00a0s"
+      }
+    },
+    "accessibilityFailures": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "nodes": [
+          "ol.flex > li.flex > a.hover:text-[#087BEA] > span"
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "nodes": [
+          "footer.Footer-module__3hUVsW__footer > div.wrap > div.Footer-module__3hUVsW__contact > a.Footer-module__3hUVsW__wordmark"
+        ]
+      }
+    ]
+  },
+  "contact-measured-mobile": {
+    "url": "https://www.greatfallsheatingandair.com/contact",
+    "lighthouseVersion": "13.0.1",
+    "throttlingMethod": "devtools",
+    "scores": {
+      "performance": 97
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 2095.884,
+        "display": "2.1\u00a0s"
+      },
+      "largest-contentful-paint": {
+        "value": 2095.884,
+        "display": "2.1\u00a0s"
+      },
+      "total-blocking-time": {
+        "value": 28.434999969483215,
+        "display": "30\u00a0ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 6.24397982433484e-05,
+        "display": "0"
+      },
+      "speed-index": {
+        "value": 2114,
+        "display": "2.1\u00a0s"
+      }
+    },
+    "accessibilityFailures": []
+  },
+  "home-after": {
+    "url": "https://www.greatfallsheatingandair.com/",
+    "lighthouseVersion": "13.0.1",
+    "throttlingMethod": "simulate",
+    "scores": {
+      "performance": 80,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 1136.49,
+        "display": "1.1\u00a0s"
+      },
+      "largest-contentful-paint": {
+        "value": 5235.678000000001,
+        "display": "5.2\u00a0s"
+      },
+      "total-blocking-time": {
+        "value": 36,
+        "display": "40\u00a0ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0,
+        "display": "0"
+      },
+      "speed-index": {
+        "value": 2662.845828638513,
+        "display": "2.7\u00a0s"
+      }
+    },
+    "accessibilityFailures": []
+  },
+  "home-before": {
+    "url": "https://www.greatfallsheatingandair.com/",
+    "lighthouseVersion": "13.0.1",
+    "throttlingMethod": "simulate",
+    "scores": {
+      "performance": 95,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 1177.483,
+        "display": "1.2\u00a0s"
+      },
+      "largest-contentful-paint": {
+        "value": 2884.483,
+        "display": "2.9\u00a0s"
+      },
+      "total-blocking-time": {
+        "value": 15,
+        "display": "20\u00a0ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0,
+        "display": "0"
+      },
+      "speed-index": {
+        "value": 2399.5456720020293,
+        "display": "2.4\u00a0s"
+      }
+    },
+    "accessibilityFailures": [
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "nodes": [
+          "footer.Footer-module__3hUVsW__footer > div.wrap > div.Footer-module__3hUVsW__contact > a.Footer-module__3hUVsW__wordmark"
+        ]
+      }
+    ]
+  },
+  "home-measured-mobile": {
+    "url": "https://www.greatfallsheatingandair.com/",
+    "lighthouseVersion": "13.0.1",
+    "throttlingMethod": "devtools",
+    "scores": {
+      "performance": 95
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 2136.667,
+        "display": "2.1\u00a0s"
+      },
+      "largest-contentful-paint": {
+        "value": 2603.612,
+        "display": "2.6\u00a0s"
+      },
+      "total-blocking-time": {
+        "value": 48.5300000000002,
+        "display": "50\u00a0ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0.0001020250994063819,
+        "display": "0"
+      },
+      "speed-index": {
+        "value": 2205,
+        "display": "2.2\u00a0s"
+      }
+    },
+    "accessibilityFailures": []
+  },
+  "privacy-before": {
+    "url": "https://www.greatfallsheatingandair.com/privacy",
+    "lighthouseVersion": "13.0.1",
+    "throttlingMethod": "simulate",
+    "scores": {
+      "accessibility": 100
+    },
+    "metrics": {},
+    "accessibilityFailures": [
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "nodes": [
+          "footer.Footer-module__3hUVsW__footer > div.wrap > div.Footer-module__3hUVsW__contact > a.Footer-module__3hUVsW__wordmark"
+        ]
+      }
+    ]
+  },
+  "rebates--2026-montana-hvac-rebates-after": {
+    "url": "https://www.greatfallsheatingandair.com/rebates/2026-montana-hvac-rebates",
+    "lighthouseVersion": "13.0.1",
+    "throttlingMethod": "simulate",
+    "scores": {
+      "performance": 88,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 1021.8580000000001,
+        "display": "1.0\u00a0s"
+      },
+      "largest-contentful-paint": {
+        "value": 3861.322,
+        "display": "3.9\u00a0s"
+      },
+      "total-blocking-time": {
+        "value": 58,
+        "display": "60\u00a0ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0,
+        "display": "0"
+      },
+      "speed-index": {
+        "value": 2410.4222111839026,
+        "display": "2.4\u00a0s"
+      }
+    },
+    "accessibilityFailures": []
+  },
+  "rebates--2026-montana-hvac-rebates-before": {
+    "url": "https://www.greatfallsheatingandair.com/rebates/2026-montana-hvac-rebates",
+    "lighthouseVersion": "13.0.1",
+    "throttlingMethod": "simulate",
+    "scores": {
+      "performance": 86,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 989.085,
+        "display": "1.0\u00a0s"
+      },
+      "largest-contentful-paint": {
+        "value": 4154.598,
+        "display": "4.2\u00a0s"
+      },
+      "total-blocking-time": {
+        "value": 47.5,
+        "display": "50\u00a0ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0,
+        "display": "0"
+      },
+      "speed-index": {
+        "value": 2814.5895641608918,
+        "display": "2.8\u00a0s"
+      }
+    },
+    "accessibilityFailures": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "nodes": [
+          "ol.flex > li.flex > a.hover:text-[#087BEA] > span"
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "nodes": [
+          "footer.Footer-module__3hUVsW__footer > div.wrap > div.Footer-module__3hUVsW__contact > a.Footer-module__3hUVsW__wordmark"
+        ]
+      }
+    ]
+  },
+  "rebates--2026-montana-hvac-rebates-measured-mobile": {
+    "url": "https://www.greatfallsheatingandair.com/rebates/2026-montana-hvac-rebates",
+    "lighthouseVersion": "13.0.1",
+    "throttlingMethod": "devtools",
+    "scores": {
+      "performance": 97
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 2044.262,
+        "display": "2.0\u00a0s"
+      },
+      "largest-contentful-paint": {
+        "value": 2044.262,
+        "display": "2.0\u00a0s"
+      },
+      "total-blocking-time": {
+        "value": 56.22799996948288,
+        "display": "60\u00a0ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0.0003176801802173062,
+        "display": "0"
+      },
+      "speed-index": {
+        "value": 2051,
+        "display": "2.1\u00a0s"
+      }
+    },
+    "accessibilityFailures": []
+  },
+  "services--cooling--ac-installation-before": {
+    "url": "https://www.greatfallsheatingandair.com/services/cooling/ac-installation",
+    "lighthouseVersion": "13.0.1",
+    "throttlingMethod": "simulate",
+    "scores": {
+      "accessibility": 96
+    },
+    "metrics": {},
+    "accessibilityFailures": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "nodes": [
+          "ol.flex > li.flex > a.hover:text-[#087BEA] > span",
+          "ol.flex > li.flex > a.hover:text-[#087BEA] > span"
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "nodes": [
+          "footer.Footer-module__3hUVsW__footer > div.wrap > div.Footer-module__3hUVsW__contact > a.Footer-module__3hUVsW__wordmark"
+        ]
+      }
+    ]
+  },
+  "services--cooling--ac-maintenance-before": {
+    "url": "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance",
+    "lighthouseVersion": "13.0.1",
+    "throttlingMethod": "simulate",
+    "scores": {
+      "accessibility": 96
+    },
+    "metrics": {},
+    "accessibilityFailures": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "nodes": [
+          "ol.flex > li.flex > a.hover:text-[#087BEA] > span",
+          "ol.flex > li.flex > a.hover:text-[#087BEA] > span"
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "nodes": [
+          "footer.Footer-module__3hUVsW__footer > div.wrap > div.Footer-module__3hUVsW__contact > a.Footer-module__3hUVsW__wordmark"
+        ]
+      }
+    ]
+  },
+  "services--cooling--ac-repair-before": {
+    "url": "https://www.greatfallsheatingandair.com/services/cooling/ac-repair",
+    "lighthouseVersion": "13.0.1",
+    "throttlingMethod": "simulate",
+    "scores": {
+      "accessibility": 96
+    },
+    "metrics": {},
+    "accessibilityFailures": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "nodes": [
+          "ol.flex > li.flex > a.hover:text-[#087BEA] > span",
+          "ol.flex > li.flex > a.hover:text-[#087BEA] > span"
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "nodes": [
+          "footer.Footer-module__3hUVsW__footer > div.wrap > div.Footer-module__3hUVsW__contact > a.Footer-module__3hUVsW__wordmark"
+        ]
+      }
+    ]
+  },
+  "services--cooling-before": {
+    "url": "https://www.greatfallsheatingandair.com/services/cooling",
+    "lighthouseVersion": "13.0.1",
+    "throttlingMethod": "simulate",
+    "scores": {
+      "accessibility": 96
+    },
+    "metrics": {},
+    "accessibilityFailures": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "nodes": [
+          "ol.flex > li.flex > a.hover:text-[#087BEA] > span"
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "nodes": [
+          "footer.Footer-module__3hUVsW__footer > div.wrap > div.Footer-module__3hUVsW__contact > a.Footer-module__3hUVsW__wordmark"
+        ]
+      }
+    ]
+  },
+  "services--heat-pumps--cold-climate-before": {
+    "url": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate",
+    "lighthouseVersion": "13.0.1",
+    "throttlingMethod": "simulate",
+    "scores": {
+      "accessibility": 96
+    },
+    "metrics": {},
+    "accessibilityFailures": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "nodes": [
+          "ol.flex > li.flex > a.hover:text-[#087BEA] > span"
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "nodes": [
+          "footer.Footer-module__3hUVsW__footer > div.wrap > div.Footer-module__3hUVsW__contact > a.Footer-module__3hUVsW__wordmark"
+        ]
+      }
+    ]
+  },
+  "services--heat-pumps--ductless-mini-splits-before": {
+    "url": "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits",
+    "lighthouseVersion": "13.0.1",
+    "throttlingMethod": "simulate",
+    "scores": {
+      "accessibility": 96
+    },
+    "metrics": {},
+    "accessibilityFailures": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "nodes": [
+          "ol.flex > li.flex > a.hover:text-[#087BEA] > span",
+          "ol.flex > li.flex > a.hover:text-[#087BEA] > span"
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "nodes": [
+          "footer.Footer-module__3hUVsW__footer > div.wrap > div.Footer-module__3hUVsW__contact > a.Footer-module__3hUVsW__wordmark"
+        ]
+      }
+    ]
+  },
+  "services--heat-pumps--heat-pump-installation-before": {
+    "url": "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation",
+    "lighthouseVersion": "13.0.1",
+    "throttlingMethod": "simulate",
+    "scores": {
+      "accessibility": 96
+    },
+    "metrics": {},
+    "accessibilityFailures": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "nodes": [
+          "ol.flex > li.flex > a.hover:text-[#087BEA] > span",
+          "ol.flex > li.flex > a.hover:text-[#087BEA] > span"
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "nodes": [
+          "footer.Footer-module__3hUVsW__footer > div.wrap > div.Footer-module__3hUVsW__contact > a.Footer-module__3hUVsW__wordmark"
+        ]
+      }
+    ]
+  },
+  "services--heat-pumps--repair-maintenance-before": {
+    "url": "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance",
+    "lighthouseVersion": "13.0.1",
+    "throttlingMethod": "simulate",
+    "scores": {
+      "accessibility": 96
+    },
+    "metrics": {},
+    "accessibilityFailures": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "nodes": [
+          "ol.flex > li.flex > a.hover:text-[#087BEA] > span",
+          "ol.flex > li.flex > a.hover:text-[#087BEA] > span"
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "nodes": [
+          "footer.Footer-module__3hUVsW__footer > div.wrap > div.Footer-module__3hUVsW__contact > a.Footer-module__3hUVsW__wordmark"
+        ]
+      }
+    ]
+  },
+  "services--heating--emergency-furnace-repair-after": {
+    "url": "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair",
+    "lighthouseVersion": "13.0.1",
+    "throttlingMethod": "simulate",
+    "scores": {
+      "performance": 80,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 1361.7360000000003,
+        "display": "1.4\u00a0s"
+      },
+      "largest-contentful-paint": {
+        "value": 4903.77,
+        "display": "4.9\u00a0s"
+      },
+      "total-blocking-time": {
+        "value": 52,
+        "display": "50\u00a0ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0,
+        "display": "0"
+      },
+      "speed-index": {
+        "value": 4061.5242928699117,
+        "display": "4.1\u00a0s"
+      }
+    },
+    "accessibilityFailures": []
+  },
+  "services--heating--emergency-furnace-repair-before": {
+    "url": "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair",
+    "lighthouseVersion": "13.0.1",
+    "throttlingMethod": "simulate",
+    "scores": {
+      "performance": 78,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 1410.187,
+        "display": "1.4\u00a0s"
+      },
+      "largest-contentful-paint": {
+        "value": 5066.786,
+        "display": "5.1\u00a0s"
+      },
+      "total-blocking-time": {
+        "value": 74,
+        "display": "70\u00a0ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0,
+        "display": "0"
+      },
+      "speed-index": {
+        "value": 4378.542142598993,
+        "display": "4.4\u00a0s"
+      }
+    },
+    "accessibilityFailures": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "nodes": [
+          "ol.flex > li.flex > a.hover:text-[#087BEA] > span",
+          "ol.flex > li.flex > a.hover:text-[#087BEA] > span"
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "nodes": [
+          "footer.Footer-module__3hUVsW__footer > div.wrap > div.Footer-module__3hUVsW__contact > a.Footer-module__3hUVsW__wordmark"
+        ]
+      }
+    ]
+  },
+  "services--heating--emergency-furnace-repair-measured-mobile": {
+    "url": "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair",
+    "lighthouseVersion": "13.0.1",
+    "throttlingMethod": "devtools",
+    "scores": {
+      "performance": 97
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 2074.985,
+        "display": "2.1\u00a0s"
+      },
+      "largest-contentful-paint": {
+        "value": 2074.985,
+        "display": "2.1\u00a0s"
+      },
+      "total-blocking-time": {
+        "value": 57.62200000000075,
+        "display": "60\u00a0ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0.003382685447032259,
+        "display": "0.003"
+      },
+      "speed-index": {
+        "value": 2084,
+        "display": "2.1\u00a0s"
+      }
+    },
+    "accessibilityFailures": []
+  },
+  "services--heating--furnace-installation-before": {
+    "url": "https://www.greatfallsheatingandair.com/services/heating/furnace-installation",
+    "lighthouseVersion": "13.0.1",
+    "throttlingMethod": "simulate",
+    "scores": {
+      "accessibility": 96
+    },
+    "metrics": {},
+    "accessibilityFailures": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "nodes": [
+          "ol.flex > li.flex > a.hover:text-[#087BEA] > span",
+          "ol.flex > li.flex > a.hover:text-[#087BEA] > span"
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "nodes": [
+          "footer.Footer-module__3hUVsW__footer > div.wrap > div.Footer-module__3hUVsW__contact > a.Footer-module__3hUVsW__wordmark"
+        ]
+      }
+    ]
+  },
+  "services--heating--furnace-maintenance-before": {
+    "url": "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance",
+    "lighthouseVersion": "13.0.1",
+    "throttlingMethod": "simulate",
+    "scores": {
+      "accessibility": 96
+    },
+    "metrics": {},
+    "accessibilityFailures": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "nodes": [
+          "ol.flex > li.flex > a.hover:text-[#087BEA] > span",
+          "ol.flex > li.flex > a.hover:text-[#087BEA] > span"
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "nodes": [
+          "footer.Footer-module__3hUVsW__footer > div.wrap > div.Footer-module__3hUVsW__contact > a.Footer-module__3hUVsW__wordmark"
+        ]
+      }
+    ]
+  },
+  "services--heating-before": {
+    "url": "https://www.greatfallsheatingandair.com/services/heating",
+    "lighthouseVersion": "13.0.1",
+    "throttlingMethod": "simulate",
+    "scores": {
+      "accessibility": 96
+    },
+    "metrics": {},
+    "accessibilityFailures": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "nodes": [
+          "ol.flex > li.flex > a.hover:text-[#087BEA] > span"
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "nodes": [
+          "footer.Footer-module__3hUVsW__footer > div.wrap > div.Footer-module__3hUVsW__contact > a.Footer-module__3hUVsW__wordmark"
+        ]
+      }
+    ]
+  },
+  "thank-you-before": {
+    "url": "https://www.greatfallsheatingandair.com/thank-you",
+    "lighthouseVersion": "13.0.1",
+    "throttlingMethod": "simulate",
+    "scores": {
+      "accessibility": 100
+    },
+    "metrics": {},
+    "accessibilityFailures": [
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "nodes": [
+          "footer.Footer-module__3hUVsW__footer > div.wrap > div.Footer-module__3hUVsW__contact > a.Footer-module__3hUVsW__wordmark"
+        ]
+      }
+    ]
+  }
+}

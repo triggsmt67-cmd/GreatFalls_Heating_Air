@@ -1,0 +1,1996 @@
+{
+  "site": "https://www.greatfallsheatingandair.com",
+  "sourceCommit": "6ce0b8ef9819f60952d6d8a67a5d0ad46832a8ab",
+  "checkedAt": "2026-10-30T23:47:36.169Z",
+  "axe": {
+    "pages": [
+      {
+        "path": "/",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "aria-valid-attr-value",
+            "nodes": [
+              {
+                "target": [
+                  ".home-module__Hx0lNG__heroActions > .button-yellow[href=\"/contact?intent=general\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".cta-actions > .button-yellow[href=\"/contact?intent=general\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".mobile-actions > .button-yellow[href=\"/contact?intent=general\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              }
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "target": [
+                  ".home-module__Hx0lNG__heroEyebrow"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+              },
+              {
+                "target": [
+                  "#home-hero-title > span:nth-child(1)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+              },
+              {
+                "target": [
+                  "#home-hero-title > span:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+              },
+              {
+                "target": [
+                  ".home-module__Hx0lNG__placeName"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+              },
+              {
+                "target": [
+                  ".home-module__Hx0lNG__heroDescription"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+              },
+              {
+                "target": [
+                  ".home-module__Hx0lNG__heroActions > .button-orange.button[href=\"tel:+14067814027\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+              },
+              {
+                "target": [
+                  ".home-module__Hx0lNG__heroActions > .button-yellow[href=\"/contact?intent=general\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+              },
+              {
+                "target": [
+                  ".home-module__Hx0lNG__heroTrust"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+              },
+              {
+                "target": [
+                  ".home-module__Hx0lNG__heroRegistration"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+              },
+              {
+                "target": [
+                  ".home-module__Hx0lNG__heroRegistration > strong"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/about",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "aria-valid-attr-value",
+            "nodes": [
+              {
+                "target": [
+                  ".cta-actions > .button-yellow[href=\"/contact?intent=estimate\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".mobile-actions > .button-yellow[href=\"/contact?intent=estimate\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/contact",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "aria-valid-attr-value",
+            "nodes": [
+              {
+                "target": [
+                  "a[href=\"/contact?intent=estimate\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/privacy",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "aria-valid-attr-value",
+            "nodes": [
+              {
+                "target": [
+                  "a[href=\"/contact?intent=estimate\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/rebates/2026-montana-hvac-rebates",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "aria-valid-attr-value",
+            "nodes": [
+              {
+                "target": [
+                  ".cta-actions > .button-yellow[href=\"/contact?intent=estimate\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".mobile-actions > .button-yellow[href=\"/contact?intent=estimate\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/services/heating",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "aria-valid-attr-value",
+            "nodes": [
+              {
+                "target": [
+                  ".hero-actions > .button-yellow[href=\"/contact?intent=estimate\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".cta-actions > .button-yellow[href=\"/contact?intent=estimate\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".mobile-actions > .button-yellow[href=\"/contact?intent=estimate\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              }
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "target": [
+                  "a[href$=\"#tune-up-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href=\"#heating-logistics-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href$=\"#heating-faq-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/services/heating/emergency-furnace-repair",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "aria-valid-attr-value",
+            "nodes": [
+              {
+                "target": [
+                  ".hero-actions > a[href=\"/contact?intent=emergency\"][aria-haspopup=\"dialog\"][aria-controls=\"service-request-drawer\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".button-yellow[href=\"/contact?intent=emergency\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".mobile-actions > .button-yellow[href=\"/contact?intent=general\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              }
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "target": [
+                  "a[href$=\"#homeowner-checks-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href$=\"#failures-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href$=\"#emergency-faq-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  ".mobile-actions > .button-yellow[href=\"/contact?intent=general\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/services/heating/furnace-installation",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "aria-valid-attr-value",
+            "nodes": [
+              {
+                "target": [
+                  ".hero-actions > .button-yellow[href=\"/contact?intent=estimate\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".article-copy > a[href=\"/contact?intent=estimate\"][aria-haspopup=\"dialog\"][aria-controls=\"service-request-drawer\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".cta-actions > .button-yellow[href=\"/contact?intent=estimate\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".mobile-actions > .button-yellow[href=\"/contact?intent=estimate\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              }
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "target": [
+                  "a[href=\"#furnace-efficiency-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href$=\"#furnace-cost-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href$=\"#furnace-estimate-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href=\"#furnace-install-faq-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "tr:nth-child(1) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(1) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(2) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(2) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(3) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(3) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(4) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(4) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(5) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(5) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(6) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(6) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(7) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(7) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  ".mobile-actions > .button-yellow[href=\"/contact?intent=estimate\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/services/heating/furnace-maintenance",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "aria-valid-attr-value",
+            "nodes": [
+              {
+                "target": [
+                  ".hero-actions > .button-yellow[href=\"/contact?intent=maintenance\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".cta-actions > .button-yellow[href=\"/contact?intent=maintenance\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".mobile-actions > .button-yellow[href=\"/contact?intent=maintenance\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              }
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "target": [
+                  "a[href=\"#maintenance-checklist-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href=\"#maintenance-owner-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "li:nth-child(3) > a > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "tr:nth-child(1) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(1) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(2) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(2) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(3) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(3) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(4) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(4) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(5) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(5) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(6) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(6) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(7) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(7) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/services/cooling",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "aria-valid-attr-value",
+            "nodes": [
+              {
+                "target": [
+                  ".hero-actions > .button-yellow[href=\"/contact?intent=estimate\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".cta-actions > .button-yellow[href=\"/contact?intent=estimate\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".mobile-actions > .button-yellow[href=\"/contact?intent=estimate\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              }
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "target": [
+                  "a[href$=\"#cooling-symptoms-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href$=\"#cooling-tuneup-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href$=\"#cooling-smoke-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href$=\"#cooling-faq-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/services/cooling/ac-repair",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "aria-valid-attr-value",
+            "nodes": [
+              {
+                "target": [
+                  ".hero-actions > a[href=\"/contact?intent=general\"][aria-haspopup=\"dialog\"][aria-controls=\"service-request-drawer\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".cta-actions > .button-yellow[href=\"/contact?intent=general\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".mobile-actions > .button-yellow[href=\"/contact?intent=general\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              }
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "target": [
+                  "a[href$=\"#ac-symptoms-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href$=\"#ac-findings-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href$=\"#ac-decision-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href$=\"#ac-repair-faq-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "tr:nth-child(1) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(1) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(2) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(2) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(3) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(3) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(4) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(4) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/services/cooling/ac-installation",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "aria-valid-attr-value",
+            "nodes": [
+              {
+                "target": [
+                  ".button-orange[href=\"/contact?intent=estimate\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".cta-actions > .button-yellow[href=\"/contact?intent=estimate\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".mobile-actions > .button-yellow[href=\"/contact?intent=estimate\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              }
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "target": [
+                  "a[href$=\"#ac-paths-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href$=\"#ac-cost-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href$=\"#ac-scope-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href=\"#ac-installation-faq-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "tr:nth-child(1) > td"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(2) > td"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(3) > td"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(4) > td"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(5) > td"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(6) > td"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(7) > td"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/services/cooling/ac-maintenance",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "aria-valid-attr-value",
+            "nodes": [
+              {
+                "target": [
+                  ".button-orange[href=\"/contact?intent=maintenance\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".cta-actions > .button-yellow[href=\"/contact?intent=maintenance\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".mobile-actions > .button-yellow[href=\"/contact?intent=maintenance\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              }
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "target": [
+                  "a[href=\"#ac-maintenance-checks-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href$=\"#ac-owner-care-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href=\"#ac-maintenance-faq-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  ".maintenance-diagram-module__nlg8DG__area:nth-child(1) > .maintenance-diagram-module__nlg8DG__connector[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  ".maintenance-diagram-module__nlg8DG__area:nth-child(2) > .maintenance-diagram-module__nlg8DG__connector[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  ".maintenance-diagram-module__nlg8DG__area:nth-child(3) > .maintenance-diagram-module__nlg8DG__connector[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "tr:nth-child(1) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(1) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(2) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(2) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(3) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(3) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(4) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(4) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(5) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(5) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(6) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(6) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(7) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(7) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/services/heat-pumps/cold-climate",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "aria-valid-attr-value",
+            "nodes": [
+              {
+                "target": [
+                  ".hero-actions > .button-yellow[href=\"/contact?intent=estimate\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".cta-actions > .button-yellow[href=\"/contact?intent=estimate\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".mobile-actions > .button-yellow[href=\"/contact?intent=estimate\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              }
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "target": [
+                  "a[href=\"#heat-pump-options-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href$=\"#heat-pump-cost-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href$=\"#heat-pump-design-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href$=\"#heat-pump-faq-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "tr:nth-child(1) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(1) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(2) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(2) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(3) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(3) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/services/heat-pumps/heat-pump-installation",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "aria-valid-attr-value",
+            "nodes": [
+              {
+                "target": [
+                  ".button-orange[href=\"/contact?intent=estimate\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".cta-actions > .button-yellow[href=\"/contact?intent=estimate\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".mobile-actions > .button-yellow[href=\"/contact?intent=estimate\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              }
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "target": [
+                  "a[href$=\"#hp-options-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href$=\"#hp-backup-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href$=\"#hp-scope-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href=\"#hp-installation-faq-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "tr:nth-child(1) > td"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(2) > td"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(3) > td"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(4) > td"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(5) > td"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(6) > td"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(7) > td"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/services/heat-pumps/ductless-mini-splits",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "aria-valid-attr-value",
+            "nodes": [
+              {
+                "target": [
+                  ".button-orange[href=\"/contact?intent=estimate\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".cta-actions > .button-yellow[href=\"/contact?intent=estimate\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".mobile-actions > .button-yellow[href=\"/contact?intent=estimate\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              }
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "target": [
+                  "a[href$=\"#ductless-uses-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href$=\"#ductless-winter-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href$=\"#ductless-scope-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href$=\"#ductless-faq-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "text[x=\"143\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+              },
+              {
+                "target": [
+                  "text[y=\"130\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+              },
+              {
+                "target": [
+                  "text[y=\"228\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+              },
+              {
+                "target": [
+                  ".floor-plan-module__Jvw7Ya__roomLabel[x=\"29\"][y=\"315\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+              },
+              {
+                "target": [
+                  "text[x=\"29\"][y=\"345\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+              },
+              {
+                "target": [
+                  ".floor-plan-module__Jvw7Ya__roomLabel[x=\"179\"][y=\"315\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+              },
+              {
+                "target": [
+                  "text[x=\"179\"][y=\"345\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+              },
+              {
+                "target": [
+                  "div[aria-describedby=\"ductless-styles-help\"] > table > tbody > tr:nth-child(1) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(1) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "div[aria-describedby=\"ductless-styles-help\"] > table > tbody > tr:nth-child(2) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(2) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "div[aria-describedby=\"ductless-styles-help\"] > table > tbody > tr:nth-child(3) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(3) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "div[aria-describedby=\"ductless-scope-help\"] > table > tbody > tr:nth-child(1) > td"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "div[aria-describedby=\"ductless-scope-help\"] > table > tbody > tr:nth-child(2) > td"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "div[aria-describedby=\"ductless-scope-help\"] > table > tbody > tr:nth-child(3) > td"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(4) > td"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(5) > td"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(6) > td"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  ".mobile-actions > .button-yellow[href=\"/contact?intent=estimate\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/services/heat-pumps/repair-maintenance",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "aria-valid-attr-value",
+            "nodes": [
+              {
+                "target": [
+                  "a[href=\"/contact?intent=maintenance\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".cta-actions > .button-yellow[href=\"/contact?intent=general\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              },
+              {
+                "target": [
+                  ".mobile-actions > .button-yellow[href=\"/contact?intent=general\"][aria-haspopup=\"dialog\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              }
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "nodes": [
+              {
+                "target": [
+                  "a[href=\"#hp-service-symptoms-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href$=\"#hp-maintenance-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href=\"#hp-repair-decision-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "a[href$=\"#hp-service-faq-heading\"] > span[aria-hidden=\"true\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+              },
+              {
+                "target": [
+                  "tr:nth-child(1) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(1) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(2) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(2) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(3) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(3) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(4) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(4) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(5) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(5) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(6) > td:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              },
+              {
+                "target": [
+                  "tr:nth-child(6) > td:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/thank-you",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "aria-valid-attr-value",
+            "nodes": [
+              {
+                "target": [
+                  "a[href=\"/contact?intent=estimate\"]"
+                ],
+                "summary": "Fix all of the following:\n  Unable to determine if aria-controls referenced ID exists on the page while using aria-haspopup: aria-controls=\"service-request-drawer\""
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "excludedBrowserExtensionNodes": [
+      "#bottomBar",
+      "#cgw_action_btn"
+    ],
+    "manualReview": {
+      "aria-valid-attr-value": "Hidden native dialog target exists; opened all four intents and verified focus/closing.",
+      "color-contrast": "Hero solid background is rendered by a pseudo element; source foreground/background ratios verified separately. Guide arrow glyphs are decorative. Table cells outside the horizontal scrollport are clipped intentionally; wrapper is named and keyboard-scrollable."
+    }
+  },
+  "responsive": [
+    {
+      "path": "/",
+      "clientWidth": 308,
+      "h1Count": 1,
+      "mainCount": 1,
+      "missingAlt": 0,
+      "overflow": false,
+      "scrollWidth": 308,
+      "viewport": 320
+    },
+    {
+      "path": "/about",
+      "clientWidth": 308,
+      "h1Count": 1,
+      "mainCount": 1,
+      "missingAlt": 0,
+      "overflow": false,
+      "scrollWidth": 308,
+      "viewport": 320
+    },
+    {
+      "path": "/contact",
+      "clientWidth": 308,
+      "h1Count": 1,
+      "mainCount": 1,
+      "missingAlt": 0,
+      "overflow": false,
+      "scrollWidth": 308,
+      "viewport": 320
+    },
+    {
+      "path": "/privacy",
+      "clientWidth": 308,
+      "h1Count": 1,
+      "mainCount": 1,
+      "missingAlt": 0,
+      "overflow": false,
+      "scrollWidth": 308,
+      "viewport": 320
+    },
+    {
+      "path": "/rebates/2026-montana-hvac-rebates",
+      "clientWidth": 308,
+      "h1Count": 1,
+      "mainCount": 1,
+      "missingAlt": 0,
+      "overflow": false,
+      "scrollWidth": 308,
+      "viewport": 320
+    },
+    {
+      "path": "/services/heating",
+      "clientWidth": 308,
+      "h1Count": 1,
+      "mainCount": 1,
+      "missingAlt": 0,
+      "overflow": false,
+      "scrollWidth": 308,
+      "viewport": 320
+    },
+    {
+      "path": "/services/heating/emergency-furnace-repair",
+      "clientWidth": 308,
+      "h1Count": 1,
+      "mainCount": 1,
+      "missingAlt": 0,
+      "overflow": false,
+      "scrollWidth": 308,
+      "viewport": 320
+    },
+    {
+      "path": "/services/heating/furnace-installation",
+      "clientWidth": 308,
+      "h1Count": 1,
+      "mainCount": 1,
+      "missingAlt": 0,
+      "overflow": false,
+      "scrollWidth": 308,
+      "viewport": 320
+    },
+    {
+      "path": "/services/heating/furnace-maintenance",
+      "clientWidth": 308,
+      "h1Count": 1,
+      "mainCount": 1,
+      "missingAlt": 0,
+      "overflow": false,
+      "scrollWidth": 308,
+      "viewport": 320
+    },
+    {
+      "path": "/services/cooling",
+      "clientWidth": 308,
+      "h1Count": 1,
+      "mainCount": 1,
+      "missingAlt": 0,
+      "overflow": false,
+      "scrollWidth": 308,
+      "viewport": 320
+    },
+    {
+      "path": "/services/cooling/ac-repair",
+      "clientWidth": 308,
+      "h1Count": 1,
+      "mainCount": 1,
+      "missingAlt": 0,
+      "overflow": false,
+      "scrollWidth": 308,
+      "viewport": 320
+    },
+    {
+      "path": "/services/cooling/ac-installation",
+      "clientWidth": 308,
+      "h1Count": 1,
+      "mainCount": 1,
+      "missingAlt": 0,
+      "overflow": false,
+      "scrollWidth": 308,
+      "viewport": 320
+    },
+    {
+      "path": "/services/cooling/ac-maintenance",
+      "clientWidth": 308,
+      "h1Count": 1,
+      "mainCount": 1,
+      "missingAlt": 0,
+      "overflow": false,
+      "scrollWidth": 308,
+      "viewport": 320
+    },
+    {
+      "path": "/services/heat-pumps/cold-climate",
+      "clientWidth": 308,
+      "h1Count": 1,
+      "mainCount": 1,
+      "missingAlt": 0,
+      "overflow": false,
+      "scrollWidth": 308,
+      "viewport": 320
+    },
+    {
+      "path": "/services/heat-pumps/heat-pump-installation",
+      "clientWidth": 308,
+      "h1Count": 1,
+      "mainCount": 1,
+      "missingAlt": 0,
+      "overflow": false,
+      "scrollWidth": 308,
+      "viewport": 320
+    },
+    {
+      "path": "/services/heat-pumps/ductless-mini-splits",
+      "clientWidth": 308,
+      "h1Count": 1,
+      "mainCount": 1,
+      "missingAlt": 0,
+      "overflow": false,
+      "scrollWidth": 308,
+      "viewport": 320
+    },
+    {
+      "path": "/services/heat-pumps/repair-maintenance",
+      "clientWidth": 308,
+      "h1Count": 1,
+      "mainCount": 1,
+      "missingAlt": 0,
+      "overflow": false,
+      "scrollWidth": 308,
+      "viewport": 320
+    },
+    {
+      "path": "/thank-you",
+      "clientWidth": 308,
+      "h1Count": 1,
+      "mainCount": 1,
+      "missingAlt": 0,
+      "overflow": false,
+      "scrollWidth": 308,
+      "viewport": 320
+    },
+    {
+      "path": "/",
+      "clientWidth": 756,
+      "overflow": false,
+      "scrollWidth": 756,
+      "viewport": 768
+    },
+    {
+      "path": "/about",
+      "clientWidth": 756,
+      "overflow": false,
+      "scrollWidth": 756,
+      "viewport": 768
+    },
+    {
+      "path": "/contact",
+      "clientWidth": 756,
+      "overflow": false,
+      "scrollWidth": 756,
+      "viewport": 768
+    },
+    {
+      "path": "/privacy",
+      "clientWidth": 756,
+      "overflow": false,
+      "scrollWidth": 756,
+      "viewport": 768
+    },
+    {
+      "path": "/rebates/2026-montana-hvac-rebates",
+      "clientWidth": 756,
+      "overflow": false,
+      "scrollWidth": 756,
+      "viewport": 768
+    },
+    {
+      "path": "/services/heating",
+      "clientWidth": 756,
+      "overflow": false,
+      "scrollWidth": 756,
+      "viewport": 768
+    },
+    {
+      "path": "/services/heating/emergency-furnace-repair",
+      "clientWidth": 756,
+      "overflow": false,
+      "scrollWidth": 756,
+      "viewport": 768
+    },
+    {
+      "path": "/services/heating/furnace-installation",
+      "clientWidth": 756,
+      "overflow": false,
+      "scrollWidth": 756,
+      "viewport": 768
+    },
+    {
+      "path": "/services/heating/furnace-maintenance",
+      "clientWidth": 756,
+      "overflow": false,
+      "scrollWidth": 756,
+      "viewport": 768
+    },
+    {
+      "path": "/services/cooling",
+      "clientWidth": 756,
+      "overflow": false,
+      "scrollWidth": 756,
+      "viewport": 768
+    },
+    {
+      "path": "/services/cooling/ac-repair",
+      "clientWidth": 756,
+      "overflow": false,
+      "scrollWidth": 756,
+      "viewport": 768
+    },
+    {
+      "path": "/services/cooling/ac-installation",
+      "clientWidth": 756,
+      "overflow": false,
+      "scrollWidth": 756,
+      "viewport": 768
+    },
+    {
+      "path": "/services/cooling/ac-maintenance",
+      "clientWidth": 756,
+      "overflow": false,
+      "scrollWidth": 756,
+      "viewport": 768
+    },
+    {
+      "path": "/services/heat-pumps/cold-climate",
+      "clientWidth": 756,
+      "overflow": false,
+      "scrollWidth": 756,
+      "viewport": 768
+    },
+    {
+      "path": "/services/heat-pumps/heat-pump-installation",
+      "clientWidth": 756,
+      "overflow": false,
+      "scrollWidth": 756,
+      "viewport": 768
+    },
+    {
+      "path": "/services/heat-pumps/ductless-mini-splits",
+      "clientWidth": 756,
+      "overflow": false,
+      "scrollWidth": 756,
+      "viewport": 768
+    },
+    {
+      "path": "/services/heat-pumps/repair-maintenance",
+      "clientWidth": 756,
+      "overflow": false,
+      "scrollWidth": 756,
+      "viewport": 768
+    },
+    {
+      "path": "/thank-you",
+      "clientWidth": 756,
+      "overflow": false,
+      "scrollWidth": 756,
+      "viewport": 768
+    },
+    {
+      "path": "/",
+      "clientWidth": 1428,
+      "overflow": false,
+      "scrollWidth": 1428,
+      "viewport": 1440
+    },
+    {
+      "path": "/about",
+      "clientWidth": 1428,
+      "overflow": false,
+      "scrollWidth": 1428,
+      "viewport": 1440
+    },
+    {
+      "path": "/contact",
+      "clientWidth": 1428,
+      "overflow": false,
+      "scrollWidth": 1428,
+      "viewport": 1440
+    },
+    {
+      "path": "/privacy",
+      "clientWidth": 1428,
+      "overflow": false,
+      "scrollWidth": 1428,
+      "viewport": 1440
+    },
+    {
+      "path": "/rebates/2026-montana-hvac-rebates",
+      "clientWidth": 1428,
+      "overflow": false,
+      "scrollWidth": 1428,
+      "viewport": 1440
+    },
+    {
+      "path": "/services/heating",
+      "clientWidth": 1428,
+      "overflow": false,
+      "scrollWidth": 1428,
+      "viewport": 1440
+    },
+    {
+      "path": "/services/heating/emergency-furnace-repair",
+      "clientWidth": 1428,
+      "overflow": false,
+      "scrollWidth": 1428,
+      "viewport": 1440
+    },
+    {
+      "path": "/services/heating/furnace-installation",
+      "clientWidth": 1428,
+      "overflow": false,
+      "scrollWidth": 1428,
+      "viewport": 1440
+    },
+    {
+      "path": "/services/heating/furnace-maintenance",
+      "clientWidth": 1428,
+      "overflow": false,
+      "scrollWidth": 1428,
+      "viewport": 1440
+    },
+    {
+      "path": "/services/cooling",
+      "clientWidth": 1428,
+      "overflow": false,
+      "scrollWidth": 1428,
+      "viewport": 1440
+    },
+    {
+      "path": "/services/cooling/ac-repair",
+      "clientWidth": 1428,
+      "overflow": false,
+      "scrollWidth": 1428,
+      "viewport": 1440
+    },
+    {
+      "path": "/services/cooling/ac-installation",
+      "clientWidth": 1428,
+      "overflow": false,
+      "scrollWidth": 1428,
+      "viewport": 1440
+    },
+    {
+      "path": "/services/cooling/ac-maintenance",
+      "clientWidth": 1428,
+      "overflow": false,
+      "scrollWidth": 1428,
+      "viewport": 1440
+    },
+    {
+      "path": "/services/heat-pumps/cold-climate",
+      "clientWidth": 1428,
+      "overflow": false,
+      "scrollWidth": 1428,
+      "viewport": 1440
+    },
+    {
+      "path": "/services/heat-pumps/heat-pump-installation",
+      "clientWidth": 1428,
+      "overflow": false,
+      "scrollWidth": 1428,
+      "viewport": 1440
+    },
+    {
+      "path": "/services/heat-pumps/ductless-mini-splits",
+      "clientWidth": 1428,
+      "overflow": false,
+      "scrollWidth": 1428,
+      "viewport": 1440
+    },
+    {
+      "path": "/services/heat-pumps/repair-maintenance",
+      "clientWidth": 1428,
+      "overflow": false,
+      "scrollWidth": 1428,
+      "viewport": 1440
+    },
+    {
+      "path": "/thank-you",
+      "clientWidth": 1428,
+      "overflow": false,
+      "scrollWidth": 1428,
+      "viewport": 1440
+    }
+  ],
+  "formIntents": [
+    {
+      "intent": "Emergency Repair",
+      "violations": []
+    },
+    {
+      "intent": "New Estimate",
+      "violations": []
+    },
+    {
+      "intent": "Maintenance",
+      "violations": []
+    },
+    {
+      "intent": "Repair or Question",
+      "violations": []
+    }
+  ],
+  "manualChecks": {
+    "skipLink": true,
+    "desktopServiceMenuKeyboardAndEscape": true,
+    "mobileMenuKeyboardAndEscape": true,
+    "dialogFocusContainment": true,
+    "dialogEscapeAndFocusReturn": true,
+    "errorSummaryFocusAndFieldDescriptions": true,
+    "keyboardComparisonTableScrolling": true,
+    "reducedMotionMenuAndDialog": true,
+    "additionalEmailSent": false,
+    "physicalDeviceOrVoiceOverSessionPerformed": false
+  },
+  "limits": [
+    "Automated and browser keyboard/semantic checks do not constitute exhaustive WCAG certification.",
+    "No field Core Web Vitals or INP claim; new-site field data requires actual visitors."
+  ]
+}
