@@ -26,4 +26,6 @@ The GA4 event tag forwards route and intent; additional data-layer context remai
 
 Production browser verification passed after deployment of `da8b923`: page views followed client navigation, and `lead_form_start` reached `G-7CVS6CRPSM` with route `/contact` and intent `estimate`, accepted with HTTP 204. No additional service email was sent. Sanitized evidence: `docs/audits/2026-10-30/analytics-verification.json`. The form-success adapter is covered by the passing unit tests; another live email submission was not performed.
 
-Review Realtime reports in GA4. Mark `lead_form_submit_success` as a key event in GA4; optionally mark `phone_click` separately. Key-event/account reporting settings are not established merely by installing site code. Use test interactions without sending another service email unless specifically authorized.
+`lead_form_submit_success` was registered and marked as a key event in GA4 property `561678219` on October 30, 2026. The saved Events table shows its star enabled and the confirmation “Event created successfully.” Counting is **Once per event**, with **no default monetary value**. The existing website/GTM event supplies it; no URL-based duplicate event was created. Screenshot: `docs/audits/2026-10-30/ga4-key-event.png`. No new form email was sent. The property Home screen also showed one active user in the last 30 minutes.
+
+Review conversion counts after real successful submissions arrive. `phone_click` remains a regular event; a phone click does not prove a completed call.

@@ -16,7 +16,14 @@
     "additionalEmailSent": false
   },
   "pending": [
-    "Mark lead_form_submit_success as a GA4 key event",
-    "Review GA4 Realtime/reporting account settings"
-  ]
+    "Review conversion totals after real successful submissions arrive"
+  ],
+  "keyEventConfiguration": {
+    "propertyId": "561678219",
+    "event": "lead_form_submit_success",
+    "enabled": true,
+    "countingMethod": "Once per event",
+    "defaultMonetaryValue": null,
+    "evidence": "ga4-key-event.png"
+  }
 }

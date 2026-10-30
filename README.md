@@ -23,7 +23,7 @@ This is the current checklist. Dated checkpoints below are historical records an
 ### Still to finish, in priority order
 
 - [ ] **Finish Google Search Console and Google Business Profile setup.** Confirm ownership, submit the final sitemap, inspect indexing, and supply the actual GBP URL and accurate service-area/business details. Ownership and Google indexing have not been verified here.
-- [ ] **Finish Analytics reporting setup.** GA4 `G-7CVS6CRPSM` is installed through Tag Manager `GTM-N8H44WVW`, with phone-click and form-start/success events connected. Confirm Realtime reporting and mark `lead_form_submit_success` (and `phone_click` if desired) as GA4 key events. A phone click does not prove a completed call. See [Analytics setup](docs/analytics-setup.md).
+- [x] **Enable form conversion reporting.** GA4 `G-7CVS6CRPSM` uses Tag Manager `GTM-N8H44WVW`. `lead_form_submit_success` is saved as a key event, counted once per event without a default dollar value. Live page-view/form-start delivery was verified; the Analytics Home screen showed recent activity. Review conversion totals after real submissions arrive. `phone_click` remains a regular event. See [Analytics setup](docs/analytics-setup.md).
 - [ ] **Add customer proof and final profile links.** Obtain genuine approved reviews, the real Facebook/Instagram URLs (or hide inactive social controls), and a few documented projects. Dedicated maintenance and indoor ductless photos would improve the reused imagery; confirm image rights and which project each photo actually depicts.
 - [ ] **Confirm the remaining business policies and credentials.** Written labor/equipment warranty terms, insurance/EPA credentials as applicable, payment methods, diagnostic/emergency fees, and any manufacturer affiliation claims need owner evidence before stronger statements are published. Keep unverified structured-data claims gated. Additional services, financing, or maintenance plans are optional and should be added only if actually offered.
 - [ ] **Measure final-host performance and complete accessibility checks.** Run deployed mobile Lighthouse/Core Web Vitals checks and final real-device, keyboard/screen-reader, zoom/reflow, and reduced-motion checks. Existing layout/audit results are useful evidence, not a full accessibility certification or field performance measurement.
@@ -223,7 +223,7 @@ Customer input is validated, email HTML escaped, body sizes limited, and payload
 
 ## Remaining launch and client-review work
 
-Use the current October 30 checklist at the top of this file. Forms, owner introduction/portrait, mobile layout repairs, favicon, and private-address cleanup are complete. Remaining priorities are Search Console/GBP, optional analytics/conversions, genuine reviews/social links/project evidence, business-policy confirmations, final performance/accessibility checks, and rebate/final-content review.
+Use the current October 30 checklist at the top of this file. Forms, owner introduction/portrait, mobile layout repairs, favicon, and private-address cleanup are complete. Remaining priorities are Search Console/GBP, genuine reviews/social links/project evidence, business-policy confirmations, final performance/accessibility checks, and rebate/final-content review.
 
 ### Optional headline suggestions — recorded October 19, 2026
 
