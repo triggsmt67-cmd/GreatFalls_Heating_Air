@@ -4,14 +4,10 @@ import { trackEvent } from "@/lib/analytics/events";
 afterEach(() => vi.unstubAllGlobals());
 
 describe("Analytics delivery", () => {
-  it("forwards form-success context to the configured GA4 property without customer fields", () => {
-    const gtag = vi.fn();
+  it("queues one form-success event with context and no customer fields", () => {
     const dataLayer: unknown[] = [];
-    vi.stubGlobal("window", { dispatchEvent: vi.fn(), dataLayer, gtag });
+    vi.stubGlobal("window", { dispatchEvent: vi.fn(), dataLayer });
     trackEvent({ name: "lead_form_submit_success", properties: { intent: "estimate", route: "/contact" } });
-    expect(gtag).toHaveBeenCalledExactlyOnceWith("event", "lead_form_submit_success", {
-      intent: "estimate", route: "/contact", send_to: "G-7CVS6CRPSM",
-    });
     expect(dataLayer).toEqual([{ event: "lead_form_submit_success", intent: "estimate", route: "/contact" }]);
   });
 

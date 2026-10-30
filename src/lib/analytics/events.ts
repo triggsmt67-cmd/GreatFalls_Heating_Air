@@ -1,5 +1,3 @@
-import { GA_MEASUREMENT_ID } from "./config";
-
 export type AnalyticsEvent =
   | {
       name: "phone_click";
@@ -69,20 +67,14 @@ export function trackEvent(event: AnalyticsEvent): void {
     // Fail silently in non-browser environments
   }
 
-  // Keep GTM custom events and direct GA4 delivery distinct. No form field
+  // GTM forwards these named events to GA4. No form field
   // values are passed here; only event context and the public business number.
   const windowWithDataLayer = window as unknown as {
     dataLayer?: Record<string, unknown>[];
-    gtag?: (command: "event", name: string, parameters: Record<string, unknown>) => void;
   };
   try {
     if (Array.isArray(windowWithDataLayer.dataLayer)) {
       windowWithDataLayer.dataLayer.push({ event: event.name, ...event.properties });
     }
-  } catch { /* Analytics must never interrupt an inquiry. */ }
-  try {
-    windowWithDataLayer.gtag?.("event", event.name, {
-      ...event.properties, send_to: GA_MEASUREMENT_ID,
-    });
   } catch { /* Analytics must never interrupt an inquiry. */ }
 }
