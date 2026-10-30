@@ -1,3 +1,5 @@
+import { GA_MEASUREMENT_ID } from "./config";
+
 export type AnalyticsEvent =
   | {
       name: "phone_click";
@@ -67,20 +69,20 @@ export function trackEvent(event: AnalyticsEvent): void {
     // Fail silently in non-browser environments
   }
 
-  // 2. Check for optional dataLayer (GTM / GA4)
+  // Keep GTM custom events and direct GA4 delivery distinct. No form field
+  // values are passed here; only event context and the public business number.
   const windowWithDataLayer = window as unknown as {
     dataLayer?: Record<string, unknown>[];
+    gtag?: (command: "event", name: string, parameters: Record<string, unknown>) => void;
   };
-  if (Array.isArray(windowWithDataLayer.dataLayer)) {
-    windowWithDataLayer.dataLayer.push({
-      event: event.name,
-      ...event.properties,
+  try {
+    if (Array.isArray(windowWithDataLayer.dataLayer)) {
+      windowWithDataLayer.dataLayer.push({ event: event.name, ...event.properties });
+    }
+  } catch { /* Analytics must never interrupt an inquiry. */ }
+  try {
+    windowWithDataLayer.gtag?.("event", event.name, {
+      ...event.properties, send_to: GA_MEASUREMENT_ID,
     });
-  }
-
-  // 3. Dev-mode logging
-  if (process.env.NODE_ENV !== "production") {
-    // Debug log for development analytics verification
-    // console.log(`[Analytics] ${event.name}:`, event.properties);
-  }
+  } catch { /* Analytics must never interrupt an inquiry. */ }
 }

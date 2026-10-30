@@ -18,16 +18,6 @@ export function StickyMobileActions() {
       <a
         className="button button-orange"
         href={`tel:${siteConfig.phoneE164}`}
-        onClick={() =>
-          trackEvent({
-            name: "phone_click",
-            properties: {
-              route: window.location.pathname,
-              placement: "sticky_mobile",
-              phoneNumber: siteConfig.phoneE164,
-            },
-          })
-        }
       >
         Tap to call
       </a>

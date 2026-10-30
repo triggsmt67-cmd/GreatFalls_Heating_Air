@@ -1,0 +1,2 @@
+export const GA_MEASUREMENT_ID = "G-7CVS6CRPSM";
+export const GTM_CONTAINER_ID = "GTM-N8H44WVW";

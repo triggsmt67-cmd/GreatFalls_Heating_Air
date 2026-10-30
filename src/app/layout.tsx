@@ -9,6 +9,8 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { StickyMobileActions } from "@/components/layout/StickyMobileActions";
 import { getHVACBusinessSchema } from "@/lib/schema/jsonLd";
+import { GoogleTags } from "@/components/GoogleTags";
+import { GTM_CONTAINER_ID } from "@/lib/analytics/config";
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -37,6 +39,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   const hvacSchema = getHVACBusinessSchema();
+  const analyticsEnabled = process.env.NODE_ENV === "production" && process.env.VERCEL_ENV === "production";
 
   return (
     <html
@@ -45,6 +48,12 @@ export default function RootLayout({
       className={`${manrope.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-white text-[#071827]">
+        {analyticsEnabled && <noscript><iframe
+          src={`https://www.googletagmanager.com/ns.html?id=${GTM_CONTAINER_ID}`}
+          height="0" width="0" style={{ display: "none", visibility: "hidden" }}
+          title="Google Tag Manager"
+        /></noscript>}
+        {analyticsEnabled && <GoogleTags />}
         {/* Skip to Content for WCAG 2.2 AA Accessibility */}
         <a
           href="#main-content"

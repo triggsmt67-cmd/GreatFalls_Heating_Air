@@ -17,7 +17,7 @@ export default function PrivacyPage() {
         <header className="page-heading">
           <h1>Privacy policy</h1>
           <p className="privacy-meta">
-            Effective date: <time dateTime="2026-10-28">October 28, 2026</time>
+            Effective date: <time dateTime="2026-10-30">October 30, 2026</time>
           </p>
           <p>
             This policy explains how Great Falls Heating and Air LLC handles
@@ -78,10 +78,20 @@ export default function PrivacyPage() {
               help prevent abuse.
             </p>
             <p>
-              The website does not currently load third-party advertising or
-              analytics scripts. We will update this policy if we introduce
-              tools that change how website usage information is collected or
-              used.
+              We use Google Analytics through Google Tag Manager
+              to understand visits, pages viewed, and interactions such as clicks
+              on our phone links and successful service requests. These tools may
+              use cookies and device identifiers and process technical information
+              about your visit. A phone-link click does not establish that a call
+              was completed.
+            </p>
+            <p>
+              We do not send the names, personal phone numbers, email addresses,
+              or message text entered into our service-request forms as analytics
+              event parameters. Google explains its data practices in its{" "}
+              <a href="https://policies.google.com/privacy" className="text-link">privacy policy</a>.
+              You can manage cookies through your browser settings or use Google’s{" "}
+              <a href="https://tools.google.com/dlpage/gaoptout" className="text-link">Analytics opt-out browser add-on</a>.
             </p>
           </section>
 
