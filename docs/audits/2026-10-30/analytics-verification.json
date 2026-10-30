@@ -1,0 +1,22 @@
+{
+  "verifiedAt": "2026-10-30T23:20:51.158Z",
+  "site": "https://www.greatfallsheatingandair.com",
+  "container": "GTM-N8H44WVW",
+  "containerVersion": 3,
+  "measurementId": "G-7CVS6CRPSM",
+  "sourceCommit": "da8b923cc136be4f398c70333b447a00fe8850b2",
+  "checks": {
+    "pageView": true,
+    "clientNavigationPageViews": true,
+    "leadFormStart": {
+      "status": 204,
+      "route": "/contact",
+      "intent": "estimate"
+    },
+    "additionalEmailSent": false
+  },
+  "pending": [
+    "Mark lead_form_submit_success as a GA4 key event",
+    "Review GA4 Realtime/reporting account settings"
+  ]
+}
