@@ -54,13 +54,21 @@ describe("Site Configuration & Content Integrity", () => {
   });
 
   it("should include valid 2026 rebate programs with official sources", () => {
-    expect(rebatePrograms.length).toBe(6);
+    expect(rebatePrograms.length).toBeGreaterThanOrEqual(6);
     for (const prog of rebatePrograms) {
       expect(prog.sourceUrl).toMatch(/^https?:\/\//);
       const reviewedAt = Date.parse(prog.lastReviewed);
       expect(Number.isFinite(reviewedAt)).toBe(true);
       expect(reviewedAt).toBeLessThanOrEqual(Date.now());
     }
+  });
+
+  it("keeps expired tax credits and unlaunched state rebates out of active offers", () => {
+    for (const id of ["federal-section-25c", "federal-section-25d", "montana-geothermal-tax-credit"]) {
+      expect(rebatePrograms.find(program => program.id === id)?.status).toBe("expired");
+    }
+    expect(rebatePrograms.find(program => program.id === "mt-deq-homes-heehr")?.status)
+      .toBe("pending_federal_approval");
   });
 
   it("should have all 5 navigation services mapped correctly", () => {

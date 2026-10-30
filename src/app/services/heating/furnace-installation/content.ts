@@ -5,7 +5,7 @@ export const installationSources = {
   venting: "https://bsesc.energy.gov/energy-basics/hvac-direct-vent-equipment",
   combustion: "https://www.energy.gov/documents/combustionappliance-safetytech-briefpdf",
   city: "https://www.greatfallsmt.gov/DocumentCenter/View/6117/Mechanical-Permit-Fees-Effective-10-05-2023",
-  northwestern: "https://www.northwesternenergy.com/billing-payment/ways-to-save/rebates-incentives",
+  northwestern: "https://www.northwesternenergy.com/docs/default-source/default-document-library/billing-and-payment/e-programs/mt-residential-natural-gas-equipment.pdf",
 };
 export const estimateRows = [
   ["Sizing & equipment", "Exact model numbers, rated input and output, staging, and the basis for equipment selection.", "What heat-loss assumptions and local design conditions were used? How is altitude accounted for in equipment output?"],

@@ -1,3 +1,4 @@
+import { rebateReviewDate } from "@/content/rebates";
 import { ServiceIntroTrust } from "@/components/ui/ServiceIntroTrust";
 import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { GuideNavigation } from "@/components/ui/GuideNavigation";
@@ -101,7 +102,7 @@ export default function Page() {
         <h2 id="ductless-rebates-heading">Verify incentives for the account and exact equipment.</h2>
         <p>NorthWestern’s 2026–2027 electric existing-home application lists $450 for qualifying ducted or ductless heat pumps: ENERGY STAR rated <strong>or</strong> SEER2 ≥ 15.2 <strong>and</strong> HSPF2 ≥ 8.5, plus account, timing, documentation, and funding conditions. A gas account alone doesn’t qualify you for this rebate.</p>
         <p>Sun River Electric publishes a separate air-source program with approval required before installation. Confirm the current requirements before ordering, and keep the complete project price visible while eligibility is checked.</p>
-        <RebateNotice /><p className={styles.source}>Sources reviewed October 23, 2026: <a href={ductlessSources.northwestern}>NorthWestern electric existing-home application</a>; <a href={ductlessSources.sunRiver}>Sun River air-source heat pumps</a>.</p>
+        <RebateNotice /><p className={styles.source}>Sources reviewed {rebateReviewDate}: <a href={ductlessSources.northwestern}>NorthWestern electric existing-home application</a>; <a href={ductlessSources.sunRiver}>Sun River air-source heat pumps</a>.</p>
       </div><div className="related-links"><Link className="text-link" href="/rebates/2026-montana-hvac-rebates">Review dates and rebate documentation →</Link><Link className="text-link" href="/services/heat-pumps/cold-climate">Back to cold-climate heat pumps →</Link></div>
       {/* Add a real ductless case and indoor photo only after the layout, equipment, findings, outcome, location, photo rights, and publication permission are confirmed. */}</section>
     </div>

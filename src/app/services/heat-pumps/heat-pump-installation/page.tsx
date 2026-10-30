@@ -1,3 +1,4 @@
+import { rebateReviewDate } from "@/content/rebates";
 import { ServiceIntroTrust } from "@/components/ui/ServiceIntroTrust";
 import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { GuideNavigation } from "@/components/ui/GuideNavigation";
@@ -117,7 +118,7 @@ export default function Page() {
         <h2 id="hp-rebate-heading">Check the electric account before counting a rebate.</h2>
         <p>NorthWestern’s 2026–2027 electric existing-home application lists $450 for qualifying ducted or ductless heat pumps. The equipment requirement is ENERGY STAR rated <strong>or</strong> SEER2 ≥ 15.2 <strong>and</strong> HSPF2 ≥ 8.5. The account, existing-home, timing, documentation, and funding conditions still apply; a gas-only account doesn’t qualify you for this rebate.</p>
         <p>Sun River Electric’s separate air-source program requires approval before installation. Confirm the utility serving the property, current application, exact equipment, and required paperwork before ordering. Keep the full project price visible while eligibility is verified.</p>
-        <RebateNotice /><p className={styles.source}>Sources reviewed October 23, 2026: <a href={installationSources.northwestern}>NorthWestern electric existing-home application</a>; <a href={installationSources.sunRiver}>Sun River air-source heat-pump program</a>.</p>
+        <RebateNotice /><p className={styles.source}>Sources reviewed {rebateReviewDate}: <a href={installationSources.northwestern}>NorthWestern electric existing-home application</a>; <a href={installationSources.sunRiver}>Sun River air-source heat-pump program</a>.</p>
         <Link className="text-link" href="/rebates/2026-montana-hvac-rebates">Review program dates, conditions, and rebate paperwork →</Link>
       </div>{/* The Great Falls example above was supplied and approved for publication by the user. Photo 10 is a separate supplied equipment image; no job-photo association or measured heating savings is claimed. */}</section>
     </div>

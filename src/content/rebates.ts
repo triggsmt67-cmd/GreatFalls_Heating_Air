@@ -8,6 +8,7 @@ export interface RebateProgram {
     | "Investor-Owned Utility"
     | "Electric Cooperative"
     | "Federal Tax Credit"
+    | "State Tax Credit"
     | "State-Administered";
   incentiveAmount: string;
   eligibleEquipment: string;
@@ -23,14 +24,16 @@ export interface RebateProgram {
 
 export const rebateChangeNotice = "Rebate amounts, eligibility rules, deadlines, and funding may change, be suspended, or end without notice to Great Falls Heating and Air LLC and without our knowledge. Published offers do not guarantee availability, eligibility, approval, or payment. Before buying equipment or authorizing work, confirm current terms, funding, and any required advance approval directly with the program administrator.";
 
+export const rebateReviewDate = "October 30, 2026";
+
 export const rebateGuideMetadata = {
   title: "2026 Montana HVAC Rebate Guide: Great Falls Homeowner Insights",
   shortTitle: "2026 Montana HVAC Rebates",
   navTitle: "2026 Rebates",
   metaTitle: "2026 Montana HVAC Rebates: Great Falls Homeowner Guide",
   metaDescription:
-    "Compare Great Falls HVAC incentives by utility account and project: NorthWestern Energy, Sun River Electric, expired 25C credits, and pending Montana DEQ programs.",
-  lastReviewedDate: "October 23, 2026",
+    "Check Montana HVAC utility rebates, account exclusions, expired federal and state tax credits, and the status of Montana DEQ home energy rebates.",
+  lastReviewedDate: rebateReviewDate,
   heroSubtitle:
     "Compare the project’s full cost, then confirm any utility incentive for your account and exact equipment before purchasing.",
   disclaimer:
@@ -38,6 +41,27 @@ export const rebateGuideMetadata = {
 };
 
 export const rebatePrograms: RebateProgram[] = [
+  {
+    id: "northwestern-natural-gas",
+    name: "Existing Home Natural Gas Heating Incentives",
+    provider: "NorthWestern Energy",
+    providerType: "Investor-Owned Utility",
+    incentiveAmount: "$425 furnace / $700 boiler / $70 thermostat",
+    eligibleEquipment:
+      "Furnace: AFUE 90% or higher, replacing AFUE 80% or lower. Condensing boiler: AFUE 90% or higher, replacing AFUE 82% or lower. Qualifying programmable or Wi-Fi thermostat.",
+    status: "active",
+    statusLabel: "Published Utility Offer — Confirm Account Eligibility",
+    effectiveDates: "Effective August 1, 2026 – June 30, 2027",
+    sourceUrl: "https://www.northwesternenergy.com/docs/default-source/default-document-library/billing-and-payment/e-programs/mt-residential-natural-gas-equipment.pdf",
+    sourceLabel: "NorthWestern Energy Natural Gas Existing-Home Application",
+    lastReviewed: rebateReviewDate,
+    requirements: [
+      "Eligible Montana residential natural-gas account; NorthWestern decides eligibility",
+      "New equipment in existing homes; leased equipment, new construction, and garages excluded",
+      "Purchase, finish, and submit within the program window; include a recent bill and itemized invoices",
+    ],
+    disclaimerNote: "Former Energy West Montana and Cut Bank Gas accounts are excluded by the current application. Confirm your account before budgeting a gas rebate.",
+  },
   {
     id: "northwestern-heat-pump",
     name: "Existing Home Electric Heat Pump Incentive",
@@ -52,7 +76,7 @@ export const rebatePrograms: RebateProgram[] = [
     sourceUrl:
       "https://www.northwesternenergy.com/docs/default-source/default-document-library/billing-and-payment/e-programs/e-rebate-electric-existing-home.pdf",
     sourceLabel: "NorthWestern Energy Existing Home Electric Rebate PDF",
-    lastReviewed: "October 23, 2026",
+    lastReviewed: rebateReviewDate,
     requirements: [
       "Must be an active NorthWestern Energy Montana electric residential customer",
       "Applies to existing homes and new materials; new construction and garages are excluded",
@@ -73,7 +97,7 @@ export const rebatePrograms: RebateProgram[] = [
     effectiveDates: "Limited-time program; confirm funding before committing",
     sourceUrl: "https://www.northwesternenergy.com/billing-payment/ways-to-save/rebates-incentives/heat-pump-water-heater-program",
     sourceLabel: "NorthWestern Energy Heat Pump Water Heater Program",
-    lastReviewed: "October 23, 2026",
+    lastReviewed: rebateReviewDate,
     requirements: [
       "Customer must receive residential electric service from NorthWestern Energy in Montana",
       "Must be installed by an approved participating contractor to receive instant customer discount",
@@ -95,12 +119,12 @@ export const rebatePrograms: RebateProgram[] = [
     effectiveDates: "Published program; obtain approval before installation",
     sourceUrl: "https://sunriverelectric.coop/air-source-heat-pumps",
     sourceLabel: "Sun River Electric Co-op Air-Source Page",
-    lastReviewed: "October 23, 2026",
+    lastReviewed: rebateReviewDate,
     requirements: [
       "The installation must be served by Sun River Electric; a nearby town name alone does not establish eligibility",
       "Request the Air Source Heat Pump Rebate Agreement and return it for approval before installation",
-      "Confirm the exact model and current efficiency requirements with the co-op; the public page uses older SEER/HSPF terminology",
-      "Payment follows installation and co-op compliance inspection; the published amount is $150 per installed ton, capped at $750 per system",
+      "The public page lists minimums of 14 SEER and 8 HSPF using older rating terms. Ask the co-op to approve the exact model and its current ratings before purchase",
+      "One rebate per system; provide the installer's invoice. Payment follows installation and co-op compliance inspection; the published amount is $150 per installed ton, capped at $750 per system",
     ],
   },
   {
@@ -116,13 +140,15 @@ export const rebatePrograms: RebateProgram[] = [
     effectiveDates: "Published program; obtain approval before installation",
     sourceUrl: "https://sunriverelectric.coop/sites/default/files/2025-06/ground-source-heat-pump-rebate-form.pdf",
     sourceLabel: "Sun River Electric Official Ground-Source Rebate Form",
-    lastReviewed: "October 23, 2026",
+    lastReviewed: rebateReviewDate,
     requirements: [
       "Must be an active cooperative member on Sun River Electric lines",
       "Request the Geothermal Heat Pump Rebate Agreement and obtain co-op approval before installation",
-      "Installation must meet program specifications; payment follows installation and compliance inspection",
+      "Site-built or manufactured homes on co-op electric service may qualify regardless of the previous heating fuel; this does not change NorthWestern's separate no-fuel-switching water-heater rule",
+      "Use a qualified installer and comply with electrical codes. Include the installer's invoice; one rebate per system, paid after installation and approval",
       "Published amount: $200 per installed ton, capped at $1,000 per system; confirm current availability and approved equipment directly with the co-op before purchase. No state or federal tax credit is included in this listed incentive",
     ],
+    disclaimerNote: "This is the co-op rebate only. Older geothermal tax-credit promotions do not establish eligibility for a new 2026 installation; see the expired-credit information below.",
   },
   {
     id: "federal-section-25c",
@@ -139,11 +165,47 @@ export const rebatePrograms: RebateProgram[] = [
     sourceUrl:
       "https://www.irs.gov/credits-deductions/energy-efficient-home-improvement-credit",
     sourceLabel: "IRS Section 25C Information Notice",
-    lastReviewed: "October 23, 2026",
+    lastReviewed: rebateReviewDate,
     requirements: [
       "Notice for 2026 purchases: Under current federal statutory terms, the Section 25C tax credit is not available for qualifying property placed in service after December 31, 2025",
       "Homeowners claiming credits for prior 2025 installations should refer to their 2025 tax filing documents and Form 5695",
       "Always consult a licensed CPA or tax professional regarding personal tax situations",
+    ],
+  },
+  {
+    id: "federal-section-25d",
+    name: "Federal Residential Clean Energy Credit (Section 25D)",
+    provider: "Internal Revenue Service (IRS)",
+    providerType: "Federal Tax Credit",
+    incentiveAmount: "Not available for new 2026 geothermal installations",
+    eligibleEquipment: "Previously included qualifying geothermal heat pumps",
+    status: "expired",
+    statusLabel: "Expired for New Installations",
+    effectiveDates: "No credit for property placed in service after December 31, 2025",
+    sourceUrl: "https://www.irs.gov/credits-deductions/residential-clean-energy-credit",
+    sourceLabel: "IRS Residential Clean Energy Credit",
+    lastReviewed: rebateReviewDate,
+    requirements: [
+      "Do not apply an older advertised 30% federal credit to a new 2026 installation",
+      "A carryforward from an eligible earlier installation is a separate tax-return question for your tax professional",
+    ],
+  },
+  {
+    id: "montana-geothermal-tax-credit",
+    name: "Montana Geothermal Systems Tax Credit",
+    provider: "Montana Department of Revenue",
+    providerType: "State Tax Credit",
+    incentiveAmount: "Repealed for new installations after tax year 2021",
+    eligibleEquipment: "Historical geothermal systems credit; not a new-project rebate",
+    status: "expired",
+    statusLabel: "Repealed Credit",
+    effectiveDates: "Tax year 2021 was the last year for a new claim",
+    sourceUrl: "https://revenue.mt.gov/taxes/repealed/",
+    sourceLabel: "Montana Department of Revenue Repealed Tax Credits",
+    lastReviewed: rebateReviewDate,
+    requirements: [
+      "Do not include an older advertised $1,500 state geothermal credit in a new 2026 project budget",
+      "Unused credits from eligible earlier tax years have separate carryforward rules; ask your tax professional",
     ],
   },
   {
@@ -156,10 +218,10 @@ export const rebatePrograms: RebateProgram[] = [
       "Planned HOMES and HEEHR programs; final equipment and project rules depend on approved program guidance",
     status: "pending_federal_approval",
     statusLabel: "Pending Launch",
-    effectiveDates: "Under Federal Review (Not Currently Available)",
+    effectiveDates: "Not launched — revised guidance and final DOE approval still required",
     sourceUrl: "https://deq.mt.gov/energy/Programs/efficiency",
     sourceLabel: "Montana DEQ Energy Efficiency Portal",
-    lastReviewed: "October 23, 2026",
+    lastReviewed: rebateReviewDate,
     requirements: [
       "Montana DEQ reports that state-administered HOMES and HEEHR rebate programs have not yet launched",
       "DEQ reports revised DOE guidance began June 1, 2026; further guidance, application revision, and final implementation approval remain necessary",
@@ -202,7 +264,7 @@ export const rebateFaqs: FAQItem[] = [
   },
   {
     "question": "Can I apply for Montana’s HOMES or HEEHR rebates now?",
-    "answer": "Not yet, according to Montana DEQ’s program page checked October 23, 2026. DEQ says the programs are not currently available and need final U.S. Department of Energy implementation approval before rollout. Announced funding or an estimated rebate is not an approval for your home. Do not assume a purchase made now will qualify later; wait for official application, timing, income, and equipment rules before relying on a future rebate.",
+    "answer": `Not yet, according to Montana DEQ’s program page checked ${rebateReviewDate}. DEQ says the programs are not currently available and need final U.S. Department of Energy implementation approval before rollout. Announced funding or an estimated rebate is not an approval for your home. Do not assume a purchase made now will qualify later; wait for official application, timing, income, and equipment rules before relying on a future rebate.`,
     "sources": [
       {
         "label": "Montana DEQ: current Home Energy Rebates status",

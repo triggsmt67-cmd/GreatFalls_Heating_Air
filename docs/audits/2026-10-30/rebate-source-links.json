@@ -1,0 +1,50 @@
+{
+  "checkedDate": "2026-10-30",
+  "sources": [
+    {
+      "url": "https://www.northwesternenergy.com/docs/default-source/default-document-library/billing-and-payment/e-programs/mt-residential-natural-gas-equipment.pdf",
+      "httpStatus": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.northwesternenergy.com/docs/default-source/default-document-library/billing-and-payment/e-programs/e-rebate-electric-existing-home.pdf",
+      "httpStatus": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.northwesternenergy.com/billing-payment/ways-to-save/rebates-incentives/heat-pump-water-heater-program",
+      "httpStatus": "200",
+      "error": ""
+    },
+    {
+      "url": "https://sunriverelectric.coop/air-source-heat-pumps",
+      "httpStatus": "200",
+      "error": ""
+    },
+    {
+      "url": "https://sunriverelectric.coop/sites/default/files/2025-06/ground-source-heat-pump-rebate-form.pdf",
+      "httpStatus": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.irs.gov/credits-deductions/energy-efficient-home-improvement-credit",
+      "httpStatus": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.irs.gov/credits-deductions/residential-clean-energy-credit",
+      "httpStatus": "200",
+      "error": ""
+    },
+    {
+      "url": "https://revenue.mt.gov/taxes/repealed/",
+      "httpStatus": "200",
+      "error": ""
+    },
+    {
+      "url": "https://deq.mt.gov/energy/Programs/efficiency",
+      "httpStatus": "200",
+      "error": ""
+    }
+  ]
+}

@@ -15,6 +15,7 @@ export function RebateTable({ programs }: { programs: RebateProgram[] }) {
           </div>
           <small>{p.effectiveDates}</small>
           <p>{p.eligibleEquipment}</p>
+          {p.disclaimerNote && <p><strong>{p.disclaimerNote}</strong></p>}
           <details>
             <summary className="text-link">Eligibility & requirements</summary>
             <ul>

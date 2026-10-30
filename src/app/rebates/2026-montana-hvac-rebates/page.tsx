@@ -54,6 +54,7 @@ export default function Page() {
               <h2 id="rebate-perspective-heading">Look at the full price before counting a rebate.</h2>
               <p>A suitable system should make sense for your home and budget. Keep the full installed price visible, then confirm the incentive for your utility account, exact equipment, and project. A bigger advertised rebate doesn’t tell you which system fits your home.</p>
               <p>Check who supplies your electricity and gas separately. A Great Falls address or a former Energy West gas account does not establish eligibility for a NorthWestern electric program.</p>
+              <p>NorthWestern’s current natural-gas application excludes former Energy West Montana and Cut Bank Gas accounts. Check the account restriction before counting a furnace or boiler incentive.</p>
               <ol>
                 <li>Identify the utility account and the applicable application.</li>
                 <li>Confirm equipment, approval timing, and required records before purchasing.</li>
@@ -90,7 +91,7 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <section className="faq-section section" aria-labelledby="rebate-faq-heading"><div className="wrap faq-grid"><div><p className="eyebrow">Before counting an incentive</p><h2 id="rebate-faq-heading">Frequently asked questions about Montana HVAC rebates.</h2><p>Checked October 23, 2026. Published programs do not confirm remaining funding or approval for your project.</p></div><div>{rebateFaqs.map(({ question, answer, sources }) => <details className="faq-item" key={question}><summary>{question}<span aria-hidden="true">+</span></summary><p>{answer}</p>{sources?.length ? <p className="faq-sources">Sources: {sources.map((source, index) => <span key={source.url}>{index > 0 ? "; " : ""}<a className="text-link" href={source.url}>{source.label}</a></span>)}</p> : null}</details>)}</div></div></section>
+      <section className="faq-section section" aria-labelledby="rebate-faq-heading"><div className="wrap faq-grid"><div><p className="eyebrow">Before counting an incentive</p><h2 id="rebate-faq-heading">Frequently asked questions about Montana HVAC rebates.</h2><p>Checked {rebateGuideMetadata.lastReviewedDate}. Published programs do not confirm remaining funding or approval for your project.</p></div><div>{rebateFaqs.map(({ question, answer, sources }) => <details className="faq-item" key={question}><summary>{question}<span aria-hidden="true">+</span></summary><p>{answer}</p>{sources?.length ? <p className="faq-sources">Sources: {sources.map((source, index) => <span key={source.url}>{index > 0 ? "; " : ""}<a className="text-link" href={source.url}>{source.label}</a></span>)}</p> : null}</details>)}</div></div></section>
       <FinalDarkCTA />
     </>
   );
