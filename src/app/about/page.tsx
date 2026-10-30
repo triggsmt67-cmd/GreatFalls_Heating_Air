@@ -36,6 +36,8 @@ export default function Page() {
             alt="Robert Ross outdoors beside a tree."
             width={428}
             height={319}
+            loading="eager"
+            fetchPriority="high"
             sizes="(max-width: 600px) calc(100vw - 40px), 480px"
             className={styles.ownerPhoto}
           />

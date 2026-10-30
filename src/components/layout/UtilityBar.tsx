@@ -1,7 +1,7 @@
 import { siteConfig } from "@/content/site";
 export function UtilityBar() {
   return (
-    <div className="utility-bar">
+    <aside className="utility-bar" aria-label="Service area and emergency contact">
       <div className="wrap">
         <span>
           Great Falls, Montana
@@ -11,6 +11,6 @@ export function UtilityBar() {
           24/7 emergency repair <strong>{siteConfig.phoneDisplay}</strong>
         </a>
       </div>
-    </div>
+    </aside>
   );
 }

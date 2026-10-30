@@ -39,7 +39,8 @@ export function PhotoPlaceholder({
             src={src}
             alt={alt || subject}
             fill
-            preload={priority}
+            loading={priority ? "eager" : "lazy"}
+            fetchPriority={priority ? "high" : undefined}
             sizes={
               sizes || "(max-width: 600px) calc(100vw - 40px), (max-width: 900px) calc(100vw - 64px), (max-width: 1248px) 42vw, 500px"
             }

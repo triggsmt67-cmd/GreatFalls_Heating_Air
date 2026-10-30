@@ -26,7 +26,7 @@ export function Breadcrumbs({ items, className = "", schemaId }: BreadcrumbsProp
       />
       <nav
         aria-label="Breadcrumb"
-        className={`flex items-center text-xs sm:text-sm text-slate-500 py-3 ${className}`}
+        className={`flex items-center text-xs sm:text-sm text-slate-600 py-3 ${className}`}
       >
         <ol className="flex items-center space-x-1.5 flex-wrap">
           {allItems.map((item, index) => {
@@ -50,7 +50,7 @@ export function Breadcrumbs({ items, className = "", schemaId }: BreadcrumbsProp
                 ) : (
                   <Link
                     href={item.url}
-                    className="hover:text-[#087BEA] transition-colors duration-150 inline-flex items-center gap-1"
+                    className="hover:text-[#075ca8] transition-colors duration-150 inline-flex items-center gap-1"
                   >
                     {index === 0 && (
                       <Home className="w-3.5 h-3.5" aria-hidden="true" />

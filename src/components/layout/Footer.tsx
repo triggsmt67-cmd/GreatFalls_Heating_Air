@@ -24,9 +24,10 @@ export function Footer() {
     <footer className={styles.footer}>
       <div className={`wrap ${styles.grid}`}>
         <div className={styles.contact}>
-          <Link href="/" className={styles.wordmark} aria-label={`${siteConfig.businessName} — home`}>
-            <span>Great Falls</span>
+          <Link href="/" className={styles.wordmark}>
+            <span>Great Falls </span>
             <span>Heating and Air LLC</span>
+            <span className={styles.srOnly}> — home</span>
           </Link>
           <p>Residential heating & cooling.<br />Great Falls and the communities around it.</p>
           <a className={styles.phone} href={`tel:${siteConfig.phoneE164}`}>{siteConfig.phoneDisplay}</a>
