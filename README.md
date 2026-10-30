@@ -20,6 +20,8 @@ This is the current checklist. Dated checkpoints below are historical records an
 - [x] **Clean up the privacy page and private address exposure.** The dated policy is published; the private street address was removed from shared browser configuration. Review disclosure changes if tracking or operational policies change.
 - [x] **Align the final domain and SEO URLs.** The preferred host is `https://www.greatfallsheatingandair.com`. Vercel permanently redirects the apex domain to `www`; Production `NEXT_PUBLIC_SITE_URL`, the source fallback, canonical tags, sitemap, robots, social metadata, and generated structured-data URLs use the same host. Domain-alignment checks are required on the resulting deployment before reporting the release complete.
 
+Production crawl on October 30 passed: all 17 sitemap pages returned 200 with matching canonical URLs and indexing allowed; 24 internal destinations, 155 local assets, and 50 host/protocol/trailing-slash variants had no unexpected HTTP errors. Redirect targets and contact-intent canonicals matched the preferred www URLs. The deliberate nonexistent-URL probe correctly returned 404; Thank You remains noindex and excluded from the sitemap. This is a point-in-time crawl, not a Google indexing guarantee. [Detailed crawl evidence](docs/audits/2026-10-30/pre-search-console-crawl.json).
+
 ### Still to finish, in priority order
 
 - [ ] **Finish Google Search Console and Google Business Profile setup.** Confirm ownership, submit the final sitemap, inspect indexing, and supply the actual GBP URL and accurate service-area/business details. Ownership and Google indexing have not been verified here.

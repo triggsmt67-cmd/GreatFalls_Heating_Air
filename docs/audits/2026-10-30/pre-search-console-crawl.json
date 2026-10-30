@@ -1,0 +1,1821 @@
+{
+  "checkedAt": "2026-10-30T23:26:56.253163+00:00",
+  "scope": "Production GET crawl. No lead submission, Search Console submission, or Googlebot live test. Point-in-time availability check.",
+  "sitemap": {
+    "url": "https://www.greatfallsheatingandair.com/sitemap.xml",
+    "status": 200,
+    "final": "https://www.greatfallsheatingandair.com/sitemap.xml",
+    "redirects": 0,
+    "error": ""
+  },
+  "sitemapPageCount": 17,
+  "pages": [
+    {
+      "url": "https://www.greatfallsheatingandair.com",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/",
+      "redirects": 0,
+      "error": "",
+      "canonical": [
+        "https://www.greatfallsheatingandair.com"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ]
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/about",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/about",
+      "redirects": 0,
+      "error": "",
+      "canonical": [
+        "https://www.greatfallsheatingandair.com/about"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ]
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/contact",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/contact",
+      "redirects": 0,
+      "error": "",
+      "canonical": [
+        "https://www.greatfallsheatingandair.com/contact"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ]
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/privacy",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/privacy",
+      "redirects": 0,
+      "error": "",
+      "canonical": [
+        "https://www.greatfallsheatingandair.com/privacy"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ]
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/rebates/2026-montana-hvac-rebates",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/rebates/2026-montana-hvac-rebates",
+      "redirects": 0,
+      "error": "",
+      "canonical": [
+        "https://www.greatfallsheatingandair.com/rebates/2026-montana-hvac-rebates"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ]
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/services/cooling",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/cooling",
+      "redirects": 0,
+      "error": "",
+      "canonical": [
+        "https://www.greatfallsheatingandair.com/services/cooling"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ]
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/services/cooling/ac-installation",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/cooling/ac-installation",
+      "redirects": 0,
+      "error": "",
+      "canonical": [
+        "https://www.greatfallsheatingandair.com/services/cooling/ac-installation"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ]
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance",
+      "redirects": 0,
+      "error": "",
+      "canonical": [
+        "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ]
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/services/cooling/ac-repair",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/cooling/ac-repair",
+      "redirects": 0,
+      "error": "",
+      "canonical": [
+        "https://www.greatfallsheatingandair.com/services/cooling/ac-repair"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ]
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate",
+      "redirects": 0,
+      "error": "",
+      "canonical": [
+        "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ]
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits",
+      "redirects": 0,
+      "error": "",
+      "canonical": [
+        "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ]
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation",
+      "redirects": 0,
+      "error": "",
+      "canonical": [
+        "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ]
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance",
+      "redirects": 0,
+      "error": "",
+      "canonical": [
+        "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ]
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/services/heating",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heating",
+      "redirects": 0,
+      "error": "",
+      "canonical": [
+        "https://www.greatfallsheatingandair.com/services/heating"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ]
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair",
+      "redirects": 0,
+      "error": "",
+      "canonical": [
+        "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ]
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/services/heating/furnace-installation",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heating/furnace-installation",
+      "redirects": 0,
+      "error": "",
+      "canonical": [
+        "https://www.greatfallsheatingandair.com/services/heating/furnace-installation"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ]
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance",
+      "redirects": 0,
+      "error": "",
+      "canonical": [
+        "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ]
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/thank-you",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/thank-you",
+      "redirects": 0,
+      "error": "",
+      "canonical": [
+        "https://www.greatfallsheatingandair.com/thank-you"
+      ],
+      "robots": [
+        "noindex, nofollow"
+      ]
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/",
+      "redirects": 0,
+      "error": "",
+      "canonical": [
+        "https://www.greatfallsheatingandair.com"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ]
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/contact?intent=emergency",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/contact?intent=emergency",
+      "redirects": 0,
+      "error": "",
+      "canonical": [
+        "https://www.greatfallsheatingandair.com/contact"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ]
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/contact?intent=estimate",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/contact?intent=estimate",
+      "redirects": 0,
+      "error": "",
+      "canonical": [
+        "https://www.greatfallsheatingandair.com/contact"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ]
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/contact?intent=general",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/contact?intent=general",
+      "redirects": 0,
+      "error": "",
+      "canonical": [
+        "https://www.greatfallsheatingandair.com/contact"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ]
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/contact?intent=maintenance",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/contact?intent=maintenance",
+      "redirects": 0,
+      "error": "",
+      "canonical": [
+        "https://www.greatfallsheatingandair.com/contact"
+      ],
+      "robots": [
+        "index, follow",
+        "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+      ]
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/sitemap.xml",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/sitemap.xml",
+      "redirects": 0,
+      "error": "",
+      "canonical": [],
+      "robots": []
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-repair-outdoor-condenser.webp&w=1080&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-repair-outdoor-condenser.webp&w=1080&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-repair-outdoor-condenser.webp&w=1200&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-repair-outdoor-condenser.webp&w=1200&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-repair-outdoor-condenser.webp&w=1920&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-repair-outdoor-condenser.webp&w=1920&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-repair-outdoor-condenser.webp&w=2048&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-repair-outdoor-condenser.webp&w=2048&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-repair-outdoor-condenser.webp&w=384&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-repair-outdoor-condenser.webp&w=384&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-repair-outdoor-condenser.webp&w=3840&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-repair-outdoor-condenser.webp&w=3840&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-repair-outdoor-condenser.webp&w=640&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-repair-outdoor-condenser.webp&w=640&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-repair-outdoor-condenser.webp&w=750&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-repair-outdoor-condenser.webp&w=750&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-repair-outdoor-condenser.webp&w=828&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-repair-outdoor-condenser.webp&w=828&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-service.webp&w=1080&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-service.webp&w=1080&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-service.webp&w=1200&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-service.webp&w=1200&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-service.webp&w=1920&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-service.webp&w=1920&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-service.webp&w=2048&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-service.webp&w=2048&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-service.webp&w=256&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-service.webp&w=256&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-service.webp&w=384&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-service.webp&w=384&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-service.webp&w=3840&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-service.webp&w=3840&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-service.webp&w=640&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-service.webp&w=640&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-service.webp&w=750&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-service.webp&w=750&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-service.webp&w=828&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fac-service.webp&w=828&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-heat-pump-installation.webp&w=1080&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-heat-pump-installation.webp&w=1080&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-heat-pump-installation.webp&w=1200&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-heat-pump-installation.webp&w=1200&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-heat-pump-installation.webp&w=1920&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-heat-pump-installation.webp&w=1920&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-heat-pump-installation.webp&w=2048&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-heat-pump-installation.webp&w=2048&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-heat-pump-installation.webp&w=384&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-heat-pump-installation.webp&w=384&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-heat-pump-installation.webp&w=3840&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-heat-pump-installation.webp&w=3840&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-heat-pump-installation.webp&w=640&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-heat-pump-installation.webp&w=640&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-heat-pump-installation.webp&w=750&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-heat-pump-installation.webp&w=750&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-heat-pump-installation.webp&w=828&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-heat-pump-installation.webp&w=828&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-mitsubishi-outdoor-heat-pump.webp&w=1080&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-mitsubishi-outdoor-heat-pump.webp&w=1080&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-mitsubishi-outdoor-heat-pump.webp&w=1200&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-mitsubishi-outdoor-heat-pump.webp&w=1200&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-mitsubishi-outdoor-heat-pump.webp&w=1920&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-mitsubishi-outdoor-heat-pump.webp&w=1920&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-mitsubishi-outdoor-heat-pump.webp&w=2048&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-mitsubishi-outdoor-heat-pump.webp&w=2048&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-mitsubishi-outdoor-heat-pump.webp&w=384&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-mitsubishi-outdoor-heat-pump.webp&w=384&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-mitsubishi-outdoor-heat-pump.webp&w=3840&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-mitsubishi-outdoor-heat-pump.webp&w=3840&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-mitsubishi-outdoor-heat-pump.webp&w=640&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-mitsubishi-outdoor-heat-pump.webp&w=640&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-mitsubishi-outdoor-heat-pump.webp&w=750&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-mitsubishi-outdoor-heat-pump.webp&w=750&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-mitsubishi-outdoor-heat-pump.webp&w=828&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcold-climate-mitsubishi-outdoor-heat-pump.webp&w=828&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcooling-service-great-falls.webp&w=1080&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcooling-service-great-falls.webp&w=1080&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcooling-service-great-falls.webp&w=1200&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcooling-service-great-falls.webp&w=1200&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcooling-service-great-falls.webp&w=1920&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcooling-service-great-falls.webp&w=1920&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcooling-service-great-falls.webp&w=2048&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcooling-service-great-falls.webp&w=2048&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcooling-service-great-falls.webp&w=384&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcooling-service-great-falls.webp&w=384&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcooling-service-great-falls.webp&w=3840&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcooling-service-great-falls.webp&w=3840&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcooling-service-great-falls.webp&w=640&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcooling-service-great-falls.webp&w=640&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcooling-service-great-falls.webp&w=750&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcooling-service-great-falls.webp&w=750&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcooling-service-great-falls.webp&w=828&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fcooling-service-great-falls.webp&w=828&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Femergency-furnace-repair-great-falls.webp&w=1080&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Femergency-furnace-repair-great-falls.webp&w=1080&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Femergency-furnace-repair-great-falls.webp&w=1200&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Femergency-furnace-repair-great-falls.webp&w=1200&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Femergency-furnace-repair-great-falls.webp&w=1920&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Femergency-furnace-repair-great-falls.webp&w=1920&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Femergency-furnace-repair-great-falls.webp&w=2048&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Femergency-furnace-repair-great-falls.webp&w=2048&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Femergency-furnace-repair-great-falls.webp&w=384&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Femergency-furnace-repair-great-falls.webp&w=384&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Femergency-furnace-repair-great-falls.webp&w=3840&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Femergency-furnace-repair-great-falls.webp&w=3840&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Femergency-furnace-repair-great-falls.webp&w=640&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Femergency-furnace-repair-great-falls.webp&w=640&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Femergency-furnace-repair-great-falls.webp&w=750&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Femergency-furnace-repair-great-falls.webp&w=750&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Femergency-furnace-repair-great-falls.webp&w=828&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Femergency-furnace-repair-great-falls.webp&w=828&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Ffurnace-diagnostic.webp&w=1080&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Ffurnace-diagnostic.webp&w=1080&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Ffurnace-diagnostic.webp&w=1200&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Ffurnace-diagnostic.webp&w=1200&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Ffurnace-diagnostic.webp&w=1920&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Ffurnace-diagnostic.webp&w=1920&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Ffurnace-diagnostic.webp&w=2048&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Ffurnace-diagnostic.webp&w=2048&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Ffurnace-diagnostic.webp&w=384&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Ffurnace-diagnostic.webp&w=384&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Ffurnace-diagnostic.webp&w=3840&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Ffurnace-diagnostic.webp&w=3840&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Ffurnace-diagnostic.webp&w=640&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Ffurnace-diagnostic.webp&w=640&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Ffurnace-diagnostic.webp&w=750&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Ffurnace-diagnostic.webp&w=750&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Ffurnace-diagnostic.webp&w=828&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Ffurnace-diagnostic.webp&w=828&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fgreat-falls-neighborhood-footer.png&w=1080&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fgreat-falls-neighborhood-footer.png&w=1080&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fgreat-falls-neighborhood-footer.png&w=1200&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fgreat-falls-neighborhood-footer.png&w=1200&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fgreat-falls-neighborhood-footer.png&w=1920&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fgreat-falls-neighborhood-footer.png&w=1920&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fgreat-falls-neighborhood-footer.png&w=2048&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fgreat-falls-neighborhood-footer.png&w=2048&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fgreat-falls-neighborhood-footer.png&w=3840&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fgreat-falls-neighborhood-footer.png&w=3840&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fgreat-falls-neighborhood-footer.png&w=640&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fgreat-falls-neighborhood-footer.png&w=640&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fgreat-falls-neighborhood-footer.png&w=750&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fgreat-falls-neighborhood-footer.png&w=750&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fgreat-falls-neighborhood-footer.png&w=828&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fgreat-falls-neighborhood-footer.png&w=828&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fheating-furnace-installation.webp&w=1080&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fheating-furnace-installation.webp&w=1080&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fheating-furnace-installation.webp&w=1200&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fheating-furnace-installation.webp&w=1200&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fheating-furnace-installation.webp&w=1920&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fheating-furnace-installation.webp&w=1920&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fheating-furnace-installation.webp&w=2048&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fheating-furnace-installation.webp&w=2048&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fheating-furnace-installation.webp&w=384&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fheating-furnace-installation.webp&w=384&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fheating-furnace-installation.webp&w=3840&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fheating-furnace-installation.webp&w=3840&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fheating-furnace-installation.webp&w=640&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fheating-furnace-installation.webp&w=640&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fheating-furnace-installation.webp&w=750&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fheating-furnace-installation.webp&w=750&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fheating-furnace-installation.webp&w=828&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fheating-furnace-installation.webp&w=828&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=1080&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=1080&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=1200&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=1200&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=128&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=128&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=1920&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=1920&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=2048&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=2048&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=256&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=256&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=32&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=32&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=384&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=384&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=3840&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=3840&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=48&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=48&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=64&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=64&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=640&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=640&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=750&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=750&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=828&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=828&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=96&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fhome-exterior.webp&w=96&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=1080&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=1080&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=1200&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=1200&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=128&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=128&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=1920&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=1920&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=2048&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=2048&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=256&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=256&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=32&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=32&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=384&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=384&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=3840&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=3840&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=48&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=48&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=64&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=64&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=640&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=640&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=750&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=750&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=828&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=828&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=96&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Frobert-ross.webp&w=96&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fwinter-heat-pump.webp&w=1080&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fwinter-heat-pump.webp&w=1080&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fwinter-heat-pump.webp&w=1200&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fwinter-heat-pump.webp&w=1200&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fwinter-heat-pump.webp&w=1920&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fwinter-heat-pump.webp&w=1920&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fwinter-heat-pump.webp&w=2048&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fwinter-heat-pump.webp&w=2048&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fwinter-heat-pump.webp&w=384&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fwinter-heat-pump.webp&w=384&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fwinter-heat-pump.webp&w=3840&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fwinter-heat-pump.webp&w=3840&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fwinter-heat-pump.webp&w=640&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fwinter-heat-pump.webp&w=640&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fwinter-heat-pump.webp&w=750&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fwinter-heat-pump.webp&w=750&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fwinter-heat-pump.webp&w=828&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/image?url=%2Fimages%2Fwinter-heat-pump.webp&w=828&q=75&dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/030nfl1jxwd0i.css",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/030nfl1jxwd0i.css",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/08o4_egh3982v.css",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/08o4_egh3982v.css",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/0w25wsy-xcymr.js",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/0w25wsy-xcymr.js",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/0zq8fua00_p8-.css",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/0zq8fua00_p8-.css",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/0ztwji-fwozrn.js",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/0ztwji-fwozrn.js",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/13rlcr876lvg2.css",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/13rlcr876lvg2.css",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/1ilff88oa2_i1.css",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/1ilff88oa2_i1.css",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/1kni_qtxu0uni.css",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/1kni_qtxu0uni.css",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/1pbly7suw33rl.css",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/1pbly7suw33rl.css",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/23ys-8pb63_mk.js",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/23ys-8pb63_mk.js",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/26uis3-ez1y3i.js",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/26uis3-ez1y3i.js",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/29jggfhjrx92a.css",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/29jggfhjrx92a.css",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/29u2a-_zfc6t7.css",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/29u2a-_zfc6t7.css",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/2f-i7t85vi8_f.js",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/2f-i7t85vi8_f.js",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/2g0e3-t0awcct.css",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/2g0e3-t0awcct.css",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/2iqd8tatews93.css",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/2iqd8tatews93.css",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/2wuvry2-o7c39.css",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/2wuvry2-o7c39.css",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/34h5psfikkza4.css",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/34h5psfikkza4.css",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/35-dmthovpzlu.js",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/35-dmthovpzlu.js",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/3bbshz2b2a61r.css",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/3bbshz2b2a61r.css",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/3ci49b33he4p4.css",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/3ci49b33he4p4.css",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/3r_bpw9w4r1uy.js",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/3r_bpw9w4r1uy.js",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/3rtwfj76mnqo6.css",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/3rtwfj76mnqo6.css",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/turbopack-1k-gqt0qwu3qm.js",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/chunks/turbopack-1k-gqt0qwu3qm.js",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/media/a343f882a40d2cc9-s.p.2ywnh8m32q6p0.woff2",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/media/a343f882a40d2cc9-s.p.2ywnh8m32q6p0.woff2",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/apple-icon.png?apple-icon.1mtgdwa41gkdt.png",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/apple-icon.png?apple-icon.1mtgdwa41gkdt.png",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/favicon.ico?favicon.3vc9tb-w0ahlf.ico",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/favicon.ico?favicon.3vc9tb-w0ahlf.ico",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/icon.png?icon.3mh1abepope3s.png",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/icon.png?icon.3mh1abepope3s.png",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/images/great-falls-heating-air-logo.svg?dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/images/great-falls-heating-air-logo.svg?dpl=dpl_59XFdT4YbqAktMbKeZk44AZbTdzm",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/media/58c4895d0a0ef7cc-s.2p5l8hwveaaiz.woff2",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/media/58c4895d0a0ef7cc-s.2p5l8hwveaaiz.woff2",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/media/6ab0db14f70d8ed6-s.2gp_y-cmv6-ey.woff2",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/media/6ab0db14f70d8ed6-s.2gp_y-cmv6-ey.woff2",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/media/a342834df7752944-s.2k_u76ydap2io.woff2",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/media/a342834df7752944-s.2k_u76ydap2io.woff2",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/media/bfc7db5c00d21bc5-s.1_g-53zz09yvy.woff2",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/media/bfc7db5c00d21bc5-s.1_g-53zz09yvy.woff2",
+      "redirects": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/_next/static/immutable/media/d3fe2f289711ac3f-s.31_i6ngnt52xa.woff2",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/_next/static/immutable/media/d3fe2f289711ac3f-s.31_i6ngnt52xa.woff2",
+      "redirects": 0,
+      "error": ""
+    }
+  ],
+  "variants": [
+    {
+      "url": "https://greatfallsheatingandair.com/",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "http://www.greatfallsheatingandair.com/",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://greatfallsheatingandair.com/about",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/about",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "http://www.greatfallsheatingandair.com/about",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/about",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/about/",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/about",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://greatfallsheatingandair.com/contact",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/contact",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "http://www.greatfallsheatingandair.com/contact",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/contact",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/contact/",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/contact",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://greatfallsheatingandair.com/rebates/2026-montana-hvac-rebates",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/rebates/2026-montana-hvac-rebates",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "http://www.greatfallsheatingandair.com/rebates/2026-montana-hvac-rebates",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/rebates/2026-montana-hvac-rebates",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/rebates/2026-montana-hvac-rebates/",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/rebates/2026-montana-hvac-rebates",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://greatfallsheatingandair.com/privacy",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/privacy",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "http://www.greatfallsheatingandair.com/privacy",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/privacy",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/privacy/",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/privacy",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://greatfallsheatingandair.com/services/heating",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heating",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "http://www.greatfallsheatingandair.com/services/heating",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heating",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/services/heating/",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heating",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://greatfallsheatingandair.com/services/heating/emergency-furnace-repair",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "http://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair/",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://greatfallsheatingandair.com/services/heating/furnace-installation",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heating/furnace-installation",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "http://www.greatfallsheatingandair.com/services/heating/furnace-installation",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heating/furnace-installation",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/services/heating/furnace-installation/",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heating/furnace-installation",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://greatfallsheatingandair.com/services/heating/furnace-maintenance",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "http://www.greatfallsheatingandair.com/services/heating/furnace-maintenance",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance/",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://greatfallsheatingandair.com/services/cooling",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/cooling",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "http://www.greatfallsheatingandair.com/services/cooling",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/cooling",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/services/cooling/",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/cooling",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://greatfallsheatingandair.com/services/cooling/ac-repair",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/cooling/ac-repair",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "http://www.greatfallsheatingandair.com/services/cooling/ac-repair",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/cooling/ac-repair",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/services/cooling/ac-repair/",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/cooling/ac-repair",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://greatfallsheatingandair.com/services/cooling/ac-installation",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/cooling/ac-installation",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "http://www.greatfallsheatingandair.com/services/cooling/ac-installation",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/cooling/ac-installation",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/services/cooling/ac-installation/",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/cooling/ac-installation",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://greatfallsheatingandair.com/services/cooling/ac-maintenance",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "http://www.greatfallsheatingandair.com/services/cooling/ac-maintenance",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance/",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://greatfallsheatingandair.com/services/heat-pumps/cold-climate",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "http://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate/",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "http://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation/",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "http://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits/",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://greatfallsheatingandair.com/services/heat-pumps/repair-maintenance",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "http://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance/",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance",
+      "redirects": 1,
+      "error": ""
+    }
+  ],
+  "controls": [
+    {
+      "url": "https://www.greatfallsheatingandair.com/robots.txt",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/robots.txt",
+      "redirects": 0,
+      "error": "",
+      "content": "User-Agent: *\nUser-Agent: Googlebot\nUser-Agent: Bingbot\nUser-Agent: OAI-SearchBot\nUser-Agent: ChatGPT-User\nUser-Agent: PerplexityBot\nUser-Agent: Perplexity-User\nAllow: /\nDisallow: /api/\nDisallow: /api$\n\nSitemap: https://www.greatfallsheatingandair.com/sitemap.xml\n"
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/sitemap",
+      "status": 200,
+      "final": "https://www.greatfallsheatingandair.com/sitemap.xml",
+      "redirects": 1,
+      "error": ""
+    },
+    {
+      "url": "https://www.greatfallsheatingandair.com/this-page-should-not-exist-audit-20261030",
+      "status": 404,
+      "final": "https://www.greatfallsheatingandair.com/this-page-should-not-exist-audit-20261030",
+      "redirects": 0,
+      "error": ""
+    }
+  ],
+  "unexpectedErrors": [],
+  "canonicalIssues": [],
+  "sourcePagesOutsideSitemap": [
+    "https://www.greatfallsheatingandair.com/thank-you"
+  ],
+  "summary": {
+    "linkedPageURLs": 24,
+    "localAssets": 155,
+    "redirectVariants": 50,
+    "unexpectedErrors": 0,
+    "canonicalIssues": 0
+  },
+  "redirectTargetIssues": [],
+  "queryCanonicalIssues": []
+}
