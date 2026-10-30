@@ -16,7 +16,7 @@ export function LicenseMark() {
 
 export function TrustMarks() {
   return (
-    <div className="trust-marks" aria-label="Business information">
+    <div className="trust-marks" role="group" aria-label="Business information">
       <Link href="/about" className="trust-mark">
         <ServiceIcon name="license" size={40} />
         <span>

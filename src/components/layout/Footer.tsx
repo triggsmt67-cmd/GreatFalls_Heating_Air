@@ -48,7 +48,7 @@ export function Footer() {
             <Link href="/contact">Contact & estimates</Link>
             <Link href="/privacy">Privacy policy</Link>
           </nav>
-          <div className={styles.socials} aria-label="Social media">
+          <div className={styles.socials} role="group" aria-label="Social media">
             {(["facebook", "instagram"] as const).map((platform) => {
               const url = siteConfig.socials[platform];
               const label = platform === "facebook" ? "Facebook" : "Instagram";
