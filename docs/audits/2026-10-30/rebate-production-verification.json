@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-30",
+  "sourceCommit": "2ef6483d9f20081c62ae35f4ead1d3bd51ec38f6",
+  "deployment": "dpl_EtEKp7gSb91ms238GTnyYCP3zuMQ",
+  "state": "READY",
+  "pageChecks": [
+    {
+      "path": "/rebates/2026-montana-hvac-rebates",
+      "httpStatus": 200,
+      "currentReviewDate": true,
+      "gasExclusionPresent": true
+    },
+    {
+      "path": "/services/heating/furnace-installation",
+      "httpStatus": 200,
+      "currentReviewDate": false,
+      "gasExclusionPresent": true
+    },
+    {
+      "path": "/services/cooling",
+      "httpStatus": 200,
+      "currentReviewDate": true,
+      "gasExclusionPresent": false
+    },
+    {
+      "path": "/services/heat-pumps/cold-climate",
+      "httpStatus": 200,
+      "currentReviewDate": true,
+      "gasExclusionPresent": false
+    },
+    {
+      "path": "/services/heat-pumps/ductless-mini-splits",
+      "httpStatus": 200,
+      "currentReviewDate": true,
+      "gasExclusionPresent": false
+    },
+    {
+      "path": "/services/heat-pumps/heat-pump-installation",
+      "httpStatus": 200,
+      "currentReviewDate": true,
+      "gasExclusionPresent": false
+    }
+  ],
+  "guide": {
+    "programCount": 9,
+    "publishedUtilityOffers": 5,
+    "expiredOrPendingEntries": 4,
+    "faqCount": 6,
+    "canonicalCorrect": true,
+    "faqReviewDateUpdated": true,
+    "oldReviewDateAbsent": true,
+    "mobileCSSWidth": 320,
+    "horizontalOverflow": false,
+    "axeViolations": 0
+  },
+  "checks": {
+    "tests": 42,
+    "typecheck": "passed",
+    "lint": "passed",
+    "build": "passed"
+  },
+  "proof": "rebate-current-programs.png"
+}
