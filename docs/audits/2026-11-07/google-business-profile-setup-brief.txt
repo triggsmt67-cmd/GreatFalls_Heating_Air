@@ -1,0 +1,265 @@
+GOOGLE BUSINESS PROFILE SETUP BRIEF
+Great Falls Heating and Air LLC | Prepared November 7, 2026
+Status: DRAFT READY FOR PROFILE SETUP. No Google profile or website edits made.
+
+PURPOSE AND ACCEPTED DECISION
+User approved starting as a service-area business with the street address hidden.
+Robert has a separate shop at his home but works out in the field; no one remains
+at the shop to receive customers. Signage alone will not change that operating
+fact. Revisit a public shop address only when real customer-facing availability
+changes. Do not publish a private address in website text, schema or directories.
+
+Match business identity, phone, website, real service coverage, hours, offerings
+and claims across channels. Wording can be adapted to each field: identical text
+everywhere is not a requirement or a ranking guarantee. Google's categories and
+suggested service labels need not exactly match the website's conversational H1s.
+
+RESEARCH BASIS
+Read current siteConfig, serviceCommunities, servicesData, siteMapGroups, shared
+HVACBusiness schema and About copy. Fetched all 17 live sitemap URLs: all returned
+200. Saved current page headings, descriptions and main text in adjacent
+gbp-website-content-evidence.json. Reviewed the same session's top four organic
+Google Places Overview/Services panels and all remaining result rows; see
+google-maps-competitor-notes.txt. This is not access to competitors' edit screens.
+Full primary/secondary category configurations, owner-authored About descriptions,
+verification status and total photo counts were not exposed in the reviewed
+panels. Short Google overview summaries were not assumed to be owner-written.
+
+MASTER BUSINESS FACTS
+Public brand: Great Falls Heating and Air
+Legal name / website structured data: Great Falls Heating and Air LLC
+Google name: use the actual consistently branded name; include LLC only if that
+is how real-world branding/documents consistently present it. No added city,
+service-keyword, emergency or veteran-owned suffixes. City words already in the
+actual name are legitimate. Do not rename the website merely to stuff keywords.
+Owner: Robert Ross
+Phone: (406) 781-4027 | tel:+14067814027
+Website: https://www.greatfallsheatingandair.com/
+Contact: https://www.greatfallsheatingandair.com/contact
+Email: gfheatingandair@icloud.com
+Business type: service-area business; no public storefront address/directions.
+Regular hours: Monday-Friday 8 AM-5 PM, America/Denver.
+Emergency availability: 24/7 emergency service and repair, separately stated.
+Online inquiries: not continuously monitored; do not reserve appointments.
+Urgent/no-heat customer action: telephone first.
+Do not set all ordinary hours to 24 hours simply because emergency calls are
+available. During setup check Google's actual hours options and accurately reflect
+how Robert accepts/provides service. If a single hours field cannot represent the
+distinction, resolve it explicitly rather than silently contradicting the website.
+Identity: veteran-owned, locally operated; Robert has more than 20 years in HVAC.
+Opening date: UNKNOWN. Owner's experience is not the age of this company.
+Montana registration: C1680325, recorded in website configuration. Do not turn
+this into broader license/insurance/certification claims without evidence.
+
+SERVICE AREA: EXACT WEBSITE LIST
+Great Falls; Black Eagle; Malmstrom AFB; Ulm; Cascade; Vaughn; Sun Prairie;
+Sun River; Belt; Sand Coulee; Stockett; Tracy; Centerville.
+Select Google's recognized place/postal options corresponding to those actual
+communities. Do not invent ZIP codes or enlarge coverage merely to fill slots.
+Malmstrom wording on website refers to nearby/off-base households, with no base
+access, military affiliation or endorsement implied. Do not select an area in a
+way that promises on-base access without confirmation.
+Some page descriptions use Cascade County as geographic context. This does not
+establish service to every address in the county. Keep the published community
+list as the starting point and confirm outlying addresses by phone.
+
+CATEGORY PLAN
+Candidate primary: HVAC contractor.
+Candidate additional categories: Heating contractor; Air conditioning contractor;
+Air conditioning repair service; Furnace repair service.
+Confirm exact available names in Google's editor. Select a small accurate set,
+not a separate category for every service. Do not claim these were all verified
+secondary categories on competitor profiles. Reassess primary only if Robert's
+actual core business clearly favors a more specific category.
+Do not add Plumber, Electrician, Mechanical engineer, Boiler supplier, Duct
+cleaning service, equipment dealer or commercial specialties solely because a
+competitor does. Existing page explanations of ducts/electrical work do not prove
+standalone services, credentials or dealer authorizations.
+
+PROPOSED BUSINESS DESCRIPTION — READY TO PASTE AFTER FACT REVIEW
+Great Falls Heating and Air is a veteran-owned heating and cooling business
+serving Great Falls and surrounding Montana communities. Owner Robert Ross
+brings more than 20 years of HVAC experience. Services include furnace repair,
+installation and maintenance; air conditioning repair, installation and
+maintenance; and heat pump installation, repair and maintenance, including
+cold-climate and ductless mini-split systems. Robert's approach is to explain
+the problem, discuss the recommended work and help customers understand the
+quote. Regular hours are Monday-Friday, 8 a.m.-5 p.m., with 24/7 emergency
+service and repair available. Call for urgent service and current availability.
+
+Writing approach: state business, location and real services first; add the actual
+owner and experience; explain the customer experience; clarify availability.
+No URLs, promotions, dollar prices, guaranteed response times or superlatives in
+this description. Check the final pasted character count against Google's editor.
+The website already supports the substance; no mass copy replacement is needed.
+
+SERVICE MENU / PAGE MAPPING / DRAFT DESCRIPTIONS
+Use appropriate suggested services when offered by Google. Add a clear custom
+service only when a distinct actual offering isn't covered. Do not add both a
+suggested label and several near-identical custom versions to repeat keywords.
+Paths below are website references, not a claim Google's Services editor accepts
+per-service URL links. Each relative path follows the website origin above.
+
+1. Furnace repair
+   Page: /services/heating
+   More specific urgent page: /services/heating/emergency-furnace-repair
+   Suggested-label candidate: Heating system repair / Repair HVAC.
+   Draft: Furnace diagnosis and repair for Great Falls homes with no heat,
+   uneven heating or operating problems. Discuss the findings, proposed work,
+   costs and current service availability before authorizing a repair.
+
+2. Emergency furnace repair
+   Page: /services/heating/emergency-furnace-repair
+   Distinct custom service if needed; do not imply guaranteed immediate arrival.
+   Draft: 24/7 emergency service and repair for urgent furnace and no-heat
+   problems. Call to discuss symptoms, location and availability. Online
+   inquiries are not continuously monitored and do not reserve an appointment.
+
+3. Furnace installation and replacement
+   Page: /services/heating/furnace-installation
+   Suggested-label candidate: Heating system installation.
+   Draft: Furnace installation and replacement planning based on your home,
+   existing equipment, airflow and venting needs. Discuss gas or propane
+   compatibility and a written estimate covering the proposed equipment and work.
+
+4. Furnace maintenance
+   Page: /services/heating/furnace-maintenance
+   Suggested-label candidate: Heating system maintenance.
+   Draft: Seasonal furnace maintenance for Great Falls winters. Discuss the
+   checks appropriate for your equipment, filter and airflow needs, operating
+   concerns and a record of findings. Repairs or additional testing may be separate.
+
+5. Air conditioning repair
+   Page: /services/cooling/ac-repair
+   Suggested-label candidate: A/C system repair.
+   Draft: AC diagnosis and repair for warm air, weak airflow, icing and other
+   cooling problems. Understand the test findings and recommended work before
+   approving a repair. Call to discuss your equipment and current availability.
+
+6. Air conditioning installation and replacement
+   Page: /services/cooling/ac-installation
+   Suggested-label candidate: Install AC.
+   Draft: Residential AC installation and replacement planning for the rooms
+   you need to cool. Compare equipment sizing, furnace compatibility, airflow,
+   placement and the complete installation work in a written estimate.
+
+7. Air conditioning maintenance
+   Page: /services/cooling/ac-maintenance
+   Suggested-label candidate: A/C system maintenance.
+   Draft: Seasonal AC maintenance covering equipment-specific needs such as
+   coil condition, filters, airflow and drainage. Discuss operating concerns,
+   findings and additional work before the next hot spell.
+
+8. Heat pump installation and replacement
+   Page: /services/heat-pumps/heat-pump-installation
+   Context/hub: /services/heat-pumps/cold-climate
+   Custom service if a specific suggested label is unavailable.
+   Draft: Heat pump installation planning for Great Falls homes, including
+   cold-climate options. Review existing equipment, winter placement, electrical
+   needs, controls and backup heat, with the proposed work explained in an estimate.
+
+9. Heat pump repair
+   Page: /services/heat-pumps/repair-maintenance
+   Draft: Heat pump diagnosis and repair for persistent ice, comfort problems,
+   unusual operation or backup-heating concerns. Discuss the system's symptoms,
+   findings, repair options and current parts or scheduling availability.
+
+10. Heat pump maintenance
+    Page: /services/heat-pumps/repair-maintenance
+    Draft: Seasonal maintenance for heat pumps used for heating and cooling.
+    Discuss model-specific care, coils, airflow, drainage, controls and backup
+    coordination, along with findings and any separately recommended work.
+
+11. Ductless mini-split installation
+    Page: /services/heat-pumps/ductless-mini-splits
+    Suggested-label candidate: Ductless heating & A/C services.
+    Draft: Ductless mini-split installation planning for individual rooms or
+    multiple zones. Compare room coverage, indoor-unit placement, piping,
+    drainage and winter heating needs before choosing a system.
+
+The cold-climate page supports the heat-pump installation service and broader
+heat-pump expertise. Avoid a second near-duplicate installation entry just to
+repeat "cold-climate". Ductless repair/maintenance can be covered within the
+existing heat-pump entries when the actual equipment and work are confirmed.
+Cooling hub /services/cooling supports items 5-7; heating hub supports items 1-4.
+
+OTHER WEBSITE PAGES AND THEIR PROFILE ROLES
+Home: main Website destination; core brand/local service promise.
+About /about: Robert, veteran-owned business, 20+ years of owner experience;
+approved portrait. Reinforce profile identity with real owner/team imagery.
+Contact /contact: request destination; use as appointment/contact link only if
+Google offers an appropriate field. It is a request form, not live booking.
+Rebates /rebates/2026-montana-hvac-rebates: dated educational resource, not a
+standalone GBP service. No guaranteed eligibility, savings or government affiliation.
+Privacy /privacy: inquiry/tracking disclosure; not a GBP service entry.
+All 12 service routes and all five other public sitemap routes accounted for.
+
+WHAT THE TOP FOUR DO / HOW TO ADAPT
+Kindred: public label varies Air conditioning contractor / Furnace repair service;
+Services groups include Plumber. Direct familiar service labels, broad coverage,
+ServiceTitan booking, media and 303 reviews. Adopt clear service labels and easy
+contact. Do not imitate plumbing scope or imply our request form is instant booking.
+Northern: HVAC contractor, extensive standard and custom equipment/service terms,
+234 organic reviews. Adopt specific actual equipment coverage, especially heat
+pumps and ductless. Avoid repeated generic strings and unconfirmed geothermal,
+boilers, gas lines or free-estimate claims.
+Gill's: HVAC contractor, focused conventional HVAC/ductless/thermostat menu,
+65 reviews. Match the clear repair/install/maintenance organization; add Robert's
+actual owner-led, veteran-owned identity and Montana cold-climate focus.
+Falls Mechanical: HVAC contractor, 47 reviews, HVAC plus plumbing/mechanical
+work. Keep our description focused on actual residential HVAC services rather
+than expanding business scope to mimic a larger mechanical contractor.
+These are observations and editorial recommendations, not proof of what causes
+their rankings. Owner-written description text was not available in the viewed
+panels; the proposed description above is original, based on our website.
+
+MATCHING CHECKS TO COMPLETE WHEN PROFILE IS OPEN
+- Confirm claim/create flow for Robert's legitimate business; do not claim the
+  similarly named listing the user has repeatedly reported as fake.
+- Use exact chosen real-world business name consistently. Keep legal entity
+  information accurate; no automatic removal/addition of LLC without checking.
+- Enter the real business location privately only where required for verification;
+  confirm public address display is off before saving/publishing.
+- Confirm phone, website origin, hours and emergency wording against master facts.
+- Add only recognized service areas matching actual coverage; clarify base access.
+- Select available categories, then add distinct services from the mapped menu.
+- Paste business/service descriptions, check field limits and published wording.
+- Use no advertised fixed prices until Robert has approved real pricing; don't
+  choose "free" for estimates merely because competitors offer it.
+- Add logo, Robert's actual portrait and approved job/vehicle photos. Existing
+  equipment imagery is not automatically proof of Robert's projects. Confirm
+  permissions/project associations before uploading website images as job photos.
+- Veteran-owned attribute if available and appropriate; no unverified credentials,
+  manufacturer authorization, insurance, warranty, financing or response-time claims.
+- Leave opening date blank until actual company start date is established.
+- Website link can use UTM tracking while keeping the website's canonical URL
+  clean. Suggested destination:
+  https://www.greatfallsheatingandair.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp
+- If an appointment link is offered, /contact can use the same UTM campaign and
+  utm_content=appointment. Describe it as requesting service, not reserving a slot.
+- After publication, record actual profile URL; connect it to the website's current
+  placeholder googleBusinessProfileUrl and approved schema sameAs where suitable.
+  Inspect website link rendering before claiming that integration is complete.
+- Confirm published Google details against Home, About, Contact, footer and
+  structured data. Resolve real factual mismatches; H1s need not match service
+  labels word for word. Recheck an actual phone click and request flow as needed.
+- Record directory URLs and private/public address choices; use name/phone/site
+  consistently. Do not distribute Robert's home address through citation services
+  without checking display/distribution settings and permission.
+
+UNRESOLVED BUSINESS FACTS, NOT BLOCKERS FOR THIS DRAFT
+Real-world display-name evidence if choosing LLC in the Google name; company
+opening date; authentic job-photo associations; actual social profile URLs;
+standalone thermostat/ductwork/indoor-air-quality services; commercial scope;
+free estimates; pricing; warranties; insurance; EPA/other certification; dealer
+relationships. Website source verification flags still mark many such claims
+unconfirmed. Educational text is not authorization to turn them into GBP promises.
+
+SOURCES
+Adjacent google-maps-competitor-notes.txt and gbp-website-content-evidence.json
+Source: src/content/site.ts, services.ts, siteMap.ts; src/app/about/page.tsx;
+src/lib/schema/jsonLd.ts; live pages listed in evidence JSON.
+https://support.google.com/business/answer/3038177 (identity, description, location)
+https://support.google.com/business/answer/9157481 (service-area business)
+https://support.google.com/business/answer/7249669 (categories)
+https://support.google.com/business/answer/9455399 (suggested/custom services)

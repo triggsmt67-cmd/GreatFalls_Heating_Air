@@ -1,0 +1,162 @@
+FUTURE SERVICE AND CONTENT ROADMAP — November 7, 2026
+Great Falls Heating and Air LLC
+
+Use after Google Business Profile verification and current launch work.
+Planning backlog only: these are not approved new business offerings or live URLs.
+Priority is an editorial judgment based on existing site coverage and the observed
+competitor profiles, not measured search volume or a promise of ranking gains.
+
+COMPETITOR BASIS
+First four organic profiles reviewed: Kindred Plumbing and Heating, Northern
+Heating & Cooling, Gill's Heating & Cooling, Falls Mechanical. Their core HVAC
+repair/installation/maintenance services largely overlap our existing pages.
+Detailed observations, public listing links and limitations:
+docs/audits/2026-11-07/google-maps-competitor-notes.txt
+
+Already built: heating hub, emergency furnace repair, furnace installation and
+maintenance; cooling hub, AC repair, installation and maintenance; cold-climate
+heat-pump hub, heat-pump installation, ductless mini-splits, and heat-pump repair
+and maintenance. Do not rebuild these merely because competitors list synonyms.
+
+FIRST CANDIDATES — CONFIRM SCOPE WITH ROBERT, THEN PRIORITIZE
+
+1. Thermostat installation, replacement and repair
+   Competitor signal: Kindred and Gill's explicitly list thermostat work.
+   Candidate: /services/heating/thermostats
+   Cover: fault diagnosis versus equipment faults; compatible smart thermostats;
+   wiring/power requirements; furnace and heat-pump/dual-fuel controls; setup and
+   homeowner handoff. Link from heating, AC repair and heat-pump pages.
+   Confirm: which thermostat brands/types and standalone jobs Robert accepts.
+   One useful page can cover installation and repair; avoid several thin variants.
+
+2. Ductwork repair, installation and airflow improvements
+   Competitor signal: Kindred/Gill's list duct installation and repair; Northern
+   and Falls Mechanical list duct installation.
+   Candidate: /services/heating/ductwork-airflow
+   Cover: uneven room temperatures, return/supply issues, leaks, accessible duct
+   repairs, replacement/additions, and what assessment is included. Use actual
+   examples and limitations; link from furnace and AC installation pages.
+   Confirm: fabrication, sealing, repair and balancing work actually performed,
+   access restrictions and any subcontracted work. Keep duct cleaning separate.
+
+3. Indoor air quality, filtration and air-cleaner installation
+   Competitor signal: Northern explicitly lists air purifiers and scrubbers.
+   Candidate: /services/indoor-air-quality
+   Cover: filter fit, pressure drop and airflow compatibility; smoke-season
+   concerns; equipment choices and maintenance; realistic limitations.
+   Confirm: which products/installations Robert offers. No unsupported health,
+   mold-removal, pathogen-elimination or guaranteed indoor-air claims.
+   Existing cooling guidance is a starting point, not proof of a new offering.
+
+4. Dedicated non-emergency furnace repair page, if it adds distinct value
+   Competitor signal: Kindred shows Furnace repair service; all four list
+   heating repair. Our heating hub and emergency page already address repairs.
+   Candidate: /services/heating/furnace-repair
+   Cover: scheduled diagnosis, intermittent faults, findings, repair versus
+   replacement and what customers should have ready for a service call.
+   Differentiate from emergency call-first content and the heating hub. Expand
+   existing pages first if a separate page would repeat them. No new GBP service
+   entry is needed solely because a dedicated URL is added; repair is already listed.
+
+5. Real project/case-study pages
+   Candidate collection: /projects, with individual descriptive project URLs.
+   Build from Robert's actual furnace, AC, heat-pump or ductless work: initial
+   problem, equipment, work, photos and observed result. Obtain permission for
+   customer/location details and testimonials. Never publish a private street
+   address or attach unrelated images to a specific project.
+   This is our evidence-building recommendation, not an observed competitor GBP
+   service. Existing retrofit account is a potential starting point; distinguish
+   measured cooling results from unmeasured winter savings.
+
+SECOND WAVE — ONLY IF THESE ARE REAL SERVICES ROBERT WANTS TO SELL
+
+6. Garage/shop heater installation and repair
+   Signal: Northern lists garage heaters.
+   Candidate: /services/heating/garage-heaters
+   Confirm actual equipment, venting/fuel work, repair coverage and permits.
+
+7. Boiler/radiator and radiant-heating services
+   Signal: Northern lists boilers/radiators and radiant heat.
+   Candidate: /services/heating/boilers-radiant-heat
+   Confirm hydronic experience, equipment/fuels, service versus installation and
+   any piping scope. Split boilers and radiant pages later only if each has
+   substantial distinct work, evidence and customer needs.
+
+8. Gas fireplace service and installation
+   Signal: Northern lists gas fireplaces/inserts.
+   Candidate: /services/heating/gas-fireplaces
+   Confirm servicing, installation, brands, venting and fuel-line responsibility.
+   Do not assume furnace capability implies fireplace expertise.
+
+9. Light-commercial HVAC
+   Signal: Northern lists commercial properties; Falls Mechanical has mechanical
+   systems/design services. Broad commercial claims require scope confirmation.
+   Candidate: /services/commercial-hvac
+   Confirm actual customer/property types, equipment, capacity, scheduling,
+   maintenance arrangements and project evidence. No engineering/design or
+   industrial-service claims unless actually supported.
+
+10. Duct cleaning
+    Signal: Northern lists HVAC duct & vent cleaning.
+    Candidate: /services/indoor-air-quality/duct-cleaning
+    Only if Robert actually offers it with appropriate equipment and a defined
+    scope. Duct repair and filter work are not duct cleaning. Avoid health promises.
+
+SPECIALIST / LOW-PRIORITY COMPARISON ITEMS
+Northern also lists geothermal, gas lines, propane furnaces, oil burners and PTAC
+units. Falls Mechanical lists pressure testing and systems design.
+- Geothermal /services/heat-pumps/geothermal: only with confirmed experience,
+  installation/service scope and appropriate loop/drilling partners.
+- Gas lines /services/heating/gas-lines: only with confirmed qualified scope;
+  do not imply standalone electrical/plumbing services from installation guidance.
+- PTAC /services/commercial-hvac/ptac: only if an actual market and offering exist.
+- Oil heating: confirm Robert handles it before any page or GBP service.
+- Propane heating and dual-fuel systems are already discussed in existing pages;
+  deepen those pages before creating redundant URLs. Separate pages need actual
+  distinct service scope, useful detail and evidence.
+
+OUTSIDE THE PRESENT HVAC PLAN
+Kindred and Falls Mechanical list plumbing, water heaters, drains, sewer camera,
+sewer repair/jetting, trenchless replacement and garbage disposals. These are
+competitor breadth, not automatic gaps in Robert's business. Do not create
+plumbing pages or add those categories unless Robert actually expands into them
+with confirmed scope and qualified personnel. Same applies to mechanical
+engineering, general electrical contracting or other unrelated trades.
+
+SUPPORTING CONTENT — EXPAND EXISTING PAGES BEFORE ADDING NEW URLS
+- Heating hub: scheduled furnace symptoms and repair/replacement questions.
+- Cold-climate hub: dual-fuel compatibility, backup heat, local operating context.
+- Heat-pump repair/maintenance: ductless cleaning/maintenance scope and ice/defrost.
+- Cooling/IAQ: wildfire-smoke filtration and cottonwood coil-care explanations.
+- Maintenance plans: only if Robert launches an actual plan with price, coverage,
+  exclusions and cancellation terms; do not invent a membership to match a rival.
+- Service-community pages: future consideration only where Robert can supply
+  distinctive local service information and real work. Do not clone pages for all
+  13 communities or imply a branch office at each location.
+
+REPEATABLE RELEASE CHECKLIST FOR EACH APPROVED OFFERING
+1. Confirm Robert offers it, relevant qualifications, service area, equipment,
+   availability and actual policies. Collect a real example/photo where possible.
+2. Define the customer problem and distinct page purpose. Pick a useful URL and
+   combine overlapping topics; do not publish repetitive service synonyms.
+3. Write concrete scope, process, exclusions, decision guidance and real FAQs.
+   Retain call-first emergency instructions and honest appointment expectations.
+4. Link from the appropriate hub and related services; add canonical metadata,
+   indexable sitemap entry and matching visible/schema content. Use the same
+   existing business entity, contact details and service-area facts.
+5. Update Google Business Profile with the same actual offering and accurate
+   service description, using suggested service labels where suitable. Add a new
+   category only if it describes the business, not merely a page topic.
+6. Update relevant directories from the maintained listing register. Keep the
+   street address hidden and consistent with the approved service-area setup.
+7. Deploy, check actual rendered page/form/internal links and run the search
+   validation script. Notify IndexNow only for newly published/changed URLs.
+8. Measure impressions, searches and qualified inquiries. Reprioritize from real
+   results rather than assuming competitor service-list length determines rank.
+
+SUGGESTED NEXT OWNER CONVERSATION
+Ask about thermostats, ductwork/airflow, filtration/IAQ and garage heaters first.
+Then ask about boilers/radiant, fireplaces and commercial work. Record yes/no,
+scope, brands, examples and work Robert actually wants before commissioning copy.
+
+No new routes, categories or advertised services were created by this roadmap.

@@ -1,0 +1,35 @@
+SUBMITTED — November 7, 2026, approximately 12:13 America/Denver.
+Account: Trevor Riggs / trevor@truepath406.com
+Category: Crawling issue → Sitemap is not being crawled
+Microsoft confirmation: "Your request has been successfully submitted."
+The confirmation page did not display a case number. The first attempt failed with a processing error; a later retry displayed the successful submission confirmation.
+Status: Awaiting Microsoft investigation. Sitemap fetch error is not resolved.
+
+The submitted description contained the evidence below in condensed form. Also completed: direct submission of the 16 remaining public URLs, confirmed by Bing; the homepage was previously submitted. Added and deployed the text sitemap endpoint and targeted origin logging in commits d00ae4c and 65704d5. Lint, 48 tests, and production build passed. Both sitemap formats have shown the same accessibility error.
+
+Raw CDN logs are available via the authenticated Vercel CLI's `logs requests` source, which worked without the Observability Plus custom-query feature. Control requests reach Vercel and produce HTTP 200/allow records. Available logs did not show a matching fetch for the failed text-sitemap retry around 19:03–19:05 UTC. This does not establish the underlying DNS/TLS/network or Bing processing cause.
+
+Subject: Sitemap fetch reports inaccessible despite successful Bing Live URL and Vercel HTTP 200
+
+Site/property: https://www.greatfallsheatingandair.com/
+Affected sitemap: https://www.greatfallsheatingandair.com/sitemap.xml
+Alternate diagnostic sitemap: https://www.greatfallsheatingandair.com/sitemap.txt
+Date: November 7, 2026. Local timezone America/Denver (UTC-7).
+
+Bing Webmaster Tools repeatedly reports "The page is not accessible" / "Bingbot was not able to access the page" for the XML sitemap, with zero URLs discovered. A newly submitted supported plain-text sitemap containing the identical 17 canonical public URLs failed with the same message. Re-submitting the text sitemap after adding origin request logging also returned the same error.
+
+Evidence:
+- Bing Live URL test for the homepage succeeds and reports "URL can be indexed by Bing."
+- Bing Live URL test for /services/heating/emergency-furnace-repair succeeds and reports "URL can be indexed by Bing" (November 7 at 12:01 America/Denver).
+- Both sitemap endpoints return HTTP 200 to ordinary requests and local probes using Bingbot's user-agent. XML is application/xml with a UTF-8 declaration and a valid Sitemap protocol namespace. Text is text/plain; charset=utf-8, one URL per line, with precisely the same 17 canonical URLs.
+- robots.txt explicitly allows Bingbot; only API routes are excluded. Bing Block URLs has zero entries and Crawl Control is Default.
+- Vercel Bot Protection and AI bot blocking are off, no custom/IP blocking rules are configured, and production custom domains do not require authentication. System DDoS protections are active.
+- Available Vercel CDN request records show a mobile Bingbot request matching the XML Live URL test at 2026-11-07T18:40:42.410Z: GET /sitemap.xml, HTTP 200, wafAction=allow, request ID 6g5t5-1794076842410-7b9a22710844. This identifies a request correlated with the Live URL test, not independently authenticated crawler identity.
+- A control request to the instrumented text endpoint at 2026-11-07T19:02:41.692Z returned HTTP 200 with wafAction=allow, request ID 8568k-1794078161692-ae0c9398dbb0. Its corresponding function log was captured at 19:02:42.064Z.
+- The text sitemap was retried around 19:03 UTC and returned the accessibility error by approximately 19:05 UTC. Available CDN records through 19:05:33 UTC and function logs through 19:05:35 UTC show no additional matching origin fetch for that retry. Log availability does not exclude DNS/TLS failures or rejection before the application/CDN record is produced.
+- DNS resolves on local, Cloudflare and Google public resolvers. No public AAAA record was returned. HTTPS certificate verification succeeds in the control fetches.
+- The homepage had already been submitted directly; the other 16 public URLs were submitted through Bing URL Submission at 12:00 America/Denver. The interface confirmed "16 URLs submitted Successfully" and showed all 17 URLs in the submission history. This does not establish crawling or indexing.
+
+Please investigate the sitemap submission/fetch pipeline for this verified property. Please provide the actual failed-fetch timestamp, source IP, resolved destination, HTTP response/redirect or TLS/DNS failure, any robots decision, and whether a cached accessibility error or property-level restriction is preventing a fresh fetch. We can correlate a new attempt with Vercel's CDN and origin logs.
+
+The website has 17 canonical public pages, all crawlable, plus an intentionally noindex confirmation page. We are not requesting a guarantee of indexing; we need the actual cause of the sitemap accessibility failure.

@@ -1,0 +1,218 @@
+GOOGLE MAPS / BUSINESS PROFILE COMPETITOR NOTES
+Observed November 7, 2026. Read-only review; no competitor or client profiles changed.
+
+METHOD AND LIMITS
+Reviewed the user's open Google search for "greatfalls hvac", corrected by Google
+to "great falls hvac", then More businesses (Places/local results). Excluded every
+Sponsored row. First four organic results were Kindred, Northern, Gill's, Falls
+Mechanical. Northern and Falls also appeared separately as ads; those ad positions
+were excluded. Search footer reported Lolo, Montana from IP; these positions are
+one query/location/session snapshot, not a Great Falls-wide ranking measurement.
+Public Overview and Services panels were inspected for all four. Public category
+labels and service-group headings are recorded below; Google's public interface
+does not establish the complete primary/secondary category configuration. Photo
+carousel entries are not total photo counts. Descriptive snippets may be Google
+summaries rather than owner-authored descriptions. No verification status inferred.
+
+1. KINDRED PLUMBING AND HEATING, INC.
+Google listing: https://www.google.com/maps?cid=12549420472197923209
+Website: https://kindredph.com/
+Rating/reviews: 4.6 / 303. Results indicate 10+ years in business.
+Category labels: Air conditioning contractor in results; Furnace repair service
+in detail panel. Services grouped under Furnace Repair Service and Plumber.
+Address: 1019 8th Ave N, Great Falls, MT 59401.
+Phone: (406) 761-8001. Profile says Open 24 hours.
+Area: Serves Great Falls and nearby areas.
+Actions: Website, Call, Directions, Book online (ServiceTitan).
+Media: Many photo entries and at least two video entries in overview carousel.
+HVAC services: A/C maintenance/repair; ductless heating & A/C; duct/vent
+installation/repair; HVAC maintenance/repair; heating installation, maintenance,
+repair; AC installation; thermostat installation/repair.
+Other services: Extensive plumbing, drain, sewer and water-heater coverage,
+including leak detection/repair, sewer camera, trenchless pipe bursting/replacement,
+faucets, toilets, showers, sump pumps, disposals and water tanks.
+Implication: Broad service coverage and convenient booking plus substantial review
+history. Match only Robert's actual HVAC offerings; do not copy plumbing services.
+
+2. NORTHERN HEATING & COOLING
+Google listing: https://www.google.com/maps?cid=17410040753368211137
+Website: https://www.mtnorthernheating.com/
+Rating/reviews: 4.9 / 234 organic/detail (ad row showed 233). Results: 60+ years.
+Category label / Services group: HVAC contractor.
+Address: 2501 17th St NE, Black Eagle, MT 59414.
+Phone: (406) 727-5531. Closed Saturday at observation; opens 8 AM Monday.
+Area: Serves Great Falls. Website, Call, Directions; extensive photo carousel.
+Services: A/C maintenance/repair/install; heating install/maintenance/repair;
+HVAC maintenance/repair; ductless systems; duct installation and cleaning;
+air purifiers/scrubbers; boilers/radiators; heat pumps; geothermal; gas lines;
+garage heaters; gas fireplaces/inserts; radiant heat; propane furnaces; oil
+burners; PTAC units; retrofits; emergency HVAC repairs; commercial properties.
+Custom service list also includes free local estimates and many repeated generic
+phrases. Those entries are not proof that repetition improves ranking.
+Implication: Strong review history and unusually broad equipment coverage.
+Opportunity: Robert can present a clearer residential furnace/heat-pump focus.
+
+3. GILL'S HEATING & COOLING, INC.
+Google listing: https://www.google.com/maps?cid=9350706386091501985
+Website linked in profile: https://www.gfgillsheatingandcooling.com/
+Rating/reviews: 5.0 / 65. Results indicate 30+ years in business.
+Category label / Services group: HVAC contractor.
+Address: 315 4th St S, Great Falls, MT 59405.
+Phone: (406) 453-8705. Closed Saturday; opens 8 AM Monday.
+Actions: Website, Call, Directions. Several photo entries.
+Services: A/C maintenance/repair; ductless; duct/vent installation/repair;
+HVAC maintenance/repair; heating installation/maintenance/repair; install AC;
+thermostat installation/repair; custom air-conditioning, new-installation and
+service/repair entries. One visible HVAC Contractor service group.
+Related search results also show gillsheatingcooling.com and a Facebook page;
+did not investigate website ownership or redirects.
+Implication: Focused HVAC offering with excellent aggregate rating; review count
+is lower than the first two. A realistic competitive comparison, not a guaranteed
+review threshold for outranking them.
+
+4. FALLS MECHANICAL SERVICES LLC
+Google listing: https://www.google.com/maps?cid=11792862871811759532
+Website: https://www.fallsmechanical.com/
+Rating/reviews: 4.7 / 47. Results indicate 15+ years in business.
+Category label / Services group: HVAC contractor.
+Address: 600 2nd St S, Great Falls, MT 59405.
+Phone: (406) 761-7283. Closed Saturday; opens 8 AM Monday.
+Actions: Website, Call, Directions. Multiple photo entries.
+Services: A/C maintenance; duct/vent installation; HVAC maintenance/repair;
+heating installation/maintenance/repair; install AC; heater repair/replacement;
+electrical/mechanical systems; plumbing repair; disposal; pressure testing;
+sewer camera/jetting; systems design; water heater repair.
+Additional sample: Reviews opened and sorted Newest. First visible review was
+3 months old and complained about a cancelled appointment after waiting a week;
+next visible reviews were 6 months old. No owner replies visible in this sample.
+This is not an exhaustive review-response audit. Do not republish reviewer text.
+Implication: Potential opening for dependable appointment communication and a
+steady stream of recent genuine HVAC reviews, if supported by actual service.
+
+CLIENT PROFILE SETUP PRIORITIES
+1. Confirm whether Robert already has a legitimate profile; use/claim that if
+   appropriate, rather than inadvertently creating a duplicate. The similarly
+   named disputed listing below must not be treated as his profile.
+2. Candidate primary category: HVAC contractor, if it accurately describes the
+   overall business. Evaluate available secondary categories such as Heating
+   contractor, Air conditioning contractor, Air conditioning repair service and
+   Furnace repair service against actual work. Verify options in Google's editor;
+   these are recommendations, not claims that competitors use all of them.
+3. Populate actual services with useful descriptions: furnace repair, replacement,
+   maintenance; emergency furnace repair; AC repair/install/maintenance; heat-pump
+   install/repair/maintenance; ductless mini-splits. Add thermostats/ductwork/other
+   services only after owner confirmation. Avoid copying competitors' repetitive
+   generic service terms or unoffered plumbing/commercial specialties.
+4. Confirm hours representation: site has Mon-Fri 8-5 and separate 24/7 emergency
+   availability. Do not copy Kindred's round-the-clock main hours without checking
+   Robert's real staffing and customer availability.
+5. Accurate real-world name; phone 406-781-4027; canonical www website; realistic
+   service area; opening date for THIS company rather than owner's career length.
+   Owner's 20+ years of experience does not prove company has operated 20 years.
+6. Add actual owner/team, branded vehicle, equipment and project photos/videos;
+   useful captions and truthful veteran-owned information where supported.
+7. Establish a neutral review request process for genuine customers, including
+   prior customers where appropriate; no incentives or selective positive-only
+   requests. Respond professionally. No review-count target guarantees ranking.
+8. Add an appointment/contact destination only if it works. Use UTM tagging on
+   the profile website/appointment links and confirm analytics/lead measurement.
+9. Check consistent public name/phone/website in legitimate local directories and
+   supplier/partner links. Do not propagate a private address without permission.
+10. Measure multiple relevant searches from locations across Great Falls/Black
+    Eagle. Track qualified calls and inquiries, not just one manual ranking.
+
+DISPUTED SIMILARLY NAMED LISTING
+Observed outside the audited four: Great Falls Heating & Air Conditioning,
+5.0 / 1 review, (406) 693-8043, 1306 15th St S, Great Falls, MT 59405, no website
+link visible in results. Phone differs from Robert's 406-781-4027.
+User states this is a fake listing and has reported it to Google more than once.
+That allegation/history is user-supplied; this review did not independently prove
+fraud, determine ownership or establish Google's decision. No new report sent,
+no profile claimed/edited. Keep separate from the legitimate client profile.
+
+ADDRESS DECISION: EVIDENCE AND LIMITS
+All four audited profiles publicly display street addresses. This snapshot cannot
+isolate the effect of address visibility from proximity, reviews, history, links,
+business relevance and other differences.
+Google says local results depend mainly on relevance, distance and prominence.
+Google requires businesses that do not receive customers at their address to
+hide/remove their public profile address. A hybrid location can show its address
+when it actually receives customers, has permanent signage, and is staffed by
+the business during the stated hours. A rented mailing/virtual office is not an
+eligible substitute. Confirm Robert's actual operating setup before choosing.
+Sterling Sky's own reported tests found rankings/calls declined when addresses
+were hidden and recovered after restoration, with a similar result at another
+listing. Small observational tests are evidence of a possible real disadvantage,
+not proof every service-area business cannot rank. Article currently displays
+Sept 22, 2026; comments reference the test as early as 2023, so the underlying
+experiment should not be characterized as newly conducted in 2026.
+Publishing an address on the WEBSITE and displaying it on GOOGLE'S PROFILE are
+separate decisions. The cited test changed profile visibility; it does not prove
+putting a private home address in website/footer/schema fixes Maps rankings.
+Recommendation: if a genuinely eligible customer-facing location exists, consider
+displaying its accurate address on the profile and website, with owner permission.
+Otherwise use a legitimate service-area profile, preserve private-address choices,
+and measure performance. Do not promise address visibility has zero ranking effect
+or that adding a street address guarantees better rankings.
+
+SOURCES
+User's open Google Places results and public Overview/Services panels, Nov 7, 2026.
+Listing URLs above use the Google place CIDs from observed Directions links.
+Google business representation rules:
+https://support.google.com/business/answer/3038177
+Google service-area and hybrid rules:
+https://support.google.com/business/answer/9157481
+Google local ranking guidance:
+https://support.google.com/business/answer/7091
+Sterling Sky's own address-visibility test:
+https://www.sterlingsky.ca/hiding-address-google-business-ranking/
+
+FOLLOW-UP: REMAINDER OF SAME RESULTS PAGE, NOVEMBER 7
+Quick scan of all remaining organic rows (5-20), retaining original query/order.
+Name | Visible category | Rating/reviews | Address/directions in result
+AT Klemens | HVAC contractor | 4.6/67 | 814 12th St N
+Great Falls Heating & Air Conditioning | HVAC contractor | 5.0/1 | disputed above
+All About You Plumbing and Heating | HVAC contractor | 4.6/95 | 3405 8th Ave N
+MT Cool HVAC | HVAC contractor | 5.0/7 | no public address/directions visible
+MacDonald Heating & Cooling | Air conditioning contractor | 5.0/20 | 156 Wilson Butte Rd
+B & B Heating & Air Conditioning | HVAC contractor | 4.5/52 | 415 Vaughn Rd
+Brennan Heating & Cooling Inc | HVAC contractor | 4.5/18 | 815 21st St NW
+HVAC & Refrigeration | HVAC contractor | 4.7/9 | 409 Central Ave
+Talon Plumbing & Heating Inc. | HVAC contractor | 4.8/38 | 301 2nd St S
+911 Plumbing and Heating | HVAC contractor | 4.3/88 | 4307 N Star Blvd
+Ace Heating and Cooling LLC | HVAC contractor | 5.0/15 | 29 Comanche Trail
+Nelson Comfort Solutions | HVAC contractor | 4.9/16 | 2500 17th St NE, Black Eagle
+Central Plumbing, Heating, Excavation | HVAC contractor | 4.0/13 | 3701 River Dr N
+Fischer HVAC, Inc. | HVAC contractor | 5.0/20 | no public address/directions visible
+The Water Boyz LLC | HVAC contractor in results, Plumber in detail | 4.9/40 | no public address/directions visible
+Otter Mountain Mechanical | HVAC contractor | 5.0/3 | no public address/directions visible
+
+Opened the Overview detail panels of all four listings lacking directions to
+confirm no street address or Directions action was visible, rather than relying
+only on omitted addresses in result cards. These observations do not establish
+the private verification address or exact backend business type.
+MT Cool: website, online booking/contact, photos, Great Falls and nearby areas;
+HVAC/AC/heating repair/install/maintenance, heat pumps, ductless, gas fireplaces.
+Fischer: photos, Serves Great Falls, standard HVAC/ductless/ductwork/thermostat
+services; no Website action visible in profile (unrelated web results not attributed).
+Water Boyz: website, photos, 24 hours, extensive plumbing and HVAC services.
+Otter Mountain: photos, Great Falls and nearby areas; heating/AC/HVAC and
+thermostat services; no Website action visible in profile.
+Do not imply full service-tab/category audits were repeated for all 16.
+
+Address pattern: 16 of 20 organic result listings have public address/directions
+signals, including the user-disputed listing; four lack them. At least one of the
+four appears above numerous address-displaying businesses. This refutes an absolute
+claim that hidden-address listings cannot appear, while the top-four pattern and
+published tests leave a reasonable concern about competitive disadvantage.
+It does not isolate address visibility as the cause of relative ranking.
+
+User clarification: Robert has a separate shop on his residential property, in a
+residential neighborhood. Residential surroundings alone do not settle eligibility.
+Need to establish actual customer visits/service at the shop, permanent business
+signage, and staffing during stated customer-facing hours. A separate storage/work
+building by itself does not establish a customer-facing hybrid business. If those
+conditions are met and owner accepts public visits/address exposure, recommend
+considering truthful hybrid setup and matching website contact information. Keep
+ordinary customer-facing hours distinct from 24/7 off-site emergency service.
+No address published and no listing edited during this research.

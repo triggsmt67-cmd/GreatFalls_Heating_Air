@@ -1,0 +1,114 @@
+GOOGLE BUSINESS PROFILE SETUP OUTCOME — November 7, 2026
+
+Created Great Falls Heating and Air LLC in the signed-in account
+trevor@truepath406.com. Business Profile location ID from Google setup URLs:
+11262872387634500459; management entity ID: 12634179769437836201.
+These internal IDs are not assumed to be a public Maps CID or sharing URL.
+
+CURRENT STATUS
+Google explicitly says the profile is NOT PUBLICLY VISIBLE until verified.
+Hidden physical address submitted successfully for verification. Google offered
+Submit a Business Video only; More options added Verify Later, with no phone,
+email or postcard option. Owner/on-site representative must record the video
+showing location, equipment and proof of management. No video submitted.
+
+USER AUTHORIZATION AND PRIVACY
+User expressly authorized accepting the Business Profile Terms at the displayed
+acceptance step; accepted. Marketing/news and survey/pilot boxes left unchecked.
+User directed recovery of the previously removed address from earlier code and
+use solely for hidden Google verification. Recovered from prior siteConfig in
+commit b877323's parent. Address not copied into this report or current website.
+Google's verification form explicitly said address would be hidden from public.
+After submission, Business information still read:
+"No location; deliveries and home services only".
+
+SAVED BUSINESS INFORMATION
+Name: Great Falls Heating and Air LLC
+Primary category: HVAC contractor
+Additional categories: Heating contractor; Furnace repair service;
+Air conditioning contractor; Air conditioning repair service.
+Phone: (406) 781-4027
+Website: https://www.greatfallsheatingandair.com/
+Hours: Monday-Friday 8 AM-5 PM; Saturday/Sunday closed for regular hours.
+Description: 685-character prepared description from setup brief, including
+veteran-owned, Robert's 20+ years in HVAC, actual service coverage and separate
+24/7 emergency availability. Not represented as a 20-year-old company.
+Service areas: all 13 website communities selected and verified in saved editor:
+Great Falls, Black Eagle, Malmstrom AFB, Ulm, Cascade, Vaughn, Sun Prairie,
+Sun River, Belt, Sand Coulee, Stockett, Tracy, Centerville. Google normalizes some
+to MT/postal-code labels. Existing website's off-base/no-access-promise caveat
+for Malmstrom remains relevant.
+Attributes saved and checked: Identifies as veteran-owned; installation services;
+repair services. Other demographic attributes left unspecified.
+Opening date, unconfirmed social URLs, chat and fixed prices left unspecified.
+Google Ads credit/advertising upsell skipped; no ads started or purchased.
+
+SERVICES
+13 distinct service entries, with descriptions covering website offerings:
+A/C system maintenance; A/C system repair; Heating system installation;
+Heating system maintenance; Heating system repair; HVAC system maintenance;
+Install AC; Repair HVAC; Ductless heating & A/C services;
+Emergency furnace repair; Heat pump installation and replacement;
+Heat pump repair; Heat pump maintenance.
+Nine suggested labels plus four custom entries. Descriptions map to the 11
+offerings in the setup brief, with two additional broad suggested HVAC labels.
+Prices remain No price. Google repeats suggested services across relevant
+category groups; an A/C repair description was reopened in Heating contractor
+and matched the saved HVAC contractor text, confirming shared content.
+Final check reopened every distinct service entry. Several early text pastes
+had not persisted: corrected those with normal text input and inspected the
+populated description and character count before saving. Heat-pump maintenance
+was reopened again and confirmed retained. All 13 descriptions checked/saved.
+Exact final descriptions saved at /tmp/gf-google-profile-service-descriptions.json.
+
+PHOTOS AND METADATA
+User confirmed website photos were supplied by Robert and explicitly permitted
+their use. Uploaded 12 website-photo JPEG copies, including Robert's portrait.
+Logo: PNG conversion of exact public/images/great-falls-heating-air-logo.svg,
+contained on white square canvas without clipping. Did not substitute the
+different legacy/rebuilt raster asset from the project folder.
+Cover: cold-climate-heat-pump-installation.jpg (website supplied photo).
+Final Google photo manager confirmed logo, cover and 12 numbered photo entries.
+Cover/photos marked PENDING; banner states not visible until verification.
+
+Prepared upload copies under /tmp/gf-gbp-upload/photos. Original dimensions
+retained. Existing XMP titles/descriptions preserved; added accurate title and
+description to portrait upload copy, whose website original lacked them.
+All 12 upload copies checked for embedded XMP title/description and no GPS.
+No invented photographer/copyright ownership/capture coordinates added.
+Website original files were not modified. Google may strip metadata; embedded
+metadata does not establish AI search inclusion or a ranking advantage.
+Photo editor exposed no per-photo caption/alt-text editing fields in this flow.
+Upload manifest: /tmp/gf-gbp-upload/manifest.json.
+
+ACCESS
+User asked to add Robert alongside Trevor, then explicitly deferred that step
+because his Google-account email was unknown. No invitation sent and no access
+permissions changed. Existing non-Gmail email can be used for a Google account;
+confirm Robert's account before preparing an invitation.
+
+REMAINING
+1. Complete Google's on-site video verification and await review.
+2. Recheck public name, categories, service list, hours, photos and hidden address
+   after verification. Saved manager information is not proof of public approval.
+3. Obtain the actual public profile/share URL after available, then connect the
+   website's googleBusinessProfileUrl placeholder and appropriate schema reference.
+   No invented public URL or unverified Maps CID added to website.
+4. Add Robert only after his Google-account email is confirmed and he wants access.
+5. Confirm opening date, real social links and other optional business facts later.
+
+EVIDENCE
+Durable project copies (saved before the final Git push):
+google-business-profile-photos-pending.png — final gallery screenshot
+google-business-profile-service-descriptions.json — final 13 service descriptions
+google-business-profile-photo-metadata.json — 12-photo title/description inventory
+Unsent Gmail draft in trevor@truepath406.com:
+"Google Business Profile — Gmail access and verification video".
+Recipient left blank pending Robert's Gmail address; no email sent.
+
+Working temporary artifacts retained during setup:
+/tmp/gf-google-profile-photos.png — final photo manager screenshot
+/tmp/gf-google-profile-photo-state.txt — final observed gallery state
+/tmp/gf-google-profile-terms.png — terms acceptance screen before user approval
+Adjacent google-business-profile-setup-brief.txt and competitor notes.
+No website source changes, commits or deployment were performed for this setup.

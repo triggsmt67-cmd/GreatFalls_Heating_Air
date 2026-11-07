@@ -1,0 +1,134 @@
+[
+  {
+    "filename": "ac-repair-outdoor-condenser.jpg",
+    "source": "public/images/ac-repair-outdoor-condenser.webp",
+    "dimensions": [
+      1200,
+      900
+    ],
+    "title": "Residential outdoor AC condenser",
+    "description": "Outdoor central air conditioner on a support pad beside a light-sided home and garden bed.",
+    "gpsPresent": false
+  },
+  {
+    "filename": "ac-service.jpg",
+    "source": "public/images/ac-service.webp",
+    "dimensions": [
+      1200,
+      900
+    ],
+    "title": "HVAC air handler and ducts in a crawl space",
+    "description": "HVAC air handler, insulated ducts, drainage piping, and a work light in a crawl space.",
+    "gpsPresent": false
+  },
+  {
+    "filename": "cold-climate-heat-pump-installation.jpg",
+    "source": "public/images/cold-climate-heat-pump-installation.webp",
+    "dimensions": [
+      1280,
+      960
+    ],
+    "title": "Outdoor heat pump installation beside a wood-sided home",
+    "description": "Mitsubishi Electric outdoor heat pump mounted on raised supports beside a wood-sided home, with covered refrigerant lines running up the wall.",
+    "gpsPresent": false
+  },
+  {
+    "filename": "cold-climate-mitsubishi-outdoor-heat-pump.jpg",
+    "source": "public/images/cold-climate-mitsubishi-outdoor-heat-pump.webp",
+    "dimensions": [
+      1280,
+      960
+    ],
+    "title": "Mitsubishi Electric outdoor heat pump beside a dark-sided home",
+    "description": "Mitsubishi Electric outdoor heat pump on an equipment base beside a dark-sided home, with covered refrigerant lines and an exterior electrical disconnect.",
+    "gpsPresent": false
+  },
+  {
+    "filename": "cooling-service-great-falls.jpg",
+    "source": "public/images/cooling-service-great-falls.webp",
+    "dimensions": [
+      1280,
+      960
+    ],
+    "title": "Outdoor cooling equipment with diagnostic gauges",
+    "description": "Outdoor HVAC condenser units with a refrigerant manifold gauge set and service hoses connected beside a metal-sided building.",
+    "gpsPresent": false
+  },
+  {
+    "filename": "emergency-furnace-repair-great-falls.jpg",
+    "source": "public/images/emergency-furnace-repair-great-falls.webp",
+    "dimensions": [
+      1600,
+      1200
+    ],
+    "title": "Residential gas furnace in Great Falls, Montana",
+    "description": "Residential gas furnace with metal exhaust venting and ductwork in a utility room in Great Falls, Montana.",
+    "gpsPresent": false
+  },
+  {
+    "filename": "furnace-diagnostic.jpg",
+    "source": "public/images/furnace-diagnostic.webp",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "title": "Residential furnace and ductwork in a utility closet",
+    "description": "Residential furnace with metal ductwork, exhaust venting, and gas piping in a narrow utility closet.",
+    "gpsPresent": false
+  },
+  {
+    "filename": "heating-furnace-installation.jpg",
+    "source": "public/images/heating-furnace-installation.webp",
+    "dimensions": [
+      1600,
+      1200
+    ],
+    "title": "Residential furnace in Great Falls, Montana",
+    "description": "Residential furnace with metal ductwork, gas supply piping, and a condensate pump in Great Falls, Montana.",
+    "gpsPresent": false
+  },
+  {
+    "filename": "high-plains-montana.jpg",
+    "source": "public/images/high-plains-montana.webp",
+    "dimensions": [
+      1400,
+      788
+    ],
+    "title": "Outdoor central air conditioner beside a home",
+    "description": "Outdoor central air conditioner on a concrete pad beside a home, wood fence, and exterior utility piping.",
+    "gpsPresent": false
+  },
+  {
+    "filename": "home-exterior.jpg",
+    "source": "public/images/home-exterior.webp",
+    "dimensions": [
+      1600,
+      1200
+    ],
+    "title": "Outdoor Mitsubishi Electric heat pump beside a home",
+    "description": "Mitsubishi Electric outdoor heat pump on an equipment base beside dark siding, with covered refrigerant piping and an exterior disconnect.",
+    "gpsPresent": false
+  },
+  {
+    "filename": "robert-ross.jpg",
+    "source": "public/images/robert-ross.webp",
+    "dimensions": [
+      428,
+      319
+    ],
+    "title": "Robert Ross, owner of Great Falls Heating and Air",
+    "description": "Robert Ross outdoors beside a tree. Owner of Great Falls Heating and Air, a veteran-owned heating and cooling business serving Great Falls, Montana.",
+    "gpsPresent": false
+  },
+  {
+    "filename": "winter-heat-pump.jpg",
+    "source": "public/images/winter-heat-pump.webp",
+    "dimensions": [
+      1280,
+      960
+    ],
+    "title": "Outdoor heat pump in snow",
+    "description": "Outdoor heat pump on raised supports beside a home, surrounded by snow.",
+    "gpsPresent": false
+  }
+]
