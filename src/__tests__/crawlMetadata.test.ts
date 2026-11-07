@@ -17,7 +17,7 @@ function pageRoutes(directory: string, prefix = ""): string[] {
 
 describe("Canonical routes and crawler metadata", () => {
   it("serves the text sitemap with the same canonical URLs as the XML sitemap", async () => {
-    const response = textSitemap();
+    const response = textSitemap(new Request("https://www.greatfallsheatingandair.com/sitemap.txt"));
     expect(response.status).toBe(200);
     expect(response.headers.get("content-type")).toBe("text/plain; charset=utf-8");
     expect((await response.text()).trim().split("\n")).toEqual(sitemap().map(entry => entry.url));
