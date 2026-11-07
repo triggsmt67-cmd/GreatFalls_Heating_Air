@@ -1,3 +1,4 @@
+import { connectSchemaGraph, getFAQSchema, getBusinessReference } from "@/lib/schema/jsonLd";
 import { rebateReviewDate } from "@/content/rebates";
 import { ServiceIntroTrust } from "@/components/ui/ServiceIntroTrust";
 import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
@@ -9,8 +10,7 @@ import { buildMetadata } from "@/lib/seo/metadata";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { PhotoPlaceholder } from "@/components/ui/PhotoPlaceholder";
 import { FinalDarkCTA } from "@/components/sections/FinalDarkCTA";
-import { siteConfig, verification } from "@/content/site";
-import { getFAQSchema, getHVACBusinessSchema } from "@/lib/schema/jsonLd";
+import { siteConfig } from "@/content/site";
 import { heatPumpSources, heatPumpCommunities, configurations, fuelComparisons, winterDetails, heatPumpFaqs } from "./content";
 import styles from "./heat-pumps.module.css";
 
@@ -31,16 +31,13 @@ export const metadata = {
 };
 
 function getHeatPumpSchema() {
-  const businessId = `${siteConfig.siteUrl.replace(/\/$/, "")}/#business`;
-  const provider = getHVACBusinessSchema() ? { "@id": businessId } : verification.businessIdentity ? {
-    "@type": "Organization", "@id": businessId, name: siteConfig.businessName, url: siteConfig.siteUrl,
-  } : undefined;
-  return { "@context": "https://schema.org", "@graph": [
+  const provider = getBusinessReference();
+  return connectSchemaGraph([
     { "@type": "ImageObject", "@id": `${url}#image`, url: imageUrl, contentUrl: imageUrl, width: 1280, height: 960, name: "Mitsubishi Electric outdoor heat pump beside a dark-sided home", encodingFormat: "image/webp", description: imageAlt, caption: imageCaption },
     { "@type": "WebPage", "@id": `${url}#webpage`, url, name: String(metadata.title), description, inLanguage: "en-US", primaryImageOfPage: { "@id": `${url}#image` }, mainEntity: { "@id": `${url}#service` }, breadcrumb: { "@id": `${url}#breadcrumb` }, hasPart: { "@id": `${url}#faq` }, citation: Object.values(heatPumpSources) },
     { "@type": "Service", "@id": `${url}#service`, url, name: "Cold-climate heat pump & dual-fuel services in Great Falls, Montana", description, serviceType: ["Heat pump installation", "Heat pump repair", "Heat pump maintenance"], provider, mainEntityOfPage: { "@id": `${url}#webpage` }, areaServed: heatPumpCommunities.map((name) => ({ "@type": "Place", name: `${name}, Montana` })), hasOfferCatalog: { "@type": "OfferCatalog", name: "Heat pump system options", itemListElement: configurations.map(({ name, description }) => ({ "@type": "Offer", itemOffered: { "@type": "Service", name, description } })) } },
     { ...getFAQSchema(heatPumpFaqs), "@id": `${url}#faq`, isPartOf: { "@id": `${url}#webpage` } },
-  ] };
+  ]);
 }
 
 export default function Page() {

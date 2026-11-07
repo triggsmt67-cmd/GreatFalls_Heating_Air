@@ -84,9 +84,13 @@ describe("Lead security", () => {
     fetchMock.mockResolvedValue(new Response("Unavailable", { status: 503 }));
     expect((await sendLeadNotificationEmail(data)).success).toBe(false);
   });
-  it("suppresses unverified business and service schema", () => {
+  it("publishes verified business facts without unverified credentials or prices", () => {
     vi.stubEnv("NODE_ENV", "production");
-    expect(getHVACBusinessSchema()).toBeNull();
-    expect(getServiceSchema(servicesData["heating-hub"])).toBeNull();
+    const business = getHVACBusinessSchema();
+    expect(business).toMatchObject({ "@type": "HVACBusiness", name: "Great Falls Heating and Air LLC" });
+    for (const field of ["address", "priceRange", "hasCredential", "aggregateRating", "review", "sameAs"]) {
+      expect(business).not.toHaveProperty(field);
+    }
+    expect(getServiceSchema(servicesData["heating-hub"])?.provider).toEqual({ "@id": business?.["@id"] });
   });
 });

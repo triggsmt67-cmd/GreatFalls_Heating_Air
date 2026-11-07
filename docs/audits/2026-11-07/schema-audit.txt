@@ -1,0 +1,38 @@
+Structured-data audit — November 7, 2026
+Site: https://www.greatfallsheatingandair.com
+
+Decision: Improve. Existing markup parses, but coverage is incomplete and one service page loses its provider and service-area fields.
+
+Live checks across all 17 canonical sitemap pages
+- HTTP 200 using an OAI-SearchBot user-agent request from the audit network.
+- Every JSON-LD script parsed successfully.
+- All emitted type and property names were found in the current Schema.org vocabulary.
+- No duplicate typed entity IDs within a page and no unresolved site-entity references across the collected site graph.
+- 95 FAQ questions and answers match the HTML text, allowing whitespace differences around inline elements. Answers are present in native details elements.
+- No WebSite or HVACBusiness entity emitted on any of the 17 pages.
+
+Coverage
+Homepage: FAQPage only (six questions).
+About, Contact and Privacy: BreadcrumbList only.
+Rebates: FAQPage and BreadcrumbList.
+All 12 service pages: WebPage, Service, FAQPage and BreadcrumbList; most also ImageObject. Eleven service pages include an inline minimal Organization as provider. Emergency furnace repair does not.
+
+Findings
+1. Emergency furnace repair loses provider and areaServed.
+File: src/app/services/heating/emergency-furnace-repair/page.tsx, lines 35-36 and 59.
+getEmergencySchema takes heatingSchema["@graph"][1] as heatingService. That entry is the WebPage, so provider and areaServed are undefined and disappear from live JSON. Select the Service node by its type or ID rather than positional array indexing. This is a semantic completeness defect, not proof of a crawl or indexing block.
+
+2. Business identity markup is absent from the homepage and informational pages.
+The global getHVACBusinessSchema function returns null whenever verification.credentials is false, despite businessIdentity, contactDetails and hours being true. Current fallback Organizations appear only in service markup and contain name and URL. Recommend a shared business entity containing only supported verified details, linked consistently from relevant pages. Do not turn on unverified credentials, fabricate an address, reviews, ratings or affiliations, or enable the entire verification flag merely to emit schema.
+
+3. Page and site relationships can be more complete.
+Recommend WebSite plus homepage WebPage linked to the verified business entity; AboutPage and ContactPage on their corresponding pages; a WebPage for the rebate guide and a consistent isPartOf relationship to the WebSite. Privacy can remain minimal or use WebPage. These are descriptive improvements, not ChatGPT inclusion requirements. FAQPage is not a substitute for describing the site's business and individual page purposes.
+
+ChatGPT search
+OpenAI documents OAI-SearchBot as its automatic search crawler and recommends allowing it in robots.txt and allowing requests from its published IP ranges. The current site allows it and passed user-agent requests. These requests do not prove successful access from all genuine OpenAI crawler IPs. No official source inspected establishes a required ChatGPT schema package or guarantees that adding schema yields citations or rankings. Crawlability, discovery links, readable page content and relevant information remain separate from schema.
+Official source checked: https://developers.openai.com/api/docs/bots
+
+Limits
+This audit checked live JSON syntax, vocabulary names, entity references, page coverage, and FAQ text consistency. It was not a formal Schema.org validator or Google Rich Results Test run, exhaustive property-domain/range validation, fact verification of every business claim, or a test of ChatGPT index inclusion. Recommendations are not evidence that absent optional schema blocks discovery. No application source files were modified or deployed.
+
+Evidence: schema-evidence.json

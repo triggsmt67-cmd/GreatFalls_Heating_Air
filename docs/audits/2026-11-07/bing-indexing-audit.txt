@@ -1,0 +1,42 @@
+Great Falls Heating and Air — Bing indexing investigation
+Checked November 7, 2026 (America/Denver)
+
+Finding
+Bing reports a sitemap-specific fetch failure. Its own homepage Live URL test succeeds (HTTP 200, URL can be indexed), while the homepage index record is Discovered but not crawled. The sitemap report shows The page is not accessible and zero URLs discovered. A separate Bing Live URL test for sitemap.xml also reports a fetch failure. The underlying network/processing cause is not established.
+
+Verified public checks
+- All 17 published sitemap URLs return HTTP 200 to requests using Bingbot's user agent.
+- Each has one matching self-canonical on HTTPS www and index, follow metadata.
+- No X-Robots-Tag restrictions found on tested responses.
+- Valid XML sitemap, application/xml, 17 URLs, no duplicates, roughly 1.7 KB.
+- robots.txt returns 200, allows Bingbot/Googlebot/OAI-SearchBot/PerplexityBot and others; only API routes are disallowed.
+- Homepage, robots and sitemap return 200 with browser, Bingbot, Googlebot, OpenAI search and Perplexity user agents. A published service page also returns 200 with Bingbot/OpenAI/Perplexity.
+- HTTP and apex-domain variants permanently redirect to HTTPS www; trailing-slash service variant redirects to the canonical service URL. curl -L verified final 200 responses and TLS verification.
+- All sitemap pages have incoming internal links and server-rendered text. Core content does not depend on crawler JavaScript execution.
+- Thank-you is deliberately noindex and excluded from the sitemap. Nonexistent URLs return real 404 responses.
+- No nosnippet/data-nosnippet/noarchive/nocache restrictions found on published pages tested. Googlebot max-snippet is -1.
+
+Hosting and Bing account
+- Vercel bot protection Off; AI bot blocking unchecked; no custom blocking rules or IP block rules; Attack Mode not enabled. System DDoS protections remain active.
+- Past-day system-mitigation user-agent list displayed no Bingbot entries. User agents alone do not authenticate crawler identity.
+- Production custom domains are excluded from Vercel SSO protection; public fetches require no authentication.
+- Bing Block URLs: zero active blocks, no URLs submitted to block. Crawl Control: Default.
+
+Action performed
+Retried the existing sitemap submission once. Bing confirmed successful submission for processing; final observed status was Processing. Parsing success and indexing remain unconfirmed. No site code, robots rules, canonicals or security settings were changed.
+
+Recommended next steps
+1. Check the sitemap retry result. Success should report 17 discovered URLs; discovery is not indexing.
+2. If it fails again, escalate the exact sitemap URL, failure times, and successful homepage Live URL HTTP 200 to Bing Webmaster support. Correlate a fresh failed sitemap fetch with Vercel request/security logs before changing any firewall rules. The dashboard did not expose the failed fetch response or a matching denied Bing request.
+3. Request indexing for the homepage and primary service URLs through Bing after submission processing; optional IndexNow integration can help notify changes, but does not repair crawler connectivity or guarantee indexing.
+4. Avoid rewriting correct robots/canonical settings or disabling system mitigations without evidence.
+
+Minor notice
+Bing flags one missing image alt attribute. Current HTML includes an empty-alt decorative footer image, while the other image elements have alt attributes. This notice is not evidence of an indexing block.
+
+AI search
+No AI-search crawler or snippet restriction was found in the tested site settings. Actual search index inclusion and AI citations are unverified. Google does not require llms.txt or special AI schema: https://developers.google.com/search/docs/appearance/ai-features
+Bing inspection reference: https://www.bing.com/webmasters/help/url-inspection-55a30305
+
+Evidence
+crawl-evidence.json contains response details and manually recorded dashboard observations. Public user-agent requests do not prove access from genuine crawler networks. This was a technical indexing audit, not a full content/quality, performance, or structured-data eligibility audit.

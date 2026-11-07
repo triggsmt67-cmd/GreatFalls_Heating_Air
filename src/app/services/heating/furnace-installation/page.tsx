@@ -1,11 +1,11 @@
+import { connectSchemaGraph, getFAQSchema, getBusinessReference } from "@/lib/schema/jsonLd";
 import { ServiceIntroTrust } from "@/components/ui/ServiceIntroTrust";
 import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import { RebateNotice } from "@/components/ui/RebateNotice";
 import Link from "next/link";
 import { buildMetadata } from "@/lib/seo/metadata";
-import { getFAQSchema, getHVACBusinessSchema } from "@/lib/schema/jsonLd";
-import { siteConfig, verification } from "@/content/site";
+import { siteConfig } from "@/content/site";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { PhotoPlaceholder } from "@/components/ui/PhotoPlaceholder";
 import { ServiceIcon } from "@/components/ui/ServiceIcon";
@@ -21,17 +21,13 @@ const description = "Plan furnace replacement in Great Falls: home-specific sizi
 export const metadata = buildMetadata({ title, description, canonicalPath: route, ogImage: "/images/heating-furnace-installation-social.jpg", ogImageAlt: "Residential furnace with metal ductwork, gas supply piping, and a condensate pump." });
 
 function getInstallationSchema() {
-  const businessId = `${baseUrl}/#business`;
-  const provider = getHVACBusinessSchema() ? { "@id": businessId } : verification.businessIdentity ? {
-    "@type": "Organization", "@id": businessId, name: siteConfig.businessName, url: baseUrl,
-    ...(verification.contactDetails ? { telephone: siteConfig.phoneE164, email: siteConfig.email } : {}),
-  } : undefined;
-  return { "@context": "https://schema.org", "@graph": [
+  const provider = getBusinessReference();
+  return connectSchemaGraph([
     { "@type": "ImageObject", "@id": `${url}#image`, contentUrl: `${baseUrl}/images/heating-furnace-installation.webp`, url: `${baseUrl}/images/heating-furnace-installation.webp`, name: "Residential furnace and duct connections", description: "Residential furnace with metal ductwork, gas supply piping, and a condensate pump.", width: 1600, height: 1200, encodingFormat: "image/webp" },
     { "@type": "WebPage", "@id": `${url}#webpage`, url, name: String(metadata.title), description, inLanguage: "en-US", primaryImageOfPage: { "@id": `${url}#image` }, isPartOf: { "@id": `${baseUrl}/services/heating#webpage` }, mainEntity: { "@id": `${url}#service` }, breadcrumb: { "@id": `${url}#breadcrumb` }, hasPart: { "@id": `${url}#faq` }, citation: Object.values(installationSources) },
     { "@type": "Service", "@id": `${url}#service`, url, name: "Residential furnace installation & replacement in Great Falls, Montana", description, serviceType: "Furnace installation and replacement", provider, areaServed: { "@type": "AdministrativeArea", name: "Great Falls and Cascade County, Montana" }, mainEntityOfPage: { "@id": `${url}#webpage` } },
     { ...getFAQSchema(installationFaqs), "@id": `${url}#faq`, isPartOf: { "@id": `${url}#webpage` } },
-  ] };
+  ]);
 }
 
 export default function Page() {

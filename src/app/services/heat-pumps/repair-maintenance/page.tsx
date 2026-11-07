@@ -1,11 +1,11 @@
+import { connectSchemaGraph, getFAQSchema, getBusinessReference } from "@/lib/schema/jsonLd";
 import { ServiceIntroTrust } from "@/components/ui/ServiceIntroTrust";
 import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import Link from "next/link";
 import { ServiceIcon } from "@/components/ui/ServiceIcon";
 import { buildMetadata } from "@/lib/seo/metadata";
-import { getFAQSchema, getHVACBusinessSchema } from "@/lib/schema/jsonLd";
-import { siteConfig, verification } from "@/content/site";
+import { siteConfig } from "@/content/site";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { PhotoPlaceholder } from "@/components/ui/PhotoPlaceholder";
 import { FinalDarkCTA } from "@/components/sections/FinalDarkCTA";
@@ -31,17 +31,13 @@ export const metadata = {
 };
 
 function getServiceSchema() {
-  const businessId = `${baseUrl}/#business`;
-  const provider = getHVACBusinessSchema() ? { "@id": businessId } : verification.businessIdentity ? {
-    "@type": "Organization", "@id": businessId, name: siteConfig.businessName, url: baseUrl,
-    ...(verification.contactDetails ? { telephone: siteConfig.phoneE164, email: siteConfig.email } : {}),
-  } : undefined;
-  return { "@context": "https://schema.org", "@graph": [
+  const provider = getBusinessReference();
+  return connectSchemaGraph([
     { "@type": "ImageObject", "@id": `${url}#image`, url: imageUrl, contentUrl: imageUrl, width: 1280, height: 960, name: "Outdoor heat pump beside a wood-sided home", description: imageAlt, caption: imageCaption },
     { "@type": "WebPage", "@id": `${url}#webpage`, url, name: String(metadata.title), description, inLanguage: "en-US", primaryImageOfPage: { "@id": `${url}#image` }, isPartOf: { "@id": `${baseUrl}/services/heat-pumps/cold-climate#webpage` }, mainEntity: { "@id": `${url}#service` }, breadcrumb: { "@id": `${url}#breadcrumb` }, hasPart: { "@id": `${url}#faq` }, citation: Object.values(serviceSources) },
     { "@type": "Service", "@id": `${url}#service`, url, name: "Heat pump repair and maintenance in Great Falls, Montana", description, serviceType: "Heat pump repair and maintenance", provider, areaServed: [{ "@type": "City", name: "Great Falls, Montana" }, { "@type": "AdministrativeArea", name: "Cascade County, Montana" }], mainEntityOfPage: { "@id": `${url}#webpage` } },
     { ...getFAQSchema(serviceFaqs), "@id": `${url}#faq`, isPartOf: { "@id": `${url}#webpage` } },
-  ] };
+  ]);
 }
 
 export default function Page() {

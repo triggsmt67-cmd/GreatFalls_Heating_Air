@@ -1,12 +1,12 @@
+import { connectSchemaGraph, getFAQSchema, getBusinessReference } from "@/lib/schema/jsonLd";
 import { rebateReviewDate } from "@/content/rebates";
 import { ServiceIntroTrust } from "@/components/ui/ServiceIntroTrust";
 import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import { RebateNotice } from "@/components/ui/RebateNotice";
 import Link from "next/link";
-import { siteConfig, verification } from "@/content/site";
+import { siteConfig } from "@/content/site";
 import { buildMetadata } from "@/lib/seo/metadata";
-import { getFAQSchema, getHVACBusinessSchema } from "@/lib/schema/jsonLd";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { PhotoPlaceholder } from "@/components/ui/PhotoPlaceholder";
 import { ServiceIcon } from "@/components/ui/ServiceIcon";
@@ -31,13 +31,8 @@ export const metadata = {
 };
 
 function getCoolingSchema() {
-  const businessId = `${siteConfig.siteUrl.replace(/\/$/, "")}/#business`;
-  const provider = getHVACBusinessSchema() ? { "@id": businessId } : verification.businessIdentity ? {
-    "@type": "Organization", "@id": businessId, name: siteConfig.businessName, url: siteConfig.siteUrl,
-  } : undefined;
-  return {
-    "@context": "https://schema.org",
-    "@graph": [
+  const provider = getBusinessReference();
+  return connectSchemaGraph([
       { ...getFAQSchema(coolingFaqs), "@id": `${url}#faq`, isPartOf: { "@id": `${url}#webpage` } },
       {
         "@type": "ImageObject", "@id": `${url}#image`,
@@ -65,8 +60,7 @@ function getCoolingSchema() {
           })),
         },
       },
-    ],
-  };
+    ]);
 }
 
 export default function Page() {

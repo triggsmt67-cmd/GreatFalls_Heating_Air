@@ -1,3 +1,4 @@
+import { getBusinessReference, connectSchemaGraph, getFAQSchema } from "@/lib/schema/jsonLd";
 import { ServiceIntroTrust } from "@/components/ui/ServiceIntroTrust";
 import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { GuideNavigation } from "@/components/ui/GuideNavigation";
@@ -7,8 +8,7 @@ import { siteConfig } from "@/content/site";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { PhotoPlaceholder } from "@/components/ui/PhotoPlaceholder";
-import { getFAQSchema } from "@/lib/schema/jsonLd";
-import { getHeatingPageSchema, heatingUrl } from "../schema";
+import { heatingCommunities, heatingUrl } from "../schema";
 import { emergencyFaqs, emergencyFailures, homeownerChecks } from "./content";
 import styles from "./emergency.module.css";
 
@@ -33,11 +33,7 @@ export const metadata = {
 };
 
 function getEmergencySchema() {
-  const heatingSchema = getHeatingPageSchema(title, description);
-  const heatingService = heatingSchema["@graph"][1];
-  return {
-    "@context": "https://schema.org",
-    "@graph": [
+  return connectSchemaGraph([
       {
         "@type": "ImageObject", "@id": `${pageUrl}#image`,
         contentUrl: imageUrl, url: imageUrl, width: 1600, height: 1200,
@@ -56,15 +52,15 @@ function getEmergencySchema() {
         "@type": "Service", "@id": `${pageUrl}#service`, url: pageUrl,
         name: "Emergency Furnace Repair & No-Heat Diagnostics in Great Falls, MT",
         serviceType: "Residential furnace repair", description,
-        provider: heatingService.provider, areaServed: heatingService.areaServed,
+        provider: getBusinessReference(),
+        areaServed: heatingCommunities.map(name => ({ "@type": "Place", name: `${name}, Montana` })),
         mainEntityOfPage: { "@id": `${pageUrl}#webpage` },
       },
       {
         ...getFAQSchema(emergencyFaqs), "@id": `${pageUrl}#faq`,
         isPartOf: { "@id": `${pageUrl}#webpage` },
       },
-    ],
-  };
+    ]);
 }
 
 export default function Page() {

@@ -16,7 +16,7 @@ import { HeatingFaq } from "./HeatingFaq";
 const title = "Heating & Furnace Repair in Great Falls, MT";
 const baseMetadata = buildMetadata({
   title,
-  description: "Honest furnace repair, seasonal maintenance, and heating replacement in Great Falls, MT. Upfront diagnostics, CO safety checks, and built for Cascade County winters.",
+  description: "Furnace repair, maintenance, and replacement in Great Falls, MT. Compare heating options, learn safe checks, and call for 24/7 emergency furnace service.",
   canonicalPath: "/services/heating",
   ogImage: "/images/heating-furnace-installation-social.jpg",
   ogImageAlt: "Residential furnace with metal ductwork, gas supply piping, and a condensate pump.",

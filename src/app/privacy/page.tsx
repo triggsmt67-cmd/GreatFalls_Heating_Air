@@ -1,3 +1,4 @@
+import { PageSchema } from "@/components/seo/PageSchema";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { siteConfig } from "@/content/site";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
@@ -12,6 +13,7 @@ export const metadata = buildMetadata({
 export default function PrivacyPage() {
   return (
     <div className="wrap interior">
+      <PageSchema path="/privacy" type="WebPage" title={String(metadata.title)} description={String(metadata.description)} />
       <div className="article-copy privacy-copy">
         <Breadcrumbs items={[{ name: "Privacy policy", url: "/privacy" }]} />
         <header className="page-heading">

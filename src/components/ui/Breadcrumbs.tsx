@@ -1,3 +1,4 @@
+import { canonicalUrl } from "@/lib/seo/urls";
 import React from "react";
 import Link from "next/link";
 import { ChevronRight, Home } from "lucide-react";
@@ -16,7 +17,7 @@ interface BreadcrumbsProps {
 
 export function Breadcrumbs({ items, className = "", schemaId }: BreadcrumbsProps) {
   const allItems = [{ name: "Home", url: "/" }, ...items];
-  const jsonLd = { ...getBreadcrumbSchema(allItems), ...(schemaId ? { "@id": schemaId } : {}) };
+  const jsonLd = { ...getBreadcrumbSchema(allItems), "@id": schemaId ?? `${canonicalUrl(items.at(-1)?.url ?? "/")}#breadcrumb` };
 
   return (
     <>

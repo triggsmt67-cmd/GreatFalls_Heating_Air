@@ -1,3 +1,4 @@
+import { connectSchemaGraph, getFAQSchema, getBusinessReference } from "@/lib/schema/jsonLd";
 import { rebateReviewDate } from "@/content/rebates";
 import { ServiceIntroTrust } from "@/components/ui/ServiceIntroTrust";
 import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
@@ -6,8 +7,7 @@ import { RebateNotice } from "@/components/ui/RebateNotice";
 import Link from "next/link";
 import { ServiceIcon } from "@/components/ui/ServiceIcon";
 import { buildMetadata } from "@/lib/seo/metadata";
-import { getFAQSchema, getHVACBusinessSchema } from "@/lib/schema/jsonLd";
-import { siteConfig, verification } from "@/content/site";
+import { siteConfig } from "@/content/site";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { FinalDarkCTA } from "@/components/sections/FinalDarkCTA";
 import { FloorPlanDiagram } from "./FloorPlanDiagram";
@@ -22,16 +22,12 @@ const description = "Ductless mini-split installation in Great Falls: room cover
 export const metadata = buildMetadata({ title, description, canonicalPath: route });
 
 function getDuctlessSchema() {
-  const businessId = `${baseUrl}/#business`;
-  const provider = getHVACBusinessSchema() ? { "@id": businessId } : verification.businessIdentity ? {
-    "@type": "Organization", "@id": businessId, name: siteConfig.businessName, url: baseUrl,
-    ...(verification.contactDetails ? { telephone: siteConfig.phoneE164, email: siteConfig.email } : {}),
-  } : undefined;
-  return { "@context": "https://schema.org", "@graph": [
+  const provider = getBusinessReference();
+  return connectSchemaGraph([
     { "@type": "WebPage", "@id": `${url}#webpage`, url, name: String(metadata.title), description, inLanguage: "en-US", isPartOf: { "@id": `${baseUrl}/services/heat-pumps/cold-climate#webpage` }, mainEntity: { "@id": `${url}#service` }, breadcrumb: { "@id": `${url}#breadcrumb` }, hasPart: { "@id": `${url}#faq` }, citation: Object.values(ductlessSources) },
     { "@type": "Service", "@id": `${url}#service`, url, name: "Ductless mini-split installation in Great Falls, Montana", description, serviceType: "Ductless mini-split installation", provider, areaServed: [{ "@type": "City", name: "Great Falls, Montana" }, { "@type": "AdministrativeArea", name: "Cascade County, Montana" }], mainEntityOfPage: { "@id": `${url}#webpage` } },
     { ...getFAQSchema(ductlessFaqs), "@id": `${url}#faq`, isPartOf: { "@id": `${url}#webpage` } },
-  ] };
+  ]);
 }
 
 export default function Page() {

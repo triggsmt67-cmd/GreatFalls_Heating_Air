@@ -1,3 +1,6 @@
+import { canonicalUrl } from "@/lib/seo/urls";
+import { getBusinessReference } from "@/lib/schema/jsonLd";
+import { PageSchema } from "@/components/seo/PageSchema";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
@@ -19,6 +22,7 @@ export const metadata = buildMetadata({
 export default function HomePage() {
   return (
     <div className={styles.page}>
+      <PageSchema path="/" type="WebPage" title={String(metadata.title)} description={String(metadata.description)} mainEntity={getBusinessReference()} hasPart={{ "@id": `${canonicalUrl()}#faq` }} />
       <section className={styles.hero} aria-labelledby="home-hero-title">
         <div className={`wrap ${styles.heroInner}`}>
           <p className={styles.heroEyebrow}>
@@ -33,7 +37,7 @@ export default function HomePage() {
               </span>
             </h1>
             <p className={styles.heroDescription}>
-              Know what’s wrong, what the work involves, and what it costs. Whether you need a repair, maintenance, or a new system, start with a clear explanation.
+              Great Falls Heating and Air LLC provides residential furnace repair, heating and AC installation, maintenance, and cold-climate heat pump service in Great Falls and surrounding communities. Start with a clear explanation of what’s wrong, what the work involves, and what it costs.
             </p>
             <div className={styles.heroActions}>
               <a
@@ -300,6 +304,7 @@ export default function HomePage() {
         </ol>
       </section>
       <FaqAccordion
+        pageUrl={canonicalUrl()}
         faqs={generalFaqs}
         title="A few useful answers."
         subtitle=""

@@ -1,3 +1,5 @@
+import { canonicalUrl } from "@/lib/seo/urls";
+import { PageSchema } from "@/components/seo/PageSchema";
 import Link from "next/link";
 import { getFAQSchema } from "@/lib/schema/jsonLd";
 import { ServiceIcon } from "@/components/ui/ServiceIcon";
@@ -14,7 +16,8 @@ export const metadata = buildMetadata({
 export default function Page() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(getFAQSchema(rebateFaqs)).replace(/</g, "\\u003c") }} />
+      <PageSchema path="/rebates/2026-montana-hvac-rebates" type="WebPage" title={String(metadata.title)} description={String(metadata.description)} hasPart={{ "@id": `${canonicalUrl("/rebates/2026-montana-hvac-rebates")}#faq` }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ ...getFAQSchema(rebateFaqs), "@id": `${canonicalUrl("/rebates/2026-montana-hvac-rebates")}#faq`, isPartOf: { "@id": `${canonicalUrl("/rebates/2026-montana-hvac-rebates")}#webpage` } }).replace(/</g, "\\u003c") }} />
       <div className="wrap interior compact-interior">
         <Breadcrumbs
           items={[
@@ -30,9 +33,9 @@ export default function Page() {
             Homeowner resource / Reviewed {rebateGuideMetadata.lastReviewedDate}
           </p>
           <h1>
-            A clearer picture
+            2026 Montana
             <br />
-            of Montana HVAC rebates.
+            HVAC rebates.
           </h1>
           <p>
             Utility incentives, expired credits, and pending programs. Start

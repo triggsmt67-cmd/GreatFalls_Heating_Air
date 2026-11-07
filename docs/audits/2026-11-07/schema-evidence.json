@@ -1,0 +1,3366 @@
+[
+  {
+    "url": "https://www.greatfallsheatingandair.com",
+    "http_status": 200,
+    "jsonld_blocks": 1,
+    "parse_errors": [],
+    "types": {
+      "FAQPage": 1,
+      "Question": 6,
+      "Answer": 6
+    },
+    "defined_ids": [],
+    "refs": [],
+    "faq_checks": [
+      {
+        "question": "My furnace stopped working. Can I get help after hours?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "How much does a furnace or AC repair cost in Great Falls?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Should I repair my furnace or replace it?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Will a heat pump keep my home warm during a Montana winter?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Do you service homes outside Great Falls?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Can I get a rebate for a new furnace, AC, or heat pump?",
+        "question_visible": true,
+        "answer_visible": true
+      }
+    ],
+    "canonical": [
+      "https://www.greatfallsheatingandair.com"
+    ],
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "My furnace stopped working. Can I get help after hours?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We offer 24/7 emergency service and repair. Call 406-781-4027 if your home is losing heat; don\u2019t wait for a form reply. Regular business hours are Monday\u2013Friday, 8 a.m.\u20135 p.m. If you smell gas or a carbon monoxide alarm sounds, leave the building and call 911 from a safe location before contacting us."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does a furnace or AC repair cost in Great Falls?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Angi reports a national average of $318 for furnace repair, and HomeAdvisor reports $417 for AC repair in their 2026 guides. These national figures are general budgeting references, not a quote, advertised rate, or price cap from Great Falls Heating and Air. Your repair may cost less or substantially more depending on the fault, parts, equipment access, labor, warranty coverage, and any emergency or after-hours charges. Call to confirm the diagnostic fee and what it includes, then review the price for the proposed work before approving the repair."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should I repair my furnace or replace it?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Start with the diagnosis. A repair may make sense if it can restore safe operation and the rest of the furnace is in reasonable condition. Repeated failures, unavailable parts, or a costly major repair can make replacement worth comparing. Age is part of the decision, along with repair history, comfort problems, warranty coverage, and the full replacement cost."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will a heat pump keep my home warm during a Montana winter?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A properly selected cold-climate heat pump can provide winter heating, but the model and your home matter. Compare how much heat it delivers in cold weather with how much your house needs. Plan any backup heat around that difference. If you\u2019re keeping a gas or propane furnace, check that the equipment and controls can work together. A low advertised operating temperature alone doesn\u2019t tell you whether it can heat the whole house."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you service homes outside Great Falls?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Call to check service at your address in Black Eagle, Ulm, Cascade, Vaughn, Sun Prairie, Sun River, Belt, or the Gulch communities. Share your location and equipment type so we can confirm availability. Military families living off base are welcome to get in touch. We\u2019re independent of the base; on-base access needs separate confirmation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I get a rebate for a new furnace, AC, or heat pump?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Possibly. It depends on your utility account, the exact equipment, and the current program rules. Our Montana HVAC rebate guide links to the official programs. Keep the full installation price in view until the incentive is confirmed. Rebate amounts, eligibility rules, deadlines, and funding may change, be suspended, or end without notice to Great Falls Heating and Air LLC and without our knowledge. Published offers do not guarantee availability, eligibility, approval, or payment. Before buying equipment or authorizing work, confirm current terms, funding, and any required advance approval directly with the program administrator."
+            }
+          }
+        ]
+      }
+    ],
+    "unresolved_site_refs": []
+  },
+  {
+    "url": "https://www.greatfallsheatingandair.com/about",
+    "http_status": 200,
+    "jsonld_blocks": 1,
+    "parse_errors": [],
+    "types": {
+      "BreadcrumbList": 1,
+      "ListItem": 2
+    },
+    "defined_ids": [],
+    "refs": [],
+    "faq_checks": [],
+    "canonical": [
+      "https://www.greatfallsheatingandair.com/about"
+    ],
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.greatfallsheatingandair.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "About",
+            "item": "https://www.greatfallsheatingandair.com/about"
+          }
+        ]
+      }
+    ],
+    "unresolved_site_refs": []
+  },
+  {
+    "url": "https://www.greatfallsheatingandair.com/contact",
+    "http_status": 200,
+    "jsonld_blocks": 1,
+    "parse_errors": [],
+    "types": {
+      "BreadcrumbList": 1,
+      "ListItem": 2
+    },
+    "defined_ids": [],
+    "refs": [],
+    "faq_checks": [],
+    "canonical": [
+      "https://www.greatfallsheatingandair.com/contact"
+    ],
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.greatfallsheatingandair.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Contact",
+            "item": "https://www.greatfallsheatingandair.com/contact"
+          }
+        ]
+      }
+    ],
+    "unresolved_site_refs": []
+  },
+  {
+    "url": "https://www.greatfallsheatingandair.com/rebates/2026-montana-hvac-rebates",
+    "http_status": 200,
+    "jsonld_blocks": 2,
+    "parse_errors": [],
+    "types": {
+      "FAQPage": 1,
+      "Question": 6,
+      "Answer": 6,
+      "BreadcrumbList": 1,
+      "ListItem": 2
+    },
+    "defined_ids": [],
+    "refs": [],
+    "faq_checks": [
+      {
+        "question": "Can I still claim the federal $2,000 heat pump tax credit for a 2026 installation?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Does my NorthWestern account qualify for the $450 heat pump rebate?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Do I need approval before installing a heat pump to get a Sun River Electric rebate?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Can I apply for Montana\u2019s HOMES or HEEHR rebates now?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Is NorthWestern\u2019s up-to-$3,000 incentive for the heat pump that heats my house?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "What paperwork and deadlines should I confirm before counting a rebate in my budget?",
+        "question_visible": true,
+        "answer_visible": true
+      }
+    ],
+    "canonical": [
+      "https://www.greatfallsheatingandair.com/rebates/2026-montana-hvac-rebates"
+    ],
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can I still claim the federal $2,000 heat pump tax credit for a 2026 installation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. The federal Energy Efficient Home Improvement Credit under Section 25C is not available for property placed in service after December 31, 2025. Older pages advertising a heat pump credit through 2032 do not reflect that change. A qualifying 2025 installation is a separate tax-filing question; use the IRS guidance and your tax professional rather than counting a federal credit toward a new 2026 project."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does my NorthWestern account qualify for the $450 heat pump rebate?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "NorthWestern\u2019s current Montana existing-home electric application lists $450 per qualifying ducted or ductless heat pump. It requires residential electric service; a NorthWestern gas account alone does not establish eligibility. The equipment must be ENERGY STAR rated or meet SEER2 of at least 15.2 and HSPF2 of at least 8.5, along with the application\u2019s other conditions. Confirm your account and exact models before purchase; the utility makes the final eligibility decision and funding is limited."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need approval before installing a heat pump to get a Sun River Electric rebate?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Sun River\u2019s published air-source program says to request its rebate agreement and return it for approval before the contractor installs the system. It lists $150 per installed ton, capped at $750 per system, for buildings served by the cooperative. Payment follows installation and the co-op\u2019s compliance inspection. Confirm the exact equipment, current efficiency requirements, and availability with Sun River before committing; its public page uses older SEER and HSPF terminology."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I apply for Montana\u2019s HOMES or HEEHR rebates now?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Not yet, according to Montana DEQ\u2019s program page checked October 30, 2026. DEQ says the programs are not currently available and need final U.S. Department of Energy implementation approval before rollout. Announced funding or an estimated rebate is not an approval for your home. Do not assume a purchase made now will qualify later; wait for official application, timing, income, and equipment rules before relying on a future rebate."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is NorthWestern\u2019s up-to-$3,000 incentive for the heat pump that heats my house?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "That offer is for a heat pump water heater, not the space-heating heat pump. NorthWestern\u2019s separate program requires an existing electric resistance water-heater tank and a participating contractor; replacing a gas water heater does not qualify. Home type, age, account, and other restrictions apply, with one incentive per residence and limited funding. Confirm the current requirements and participating contractor before ordering; this page does not establish Great Falls Heating and Air\u2019s enrollment in that program."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What paperwork and deadlines should I confirm before counting a rebate in my budget?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Use the application for your utility account and project, and check approval timing before buying. NorthWestern\u2019s current existing-home electric form excludes work completed or materials purchased before August 1, 2026, and requires project completion and submission by June 30, 2027, with a recent bill and itemized receipts or invoices. Other programs have different steps, so keep model details, approvals, invoices, and a copy of the submitted application. Do not subtract an unapproved incentive from the amount you must be able to pay, and ask each administrator before assuming incentives can be combined."
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.greatfallsheatingandair.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "2026 Montana rebates",
+            "item": "https://www.greatfallsheatingandair.com/rebates/2026-montana-hvac-rebates"
+          }
+        ]
+      }
+    ],
+    "unresolved_site_refs": []
+  },
+  {
+    "url": "https://www.greatfallsheatingandair.com/privacy",
+    "http_status": 200,
+    "jsonld_blocks": 1,
+    "parse_errors": [],
+    "types": {
+      "BreadcrumbList": 1,
+      "ListItem": 2
+    },
+    "defined_ids": [],
+    "refs": [],
+    "faq_checks": [],
+    "canonical": [
+      "https://www.greatfallsheatingandair.com/privacy"
+    ],
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.greatfallsheatingandair.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Privacy policy",
+            "item": "https://www.greatfallsheatingandair.com/privacy"
+          }
+        ]
+      }
+    ],
+    "unresolved_site_refs": []
+  },
+  {
+    "url": "https://www.greatfallsheatingandair.com/services/heating",
+    "http_status": 200,
+    "jsonld_blocks": 3,
+    "parse_errors": [],
+    "types": {
+      "ImageObject": 1,
+      "WebPage": 1,
+      "Service": 7,
+      "Organization": 1,
+      "Place": 10,
+      "OfferCatalog": 1,
+      "Offer": 6,
+      "BreadcrumbList": 1,
+      "ListItem": 2,
+      "FAQPage": 1,
+      "Question": 7,
+      "Answer": 7
+    },
+    "defined_ids": [
+      "https://www.greatfallsheatingandair.com/services/heating#image",
+      "https://www.greatfallsheatingandair.com/services/heating#webpage",
+      "https://www.greatfallsheatingandair.com/services/heating#service",
+      "https://www.greatfallsheatingandair.com/#business",
+      "https://www.greatfallsheatingandair.com/services/heating#breadcrumb",
+      "https://www.greatfallsheatingandair.com/services/heating#faq"
+    ],
+    "refs": [
+      "https://www.greatfallsheatingandair.com/services/heating#image",
+      "https://www.greatfallsheatingandair.com/services/heating#service",
+      "https://www.greatfallsheatingandair.com/services/heating#breadcrumb",
+      "https://www.greatfallsheatingandair.com/services/heating#faq",
+      "https://www.greatfallsheatingandair.com/services/heating#webpage",
+      "https://www.greatfallsheatingandair.com/services/heating#webpage"
+    ],
+    "faq_checks": [
+      {
+        "question": "How much does a furnace repair cost?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Why is my furnace running but blowing cold air?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Why does my furnace keep shutting off, especially in windy or freezing weather?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Should I repair an older furnace or replace it?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Does my furnace need an inspection every year if it still works?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "What can I safely check before calling for furnace repair?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Can I keep my gas furnace and add a heat pump for Montana winters?",
+        "question_visible": true,
+        "answer_visible": true
+      }
+    ],
+    "canonical": [
+      "https://www.greatfallsheatingandair.com/services/heating"
+    ],
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "ImageObject",
+            "@id": "https://www.greatfallsheatingandair.com/services/heating#image",
+            "url": "https://www.greatfallsheatingandair.com/images/heating-furnace-installation.webp",
+            "contentUrl": "https://www.greatfallsheatingandair.com/images/heating-furnace-installation.webp",
+            "name": "Residential furnace and duct connections",
+            "description": "Residential furnace with metal ductwork, gas supply piping, and a condensate pump.",
+            "width": 1600,
+            "height": 1200,
+            "encodingFormat": "image/webp"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.greatfallsheatingandair.com/services/heating#webpage",
+            "url": "https://www.greatfallsheatingandair.com/services/heating",
+            "name": "Heating & Furnace Repair in Great Falls, MT",
+            "description": "Honest furnace repair, seasonal maintenance, and heating replacement in Great Falls, MT. Upfront diagnostics, CO safety checks, and built for Cascade County winters.",
+            "inLanguage": "en-US",
+            "primaryImageOfPage": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heating#image"
+            },
+            "mainEntity": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heating#service"
+            },
+            "breadcrumb": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heating#breadcrumb"
+            },
+            "hasPart": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heating#faq"
+            }
+          },
+          {
+            "@type": "Service",
+            "@id": "https://www.greatfallsheatingandair.com/services/heating#service",
+            "url": "https://www.greatfallsheatingandair.com/services/heating",
+            "name": "Residential Heating & Furnace Services in Great Falls, MT",
+            "serviceType": [
+              "Furnace repair",
+              "Furnace maintenance",
+              "Heating system installation"
+            ],
+            "description": "Honest furnace repair, seasonal maintenance, and heating replacement in Great Falls, MT. Upfront diagnostics, CO safety checks, and built for Cascade County winters.",
+            "provider": {
+              "@type": "Organization",
+              "@id": "https://www.greatfallsheatingandair.com/#business",
+              "name": "Great Falls Heating and Air LLC",
+              "url": "https://www.greatfallsheatingandair.com"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heating#webpage"
+            },
+            "areaServed": [
+              {
+                "@type": "Place",
+                "name": "Great Falls, Montana"
+              },
+              {
+                "@type": "Place",
+                "name": "Black Eagle, Montana"
+              },
+              {
+                "@type": "Place",
+                "name": "Belt, Montana"
+              },
+              {
+                "@type": "Place",
+                "name": "Vaughn, Montana"
+              },
+              {
+                "@type": "Place",
+                "name": "Ulm, Montana"
+              },
+              {
+                "@type": "Place",
+                "name": "Sun Prairie, Montana"
+              },
+              {
+                "@type": "Place",
+                "name": "Cascade, Montana"
+              },
+              {
+                "@type": "Place",
+                "name": "Fort Shaw, Montana"
+              },
+              {
+                "@type": "Place",
+                "name": "Simms, Montana"
+              },
+              {
+                "@type": "Place",
+                "name": "Centerville, Montana"
+              }
+            ],
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Residential heating services",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Furnace repair & diagnostics",
+                    "url": "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Pre-winter furnace tune-up & safety inspection",
+                    "url": "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Furnace installation & replacement",
+                    "url": "https://www.greatfallsheatingandair.com/services/heating/furnace-installation"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Cold-climate heat pumps & dual-fuel systems",
+                    "url": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Garage & shop unit heaters",
+                    "url": "https://www.greatfallsheatingandair.com/services/heating"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Thermostats & airflow balancing",
+                    "url": "https://www.greatfallsheatingandair.com/services/heating"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.greatfallsheatingandair.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Heating services",
+            "item": "https://www.greatfallsheatingandair.com/services/heating"
+          }
+        ],
+        "@id": "https://www.greatfallsheatingandair.com/services/heating#breadcrumb"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much does a furnace repair cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Angi\u2019s 2026 guide reports a national average of $318, with most homeowners paying $133\u2013$505. These are general budgeting references, not a quote, advertised rate, or price cap from Great Falls Heating and Air. Your repair may cost less or substantially more depending on the fault, parts, equipment access, labor, warranty coverage, and any emergency or after-hours charges. Call to confirm the diagnostic fee and what it includes. Review the price for your proposed repair before approving the work. Source: Angi: furnace repair costs, updated September 25, 2026."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why is my furnace running but blowing cold air?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Check whether the thermostat fan is set to ON. That setting can circulate room-temperature air between heating cycles. If the house is losing heat, an airflow restriction, ignition problem, fuel-supply issue, or safety shutdown may need diagnosis. The symptom alone doesn\u2019t tell you which part has failed. Keep panels closed and don\u2019t bypass safety switches or keep resetting the furnace. Call for service if it won\u2019t heat. If you smell gas or a CO alarm sounds, leave immediately and call 911 from a safe location. Background: Carrier: reasons a furnace blows cold air."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does my furnace keep shutting off, especially in windy or freezing weather?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Restricted airflow, an ignition or control fault, or a venting problem can interrupt heating. Wind and snow around outside intake or exhaust openings are useful details to report, but they don\u2019t prove the cause. Tell us when the furnace stops, whether it restarts, and whether the indoor temperature is falling. From ground level, look for loose snow blocking accessible vents. Clear only loose snow you can safely reach. Don\u2019t climb, chip ice, disconnect venting, or bypass a safety switch. If it keeps shutting down, stop troubleshooting and call. For gas odor or a CO alarm, leave immediately and call 911 from outside. Background: Trane: furnace shutdown and lockout."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should I repair an older furnace or replace it?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Start with what\u2019s wrong and whether a repair can restore safe operation. Compare the repair price with the furnace\u2019s condition, repair history, available parts, and any warranty coverage. Repeated failures or a major repair may make replacement worth considering, but age alone doesn\u2019t settle the decision. If some rooms stay cold, the ductwork, insulation, or airflow may also need attention. A new furnace alone may not solve that problem. Compare the full installation work in our furnace replacement guide. Background: ENERGY STAR: when to consider replacement or system improvements."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does my furnace need an inspection every year if it still works?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. CPSC recommends a professional inspection of fuel-burning heating systems each year, including furnaces. Follow your equipment\u2019s maintenance instructions too. A furnace producing heat can still have a problem that needs attention. Ask what the visit includes and whether cleaning, filters, or repairs are priced separately. Maintenance can identify concerns, but it can\u2019t guarantee a winter without breakdowns. See our furnace maintenance guide for the checks to discuss. Source: CPSC: annual heating-system inspections."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What can I safely check before calling for furnace repair?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "If you smell gas, hear a CO alarm, or suspect a gas or carbon monoxide leak, leave immediately and call 911 or your gas utility from outside. Otherwise, keep checks to the homeowner tasks your equipment instructions allow: Thermostat: Check that HEAT is selected, the setting is above room temperature, and a schedule isn\u2019t explaining the change. Filter: Check an accessible filter. Turn the system off as instructed before changing it, use the correct size and type, and don\u2019t run without a filter. Power: Note whether the external furnace switch is off or a breaker has tripped. Don\u2019t open electrical compartments or repeatedly reset a tripping breaker. Visible code: Note a fault code only if it is visible without removing panels. Share it when you call; don\u2019t bypass a door switch to read it. If the furnace still won\u2019t heat, call for 24/7 emergency service and repair. Don\u2019t wait for a form reply when your home is losing heat. Background: Carrier: thermostat, airflow, and professional service checks."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I keep my gas furnace and add a heat pump for Montana winters?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Possibly. A dual-fuel system uses a heat pump with a compatible gas or propane furnace. The furnace\u2019s condition, indoor coil, blower, ductwork, electrical supply, and controls all need to work with the proposed equipment. Compare the heat pump\u2019s output in cold weather with your home\u2019s heating needs, then plan how the furnace will take over when needed. The settings depend on the equipment and your fuel costs; there isn\u2019t one changeover temperature for every Great Falls home. Our cold-climate heat pump guide explains the options. Background: Carrier: dual-fuel equipment and controls."
+            }
+          }
+        ],
+        "@id": "https://www.greatfallsheatingandair.com/services/heating#faq",
+        "isPartOf": {
+          "@id": "https://www.greatfallsheatingandair.com/services/heating#webpage"
+        }
+      }
+    ],
+    "unresolved_site_refs": []
+  },
+  {
+    "url": "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair",
+    "http_status": 200,
+    "jsonld_blocks": 2,
+    "parse_errors": [],
+    "types": {
+      "ImageObject": 1,
+      "WebPage": 1,
+      "Service": 1,
+      "FAQPage": 1,
+      "Question": 8,
+      "Answer": 8,
+      "BreadcrumbList": 1,
+      "ListItem": 3
+    },
+    "defined_ids": [
+      "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair#image",
+      "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair#webpage",
+      "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair#service",
+      "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair#faq",
+      "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair#breadcrumb"
+    ],
+    "refs": [
+      "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair#image",
+      "https://www.greatfallsheatingandair.com/services/heating#webpage",
+      "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair#service",
+      "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair#breadcrumb",
+      "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair#faq",
+      "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair#webpage",
+      "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair#webpage"
+    ],
+    "faq_checks": [
+      {
+        "question": "My furnace stopped in the middle of the night. Can it wait until morning?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Should I call a furnace company or 911 if I smell gas or hear a CO alarm?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "How much does an emergency furnace repair cost?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "My furnace works after a reset, then stops again. Should I keep resetting it?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "What do the blinking red or amber lights on my furnace mean?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Can I use a space heater while waiting for furnace repair?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "How do I keep my pipes from freezing while the furnace is out?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Can you repair a furnace another company installed?",
+        "question_visible": true,
+        "answer_visible": true
+      }
+    ],
+    "canonical": [
+      "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair"
+    ],
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "ImageObject",
+            "@id": "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair#image",
+            "contentUrl": "https://www.greatfallsheatingandair.com/images/emergency-furnace-repair-great-falls.webp",
+            "url": "https://www.greatfallsheatingandair.com/images/emergency-furnace-repair-great-falls.webp",
+            "width": 1600,
+            "height": 1200,
+            "name": "Residential gas furnace and venting",
+            "description": "Residential gas furnace with metal exhaust venting and ductwork in a utility room.",
+            "encodingFormat": "image/webp",
+            "caption": "Residential gas furnace with metal exhaust venting and ductwork in a utility room."
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair#webpage",
+            "url": "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair",
+            "name": "Emergency Furnace Repair in Great Falls, MT | Great Falls Heating and Air LLC",
+            "description": "No heat in Great Falls or Cascade County? Call for furnace repair availability, safe homeowner checks, and diagnostic guidance for gas, propane, and electric heating.",
+            "inLanguage": "en-US",
+            "primaryImageOfPage": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair#image"
+            },
+            "isPartOf": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heating#webpage"
+            },
+            "mainEntity": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair#service"
+            },
+            "breadcrumb": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair#breadcrumb"
+            },
+            "hasPart": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair#faq"
+            }
+          },
+          {
+            "@type": "Service",
+            "@id": "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair#service",
+            "url": "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair",
+            "name": "Emergency Furnace Repair & No-Heat Diagnostics in Great Falls, MT",
+            "serviceType": "Residential furnace repair",
+            "description": "No heat in Great Falls or Cascade County? Call for furnace repair availability, safe homeowner checks, and diagnostic guidance for gas, propane, and electric heating.",
+            "mainEntityOfPage": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair#webpage"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "My furnace stopped in the middle of the night. Can it wait until morning?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "If your home is losing heat in freezing weather, call rather than waiting for morning or a form reply. We offer 24/7 emergency service and repair at 406-781-4027. Tell us the indoor temperature, who is in the home, and what the furnace is doing. Ask about the arrival window and next steps; repair timing depends on the diagnosis and available parts. If the home is becoming unsafe, move to a warm location. For gas odor or a CO alarm, leave immediately and call 911 from outside before contacting us."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Should I call a furnace company or 911 if I smell gas or hear a CO alarm?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Leave the building immediately with everyone in your household. Don\u2019t use switches, a phone, or anything that could create a spark inside, and don\u2019t stop to troubleshoot the furnace. From a safe location outside, call 911. Report a suspected gas leak to your gas utility or propane supplier as well. Don\u2019t re-enter until responders say it is safe. Call us after the immediate danger has been addressed."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How much does an emergency furnace repair cost?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Call to confirm the diagnostic fee, any emergency or after-hours charges, and what the visit includes. Angi\u2019s 2026 guide reports a $318 national average for furnace repair overall; that is not an emergency-specific average. It is a general budgeting reference, not a quote, advertised rate, or price cap from Great Falls Heating and Air. Your repair may cost less or substantially more depending on the fault, parts, access, labor, warranty coverage, and service timing. Review the price for the proposed work before approving the repair."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "My furnace works after a reset, then stops again. Should I keep resetting it?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. A reset may restart the furnace without resolving the fault that shut it down. If it locks out again, stop troubleshooting and call. Follow only the homeowner instructions for your exact model; don\u2019t bypass safety switches, reset rollout switches, or remove panels. Note any code visible through a sight glass before interrupting power. If you smell gas, see smoke, or hear a CO alarm, leave immediately and call 911 from a safe location."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What do the blinking red or amber lights on my furnace mean?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The meaning depends on the furnace\u2019s brand, model, and blink pattern. There isn\u2019t one universal three-flash or four-flash diagnosis. If the light is visible through a sight glass without opening the cabinet, note or photograph the pattern and share it with the model number when you call. Keep panels in place and don\u2019t hold down a door switch to read a code. A code helps guide testing; it doesn\u2019t prove which part needs replacing."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I use a space heater while waiting for furnace repair?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A portable electric heater can provide temporary warmth if you follow its instructions. Put it on a stable, level, nonflammable surface and keep it at least three feet from bedding, curtains, furniture, and other things that can burn. Keep children and pets away. Plug it directly into a suitable wall outlet, never an extension cord or power strip. Stop using it if the plug or outlet gets hot or a breaker trips. Turn it off before sleeping or leaving the room. Never use an oven, grill, outdoor heater, or generator indoors for heat."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do I keep my pipes from freezing while the furnace is out?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Open kitchen and bathroom sink-cabinet doors so any remaining warmer room air can reach the plumbing. Move cleaning products out of children\u2019s and pets\u2019 reach, and keep garage doors closed if water lines run through the garage. These steps can reduce exposure but won\u2019t guarantee pipes stay unfrozen as the house cools. Follow your water utility\u2019s guidance and call a plumber for suspected frozen or burst pipes. Never use an open flame to thaw a pipe. If you need to leave the house, ask about protecting the plumbing before you go; don\u2019t leave a portable heater running unattended."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can you repair a furnace another company installed?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. We service major residential forced-air furnace brands, including Lennox, Trane, Carrier, Goodman, and Rheem, even if another company installed the unit. Call with the brand, model number, approximate age, and symptoms so we can discuss service options. The diagnosis, equipment condition, compatible parts, and any warranty terms affect what can be repaired and when. A 24/7 service offer doesn\u2019t guarantee every repair can be completed on the first visit."
+                }
+              }
+            ],
+            "@id": "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair#faq",
+            "isPartOf": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair#webpage"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.greatfallsheatingandair.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Heating services",
+            "item": "https://www.greatfallsheatingandair.com/services/heating"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Emergency furnace repair",
+            "item": "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair"
+          }
+        ],
+        "@id": "https://www.greatfallsheatingandair.com/services/heating/emergency-furnace-repair#breadcrumb"
+      }
+    ],
+    "unresolved_site_refs": []
+  },
+  {
+    "url": "https://www.greatfallsheatingandair.com/services/heating/furnace-installation",
+    "http_status": 200,
+    "jsonld_blocks": 2,
+    "parse_errors": [],
+    "types": {
+      "ImageObject": 1,
+      "WebPage": 1,
+      "Service": 1,
+      "Organization": 1,
+      "AdministrativeArea": 1,
+      "FAQPage": 1,
+      "Question": 8,
+      "Answer": 8,
+      "BreadcrumbList": 1,
+      "ListItem": 3
+    },
+    "defined_ids": [
+      "https://www.greatfallsheatingandair.com/services/heating/furnace-installation#image",
+      "https://www.greatfallsheatingandair.com/services/heating/furnace-installation#webpage",
+      "https://www.greatfallsheatingandair.com/services/heating/furnace-installation#service",
+      "https://www.greatfallsheatingandair.com/#business",
+      "https://www.greatfallsheatingandair.com/services/heating/furnace-installation#faq",
+      "https://www.greatfallsheatingandair.com/services/heating/furnace-installation#breadcrumb"
+    ],
+    "refs": [
+      "https://www.greatfallsheatingandair.com/services/heating/furnace-installation#image",
+      "https://www.greatfallsheatingandair.com/services/heating#webpage",
+      "https://www.greatfallsheatingandair.com/services/heating/furnace-installation#service",
+      "https://www.greatfallsheatingandair.com/services/heating/furnace-installation#breadcrumb",
+      "https://www.greatfallsheatingandair.com/services/heating/furnace-installation#faq",
+      "https://www.greatfallsheatingandair.com/services/heating/furnace-installation#webpage",
+      "https://www.greatfallsheatingandair.com/services/heating/furnace-installation#webpage"
+    ],
+    "faq_checks": [
+      {
+        "question": "How much does it cost to replace a furnace in Great Falls?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "What size furnace do I need? Should I get the same BTUs as the old one?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Is a two-stage furnace worth the extra cost? Is that the same as variable speed?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Should I choose an 80% furnace or a high-efficiency condensing furnace?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Can I replace just the furnace and keep my existing air conditioner?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Will my gas water heater need changes if the new furnace stops using the chimney?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "How long will furnace replacement take, and will I be without heat overnight?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Do I need a permit for furnace replacement, and who handles it?",
+        "question_visible": true,
+        "answer_visible": true
+      }
+    ],
+    "canonical": [
+      "https://www.greatfallsheatingandair.com/services/heating/furnace-installation"
+    ],
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "ImageObject",
+            "@id": "https://www.greatfallsheatingandair.com/services/heating/furnace-installation#image",
+            "contentUrl": "https://www.greatfallsheatingandair.com/images/heating-furnace-installation.webp",
+            "url": "https://www.greatfallsheatingandair.com/images/heating-furnace-installation.webp",
+            "name": "Residential furnace and duct connections",
+            "description": "Residential furnace with metal ductwork, gas supply piping, and a condensate pump.",
+            "width": 1600,
+            "height": 1200,
+            "encodingFormat": "image/webp"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.greatfallsheatingandair.com/services/heating/furnace-installation#webpage",
+            "url": "https://www.greatfallsheatingandair.com/services/heating/furnace-installation",
+            "name": "Furnace Installation & Replacement in Great Falls, MT | Great Falls Heating and Air LLC",
+            "description": "Plan furnace replacement in Great Falls: home-specific sizing, ductwork, shared-chimney checks, gas or propane compatibility, and written installation estimates.",
+            "inLanguage": "en-US",
+            "primaryImageOfPage": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heating/furnace-installation#image"
+            },
+            "isPartOf": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heating#webpage"
+            },
+            "mainEntity": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heating/furnace-installation#service"
+            },
+            "breadcrumb": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heating/furnace-installation#breadcrumb"
+            },
+            "hasPart": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heating/furnace-installation#faq"
+            },
+            "citation": [
+              "https://hvac-blog.acca.org/hvac-bigger-frequently-not-better/",
+              "https://bsesc.energy.gov/energy-basics/hvac-direct-vent-equipment",
+              "https://www.energy.gov/documents/combustionappliance-safetytech-briefpdf",
+              "https://www.greatfallsmt.gov/DocumentCenter/View/6117/Mechanical-Permit-Fees-Effective-10-05-2023",
+              "https://www.northwesternenergy.com/docs/default-source/default-document-library/billing-and-payment/e-programs/mt-residential-natural-gas-equipment.pdf"
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://www.greatfallsheatingandair.com/services/heating/furnace-installation#service",
+            "url": "https://www.greatfallsheatingandair.com/services/heating/furnace-installation",
+            "name": "Residential furnace installation & replacement in Great Falls, Montana",
+            "description": "Plan furnace replacement in Great Falls: home-specific sizing, ductwork, shared-chimney checks, gas or propane compatibility, and written installation estimates.",
+            "serviceType": "Furnace installation and replacement",
+            "provider": {
+              "@type": "Organization",
+              "@id": "https://www.greatfallsheatingandair.com/#business",
+              "name": "Great Falls Heating and Air LLC",
+              "url": "https://www.greatfallsheatingandair.com",
+              "telephone": "+14067814027",
+              "email": "gfheatingandair@icloud.com"
+            },
+            "areaServed": {
+              "@type": "AdministrativeArea",
+              "name": "Great Falls and Cascade County, Montana"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heating/furnace-installation#webpage"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "How much does it cost to replace a furnace in Great Falls?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "There isn\u2019t one replacement price that fits every home. The furnace model and size, ductwork, venting, drainage, fuel and electrical work, access, permits, and removal all affect the total. Ask for a written estimate that separates required work, optional upgrades, and exclusions. National price guides are general budgeting references, not a quote, advertised rate, or price cap from Great Falls Heating and Air. Your project may cost less or substantially more. Review the price and how any additional work would be approved before committing."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What size furnace do I need? Should I get the same BTUs as the old one?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The old rating is useful information, but it isn\u2019t a sizing calculation. New windows, added insulation, air leaks, or a finished room can change how much heat your house needs. Ask for a load calculation using the home\u2019s current condition and local winter design conditions. Compare the selected furnace\u2019s heating output, not just its fuel-input rating, and follow its altitude requirements. A bigger furnace won\u2019t automatically fix a cold bedroom; airflow and insulation may need attention too."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is a two-stage furnace worth the extra cost? Is that the same as variable speed?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "They describe different features. A two-stage burner has lower and higher heating outputs; a variable-speed blower adjusts airflow. The right combination may improve comfort in a suitable system, but it won\u2019t automatically fix duct problems or guarantee lower bills. Ask what difference the upgrade should make in your home. Compare the added price, controls, noise, service needs, and warranty terms before paying for features you may not need."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Should I choose an 80% furnace or a high-efficiency condensing furnace?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Compare the installation work along with the AFUE efficiency rating. A non-condensing furnace needs suitable combustion air and venting. A condensing furnace also needs approved venting and a way to handle condensate, with freeze protection where needed. A finished basement, exterior vent route, or shared water-heater chimney can change the work involved. Compare the full installed price, expected fuel use, and the equipment that fits your home. The efficiency percentage alone won\u2019t tell you what your bills will be."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I replace just the furnace and keep my existing air conditioner?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Possibly. The new furnace\u2019s blower, indoor cooling coil, controls, and duct airflow need to work with your existing AC. Have the equipment checked together before deciding what stays. Ask which parts can be reused, which need changing, and how both heating and cooling will be tested. If you expect to replace the AC later or add a heat pump, mention that now so the furnace proposal accounts for that plan. Replacing one system doesn\u2019t automatically mean replacing both."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Will my gas water heater need changes if the new furnace stops using the chimney?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "It needs a venting assessment, even if you\u2019re keeping the water heater. Removing the furnace changes the appliances using the chimney. The remaining vent may need changes so the water heater can vent safely; it isn\u2019t automatically safe to leave it as it was. Ask what was checked and have any required venting work and safety tests included in the written proposal. A furnace replacement doesn\u2019t automatically require a new water heater, but it does require looking at how the remaining appliance will vent."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long will furnace replacement take, and will I be without heat overnight?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ask for the schedule for your actual job before the old furnace is disconnected. Equipment access, duct changes, venting, electrical work, inspections, and parts can affect completion. For a winter replacement, agree on safe temporary arrangements and what happens if the work runs longer. Don\u2019t assume same-day completion, loan heaters, or overnight heat unless those arrangements are confirmed. Before the job is complete, ask for startup results, operating instructions, filter details, and warranty and registration responsibilities."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do I need a permit for furnace replacement, and who handles it?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Confirm the requirements for your installation address before work starts. Great Falls publishes mechanical-permit forms, while projects outside a certified local jurisdiction follow the state\u2019s rules, including applicable residential exemptions. Don\u2019t assume the city process applies to every rural home. Ask the relevant building department what is required, and have the proposal state who handles any permits, fees, inspections, and corrections. A homeowner application isn\u2019t automatically the right form for a contractor\u2019s installation."
+                }
+              }
+            ],
+            "@id": "https://www.greatfallsheatingandair.com/services/heating/furnace-installation#faq",
+            "isPartOf": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heating/furnace-installation#webpage"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.greatfallsheatingandair.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Heating services",
+            "item": "https://www.greatfallsheatingandair.com/services/heating"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Furnace installation & replacement",
+            "item": "https://www.greatfallsheatingandair.com/services/heating/furnace-installation"
+          }
+        ],
+        "@id": "https://www.greatfallsheatingandair.com/services/heating/furnace-installation#breadcrumb"
+      }
+    ],
+    "unresolved_site_refs": []
+  },
+  {
+    "url": "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance",
+    "http_status": 200,
+    "jsonld_blocks": 2,
+    "parse_errors": [],
+    "types": {
+      "ImageObject": 1,
+      "WebPage": 1,
+      "Service": 1,
+      "Organization": 1,
+      "City": 1,
+      "AdministrativeArea": 1,
+      "FAQPage": 1,
+      "Question": 8,
+      "Answer": 8,
+      "BreadcrumbList": 1,
+      "ListItem": 3
+    },
+    "defined_ids": [
+      "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance#image",
+      "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance#webpage",
+      "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance#service",
+      "https://www.greatfallsheatingandair.com/#business",
+      "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance#faq",
+      "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance#breadcrumb"
+    ],
+    "refs": [
+      "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance#image",
+      "https://www.greatfallsheatingandair.com/services/heating#webpage",
+      "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance#service",
+      "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance#breadcrumb",
+      "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance#faq",
+      "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance#webpage",
+      "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance#webpage"
+    ],
+    "faq_checks": [
+      {
+        "question": "Does my furnace really need a tune-up every year if it\u2019s working fine?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "What should a furnace tune-up include besides changing the filter?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "How much does a furnace tune-up cost in Great Falls?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "How often should I change my furnace filter, especially after wildfire smoke?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "What furnace maintenance can I do myself between visits?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Will a tune-up lower my heating bill or prevent a winter breakdown?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Will skipping a tune-up void my furnace warranty?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "My furnace keeps shutting off or making a new noise. Should I book a tune-up or a repair?",
+        "question_visible": true,
+        "answer_visible": true
+      }
+    ],
+    "canonical": [
+      "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance"
+    ],
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "ImageObject",
+            "@id": "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance#image",
+            "contentUrl": "https://www.greatfallsheatingandair.com/images/emergency-furnace-repair-great-falls.webp",
+            "url": "https://www.greatfallsheatingandair.com/images/emergency-furnace-repair-great-falls.webp",
+            "name": "Residential gas furnace and venting",
+            "description": "Residential gas furnace with metal exhaust venting and ductwork in a utility room.",
+            "width": 1600,
+            "height": 1200,
+            "encodingFormat": "image/webp"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance#webpage",
+            "url": "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance",
+            "name": "Furnace Maintenance & Fall Tune-Ups in Great Falls, MT | Great Falls Heating and Air LLC",
+            "description": "Plan furnace maintenance in Great Falls and Cascade County. Understand seasonal checks, gas and propane equipment care, service records, and safe homeowner tasks.",
+            "inLanguage": "en-US",
+            "primaryImageOfPage": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance#image"
+            },
+            "isPartOf": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heating#webpage"
+            },
+            "mainEntity": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance#service"
+            },
+            "breadcrumb": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance#breadcrumb"
+            },
+            "hasPart": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance#faq"
+            },
+            "citation": [
+              "https://www.cpsc.gov/Newsroom/News-Releases/2026/Keep-Warm-and-Safe-This-Winter-Tips-for-Using-Generators-Furnaces-and-Space-Heaters",
+              "https://www.carrier.com/us/en/residential/hvac-resources/furnaces/furnace-cleaning/",
+              "https://www.ahrinet.org/search-standards/ahri-guideline-x-induced-draft-furnace-heat-exchanger-inspection",
+              "https://consumer.ftc.gov/articles/warranties",
+              "https://www.epa.gov/emergencies-iaq/wildfires-and-indoor-air-quality-iaq",
+              "https://www.kidde.com/support/carbon-monoxide-alarms/replacement"
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance#service",
+            "url": "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance",
+            "name": "Furnace maintenance & seasonal tune-ups in Great Falls, Montana",
+            "description": "Plan furnace maintenance in Great Falls and Cascade County. Understand seasonal checks, gas and propane equipment care, service records, and safe homeowner tasks.",
+            "serviceType": "Residential furnace maintenance",
+            "provider": {
+              "@type": "Organization",
+              "@id": "https://www.greatfallsheatingandair.com/#business",
+              "name": "Great Falls Heating and Air LLC",
+              "url": "https://www.greatfallsheatingandair.com",
+              "telephone": "+14067814027",
+              "email": "gfheatingandair@icloud.com"
+            },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "Great Falls, Montana"
+              },
+              {
+                "@type": "AdministrativeArea",
+                "name": "Cascade County, Montana"
+              }
+            ],
+            "mainEntityOfPage": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance#webpage"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Does my furnace really need a tune-up every year if it\u2019s working fine?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "CPSC recommends a professional inspection of fuel-burning heating systems every year, including gas and propane furnaces. Follow your model\u2019s maintenance instructions too. Producing heat doesn\u2019t tell you whether venting, combustion, or other components need attention. Plan the visit before sustained winter use when practical; late summer or fall can be useful times to book in Great Falls. If the furnace starts behaving differently, don\u2019t wait for the annual appointment."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What should a furnace tune-up include besides changing the filter?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ask which checks and cleaning tasks are included for your furnace. Areas to discuss include combustion and venting, ignition, blower and electrical operation, airflow, thermostat controls, and drainage on equipment that has it. Inspection, cleaning, and repairs are different tasks. A visit may identify a need for deeper cleaning, parts, or more testing that requires a separate price and approval. Ask for a record of what was checked, the findings, any limits to the inspection, and what needs attention next."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How much does a furnace tune-up cost in Great Falls?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Call for the current price and what the visit includes for your equipment. Confirm whether filters, cleaning, operating tests, and service records are included, and what would cost extra. A basic inspection, deep cleaning, and a repair visit can involve different work. National price guides are general budgeting references, not a quote, advertised rate, or price cap from Great Falls Heating and Air. Actual costs can be lower or substantially higher depending on the equipment, condition, access, included work, and any additional service you approve."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How often should I change my furnace filter, especially after wildfire smoke?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Follow the furnace and filter instructions, then check the filter\u2019s actual condition. Filter design, system use, pets, dust, and smoke can change how quickly it loads up; one replacement schedule won\u2019t fit every home. EPA advises more frequent checks and replacement during heavy smoke. Use the correct size and a filter your system can handle. A thicker filter or higher MERV number alone doesn\u2019t prove compatibility. Turn the system off as instructed before changing the filter, and don\u2019t run without one."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What furnace maintenance can I do myself between visits?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Keep homeowner care to the tasks in your owner instructions: inspect or replace an accessible filter, keep supply and return grilles clear, and leave room around the furnace for service. From ground level, look for loose snow around accessible exterior vents; don\u2019t climb, chip ice, disconnect pipes, or alter venting. Leave internal burner or blower cleaning, fuel adjustments, wiring, safety controls, and condensate-trap disassembly to a qualified technician. If you smell gas or a CO alarm sounds, leave immediately and call 911 from a safe location."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Will a tune-up lower my heating bill or prevent a winter breakdown?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Correcting a dirty filter, restricted airflow, or an operating problem can help a struggling system work as intended. It doesn\u2019t change the furnace\u2019s rated efficiency or guarantee lower bills. Weather, fuel prices, thermostat settings, and the home\u2019s heat loss also affect your costs. Maintenance can identify concerns, but a component can still fail later. Ask what was found and how the proposed work addresses it, rather than relying on a promised savings percentage or a breakdown-free winter."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Will skipping a tune-up void my furnace warranty?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Read your equipment\u2019s actual warranty and maintenance instructions rather than assuming every furnace has the same rule. Maintenance requirements, registration deadlines, exclusions, and parts-versus-labor coverage vary. Keep dated invoices, completed checks, and available readings with the equipment records. A service invoice doesn\u2019t guarantee a claim will be approved, and a maintenance plan is a separate agreement from the equipment warranty. Ask the manufacturer about any unclear condition before relying on coverage."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "My furnace keeps shutting off or making a new noise. Should I book a tune-up or a repair?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Describe the symptoms when you call so the right visit can be arranged. Repeated shutdowns, loss of heat, new grinding or banging, and unusual operation may need a diagnostic repair visit rather than routine maintenance. Don\u2019t keep resetting the furnace or wait for a scheduled tune-up while the house gets colder. We offer 24/7 emergency service and repair for urgent no-heat problems. For gas odor, suspected CO exposure, or a sounding CO alarm, leave and call 911 from outside before contacting us."
+                }
+              }
+            ],
+            "@id": "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance#faq",
+            "isPartOf": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance#webpage"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.greatfallsheatingandair.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Heating services",
+            "item": "https://www.greatfallsheatingandair.com/services/heating"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Furnace maintenance & tune-ups",
+            "item": "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance"
+          }
+        ],
+        "@id": "https://www.greatfallsheatingandair.com/services/heating/furnace-maintenance#breadcrumb"
+      }
+    ],
+    "unresolved_site_refs": []
+  },
+  {
+    "url": "https://www.greatfallsheatingandair.com/services/cooling",
+    "http_status": 200,
+    "jsonld_blocks": 2,
+    "parse_errors": [],
+    "types": {
+      "FAQPage": 1,
+      "Question": 8,
+      "Answer": 8,
+      "ImageObject": 1,
+      "WebPage": 1,
+      "Service": 5,
+      "Organization": 1,
+      "AdministrativeArea": 1,
+      "OfferCatalog": 1,
+      "Offer": 4,
+      "BreadcrumbList": 1,
+      "ListItem": 2
+    },
+    "defined_ids": [
+      "https://www.greatfallsheatingandair.com/services/cooling#faq",
+      "https://www.greatfallsheatingandair.com/services/cooling#image",
+      "https://www.greatfallsheatingandair.com/services/cooling#webpage",
+      "https://www.greatfallsheatingandair.com/services/cooling#service",
+      "https://www.greatfallsheatingandair.com/#business",
+      "https://www.greatfallsheatingandair.com/services/cooling#breadcrumb"
+    ],
+    "refs": [
+      "https://www.greatfallsheatingandair.com/services/cooling#webpage",
+      "https://www.greatfallsheatingandair.com/services/cooling#image",
+      "https://www.greatfallsheatingandair.com/services/cooling#service",
+      "https://www.greatfallsheatingandair.com/services/cooling#breadcrumb",
+      "https://www.greatfallsheatingandair.com/services/cooling#faq",
+      "https://www.greatfallsheatingandair.com/services/cooling#webpage"
+    ],
+    "faq_checks": [
+      {
+        "question": "How much does AC repair cost in Great Falls?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Why is my AC running but the house isn\u2019t getting cool?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "My AC lines are covered in ice. Should I keep it running?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Why is my upstairs hot when the basement and main floor are cool?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Can I run my AC during wildfire smoke, and will it filter the smoke out?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Can I wash cottonwood fluff off my outdoor AC unit myself?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Should I repair my older air conditioner or replace it?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Do refrigerant rules mean I have to replace my working R-410A air conditioner?",
+        "question_visible": true,
+        "answer_visible": true
+      }
+    ],
+    "canonical": [
+      "https://www.greatfallsheatingandair.com/services/cooling"
+    ],
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "How much does AC repair cost in Great Falls?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "HomeAdvisor\u2019s 2026 guide reports a $417 national average for AC repair, with a typical range of $172\u2013$664 across different AC systems. These figures are general budgeting references, not a quote, advertised rate, or price cap from Great Falls Heating and Air. Your repair may cost less or substantially more depending on the fault, parts, refrigerant, equipment access, labor, warranty coverage, and any emergency or after-hours charges. Call to confirm the diagnostic fee and what it includes, then review the proposed repair price before approving work."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why is my AC running but the house isn\u2019t getting cool?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Thermostat settings, a restricted filter or airflow path, outdoor-unit trouble, icing, or a refrigerant problem can cause similar symptoms. Check the homeowner controls and accessible filter only as your equipment instructions allow. Tell us whether every room is warm or just one area, when the problem started, and whether you see ice or an alert. Those details help guide testing; they don\u2019t identify a failed part by themselves. Keep electrical covers closed. For smoke, sparking, or a burning smell, stop troubleshooting and stay clear; leave and call 911 for fire or immediate danger."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "My AC lines are covered in ice. Should I keep it running?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. Switch cooling off and call for guidance. Use fan-only mode only if the blower is operating normally and your equipment instructions allow it. Don\u2019t chip ice, apply heat, remove panels, or keep restarting cooling. Thawing doesn\u2019t fix the underlying cause, and there isn\u2019t one thawing time that fits every system. Airflow restrictions, refrigerant trouble, or another fault may need testing. Stay clear of water near electrical equipment and report it when you call."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why is my upstairs hot when the basement and main floor are cool?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The system may be cooling while air isn\u2019t reaching the rooms that need it. Sun exposure, insulation, duct leaks, return-air paths, thermostat location, and airflow can all matter. Tell us which rooms overheat, when it happens, and whether doors are usually closed. Keep grilles clear, but don\u2019t close a group of downstairs vents or change blower settings to force air upstairs. Have the airflow and room conditions assessed before assuming a bigger AC or a new part will fix the problem."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I run my AC during wildfire smoke, and will it filter the smoke out?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Cooling can help you keep windows closed during a smoke event, but fine-smoke removal needs suitable filtration. For central systems, EPA recommends MERV 13 or the highest efficiency the system can accommodate. Check compatibility, fit, and filter condition; a higher rating alone doesn\u2019t mean a filter suits your blower. Inspect more often during heavy smoke. A properly sized portable air cleaner can help. Standard ductless washable screens aren\u2019t a substitute for fine-particle filtration. Follow current local guidance, and seek a cooler location if you can\u2019t keep the home comfortably cool."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I wash cottonwood fluff off my outdoor AC unit myself?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Only do the cleaning your exact model\u2019s owner instructions permit. Turn the system off and follow its power-isolation instructions first; turning down the thermostat doesn\u2019t isolate electrical power. Keep loose debris away and use only the coil\u2019s approved gentle cleaning method. Don\u2019t remove the fan or panels, spray electrical components, use a pressure washer, or force a brush into the fins. Matted fluff, difficult access, or an unfamiliar unit are reasons to arrange professional cleaning. A clean-looking cabinet alone doesn\u2019t tell you the coil is clear."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Should I repair my older air conditioner or replace it?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Start with the diagnosis, equipment condition, repair history, parts availability, warranty, and written repair price. A repair may make sense for an otherwise sound system. Repeated failures or a major repair can make replacement worth comparing. Age alone doesn\u2019t settle it. If the main problem is one hot room, assess airflow and the house too. When replacement makes sense, compare the full installation work for standard AC and a heat pump, including existing-furnace compatibility and expected heating use. Confirm any rebate separately before counting it toward the price."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do refrigerant rules mean I have to replace my working R-410A air conditioner?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. EPA says existing systems can continue to be used and repaired as refrigerants are phased down. That doesn\u2019t guarantee every part or refrigerant will always be available at the same price. Have the actual refrigerant and compatible repair options identified before deciding. A different refrigerant isn\u2019t automatically suitable for your equipment, and recharging isn\u2019t routine upkeep for a leaking system. Ask what caused any refrigerant loss, what repair is proposed, and how operation will be checked afterward."
+                }
+              }
+            ],
+            "@id": "https://www.greatfallsheatingandair.com/services/cooling#faq",
+            "isPartOf": {
+              "@id": "https://www.greatfallsheatingandair.com/services/cooling#webpage"
+            }
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://www.greatfallsheatingandair.com/services/cooling#image",
+            "contentUrl": "https://www.greatfallsheatingandair.com/images/cooling-service-great-falls.webp",
+            "url": "https://www.greatfallsheatingandair.com/images/cooling-service-great-falls.webp",
+            "width": 1280,
+            "height": 960,
+            "name": "Outdoor cooling equipment with diagnostic gauges",
+            "caption": "Refrigerant gauges connected during outdoor cooling-system service.",
+            "description": "Outdoor HVAC condenser units with connected refrigerant gauges and service hoses beside a metal-sided building."
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.greatfallsheatingandair.com/services/cooling#webpage",
+            "url": "https://www.greatfallsheatingandair.com/services/cooling",
+            "name": "Air Conditioning & Cooling Services in Great Falls, MT | Great Falls Heating and Air LLC",
+            "description": "Central AC repair, seasonal maintenance, ductless mini-splits, and cooling upgrades for Great Falls and Cascade County homes. Explore airflow and filtration options.",
+            "inLanguage": "en-US",
+            "primaryImageOfPage": {
+              "@id": "https://www.greatfallsheatingandair.com/services/cooling#image"
+            },
+            "mainEntity": {
+              "@id": "https://www.greatfallsheatingandair.com/services/cooling#service"
+            },
+            "breadcrumb": {
+              "@id": "https://www.greatfallsheatingandair.com/services/cooling#breadcrumb"
+            },
+            "citation": [
+              "https://www.epa.gov/emergencies-iaq/wildfires-and-indoor-air-quality-iaq",
+              "https://www.northwesternenergy.com/billing-payment/ways-to-save/rebates-incentives",
+              "https://sunriverelectric.coop/air-source-heat-pumps",
+              "https://www.homeadvisor.com/cost/heating-and-cooling/repair-an-ac-unit/",
+              "https://www.carrier.com/residential/en/ca/products/air-conditioners/air-conditioner-service/ac-not-blowing-cold-air/",
+              "https://www.carrier.com/us/en/residential/hvac-resources/air-conditioners/will-frozen-ac-fix-itself/",
+              "https://www.trane.com/residential/en/resources/blog/help-house-hot-upstairs-cold-downstairs/",
+              "https://www.carrier.com/us/en/residential/hvac-resources/air-conditioners/ac-coil-cleaner-tips/",
+              "https://www.energystar.gov/saveathome/heating-cooling/replace",
+              "https://www.energy.gov/heat-pumps",
+              "https://www.epa.gov/hfcs/frequent-questions-phasedown-hydrofluorocarbons"
+            ],
+            "hasPart": {
+              "@id": "https://www.greatfallsheatingandair.com/services/cooling#faq"
+            }
+          },
+          {
+            "@type": "Service",
+            "@id": "https://www.greatfallsheatingandair.com/services/cooling#service",
+            "url": "https://www.greatfallsheatingandair.com/services/cooling",
+            "name": "Residential air conditioning & cooling services in Great Falls, Montana",
+            "description": "Central AC repair, seasonal maintenance, ductless mini-splits, and cooling upgrades for Great Falls and Cascade County homes. Explore airflow and filtration options.",
+            "serviceType": [
+              "Air conditioning repair",
+              "Cooling maintenance",
+              "Cooling installation"
+            ],
+            "provider": {
+              "@type": "Organization",
+              "@id": "https://www.greatfallsheatingandair.com/#business",
+              "name": "Great Falls Heating and Air LLC",
+              "url": "https://www.greatfallsheatingandair.com"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://www.greatfallsheatingandair.com/services/cooling#webpage"
+            },
+            "areaServed": {
+              "@type": "AdministrativeArea",
+              "name": "Cascade County, Montana"
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Residential cooling services",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Central split-system air conditioners",
+                    "description": "Cooling matched to your home\u2019s ductwork and furnace blower, from single-stage equipment to variable-capacity options. We diagnose existing systems and explain compatible replacement choices."
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Ductless mini-splits",
+                    "description": "Room-by-room cooling for homes without ducts, additions, and hot upstairs spaces. Equipment location, sizing, drainage, and electrical requirements are part of the installation plan."
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Central heat pumps",
+                    "description": "A heat pump provides summer cooling and electric heating. We can discuss how it works with furnace backup, your home\u2019s heat loss, and your utility service."
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Evaporative-cooler transitions & filtration",
+                    "description": "Considering a change from a swamp cooler? We review central and ductless options, along with suitable filtration or room air cleaners for smoky conditions."
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.greatfallsheatingandair.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Cooling services",
+            "item": "https://www.greatfallsheatingandair.com/services/cooling"
+          }
+        ],
+        "@id": "https://www.greatfallsheatingandair.com/services/cooling#breadcrumb"
+      }
+    ],
+    "unresolved_site_refs": []
+  },
+  {
+    "url": "https://www.greatfallsheatingandair.com/services/cooling/ac-repair",
+    "http_status": 200,
+    "jsonld_blocks": 2,
+    "parse_errors": [],
+    "types": {
+      "ImageObject": 1,
+      "WebPage": 1,
+      "Service": 1,
+      "Organization": 1,
+      "AdministrativeArea": 1,
+      "FAQPage": 1,
+      "Question": 8,
+      "Answer": 8,
+      "BreadcrumbList": 1,
+      "ListItem": 3
+    },
+    "defined_ids": [
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-repair#image",
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-repair#webpage",
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-repair#service",
+      "https://www.greatfallsheatingandair.com/#business",
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-repair#faq",
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-repair#breadcrumb"
+    ],
+    "refs": [
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-repair#image",
+      "https://www.greatfallsheatingandair.com/services/cooling#webpage",
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-repair#service",
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-repair#breadcrumb",
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-repair#faq",
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-repair#webpage",
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-repair#webpage"
+    ],
+    "faq_checks": [
+      {
+        "question": "Why is my AC running but blowing warm air?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "My outdoor AC unit is humming but the fan won\u2019t spin. Is it the capacitor?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "What should I do if the AC lines or indoor coil are frozen?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "If my AC is low on refrigerant, can you just top it off?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "How much does an AC repair cost in Great Falls?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Does the diagnostic fee include the repair or a refrigerant leak test?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Do refrigerant rules mean I have to replace my R-410A or R-22 air conditioner?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "How do I decide whether to repair my AC or replace it?",
+        "question_visible": true,
+        "answer_visible": true
+      }
+    ],
+    "canonical": [
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-repair"
+    ],
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "ImageObject",
+            "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-repair#image",
+            "url": "https://www.greatfallsheatingandair.com/images/ac-repair-outdoor-condenser.webp",
+            "contentUrl": "https://www.greatfallsheatingandair.com/images/ac-repair-outdoor-condenser.webp",
+            "width": 1200,
+            "height": 900,
+            "name": "Residential outdoor AC condenser",
+            "description": "Outdoor central air conditioner on a support pad beside a light-sided home and garden bed.",
+            "caption": "Residential outdoor condenser with the top fan grille and coil cabinet visible."
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-repair#webpage",
+            "url": "https://www.greatfallsheatingandair.com/services/cooling/ac-repair",
+            "name": "AC Repair & Diagnostics in Great Falls, MT | Great Falls Heating and Air LLC",
+            "description": "AC repair in Great Falls: warm air, frozen coils, electrical symptoms, safe homeowner checks, and explained repair decisions for your cooling system.",
+            "inLanguage": "en-US",
+            "primaryImageOfPage": {
+              "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-repair#image"
+            },
+            "isPartOf": {
+              "@id": "https://www.greatfallsheatingandair.com/services/cooling#webpage"
+            },
+            "mainEntity": {
+              "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-repair#service"
+            },
+            "breadcrumb": {
+              "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-repair#breadcrumb"
+            },
+            "hasPart": {
+              "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-repair#faq"
+            },
+            "citation": [
+              "https://www.carrier.com/us/en/residential/hvac-resources/air-conditioners/will-frozen-ac-fix-itself/",
+              "https://www.epa.gov/ods-phaseout/homeowners-and-consumers-frequently-asked-questions",
+              "https://www.epa.gov/hfcs/frequent-questions-phasedown-hydrofluorocarbons",
+              "https://www.epa.gov/emergencies-iaq/wildfires-and-indoor-air-quality-iaq"
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-repair#service",
+            "url": "https://www.greatfallsheatingandair.com/services/cooling/ac-repair",
+            "name": "Residential AC repair & diagnostics in Great Falls, Montana",
+            "description": "AC repair in Great Falls: warm air, frozen coils, electrical symptoms, safe homeowner checks, and explained repair decisions for your cooling system.",
+            "serviceType": "Air conditioning repair and diagnostics",
+            "provider": {
+              "@type": "Organization",
+              "@id": "https://www.greatfallsheatingandair.com/#business",
+              "name": "Great Falls Heating and Air LLC",
+              "url": "https://www.greatfallsheatingandair.com",
+              "telephone": "+14067814027",
+              "email": "gfheatingandair@icloud.com"
+            },
+            "areaServed": {
+              "@type": "AdministrativeArea",
+              "name": "Great Falls and Cascade County, Montana"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-repair#webpage"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Why is my AC running but blowing warm air?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The fan can move air even when the system isn\u2019t cooling properly. Thermostat settings, restricted airflow, outdoor-unit trouble, icing, or refrigerant performance may be involved. Note whether all rooms are warm, whether the outdoor unit runs, and any visible ice or alerts without opening equipment. Those observations help guide testing; they don\u2019t prove which part failed. Check only the controls and accessible filter your owner instructions allow. If you see ice, stop cooling. For smoke, sparking, or a burning smell, stay clear; leave and call 911 for fire or immediate danger."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "My outdoor AC unit is humming but the fan won\u2019t spin. Is it the capacitor?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A capacitor is one possibility, but a motor, power-supply, control, or another fault can produce similar symptoms. Switch cooling off through the normal controls and arrange service. Don\u2019t push the blades with a stick, reach through the grille, remove covers, or try to replace a capacitor yourself. Electrical components can remain hazardous after power is switched off. Ask what the electrical and operating tests found before approving a part replacement; the sound alone isn\u2019t a diagnosis."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What should I do if the AC lines or indoor coil are frozen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Switch cooling off and call for guidance. Use fan-only mode only if the blower operates normally and your equipment instructions allow it. Don\u2019t chip ice, apply heat, remove panels, or keep restarting cooling. Stay clear of water near electrical equipment and report where it appears. The system may need to thaw before useful testing can be completed, but thawing doesn\u2019t fix the cause. Airflow, blower operation, refrigerant performance, or another fault may need assessment. There is no guaranteed thawing time or first-visit repair."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "If my AC is low on refrigerant, can you just top it off?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ask how the low charge was established and why it is low. A leak or an incorrect earlier charge may need investigation. If a leak is found, EPA advises locating and repairing it rather than repeatedly topping off the system. Discuss the testing, repair access, compatible refrigerant, and how operation will be checked afterward. Leak detection, parts, and refrigerant may involve separate work and pricing. Review those costs before approval. Leave refrigerant connections and charging to a qualified technician."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How much does an AC repair cost in Great Falls?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "HomeAdvisor\u2019s 2026 guide reports a $417 national average, with a typical range of $172\u2013$664 across different AC systems. These figures are general budgeting references, not a quote, advertised rate, or price cap from Great Falls Heating and Air. Your repair may cost less or substantially more depending on the fault, parts, refrigerant, access, labor, warranty coverage, and any emergency or after-hours charges. Call to confirm the diagnostic fee and what it includes. Review the proposed repair price and any follow-up costs before approving work."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does the diagnostic fee include the repair or a refrigerant leak test?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Confirm that when booking rather than assuming it does. Ask what the initial visit includes, whether additional testing or leak detection is separately priced, and whether any diagnostic charge is credited toward an approved repair. Those terms need to be agreed for your visit. Ice, equipment access, parts availability, or testing conditions may require another appointment. Before approving more work, ask what it should establish, what it costs, and what happens if further testing or parts are still needed."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do refrigerant rules mean I have to replace my R-410A or R-22 air conditioner?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. EPA allows continued use and repair of existing R-410A systems and doesn\u2019t require replacing an existing R-22 system solely because of its refrigerant. Repair feasibility still depends on condition, compatible parts, refrigerant availability, and cost. Have the actual refrigerant identified and ask which service options are suitable. Different refrigerants aren\u2019t automatically interchangeable. Compare the written repair proposal with replacement only when the findings and costs make that discussion useful."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do I decide whether to repair my AC or replace it?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Start with the fault, written repair price, equipment condition, repair history, parts availability, and any warranty coverage. A targeted repair may make sense for otherwise sound equipment. Repeated failures or a major repair can make replacement worth comparing. Ask how the repair will be checked and whether airflow or room-comfort problems need separate work. Compare the complete installation work if replacement is proposed. Age alone, a fault code, or an advertised rebate can\u2019t decide the answer for your home."
+                }
+              }
+            ],
+            "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-repair#faq",
+            "isPartOf": {
+              "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-repair#webpage"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.greatfallsheatingandair.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Cooling services",
+            "item": "https://www.greatfallsheatingandair.com/services/cooling"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "AC repair & diagnostics",
+            "item": "https://www.greatfallsheatingandair.com/services/cooling/ac-repair"
+          }
+        ],
+        "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-repair#breadcrumb"
+      }
+    ],
+    "unresolved_site_refs": []
+  },
+  {
+    "url": "https://www.greatfallsheatingandair.com/services/cooling/ac-installation",
+    "http_status": 200,
+    "jsonld_blocks": 2,
+    "parse_errors": [],
+    "types": {
+      "ImageObject": 1,
+      "WebPage": 1,
+      "Service": 1,
+      "Organization": 1,
+      "AdministrativeArea": 1,
+      "FAQPage": 1,
+      "Question": 6,
+      "Answer": 6,
+      "BreadcrumbList": 1,
+      "ListItem": 3
+    },
+    "defined_ids": [
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-installation#image",
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-installation#webpage",
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-installation#service",
+      "https://www.greatfallsheatingandair.com/#business",
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-installation#faq",
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-installation#breadcrumb"
+    ],
+    "refs": [
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-installation#image",
+      "https://www.greatfallsheatingandair.com/services/cooling#webpage",
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-installation#service",
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-installation#breadcrumb",
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-installation#faq",
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-installation#webpage",
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-installation#webpage"
+    ],
+    "faq_checks": [
+      {
+        "question": "Can I replace my AC without replacing a furnace that still works?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "How much does AC installation cost in Great Falls, and why are my quotes so different?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Should I get a bigger AC if the upstairs never gets cool?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Can the new AC use my old indoor coil and refrigerant lines?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "How long will I be without AC during the replacement?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "What should I check before I approve an AC installation quote?",
+        "question_visible": true,
+        "answer_visible": true
+      }
+    ],
+    "canonical": [
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-installation"
+    ],
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "ImageObject",
+            "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-installation#image",
+            "url": "https://www.greatfallsheatingandair.com/images/ac-repair-outdoor-condenser.webp",
+            "contentUrl": "https://www.greatfallsheatingandair.com/images/ac-repair-outdoor-condenser.webp",
+            "width": 1200,
+            "height": 900,
+            "name": "Residential outdoor AC condenser",
+            "description": "Outdoor central air conditioner on a support pad beside a light-sided home and garden bed.",
+            "caption": "Residential outdoor condenser with the top fan grille and coil cabinet visible."
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-installation#webpage",
+            "url": "https://www.greatfallsheatingandair.com/services/cooling/ac-installation",
+            "name": "AC Installation & Replacement in Great Falls, MT | Great Falls Heating and Air LLC",
+            "description": "AC installation in Great Falls: room comfort, sizing, furnace compatibility, written installation scope, cost factors, and heat-pump comparisons.",
+            "inLanguage": "en-US",
+            "primaryImageOfPage": {
+              "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-installation#image"
+            },
+            "isPartOf": {
+              "@id": "https://www.greatfallsheatingandair.com/services/cooling#webpage"
+            },
+            "mainEntity": {
+              "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-installation#service"
+            },
+            "breadcrumb": {
+              "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-installation#breadcrumb"
+            },
+            "hasPart": {
+              "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-installation#faq"
+            },
+            "citation": [
+              "https://www.acca.org/standards/technical-manuals",
+              "https://hvac-blog.acca.org/hey-ed-what-is-the-correct-airflow-for-an-ac/",
+              "https://greatfallsmt.gov/882/2021-Building-Code-Adoption",
+              "https://bsd.dli.mt.gov/Building-Codes-Permits/permit-applications/mechanical-permits/",
+              "https://www.govinfo.gov/content/pkg/FR-2026-05-26/pdf/2026-10387.pdf",
+              "https://www.epa.gov/emergencies-iaq/wildfires-and-indoor-air-quality-iaq",
+              "https://www.northwesternenergy.com/docs/default-source/default-document-library/billing-and-payment/e-programs/e-rebate-electric-existing-home.pdf"
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-installation#service",
+            "url": "https://www.greatfallsheatingandair.com/services/cooling/ac-installation",
+            "name": "AC installation and replacement in Great Falls, Montana",
+            "description": "AC installation in Great Falls: room comfort, sizing, furnace compatibility, written installation scope, cost factors, and heat-pump comparisons.",
+            "serviceType": "Air conditioning installation and replacement",
+            "provider": {
+              "@type": "Organization",
+              "@id": "https://www.greatfallsheatingandair.com/#business",
+              "name": "Great Falls Heating and Air LLC",
+              "url": "https://www.greatfallsheatingandair.com",
+              "telephone": "+14067814027",
+              "email": "gfheatingandair@icloud.com"
+            },
+            "areaServed": {
+              "@type": "AdministrativeArea",
+              "name": "Great Falls and Cascade County, Montana"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-installation#webpage"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Can I replace my AC without replacing a furnace that still works?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sometimes, but the new AC has to work with the equipment you keep. Ask the installer to check the furnace blower, indoor coil, controls, available airflow, and refrigerant piping against the proposed equipment\u2019s requirements. Have the quote identify the exact indoor and outdoor models, what stays, and what changes. A working furnace is worth evaluating before agreeing to replace it, but its condition and compatibility still matter."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How much does AC installation cost in Great Falls, and why are my quotes so different?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The price depends on the equipment and the work your house needs, including the indoor coil, duct changes, electrical work, piping, drainage, access, and applicable permits. Compare the exact models, included work, exclusions, startup checks, and parts and labor warranty terms before comparing totals. Online cost guides are general budgeting references, not a quote, advertised rate, or price cap from Great Falls Heating and Air; your actual cost may be lower or substantially higher. Request a written estimate for your home and agree on how additional work will be priced before approving it."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Should I get a bigger AC if the upstairs never gets cool?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A bigger unit may leave the hot bedroom just as uncomfortable if air is not reaching it properly. Ask for a load calculation based on your home\u2019s windows, insulation, orientation, and local design conditions, followed by equipment selection and a check of supply and return airflow. Tell the installer which rooms get hot, when it happens, and whether the doors are usually closed. The quote should explain how those rooms will be addressed rather than simply repeating the old unit\u2019s size or increasing its tonnage."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can the new AC use my old indoor coil and refrigerant lines?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Do not assume they can stay just because they fit. Reuse depends on the selected equipment\u2019s instructions, refrigerant, component compatibility, line size, condition, and routing. Ask the quote to identify any reused coil or piping and explain the required checks or preparation. A change to R-32 or R-454B is not simply a refill of an R-410A system; compatible equipment and model-specific installation provisions matter."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long will I be without AC during the replacement?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Confirm the planned cooling interruption for your job before work begins. Access, duct or electrical changes, equipment availability, inspections, and startup conditions can affect when the system is ready to use, so a one-day completion should not be assumed. Ask what you need to clear, whether anyone needs to be home, and how schedule changes will be communicated. If weather prevents a required operating check, have the remaining check and follow-up plan recorded in writing."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What should I check before I approve an AC installation quote?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Look for the exact equipment, sizing basis, intended room coverage, and all work included around the units. Confirm duct and electrical changes, piping and drainage, removal, permit and inspection responsibility for your address, startup records, and warranty registration responsibilities. If a heat pump is offered, compare its heating performance, furnace compatibility, backup plan, controls, and full installed cost with standard AC. Verify any rebate separately before counting it toward the price, and get exclusions and changes to the agreed work in writing."
+                }
+              }
+            ],
+            "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-installation#faq",
+            "isPartOf": {
+              "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-installation#webpage"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.greatfallsheatingandair.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Cooling services",
+            "item": "https://www.greatfallsheatingandair.com/services/cooling"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "AC installation & replacement",
+            "item": "https://www.greatfallsheatingandair.com/services/cooling/ac-installation"
+          }
+        ],
+        "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-installation#breadcrumb"
+      }
+    ],
+    "unresolved_site_refs": []
+  },
+  {
+    "url": "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance",
+    "http_status": 200,
+    "jsonld_blocks": 2,
+    "parse_errors": [],
+    "types": {
+      "ImageObject": 1,
+      "WebPage": 1,
+      "Service": 1,
+      "Organization": 1,
+      "AdministrativeArea": 1,
+      "FAQPage": 1,
+      "Question": 6,
+      "Answer": 6,
+      "BreadcrumbList": 1,
+      "ListItem": 3
+    },
+    "defined_ids": [
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance#image",
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance#webpage",
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance#service",
+      "https://www.greatfallsheatingandair.com/#business",
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance#faq",
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance#breadcrumb"
+    ],
+    "refs": [
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance#image",
+      "https://www.greatfallsheatingandair.com/services/cooling#webpage",
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance#service",
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance#breadcrumb",
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance#faq",
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance#webpage",
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance#webpage"
+    ],
+    "faq_checks": [
+      {
+        "question": "Is an AC tune-up worth it if my system is cooling fine?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "How often should I have my AC serviced in Great Falls?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "What should an AC tune-up include, and what might cost extra?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Does my AC need more refrigerant every year?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Can I clean cottonwood off the outdoor AC myself?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Should I change my AC filter more often during wildfire smoke?",
+        "question_visible": true,
+        "answer_visible": true
+      }
+    ],
+    "canonical": [
+      "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance"
+    ],
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "ImageObject",
+            "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance#image",
+            "url": "https://www.greatfallsheatingandair.com/images/ac-repair-outdoor-condenser.webp",
+            "contentUrl": "https://www.greatfallsheatingandair.com/images/ac-repair-outdoor-condenser.webp",
+            "width": 1200,
+            "height": 900,
+            "name": "Residential outdoor AC condenser",
+            "description": "Outdoor central air conditioner on a support pad beside a light-sided home and garden bed.",
+            "caption": "Outdoor condenser beside a garden bed. Coil condition, vegetation clearance, and service access are maintenance considerations."
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance#webpage",
+            "url": "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance",
+            "name": "AC Maintenance & Seasonal Tune-Ups in Great Falls, MT | Great Falls Heating and Air LLC",
+            "description": "AC maintenance in Great Falls: cottonwood coil care, airflow and filter checks, seasonal planning, drainage, explained findings, and equipment-specific service.",
+            "inLanguage": "en-US",
+            "primaryImageOfPage": {
+              "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance#image"
+            },
+            "isPartOf": {
+              "@id": "https://www.greatfallsheatingandair.com/services/cooling#webpage"
+            },
+            "mainEntity": {
+              "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance#service"
+            },
+            "breadcrumb": {
+              "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance#breadcrumb"
+            },
+            "hasPart": {
+              "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance#faq"
+            },
+            "citation": [
+              "https://www.carrier.com/us/en/residential/hvac-resources/air-conditioners/ac-coil-cleaner-tips/",
+              "https://greatfallsmt.gov/1034/Commonly-Asked-Questions-about-Water-Tre",
+              "https://www.epa.gov/emergencies-iaq/wildfires-and-indoor-air-quality-iaq",
+              "https://hvac-blog.acca.org/hey-ed-what-is-the-correct-airflow-for-an-ac/",
+              "https://www.trane.com/residential/en/resources/maintenance-tips/air-conditioners/",
+              "https://www.trane.com/residential/en/resources/blog/extreme-winter-weather-preparation-for-your-home-and-hvac/",
+              "https://www.trane.com/residential/en/resources/warranty-and-registration/"
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance#service",
+            "url": "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance",
+            "name": "AC maintenance and seasonal tune-ups in Great Falls, Montana",
+            "description": "AC maintenance in Great Falls: cottonwood coil care, airflow and filter checks, seasonal planning, drainage, explained findings, and equipment-specific service.",
+            "serviceType": "Air conditioning maintenance and coil care",
+            "provider": {
+              "@type": "Organization",
+              "@id": "https://www.greatfallsheatingandair.com/#business",
+              "name": "Great Falls Heating and Air LLC",
+              "url": "https://www.greatfallsheatingandair.com",
+              "telephone": "+14067814027",
+              "email": "gfheatingandair@icloud.com"
+            },
+            "areaServed": {
+              "@type": "AdministrativeArea",
+              "name": "Great Falls and Cascade County, Montana"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance#webpage"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is an AC tune-up worth it if my system is cooling fine?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A checkup can uncover dirty coils, drainage trouble, or operating conditions that changing the filter alone will not address. Ask what will be inspected, cleaned, and tested, and request a record of the findings rather than judging the visit by its length. Maintenance cannot guarantee lower bills or prevent every breakdown. Keep dated records, and check your equipment\u2019s actual warranty terms instead of assuming a tune-up guarantees coverage."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How often should I have my AC serviced in Great Falls?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "ENERGY STAR recommends an annual pre-season cooling checkup; spring is a useful time to plan ahead of summer demand. Follow your model\u2019s instructions, and ask whether outdoor conditions allow all required operating checks during the visit. Cottonwood, dust, and smoke can create cleaning or filter needs between appointments. If the AC develops ice, stops cooling, or leaks water, call about a repair assessment instead of waiting for the next seasonal visit."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What should an AC tune-up include, and what might cost extra?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Before booking, confirm the price and which checks and cleaning are included for your equipment. Ask about the coils, fitted electrical components and controls, fan and compressor operation, cooling performance, accessible drains, filters, and airflow. Deep cleaning, leak detection, additional diagnosis, and repairs may be separate work; ask for the findings, proposed work, and price before approving them. Your cost depends on the equipment, access, condition, and agreed work, and general online prices are not a quote, advertised rate, or price cap from Great Falls Heating and Air."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does my AC need more refrigerant every year?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A refrigerant top-off should not be treated as routine annual upkeep. If testing indicates a low charge, ask how that was established and what investigation is needed to explain it. EPA advises locating and repairing leaks rather than repeatedly topping off a leaking system. Refrigerant handling belongs with a qualified technician, and any leak testing or repair should have an agreed scope and price."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I clean cottonwood off the outdoor AC myself?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Keep homeowner cleaning to tasks the instructions for your exact equipment allow. Coil type, access, and electrical protection determine the method; do not remove panels, spray electrical components, force brushes into fins, or use a pressure washer. From outside the cabinet, note matted fluff or deposits and ask whether professional cleaning is needed. Keep sprinklers from repeatedly wetting the unit, and do not choose a chemical cleaner just from the appearance of the buildup."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Should I change my AC filter more often during wildfire smoke?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes\u2014inspect it more frequently during smoke events and replace it when needed, following your equipment instructions. EPA recommends MERV 13 or the highest efficiency your system can accommodate, so check compatibility before choosing a more restrictive filter. Thickness or MERV rating alone does not establish whether a filter will work properly in your system. If compatibility is uncertain, ask about airflow and consider a suitable portable air cleaner to supplement filtration."
+                }
+              }
+            ],
+            "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance#faq",
+            "isPartOf": {
+              "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance#webpage"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.greatfallsheatingandair.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Cooling services",
+            "item": "https://www.greatfallsheatingandair.com/services/cooling"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "AC maintenance & tune-ups",
+            "item": "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance"
+          }
+        ],
+        "@id": "https://www.greatfallsheatingandair.com/services/cooling/ac-maintenance#breadcrumb"
+      }
+    ],
+    "unresolved_site_refs": []
+  },
+  {
+    "url": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate",
+    "http_status": 200,
+    "jsonld_blocks": 2,
+    "parse_errors": [],
+    "types": {
+      "ImageObject": 1,
+      "WebPage": 1,
+      "Service": 4,
+      "Organization": 1,
+      "Place": 10,
+      "OfferCatalog": 1,
+      "Offer": 3,
+      "FAQPage": 1,
+      "Question": 6,
+      "Answer": 6,
+      "BreadcrumbList": 1,
+      "ListItem": 2
+    },
+    "defined_ids": [
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate#image",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate#webpage",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate#service",
+      "https://www.greatfallsheatingandair.com/#business",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate#faq",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate#breadcrumb"
+    ],
+    "refs": [
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate#image",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate#service",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate#breadcrumb",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate#faq",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate#webpage",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate#webpage"
+    ],
+    "faq_checks": [
+      {
+        "question": "Will a heat pump keep my Great Falls home warm when it is below zero?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Can I keep my gas or propane furnace and add a heat pump?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Will switching to a heat pump lower my heating bills?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Do I need new ductwork, or can a heat pump use what I already have?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "What affects the cost of installing a heat pump in Great Falls?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "My heat pump runs for a long time or briefly blows cooler air. Is something wrong?",
+        "question_visible": true,
+        "answer_visible": true
+      }
+    ],
+    "canonical": [
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate"
+    ],
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "ImageObject",
+            "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate#image",
+            "url": "https://www.greatfallsheatingandair.com/images/cold-climate-mitsubishi-outdoor-heat-pump.webp",
+            "contentUrl": "https://www.greatfallsheatingandair.com/images/cold-climate-mitsubishi-outdoor-heat-pump.webp",
+            "width": 1280,
+            "height": 960,
+            "name": "Mitsubishi Electric outdoor heat pump beside a dark-sided home",
+            "encodingFormat": "image/webp",
+            "description": "Mitsubishi Electric outdoor heat pump on an equipment base beside a dark-sided home, with covered refrigerant lines and an exterior electrical disconnect.",
+            "caption": "Outdoor heat pump beside a dark-sided home, with covered refrigerant piping and an exterior electrical disconnect."
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate#webpage",
+            "url": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate",
+            "name": "Cold-Climate Heat Pumps & Dual-Fuel Systems in Great Falls, MT | Great Falls Heating and Air LLC",
+            "description": "Compare cold-climate heat pumps, dual-fuel heating, and ductless options for Great Falls homes. Plan for Chinook warm-ups, deep freezes, fuel costs, and utility incentives.",
+            "inLanguage": "en-US",
+            "primaryImageOfPage": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate#image"
+            },
+            "mainEntity": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate#service"
+            },
+            "breadcrumb": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate#breadcrumb"
+            },
+            "hasPart": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate#faq"
+            },
+            "citation": [
+              "https://www.energy.gov/heat-pumps",
+              "https://bsesc.energy.gov/lecture-notes/cold-climate-heat-pump-sizing-understand",
+              "https://www.weather.gov/media/wrh/online_publications/TMs/TM-64.pdf",
+              "https://www.northwesternenergy.com/billing-payment/ways-to-save/rebates-incentives",
+              "https://sunriverelectric.coop/air-source-heat-pumps"
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate#service",
+            "url": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate",
+            "name": "Cold-climate heat pump & dual-fuel services in Great Falls, Montana",
+            "description": "Compare cold-climate heat pumps, dual-fuel heating, and ductless options for Great Falls homes. Plan for Chinook warm-ups, deep freezes, fuel costs, and utility incentives.",
+            "serviceType": [
+              "Heat pump installation",
+              "Heat pump repair",
+              "Heat pump maintenance"
+            ],
+            "provider": {
+              "@type": "Organization",
+              "@id": "https://www.greatfallsheatingandair.com/#business",
+              "name": "Great Falls Heating and Air LLC",
+              "url": "https://www.greatfallsheatingandair.com"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate#webpage"
+            },
+            "areaServed": [
+              {
+                "@type": "Place",
+                "name": "Great Falls, Montana"
+              },
+              {
+                "@type": "Place",
+                "name": "Black Eagle, Montana"
+              },
+              {
+                "@type": "Place",
+                "name": "Belt, Montana"
+              },
+              {
+                "@type": "Place",
+                "name": "Vaughn, Montana"
+              },
+              {
+                "@type": "Place",
+                "name": "Ulm, Montana"
+              },
+              {
+                "@type": "Place",
+                "name": "Sun Prairie, Montana"
+              },
+              {
+                "@type": "Place",
+                "name": "Cascade, Montana"
+              },
+              {
+                "@type": "Place",
+                "name": "Fort Shaw, Montana"
+              },
+              {
+                "@type": "Place",
+                "name": "Simms, Montana"
+              },
+              {
+                "@type": "Place",
+                "name": "Centerville, Montana"
+              }
+            ],
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Heat pump system options",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Dual-fuel: heat pump + furnace",
+                    "description": "A central heat pump can provide cooling and some heating while a compatible furnace supplies backup. Confirm that the indoor equipment and controls work together, then compare the installation work and expected use of each fuel."
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Ductless: room-by-room heating & cooling",
+                    "description": "Where adding ducts would be disruptive, compare single- or multi-zone equipment and the rooms each indoor unit will serve. Placement and a plan for adjoining spaces matter; a hallway unit does not automatically cover closed bedrooms."
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "All-electric: heat pump + a cold-weather plan",
+                    "description": "Start with the home\u2019s winter load, the chosen model\u2019s low-temperature capacity, and available electrical service. Some designs use an air handler with supplemental resistance heat; others retain existing electric heaters. Include backup demand and electrical upgrades in the quote before deciding whether this fits your property."
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Will a heat pump keep my Great Falls home warm when it is below zero?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A cold-climate model may be suitable, but its minimum operating temperature alone does not tell you whether it can heat your whole house. Compare the exact model\u2019s heating output at local winter design conditions with your home\u2019s calculated heat loss. The design should explain any capacity shortfall and how supplemental heat or a furnace will cover it. Ask for that cold-weather plan before choosing equipment, rather than relying on a claim that a unit works at -20\u00b0F."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I keep my gas or propane furnace and add a heat pump?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "That may be an option if the furnace, indoor coil, blower, and controls are compatible with the proposed heat pump. A dual-fuel system uses the heat pump for cooling and some heating, with the furnace available under the agreed control strategy. Ask what equipment stays and how changeover will account for capacity, energy prices, and manufacturer requirements. There is no single outdoor temperature at which every Great Falls system should switch to the furnace."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Will switching to a heat pump lower my heating bills?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "It may, but lower energy use does not automatically mean lower cost than your current fuel. Compare your electricity rate, gas or delivered propane price, existing furnace efficiency, and the selected heat pump\u2019s performance as outdoor temperatures change. Include supplemental heat and the planned changeover settings in the estimate. Your electric bill may rise while your fuel bill falls, so compare total heating costs and ask for the assumptions behind any savings claim."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do I need new ductwork, or can a heat pump use what I already have?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A ducted heat pump may use existing ducts if their condition, capacity, and supply and return paths suit the proposed equipment. Having a furnace already does not establish that the ducts will deliver the needed heating and cooling to every room. Ductless units are another option for homes without ducts or for individual areas, but placement and room coverage still need planning. Tell the installer which bedrooms stay closed; one hallway unit should not be assumed to heat or cool them all."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What affects the cost of installing a heat pump in Great Falls?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The equipment, indoor units or coil, duct changes, electrical capacity, controls, piping, outdoor placement, and backup-heating plan all affect the installed price. Compare written quotes for the same rooms and included work, with exclusions and warranty responsibilities spelled out. General online prices are budgeting references, not a quote, advertised rate, or price cap from Great Falls Heating and Air; actual costs may be lower or substantially higher. Confirm any incentive with the utility serving your address before counting it toward the price, and approve additional work and its cost before it proceeds."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "My heat pump runs for a long time or briefly blows cooler air. Is something wrong?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Longer run times can be part of normal operation, and a brief period of cooler air can occur during defrost, but neither observation proves the system is working correctly. Note whether the house reaches its set temperature, any alerts or unusual sounds, and whether ice clears through normal defrost operation. Call for service if it cannot maintain temperature, ice persists, or operation changes unexpectedly; do not chip ice, apply heat, open panels, or bypass controls. Stay clear of smoke or a burning smell; for a fire or immediate threat, leave and call 911."
+                }
+              }
+            ],
+            "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate#faq",
+            "isPartOf": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate#webpage"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.greatfallsheatingandair.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Cold-climate heat pumps",
+            "item": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate"
+          }
+        ],
+        "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate#breadcrumb"
+      }
+    ],
+    "unresolved_site_refs": []
+  },
+  {
+    "url": "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation",
+    "http_status": 200,
+    "jsonld_blocks": 2,
+    "parse_errors": [],
+    "types": {
+      "ImageObject": 1,
+      "WebPage": 1,
+      "Service": 1,
+      "Organization": 1,
+      "City": 1,
+      "AdministrativeArea": 1,
+      "FAQPage": 1,
+      "Question": 6,
+      "Answer": 6,
+      "BreadcrumbList": 1,
+      "ListItem": 3
+    },
+    "defined_ids": [
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation#image",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation#webpage",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation#service",
+      "https://www.greatfallsheatingandair.com/#business",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation#faq",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation#breadcrumb"
+    ],
+    "refs": [
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation#image",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate#webpage",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation#service",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation#breadcrumb",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation#faq",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation#webpage",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation#webpage"
+    ],
+    "faq_checks": [
+      {
+        "question": "What size heat pump do I need, and is bigger better for Montana winters?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Will I need to replace my 100-amp electrical panel to install a heat pump?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Can I keep my current furnace, and how will the heat pump switch to backup heat?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Where should the outdoor heat pump go, and does it need a stand?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Why do heat pump installation quotes vary so much, and what should the price include?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "How long will installation take, and how do I know the system was checked before handoff?",
+        "question_visible": true,
+        "answer_visible": true
+      }
+    ],
+    "canonical": [
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation"
+    ],
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "ImageObject",
+            "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation#image",
+            "url": "https://www.greatfallsheatingandair.com/images/cold-climate-heat-pump-installation.webp",
+            "contentUrl": "https://www.greatfallsheatingandair.com/images/cold-climate-heat-pump-installation.webp",
+            "width": 1280,
+            "height": 960,
+            "name": "Outdoor heat pump beside a wood-sided home",
+            "description": "Mitsubishi Electric outdoor heat pump on raised supports beside a wood-sided home, with covered refrigerant lines running up the wall.",
+            "caption": "Outdoor heat pump on raised supports, with covered refrigerant lines routed along the exterior wall."
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation#webpage",
+            "url": "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation",
+            "name": "Heat Pump Installation & Replacement in Great Falls, MT | Great Falls Heating and Air LLC",
+            "description": "Heat pump installation in Great Falls: furnace compatibility, electrical assessment, winter placement, backup controls, written scope, and current utility incentives.",
+            "inLanguage": "en-US",
+            "primaryImageOfPage": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation#image"
+            },
+            "isPartOf": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate#webpage"
+            },
+            "mainEntity": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation#service"
+            },
+            "breadcrumb": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation#breadcrumb"
+            },
+            "hasPart": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation#faq"
+            },
+            "citation": [
+              "https://basc.pnnl.gov/resource-guides/cold-climate-heat-pump-sizing-and-selection",
+              "https://www.acca.org/standards/technical-manuals",
+              "https://bsesc.energy.gov/training-modules/hvac-electrical-panel-assessment",
+              "https://basc.pnnl.gov/resource-guides/ductless-mini-split-heat-pumps",
+              "https://www.govinfo.gov/content/pkg/FR-2026-05-26/pdf/2026-10387.pdf",
+              "https://greatfallsmt.gov/882/2021-Building-Code-Adoption",
+              "https://bsd.dli.mt.gov/Building-Codes-Permits/permit-applications/mechanical-permits/",
+              "https://www.northwesternenergy.com/docs/default-source/default-document-library/billing-and-payment/e-programs/e-rebate-electric-existing-home.pdf",
+              "https://sunriverelectric.coop/air-source-heat-pumps"
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation#service",
+            "url": "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation",
+            "name": "Heat pump installation and replacement in Great Falls, Montana",
+            "description": "Heat pump installation in Great Falls: furnace compatibility, electrical assessment, winter placement, backup controls, written scope, and current utility incentives.",
+            "serviceType": "Heat pump installation and replacement",
+            "provider": {
+              "@type": "Organization",
+              "@id": "https://www.greatfallsheatingandair.com/#business",
+              "name": "Great Falls Heating and Air LLC",
+              "url": "https://www.greatfallsheatingandair.com",
+              "telephone": "+14067814027",
+              "email": "gfheatingandair@icloud.com"
+            },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "Great Falls, Montana"
+              },
+              {
+                "@type": "AdministrativeArea",
+                "name": "Cascade County, Montana"
+              }
+            ],
+            "mainEntityOfPage": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation#webpage"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What size heat pump do I need, and is bigger better for Montana winters?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Start with a heating and cooling load calculation for your home, not a square-footage chart or the old unit\u2019s tonnage. The installer should compare that demand with the exact model\u2019s output at local winter design conditions and its ability to run at lower output in mild weather. A larger unit can create cycling or comfort problems if its minimum output is too high for the load. Ask which rooms the design covers and how any cold-weather heating shortfall will be handled."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Will I need to replace my 100-amp electrical panel to install a heat pump?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The panel rating alone cannot answer that. Have a qualified professional assess the selected equipment, other household loads, existing service and circuits, and any electric backup heat. Keeping a gas or propane furnace may avoid resistance-heater loads, but it does not prove the existing electrical supply is adequate. Before approving the job, confirm which circuits, disconnects, panel or service changes are needed, who will do that work, and whether it is included in the price."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I keep my current furnace, and how will the heat pump switch to backup heat?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A suitable furnace may stay if the proposed indoor coil, blower, heat pump, airflow, and controls work together. Ask the quote to identify the exact equipment combination and the condition of the furnace being retained. The backup plan should account for heat-pump capacity, your home\u2019s demand, fuel costs, and manufacturer operating requirements; there is no universal Great Falls changeover temperature. At handoff, ask how normal and backup operation were checked and which settings you should use."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Where should the outdoor heat pump go, and does it need a stand?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Choose the location and support for the actual equipment and site, following the manufacturer\u2019s instructions. Account for snow and drifting, roof runoff, defrost drainage, required airflow and service clearances, and noise or vibration near bedrooms. A fixed stand height does not suit every property, and meltwater should not be directed where it can freeze across a walkway. Have the quote show the proposed location, mounting method, line route, and drainage plan before work begins."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why do heat pump installation quotes vary so much, and what should the price include?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Compare the exact equipment and all the work needed to serve the same rooms: indoor units or coil, ducts, electrical work, piping, drainage, outdoor support, backup heat, controls, removal, and applicable permits. Ask for exclusions, startup checks, warranty and registration responsibilities, and the process for approving extra work in writing. Online cost guides are budgeting references, not a quote, advertised rate, or price cap from Great Falls Heating and Air; your actual cost may be lower or substantially higher. Confirm any rebate separately with the utility serving your address before counting it toward the price."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long will installation take, and how do I know the system was checked before handoff?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Confirm the job\u2019s schedule and expected heating, cooling, and electrical interruptions before work begins. Access, equipment delivery, duct or electrical changes, permits, inspections, and weather can affect completion, so do not assume every installation takes one day. Ask for startup records covering the checks required for your equipment, including airflow, refrigerant setup, controls, and backup operation where applicable. If conditions prevent a required test, get the remaining check and follow-up plan in writing, along with owner instructions and warranty responsibilities."
+                }
+              }
+            ],
+            "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation#faq",
+            "isPartOf": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation#webpage"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.greatfallsheatingandair.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Cold-climate heat pumps",
+            "item": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Heat pump installation & replacement",
+            "item": "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation"
+          }
+        ],
+        "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/heat-pump-installation#breadcrumb"
+      }
+    ],
+    "unresolved_site_refs": []
+  },
+  {
+    "url": "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits",
+    "http_status": 200,
+    "jsonld_blocks": 2,
+    "parse_errors": [],
+    "types": {
+      "WebPage": 1,
+      "Service": 1,
+      "Organization": 1,
+      "City": 1,
+      "AdministrativeArea": 1,
+      "FAQPage": 1,
+      "Question": 6,
+      "Answer": 6,
+      "BreadcrumbList": 1,
+      "ListItem": 3
+    },
+    "defined_ids": [
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits#webpage",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits#service",
+      "https://www.greatfallsheatingandair.com/#business",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits#faq",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits#breadcrumb"
+    ],
+    "refs": [
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate#webpage",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits#service",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits#breadcrumb",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits#faq",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits#webpage",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits#webpage"
+    ],
+    "faq_checks": [
+      {
+        "question": "Can one mini-split cool several rooms if the bedroom doors are closed?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Is one multi-zone mini-split better than separate single-zone systems?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Can a ductless mini-split replace my boiler or baseboards for a Great Falls winter?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "How much does a ductless mini-split cost, and what should be included in the quote?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Will installation leave visible pipes or require a drain pump?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Is cleaning the washable filters enough to maintain a mini-split?",
+        "question_visible": true,
+        "answer_visible": true
+      }
+    ],
+    "canonical": [
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits"
+    ],
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits#webpage",
+            "url": "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits",
+            "name": "Ductless Mini-Split Installation in Great Falls, MT | Great Falls Heating and Air LLC",
+            "description": "Ductless mini-split installation in Great Falls: room coverage, closed-bedroom planning, indoor-unit placement, piping and drainage, winter heating, and utility incentives.",
+            "inLanguage": "en-US",
+            "isPartOf": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate#webpage"
+            },
+            "mainEntity": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits#service"
+            },
+            "breadcrumb": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits#breadcrumb"
+            },
+            "hasPart": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits#faq"
+            },
+            "citation": [
+              "https://basc.pnnl.gov/resource-guides/ductless-mini-split-heat-pumps",
+              "https://basc.pnnl.gov/resource-guides/cold-climate-heat-pump-sizing-and-selection",
+              "https://npgallery.nps.gov/AssetDetail/8327df66-87d9-43fb-91bf-259b58154a5c",
+              "https://www.mitsubishicomfort.com/articles/zoned-home",
+              "https://www.epa.gov/emergencies-iaq/wildfires-and-indoor-air-quality-iaq",
+              "https://www.northwesternenergy.com/docs/default-source/default-document-library/billing-and-payment/e-programs/e-rebate-electric-existing-home.pdf",
+              "https://sunriverelectric.coop/air-source-heat-pumps"
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits#service",
+            "url": "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits",
+            "name": "Ductless mini-split installation in Great Falls, Montana",
+            "description": "Ductless mini-split installation in Great Falls: room coverage, closed-bedroom planning, indoor-unit placement, piping and drainage, winter heating, and utility incentives.",
+            "serviceType": "Ductless mini-split installation",
+            "provider": {
+              "@type": "Organization",
+              "@id": "https://www.greatfallsheatingandair.com/#business",
+              "name": "Great Falls Heating and Air LLC",
+              "url": "https://www.greatfallsheatingandair.com",
+              "telephone": "+14067814027",
+              "email": "gfheatingandair@icloud.com"
+            },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "Great Falls, Montana"
+              },
+              {
+                "@type": "AdministrativeArea",
+                "name": "Cascade County, Montana"
+              }
+            ],
+            "mainEntityOfPage": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits#webpage"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Can one mini-split cool several rooms if the bedroom doors are closed?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Do not assume a unit in the living room or hallway will keep closed bedrooms comfortable. Room loads, layout, and airflow paths determine how much heating or cooling reaches each space. Ask for a room-by-room plan that reflects how you actually use the house, including closed doors at night. That plan may use separate indoor units or another distribution arrangement; a bigger living-room unit alone does not fix a blocked airflow path."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is one multi-zone mini-split better than separate single-zone systems?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Neither arrangement is automatically better. Compare the rooms\u2019 loads and schedules, the approved equipment combination, minimum output when only one room needs conditioning, shared capacity, outdoor space, and installed cost. Small bedrooms deserve particular attention because a system can have more minimum output than those rooms need. Ask about the selected system\u2019s mode restrictions too; separate temperature controls do not necessarily allow heating in one room while another cools."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can a ductless mini-split replace my boiler or baseboards for a Great Falls winter?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Possibly, but the decision needs a heating-load calculation and the exact equipment\u2019s available output at local winter design conditions. A low advertised operating temperature does not establish that the system can heat every room. Have the proposal identify the intended heating coverage, any shortfall, and the supplemental heat and controls needed to cover it. Do not remove existing heating until the complete plan is established; a boiler or baseboard system will not automatically coordinate with the mini-split."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How much does a ductless mini-split cost, and what should be included in the quote?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The number and style of indoor units, exact equipment combination, electrical work, piping routes, drains or pumps, outdoor support, access, and applicable permits affect the installed price. Compare quotes for the same rooms and heating and cooling coverage, with finish repairs, startup checks, warranty responsibilities, and exclusions spelled out. Online prices are budgeting references, not a quote, advertised rate, or price cap from Great Falls Heating and Air; actual costs may be lower or substantially higher. Confirm any incentive separately with your utility before relying on it, and agree on the price of extra work before approving it."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Will installation leave visible pipes or require a drain pump?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ask the installer to show the indoor-unit positions, line routes, wall or ceiling openings, and drain destination before work begins. Some locations allow gravity drainage, while others need a suitable condensate pump with access for maintenance. Confirm which piping and covers will be visible, how penetrations will be sealed, and who handles patching or finish repairs. A clean-looking indoor unit still needs filter and service access; do not assume every route can be hidden inside a wall."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is cleaning the washable filters enough to maintain a mini-split?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Filter care is only part of maintenance. Follow the exact model\u2019s owner instructions for permitted cleaning, safe shutdown, filter type, and frequency; keep that access clear of furniture. Coils, blower components, drains, any fitted pump, and outdoor equipment also need appropriate inspection and service. Ask what a maintenance visit includes and whether deeper cleaning costs extra, and leave electrical work, refrigerant handling, and unfamiliar disassembly to a qualified technician."
+                }
+              }
+            ],
+            "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits#faq",
+            "isPartOf": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits#webpage"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.greatfallsheatingandair.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Cold-climate heat pumps",
+            "item": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Ductless mini-split installation",
+            "item": "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits"
+          }
+        ],
+        "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/ductless-mini-splits#breadcrumb"
+      }
+    ],
+    "unresolved_site_refs": []
+  },
+  {
+    "url": "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance",
+    "http_status": 200,
+    "jsonld_blocks": 2,
+    "parse_errors": [],
+    "types": {
+      "ImageObject": 1,
+      "WebPage": 1,
+      "Service": 1,
+      "Organization": 1,
+      "City": 1,
+      "AdministrativeArea": 1,
+      "FAQPage": 1,
+      "Question": 6,
+      "Answer": 6,
+      "BreadcrumbList": 1,
+      "ListItem": 3
+    },
+    "defined_ids": [
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance#image",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance#webpage",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance#service",
+      "https://www.greatfallsheatingandair.com/#business",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance#faq",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance#breadcrumb"
+    ],
+    "refs": [
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance#image",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate#webpage",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance#service",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance#breadcrumb",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance#faq",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance#webpage",
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance#webpage"
+    ],
+    "faq_checks": [
+      {
+        "question": "Is ice or steam on my outdoor heat pump normal, or does it need repair?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Why is AUX heat coming on more often, and should I turn it off?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "My heat pump is running but blowing cool air. What can I check safely?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "How often should a heat pump be serviced, and what should maintenance include?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "How much will heat pump diagnosis or repair cost, and is it included in a tune-up?",
+        "question_visible": true,
+        "answer_visible": true
+      },
+      {
+        "question": "Should I repair my heat pump or replace it?",
+        "question_visible": true,
+        "answer_visible": true
+      }
+    ],
+    "canonical": [
+      "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance"
+    ],
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "ImageObject",
+            "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance#image",
+            "url": "https://www.greatfallsheatingandair.com/images/cold-climate-heat-pump-installation.webp",
+            "contentUrl": "https://www.greatfallsheatingandair.com/images/cold-climate-heat-pump-installation.webp",
+            "width": 1280,
+            "height": 960,
+            "name": "Outdoor heat pump beside a wood-sided home",
+            "description": "Mitsubishi Electric outdoor heat pump on raised supports beside a wood-sided home, with covered refrigerant lines running up the wall.",
+            "caption": "Outdoor heat pump on raised supports, with covered refrigerant lines routed along the exterior wall."
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance#webpage",
+            "url": "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance",
+            "name": "Heat Pump Repair & Maintenance in Great Falls, MT | Great Falls Heating and Air LLC",
+            "description": "Heat pump repair and maintenance in Great Falls: defrost patterns, persistent ice, backup heat, ductless care, explained findings, and seasonal service.",
+            "inLanguage": "en-US",
+            "primaryImageOfPage": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance#image"
+            },
+            "isPartOf": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate#webpage"
+            },
+            "mainEntity": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance#service"
+            },
+            "breadcrumb": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance#breadcrumb"
+            },
+            "hasPart": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance#faq"
+            },
+            "citation": [
+              "https://www.trane.com/residential/en/resources/blog/what-is-heat-pump-defrost-cycle/",
+              "https://www.carrier.com/us/en/residential/hvac-resources/heat-pumps/heat-pump-not-heating/",
+              "https://www.carrier.com/us/en/residential/hvac-resources/what-is-auxiliary-heat/",
+              "https://www.trane.com/residential/en/resources/maintenance-tips/heat-pumps/",
+              "https://www.epa.gov/emergencies-iaq/wildfires-and-indoor-air-quality-iaq"
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance#service",
+            "url": "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance",
+            "name": "Heat pump repair and maintenance in Great Falls, Montana",
+            "description": "Heat pump repair and maintenance in Great Falls: defrost patterns, persistent ice, backup heat, ductless care, explained findings, and seasonal service.",
+            "serviceType": "Heat pump repair and maintenance",
+            "provider": {
+              "@type": "Organization",
+              "@id": "https://www.greatfallsheatingandair.com/#business",
+              "name": "Great Falls Heating and Air LLC",
+              "url": "https://www.greatfallsheatingandair.com",
+              "telephone": "+14067814027",
+              "email": "gfheatingandair@icloud.com"
+            },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "Great Falls, Montana"
+              },
+              {
+                "@type": "AdministrativeArea",
+                "name": "Cascade County, Montana"
+              }
+            ],
+            "mainEntityOfPage": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance#webpage"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is ice or steam on my outdoor heat pump normal, or does it need repair?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Light frost and a temporary vapor cloud can accompany normal defrost, with changes in fan operation or sound. Persistent ice, a fan striking ice, falling indoor temperature, or repeated alerts deserve a service call rather than an assumption that the unit will clear itself. Do not chip ice, apply heat, force a defrost cycle, or open the cabinet. If you suspect smoke, burning, or sparking, stay clear and stop troubleshooting; for fire or immediate danger, leave and call 911 from a safe place."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why is AUX heat coming on more often, and should I turn it off?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Auxiliary or backup heat can operate because of outdoor conditions, heating demand, thermostat recovery, defrost, the configured control strategy, or a fault. An AUX message alone does not identify the cause, and there is no universal temperature at which it proves something is wrong. Note when it appears, recent schedule or setpoint changes, whether the house stays warm, and any change in total energy use. Do not disable backup heat or change installer settings to hide the message; ask for the system\u2019s intended operation to be compared with actual findings."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "My heat pump is running but blowing cool air. What can I check safely?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "If there are no danger signs, note the thermostat mode, setpoint, schedule, alerts, indoor temperature, and whether all rooms or only one zone are affected. Brief cooler air can occur during defrost, but persistent loss of heat needs assessment. Check accessible filters and grilles only as your owner instructions allow, and observe outdoor snow or debris from outside the cabinet. Do not open panels, touch wiring or refrigerant connections, or repeatedly reset a breaker; call promptly if the home is losing heat or you are unsure what to do."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How often should a heat pump be serviced, and what should maintenance include?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Follow the exact model\u2019s maintenance schedule and discuss service before the heating and cooling seasons when the equipment is used year-round. Confirm checks for the relevant filters, coils, airflow, drainage, electrical components, operating performance, controls, and backup coordination. Ask for a record of completed work, findings, available readings, and any tests limited by weather or equipment condition. Ductless deep cleaning, difficult access, further diagnosis, and repairs may be separate work; maintenance cannot guarantee no later breakdowns or warranty coverage."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How much will heat pump diagnosis or repair cost, and is it included in a tune-up?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Confirm the diagnostic fee and what it covers before booking; do not assume a tune-up includes fault diagnosis, deep cleaning, leak testing, or repairs. The actual price depends on the fault, parts, labor, access, applicable warranty, and any additional testing or visits. General online prices are budgeting references, not a quote, advertised rate, or price cap from Great Falls Heating and Air; actual costs may be lower or substantially higher. Ask for the findings, proposed repair, exclusions, and price before approval, including whether any diagnostic charge is credited toward repair."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Should I repair my heat pump or replace it?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Start with the diagnosis, written repair price, equipment condition, repair history, compatible parts availability, and any applicable warranty. Ask whether airflow, controls, installation, or room-coverage problems also need attention and how the repair will be checked. Compare that with a complete replacement quote when the findings warrant it, rather than deciding from an age cutoff, alert code, or rebate alone. Confirm parts timing and any follow-up, and keep projected operating savings separate from measured results."
+                }
+              }
+            ],
+            "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance#faq",
+            "isPartOf": {
+              "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance#webpage"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.greatfallsheatingandair.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Cold-climate heat pumps",
+            "item": "https://www.greatfallsheatingandair.com/services/heat-pumps/cold-climate"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Heat pump repair & maintenance",
+            "item": "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance"
+          }
+        ],
+        "@id": "https://www.greatfallsheatingandair.com/services/heat-pumps/repair-maintenance#breadcrumb"
+      }
+    ],
+    "unresolved_site_refs": []
+  }
+]

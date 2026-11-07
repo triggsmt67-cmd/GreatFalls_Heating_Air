@@ -8,7 +8,7 @@ import { ServiceRequestProvider } from "@/components/forms/ServiceRequestDrawer"
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { StickyMobileActions } from "@/components/layout/StickyMobileActions";
-import { getHVACBusinessSchema } from "@/lib/schema/jsonLd";
+import { getSiteSchema, serializeSchema } from "@/lib/schema/jsonLd";
 import { GoogleTags } from "@/components/GoogleTags";
 import { GTM_CONTAINER_ID } from "@/lib/analytics/config";
 
@@ -38,7 +38,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const hvacSchema = getHVACBusinessSchema();
+  const siteSchema = getSiteSchema();
   const analyticsEnabled = process.env.NODE_ENV === "production" && process.env.VERCEL_ENV === "production";
 
   return (
@@ -62,11 +62,11 @@ export default function RootLayout({
           Skip to main content
         </a>
 
-        {/* Global JSON-LD Schema (Safe Guarded) */}
-        {hvacSchema && (
+        {/* Shared verified business identity and website graph. */}
+        {siteSchema && (
           <script
             type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(hvacSchema) }}
+            dangerouslySetInnerHTML={{ __html: serializeSchema(siteSchema) }}
           />
         )}
 

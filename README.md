@@ -1,5 +1,14 @@
 # Great Falls Heating and Air LLC
 
+### Search structured data — November 7, 2026
+
+All 17 public pages now describe their purpose and connect to the same `WebSite` and verified `HVACBusiness` entities. About and Contact use `AboutPage` and `ContactPage`. Service graphs preserve their hub relationships, provider, service area, breadcrumbs, and FAQs. The emergency-repair provider/area omission caused by a positional graph lookup is fixed. Unverified credentials, private address, price range, ratings, and placeholder profile links are excluded; ordinary business hours remain distinct from emergency contact availability.
+
+The homepage introduction and Contact/Rebates headings now state their purpose more directly. All 95 schema answers match their visible FAQs. Before release, lint, TypeScript, 47 tests, production build, and a 17-page built-HTML crawl passed. Re-run `python3 scripts/verify-search.py --origin https://www.greatfallsheatingandair.com --output /tmp/live-search-validation.json` after deployment; it checks canonical/indexing metadata, incoming links, entity IDs, provider relationships, FAQ consistency, and Schema.org vocabulary/property domains. LocalBusiness rich-result eligibility is separate: no public street address is supplied, and no address should be invented to satisfy a validator.
+
+The November 7 Bing investigation is recorded in `docs/audits/2026-11-07/`. Bing fetched the homepage successfully but failed to fetch the valid public XML sitemap; its retry was accepted for processing. Schema changes do not establish a resolution of that separate fetch issue or guarantee search indexing, rankings, or AI citations.
+
+
 ## Current project checklist — October 30, 2026
 
 This is the current checklist. Dated checkpoints below are historical records and do not override this status. The live site has 17 canonical public pages, a separate noindex confirmation page, and 95 FAQs. The three service hubs and nine service subpages are built.

@@ -1,3 +1,5 @@
+import { getBusinessReference } from "@/lib/schema/jsonLd";
+import { PageSchema } from "@/components/seo/PageSchema";
 import { siteConfig } from "@/content/site";
 import Image from "next/image";
 import Link from "next/link";
@@ -17,6 +19,7 @@ export const metadata = buildMetadata({
 export default function Page() {
   return (
     <>
+      <PageSchema path="/about" type="AboutPage" title={String(metadata.title)} description={String(metadata.description)} mainEntity={getBusinessReference()} />
       <div className="wrap interior">
         <Breadcrumbs items={[{ name: "About", url: "/about" }]} />
         <article className={styles.introduction} aria-labelledby="owner-heading">

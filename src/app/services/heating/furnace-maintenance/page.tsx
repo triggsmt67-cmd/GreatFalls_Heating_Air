@@ -1,10 +1,10 @@
+import { connectSchemaGraph, getFAQSchema, getBusinessReference } from "@/lib/schema/jsonLd";
 import { ServiceIntroTrust } from "@/components/ui/ServiceIntroTrust";
 import { RequestServiceLink } from "@/components/forms/ServiceRequestDrawer";
 import { GuideNavigation } from "@/components/ui/GuideNavigation";
 import Link from "next/link";
 import { buildMetadata } from "@/lib/seo/metadata";
-import { getFAQSchema, getHVACBusinessSchema } from "@/lib/schema/jsonLd";
-import { siteConfig, verification } from "@/content/site";
+import { siteConfig } from "@/content/site";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { ServiceIcon } from "@/components/ui/ServiceIcon";
 import { PhotoPlaceholder } from "@/components/ui/PhotoPlaceholder";
@@ -20,17 +20,13 @@ const description = "Plan furnace maintenance in Great Falls and Cascade County.
 export const metadata = buildMetadata({ title, description, canonicalPath: route, ogImage: "/images/emergency-furnace-repair-great-falls-social.jpg", ogImageAlt: "Residential gas furnace with metal exhaust venting and ductwork in a utility room." });
 
 function getMaintenanceSchema() {
-  const businessId = `${baseUrl}/#business`;
-  const provider = getHVACBusinessSchema() ? { "@id": businessId } : verification.businessIdentity ? {
-    "@type": "Organization", "@id": businessId, name: siteConfig.businessName, url: baseUrl,
-    ...(verification.contactDetails ? { telephone: siteConfig.phoneE164, email: siteConfig.email } : {}),
-  } : undefined;
-  return { "@context": "https://schema.org", "@graph": [
+  const provider = getBusinessReference();
+  return connectSchemaGraph([
     { "@type": "ImageObject", "@id": `${url}#image`, contentUrl: `${baseUrl}/images/emergency-furnace-repair-great-falls.webp`, url: `${baseUrl}/images/emergency-furnace-repair-great-falls.webp`, name: "Residential gas furnace and venting", description: "Residential gas furnace with metal exhaust venting and ductwork in a utility room.", width: 1600, height: 1200, encodingFormat: "image/webp" },
     { "@type": "WebPage", "@id": `${url}#webpage`, url, name: String(metadata.title), description, inLanguage: "en-US", primaryImageOfPage: { "@id": `${url}#image` }, isPartOf: { "@id": `${baseUrl}/services/heating#webpage` }, mainEntity: { "@id": `${url}#service` }, breadcrumb: { "@id": `${url}#breadcrumb` }, hasPart: { "@id": `${url}#faq` }, citation: Object.values(maintenanceSources) },
     { "@type": "Service", "@id": `${url}#service`, url, name: "Furnace maintenance & seasonal tune-ups in Great Falls, Montana", description, serviceType: "Residential furnace maintenance", provider, areaServed: [{ "@type": "City", name: "Great Falls, Montana" }, { "@type": "AdministrativeArea", name: "Cascade County, Montana" }], mainEntityOfPage: { "@id": `${url}#webpage` } },
     { ...getFAQSchema(maintenanceFaqs), "@id": `${url}#faq`, isPartOf: { "@id": `${url}#webpage` } },
-  ] };
+  ]);
 }
 
 export default function Page() {

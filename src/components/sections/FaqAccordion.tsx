@@ -6,14 +6,17 @@ export function FaqAccordion({
   subtitle = "",
   badge = "Useful answers",
   includeJsonLd = true,
+  pageUrl,
 }: {
   faqs: FAQItem[];
   title?: string;
   subtitle?: string;
   badge?: string;
   includeJsonLd?: boolean;
+  pageUrl?: string;
 }) {
-  const schema = includeJsonLd ? getFAQSchema(faqs) : null;
+  const faq = includeJsonLd ? getFAQSchema(faqs) : null;
+  const schema = faq && { ...faq, ...(pageUrl ? { "@id": `${pageUrl}#faq`, isPartOf: { "@id": `${pageUrl}#webpage` } } : {}) };
   return (
     <section className="faq-section section">
       <div className="wrap faq-grid">

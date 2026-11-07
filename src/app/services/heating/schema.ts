@@ -1,5 +1,5 @@
-import { siteConfig, verification } from "@/content/site";
-import { getHVACBusinessSchema } from "@/lib/schema/jsonLd";
+import { connectSchemaGraph, getBusinessReference } from "@/lib/schema/jsonLd";
+import { siteConfig } from "@/content/site";
 
 export const heatingUrl = `${siteConfig.siteUrl.replace(/\/$/, "")}/services/heating`;
 export const heatingCommunities = [
@@ -8,17 +8,8 @@ export const heatingCommunities = [
 ];
 
 export function getHeatingPageSchema(title: string, description: string) {
-  const businessId = `${siteConfig.siteUrl.replace(/\/$/, "")}/#business`;
-  const verifiedBusiness = getHVACBusinessSchema();
-  // Preserve the full local-business verification gate. Identity alone is enough
-  // for a minimal Organization, without implying a verified address or contacts.
-  const provider = verifiedBusiness ? { "@id": businessId } : verification.businessIdentity ? {
-    "@type": "Organization", "@id": businessId,
-    name: siteConfig.businessName, url: siteConfig.siteUrl,
-  } : undefined;
-  return {
-    "@context": "https://schema.org",
-    "@graph": [
+  const provider = getBusinessReference();
+  return connectSchemaGraph([
       {
         "@type": "ImageObject", "@id": `${heatingUrl}#image`,
         url: `${siteConfig.siteUrl.replace(/\/$/, "")}/images/heating-furnace-installation.webp`,
@@ -57,6 +48,5 @@ export function getHeatingPageSchema(title: string, description: string) {
           })),
         },
       },
-    ],
-  };
+    ]);
 }

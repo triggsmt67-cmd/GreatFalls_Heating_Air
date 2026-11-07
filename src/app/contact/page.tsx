@@ -1,3 +1,5 @@
+import { getBusinessReference } from "@/lib/schema/jsonLd";
+import { PageSchema } from "@/components/seo/PageSchema";
 import { ServiceIntroTrust } from "@/components/ui/ServiceIntroTrust";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { ServiceIcon } from "@/components/ui/ServiceIcon";
@@ -26,11 +28,12 @@ export default async function Page({
   ) as FormIntent;
   return (
     <div className="wrap interior compact-interior">
+      <PageSchema path="/contact" type="ContactPage" title={String(metadata.title)} description={String(metadata.description)} mainEntity={getBusinessReference()} />
       <Breadcrumbs items={[{ name: "Contact", url: "/contact" }]} />
       <div className="page-heading">
         <ServiceIcon name="general" size={48} />
         <p className="eyebrow">Contact / Great Falls, Montana</p>
-        <h1>Let’s start with your home.</h1>
+        <h1>Contact Great Falls Heating and Air.</h1>
         <p>
           Tell us what’s happening or what you’re considering. For urgent
           heating or cooling needs, call <a className="text-link" href={`tel:${siteConfig.phoneE164}`}>{siteConfig.phoneDisplay}</a>.

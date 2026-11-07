@@ -2,41 +2,114 @@ import { siteConfig, serviceCommunities, verification } from "@/content/site";
 import { ServiceItem } from "@/content/services";
 import { FAQItem } from "@/content/faqs";
 
-/**
- * Global HVACBusiness JSON-LD schema.
- * Note: Per Section 12, this is guarded so unverified structured data is not emitted
- * in production builds until client verification is complete.
- */
+import { canonicalUrl } from "@/lib/seo/urls";
+
+export type SchemaNode = Record<string, unknown>;
+export const businessId = `${canonicalUrl()}/#business`;
+export const websiteId = `${canonicalUrl()}/#website`;
+
+// Verify each claim independently. Unconfirmed credentials must never suppress
+// the business identity and contact details that have already been confirmed.
 export function getHVACBusinessSchema() {
-  if (
-    !verification.businessIdentity ||
-    !verification.contactDetails ||
-    !verification.hours ||
-    !verification.credentials
-  ) {
-    // Suppress unverified schema in production
-    return null;
-  }
+  if (!verification.businessIdentity) return null;
 
   return {
     "@context": "https://schema.org",
     "@type": "HVACBusiness",
-    "@id": `${siteConfig.siteUrl.replace(/\/$/, "")}/#business`,
+    "@id": businessId,
     name: siteConfig.businessName,
-    url: siteConfig.siteUrl,
-    telephone: siteConfig.phoneE164,
-    email: siteConfig.email,
+    url: canonicalUrl(),
     description: siteConfig.shortDescription,
-    priceRange: "$$",
-    areaServed: serviceCommunities.map((c) => ({
-      "@type": "City",
-      name: c.name,
-      containedInPlace: {
-        "@type": "State",
-        name: "Montana",
-      },
+    ...(verification.contactDetails ? {
+      telephone: siteConfig.phoneE164,
+      email: siteConfig.email,
+      contactPoint: [
+        {
+          "@type": "ContactPoint",
+          telephone: siteConfig.phoneE164,
+          email: siteConfig.email,
+          contactType: "customer service",
+          url: canonicalUrl("/contact"),
+        },
+        ...(verification.emergency24Hours ? [{
+          "@type": "ContactPoint",
+          telephone: siteConfig.phoneE164,
+          contactType: "emergency heating and cooling service",
+          hoursAvailable: {
+            "@type": "OpeningHoursSpecification",
+            dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"].map(day => `https://schema.org/${day}`),
+            opens: "00:00", closes: "23:59",
+          },
+        }] : []),
+      ],
+    } : {}),
+    ...(verification.hours ? { openingHours: "Mo-Fr 08:00-17:00" } : {}),
+    ...(verification.productionLogo ? {
+      logo: { "@type": "ImageObject", "@id": `${canonicalUrl()}/#logo`, url: canonicalUrl("/images/great-falls-heating-air-logo.svg") },
+    } : {}),
+    areaServed: serviceCommunities.map(c => ({
+      "@type": "Place", name: `${c.name}, Montana`,
     })),
+    // No private address, speculative price range, ratings, credentials, or
+    // placeholder social-profile URLs belong in published structured data.
   };
+}
+
+export function getBusinessReference() {
+  return verification.businessIdentity ? { "@id": businessId } : undefined;
+}
+
+export function getSiteSchema() {
+  const business = getHVACBusinessSchema();
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      ...(business ? [business] : []),
+      {
+        "@type": "WebSite", "@id": websiteId,
+        url: canonicalUrl(), name: siteConfig.businessName,
+        inLanguage: "en-US", publisher: getBusinessReference(),
+      },
+    ],
+  };
+}
+
+// Preserve hub/subpage relationships while connecting every page to the same
+// website and publisher. This runs on the server and adds no client bundle.
+export function connectSchemaGraph(nodes: SchemaNode[]) {
+  return {
+    "@context": "https://schema.org",
+    "@graph": nodes.map(node => {
+      if (!["WebPage", "AboutPage", "ContactPage"].includes(String(node["@type"]))) return node;
+      const parents = Array.isArray(node.isPartOf) ? node.isPartOf : node.isPartOf ? [node.isPartOf] : [];
+      return {
+        inLanguage: "en-US",
+        publisher: getBusinessReference(),
+        about: getBusinessReference(),
+        ...node,
+        isPartOf: [{ "@id": websiteId }, ...parents.filter(parent => (parent as SchemaNode)["@id"] !== websiteId)],
+      };
+    }),
+  };
+}
+
+export function getPageSchema({ path, title, description, type = "WebPage", ...extra }: {
+  path: string;
+  title: string;
+  description: string;
+  type?: "WebPage" | "AboutPage" | "ContactPage";
+} & SchemaNode) {
+  const url = canonicalUrl(path);
+  return connectSchemaGraph([{
+    "@type": type, "@id": `${url}#webpage`, url,
+    name: title, description,
+    ...(path !== "/" ? { breadcrumb: { "@id": `${url}#breadcrumb` } } : {}),
+    ...extra,
+  }]);
+}
+
+export function serializeSchema(schema: unknown) {
+  return JSON.stringify(schema).replace(/</g, "\\u003c");
 }
 
 export function getBreadcrumbSchema(items: { name: string; url: string }[]) {
@@ -67,12 +140,7 @@ export function getServiceSchema(service: ServiceItem) {
           ? "Air Conditioning Repair & Upgrade"
           : "Heat Pump Installation",
     description: service.metaDescription,
-    provider: {
-      "@type": "LocalBusiness",
-      name: siteConfig.businessName,
-      telephone: siteConfig.phoneE164,
-      url: siteConfig.siteUrl,
-    },
+    provider: getBusinessReference(),
     areaServed: {
       "@type": "AdministrativeArea",
       name: "Cascade County, Montana",
