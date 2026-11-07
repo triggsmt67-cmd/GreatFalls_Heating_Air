@@ -1,5 +1,11 @@
 # Great Falls Heating and Air LLC
 
+### IndexNow notifications
+
+`pnpm indexnow` performs a read-only production preflight. After a successful content deployment, run `pnpm indexnow --submit /path-that-changed /another-path` to notify participating search engines of the changed public URLs. Omit paths only for the initial batch of all 17 pages updated on November 7. Do not repeatedly submit unchanged URLs. The command verifies the deployed ownership file, HTTP responses, canonicals, and indexing directives before sending a notification to the official IndexNow endpoint. It writes a local, gitignored `indexnow-last-submission.json` receipt.
+
+The root verification file is intentionally publicly served as required by the protocol. Its filename is configured in `indexnow.config.json`; keep the file deployed. Do not add it to the sitemap. The submission command is manual and runs independently of builds, previews, visitors, and form submissions. HTTP 200 means the batch was received; HTTP 202 means key validation is still pending. Neither guarantees crawling, indexing, rankings, or AI citations, and IndexNow does not repair a sitemap fetch failure. Protocol: https://www.indexnow.org/documentation
+
 ### Search structured data — November 7, 2026
 
 All 17 public pages now describe their purpose and connect to the same `WebSite` and verified `HVACBusiness` entities. About and Contact use `AboutPage` and `ContactPage`. Service graphs preserve their hub relationships, provider, service area, breadcrumbs, and FAQs. The emergency-repair provider/area omission caused by a positional graph lookup is fixed. Unverified credentials, private address, price range, ratings, and placeholder profile links are excluded; ordinary business hours remain distinct from emergency contact availability.
