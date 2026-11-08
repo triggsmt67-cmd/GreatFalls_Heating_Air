@@ -7,6 +7,8 @@ These internal IDs are not assumed to be a public Maps CID or sharing URL.
 
 CURRENT STATUS
 Google explicitly says the profile is NOT PUBLICLY VISIBLE until verified.
+Current handoff: waiting on Robert's video verification. His Google account is
+gfheatingandair26@gmail.com. Owner invitation sent; acceptance last observed pending.
 Hidden physical address submitted successfully for verification. Google offered
 Submit a Business Video only; More options added Verify Later, with no phone,
 email or postcard option. Owner/on-site representative must record the video
@@ -82,19 +84,28 @@ Photo editor exposed no per-photo caption/alt-text editing fields in this flow.
 Upload manifest: /tmp/gf-gbp-upload/manifest.json.
 
 ACCESS
-User asked to add Robert alongside Trevor, then explicitly deferred that step
-because his Google-account email was unknown. No invitation sent and no access
-permissions changed. Existing non-Gmail email can be used for a Google account;
-confirm Robert's account before preparing an invitation.
+Robert's Gmail: gfheatingandair26@gmail.com (supplied by Trevor November 7).
+Following explicit action-time approval, Google sent Robert an Owner invitation.
+Observed confirmation: "Invitation has been sent"; People and access showed his
+email under PENDING, and the invitation detail showed Owner. Trevor remained in
+the access list. Pending invitation is not proof Robert has accepted or verified.
+Google's invitation email contains the acceptance link; no separate acceptance
+token/link was exposed in the management UI. No primary-ownership transfer made.
+Earlier deferral because the account was unknown is now superseded.
 
 REMAINING
-1. Complete Google's on-site video verification and await review.
+1. Robert accepts the Owner invitation while signed into
+   gfheatingandair26@gmail.com, then records/submits Google's on-site verification
+   video from his phone. We are waiting on Robert to complete this step.
+   Verification: https://business.google.com/verify/l/11262872387634500459
+   Await Google's review; no successful verification or public visibility claimed.
 2. Recheck public name, categories, service list, hours, photos and hidden address
    after verification. Saved manager information is not proof of public approval.
 3. Obtain the actual public profile/share URL after available, then connect the
    website's googleBusinessProfileUrl placeholder and appropriate schema reference.
    No invented public URL or unverified Maps CID added to website.
-4. Add Robert only after his Google-account email is confirmed and he wants access.
+4. Confirm Robert accepted the existing invitation; do not send a duplicate or
+   create another Business Profile. Trevor's access should remain in place.
 5. Confirm opening date, real social links and other optional business facts later.
 
 EVIDENCE
@@ -102,9 +113,12 @@ Durable project copies (saved before the final Git push):
 google-business-profile-photos-pending.png — final gallery screenshot
 google-business-profile-service-descriptions.json — final 13 service descriptions
 google-business-profile-photo-metadata.json — 12-photo title/description inventory
-Unsent Gmail draft in trevor@truepath406.com:
+Initially created an unsent Gmail draft in trevor@truepath406.com:
 "Google Business Profile — Gmail access and verification video".
-Recipient left blank pending Robert's Gmail address; no email sent.
+Trevor subsequently reported that he already sent the instructions email and
+asked us to disregard the draft. No additional instructions email sent by agent;
+do not resend or alter/delete a remaining draft without a new request.
+google-business-profile-robert-owner-invitation.png — pending Owner invitation.
 
 Working temporary artifacts retained during setup:
 /tmp/gf-google-profile-photos.png — final photo manager screenshot

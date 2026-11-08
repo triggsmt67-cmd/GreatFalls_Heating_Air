@@ -1,6 +1,11 @@
 GOOGLE BUSINESS PROFILE SETUP BRIEF
 Great Falls Heating and Air LLC | Prepared November 7, 2026
 Status: DRAFT READY FOR PROFILE SETUP. No Google profile or website edits made.
+Historical planning brief: setup was subsequently completed as described in
+google-business-profile-setup-outcome.txt. Robert's Gmail is now confirmed as
+gfheatingandair26@gmail.com; Owner invitation sent and last observed pending.
+We are waiting on Robert's video verification. Use the outcome record and README
+for current status rather than the original preparation checklist below.
 
 PURPOSE AND ACCEPTED DECISION
 User approved starting as a service-area business with the street address hidden.
